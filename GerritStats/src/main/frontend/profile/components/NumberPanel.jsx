@@ -38,11 +38,25 @@ export default class NumberPanel extends React.Component {
             {'wide': this.props.size == 'wide'},
             {'xWide': this.props.size == 'xWide'}
         );
+        console.log(this.props.title);
+        let titleClass = `title `;
+        if(this.props.title === "+1") {
+            console.log("true");
+            titleClass += "plusOne"
+        } else if (this.props.title === "-1") {
+            titleClass += "minusOne"
+        } else if (this.props.title === "+2") {
+            titleClass += "plusTwo"
+        } else if(this.props.title === "-2"){
+            titleClass += "minusTwo"
+        } else {
+            titleClass = "title";
+        }
         return (
             <OverlayTrigger placement='bottom' overlay={tooltip}>
                 <div className={className} data-toggle='tooltip'>
                 <div className='value'>{value}</div>
-                    <div>&nbsp;<div className='title'>{this.props.title}</div></div>
+                    <div>&nbsp;<div className={titleClass}>{this.props.title}</div></div>
                 </div>
             </OverlayTrigger>
         );
