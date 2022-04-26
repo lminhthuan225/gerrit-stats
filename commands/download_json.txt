@@ -1,0 +1,1 @@
+./gerrit_downloader.sh -s pkhai@gerrit.legato -i ~/.ssh/pkhai_id_rsa -o my-json -p Legato
