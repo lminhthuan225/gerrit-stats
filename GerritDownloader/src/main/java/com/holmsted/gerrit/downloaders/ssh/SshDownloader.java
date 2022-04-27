@@ -243,7 +243,8 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
 
                 hasMoreChanges = gerritOutput.hasMoreChanges();
                 rowCount += gerritOutput.getRowCount();
-                setStartOffset(startOffset + gerritOutput.getRowCount());
+                System.out.println("startOffset: " + startOffset);
+                // setStartOffset(startOffset + gerritOutput.getRowCount());
             }
 
             return items;
