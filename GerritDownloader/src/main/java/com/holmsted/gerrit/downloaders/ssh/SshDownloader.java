@@ -221,8 +221,8 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
                             + "--format=JSON "
                             + "--all-approvals "
                             + "--comments "
-                            + "--all-reviewers "
-                            + createStartOffsetArg(),
+                            + "--all-reviewers ",
+                            // + createStartOffsetArg(),
                     gerritQuery
                     ));
 

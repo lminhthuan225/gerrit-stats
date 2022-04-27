@@ -12,6 +12,7 @@ import SelectedUsers from "./common/model/SelectedUsers";
 import OverviewPage from "./overview/OverviewPage";
 import ProfilePage from "./profile/ProfilePage";
 import projects from "./projects";
+import ProjectInfo from './projectinfo/ProjectInfo';
 
 var jsLoader = new GlobalJavascriptLoader();
 
@@ -93,27 +94,14 @@ function renderPage() {
   console.log(urlPrefix);
 
   ReactDOM.render(
-    <div style={{ minHeight: "100vh" }}>
+    <div>
       <Router history={hashHistory}>
         <Route
           path="/"
           exact
           component={() => (
-            <div>
-              <PageHeader {...headerProps} />
-              <div style={{ height: "500px", width: "100%" }}>
-                <ul>
-                  {projects.projects.map((project) => (
-                    <li key={project}>
-                      <a
-                        href={`/GerritStats/out-html/index.html#/project/${project}`}
-                      >
-                        {project}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            <div style={{"minHeight": "100vh",}}>
+              <ProjectInfo projectData={projects}/>
             </div>
           )}
         ></Route>

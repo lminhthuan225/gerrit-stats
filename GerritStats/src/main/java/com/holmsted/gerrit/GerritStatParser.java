@@ -39,12 +39,15 @@ public class GerritStatParser {
         try {
             JSONObject object = JsonUtils.readJsonString(jsonFileData);
             int gerritStatsVersion = object.optInt("gerritStatsVersion");
+            System.out.println("gerritStatsVersion:" + gerritStatsVersion);
             if (gerritStatsVersion == 0) {
                 data = parseLegacyFormatData(jsonFileData);
             } else {
                 data = parseJsonObject(object);
             }
         } catch (JSONException e) {
+            System.out.println(e.getMessage());
+            e.printStackTrace();
             // the earlier versions of GerritDownloader output were not valid json, but
             // instead files with line-by-line json.
             data = parseLegacyFormatData(jsonFileData);
