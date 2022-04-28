@@ -1,27 +1,13 @@
 #!/bin/bash
-#
-# Runs GerritStats, generating HTML output by default.
-#
 
-# script_path="$(cd "$(dirname -- "$0")" || exit 1; pwd -P)"
 script_path=$(pwd)
-output_dir="$script_path/out-html"
+static_file_out_dir=$script_path/GerritStats/out-html
+data_out_dir=$script_path/GerritStats/out-html/data
+jar_dir=$script_path/GerritStats/build/libs
+project_info_dir=$script_path/GerritStats/src/main/frontend
 
-new_args=()
-index=0
-next_is_output_dir=""
-
-for arg in "$@"; do
-    if [ "$next_is_output_dir" != "" ]; then
-        output_dir="$arg"
-        next_is_output_dir=""
-    elif [ "$arg" == "-o" ]; then
-        next_is_output_dir="1"
-    else
-        new_args[$index]="$arg"
-        let "index += 1"
-    fi
-done
+json_dir=json-storage
+project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
 
 function join_by {
   local d=${1-} f=${2-}
@@ -30,48 +16,74 @@ function join_by {
   fi
 }
 
-json_dir=./my-json
-#generate data for all projects in json folder
-project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
-# rm -rf GerritStats/out-html/data
-rm -f GerritStats/src/main/frontend/projects.js
-touch GerritStats/src/main/frontend/projects.js
-project_names_str=""
-# for name in $project_names
-# do
-#     # project_names_str+=" {name:\"$name\"}"
-#     java -Xmx4096m -Xms256m -jar GerritStats/build/libs/GerritStats.jar \
-#     -o GerritStats/out-html/data/$name --file $json_dir/$name.json || exit 1
-#     echo "Output generated to GerritStats/out-html/data/$name"
-# done
+remove_null_line() {
+    local file_path=${1-} file_name=${2-}
+    file="$file_path/$file_name"
 
-for name in $project_names
-do
-    if [[ $name != "Legato" ]]; then
-        overview_path=$(pwd)/GerritStats/out-html/data/$name/overview.js
-        dataset_overview_path=$(pwd)/GerritStats/out-html/data/$name/datasetOverview.js
+    #format original json file
+    echo "Formatting file"
+    jq '.' $file.json > ${file}_temp.json
+
+    #replace null | null, by ''
+    echo "Removing null line"
+    sed -e 's/^[ ]*null,//g' -e 's/^[ ]*null//g' -i ${file}_temp.json #-e 's/^[ ]*},\n*[ ]*null/}/g'
+
+    mv ${file}_temp.json $file.json
+}
+
+#clean old data
+clean_old_data() {
+    rm -rf $data_out_dir
+}
+
+#generate data for all projects in json folder
+generate_stats() {
+    clean_old_data
+    for project_name in $project_names
+    do
+        remove_null_line $json_dir $project_name
+        java -Xmx4096m -Xms256m \
+            -jar $jar_dir/GerritStats.jar \
+            -o $data_out_dir/$project_name \
+            --file $json_dir/$project_name.json || exit 1
+    done
+}
+
+project_names_str=""
+generate_project_info() {
+    rewrite_project_info
+
+    for project_name in $project_names
+    do
+        overview_path=$data_out_dir/$project_name/overview.js
+        dataset_overview_path=$data_out_dir/$project_name/datasetOverview.js
 
         overview_data_file_content=$(cat $overview_path | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '.[] | {identifier: .identifier, commitCount: .commitCount}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
         dataset_overview_file_content=$(cat $dataset_overview_path | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '. | {fromDate: .fromDate, toDate: .toDate}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
         
-        project_names_str+=" {name:\"$name\",overviewUserdata:[$overview_data_file_content],datasetOverview:$dataset_overview_file_content}"
-    fi
-done
+        project_names_str+=" {name:\"$project_name\",overviewUserdata:[$overview_data_file_content],datasetOverview:$dataset_overview_file_content}"
+    done
+}
 
-joined_array=$(join_by , $project_names_str)
-cat > GerritStats/src/main/frontend/projects.js <<EOF 
+rewrite_project_info() {
+    rm -f $project_info_dir/projects.js
+    # touch $project_info_dir/projects.js
+
+    joined_array=$(join_by , $project_names_str)
+cat > $project_info_dir/projects.js <<EOF 
 export default [
     $joined_array
 ]
 EOF
+    # jq '.' $project_info_dir/projects.js > $project_info_dir/temp.js
+    # mv $project_info_dir/temp.js $project_info_dir/projects.js
+}
+
+generate_stats
+generate_project_info
+rewrite_project_info
 
 
-
-# generate static file
-# cd "$script_path/GerritStats" || exit 1
-# npm run webpack && \
-# 	mkdir -p "$output_dir/data" && \
-#     cp -r "$script_path/GerritStats/out-html/data" "$output_dir/" && \
-#     cp -r "$script_path/GerritStats/out-html/"* "$output_dir/"
-
-# npm run webpack-watch
+# # generate static file
+cd "$script_path/GerritStats" || exit 1
+npm run webpack 

@@ -221,8 +221,8 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
                             + "--format=JSON "
                             + "--all-approvals "
                             + "--comments "
-                            + "--all-reviewers ",
-                            // + createStartOffsetArg(),
+                            + "--all-reviewers "
+                            + createStartOffsetArg(),
                     gerritQuery
                     ));
 
@@ -243,8 +243,7 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
 
                 hasMoreChanges = gerritOutput.hasMoreChanges();
                 rowCount += gerritOutput.getRowCount();
-                System.out.println("startOffset: " + startOffset);
-                // setStartOffset(startOffset + gerritOutput.getRowCount());
+                setStartOffset(startOffset + gerritOutput.getRowCount());
             }
 
             return items;

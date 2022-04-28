@@ -1,0 +1,116 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Tristan Pensel",
+        "email": "tpensel@sierrawireless.com",
+        "username": "tpensel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1552668286
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Topic set to posix",
+          "timestamp": 1552668312
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1552668351
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1552668369
+        }
+      ],
+      "commitMessage": "Delete legato.h include\n\nResolves: ALT1250-2773\nChange-Id: I174256a8082252238263b8b6491e9ec00a9eae60\n",
+      "subject": "Delete legato.h include",
+      "project": "external/gnu/lwip",
+      "branch": "master",
+      "createdOn": 1552668286,
+      "url": "http://10.107.128.8:8081/c/external/gnu/lwip/+/44017",
+      "number": 44017,
+      "lastUpdated": 1552668369,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "posix",
+      "id": "I174256a8082252238263b8b6491e9ec00a9eae60",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/17/44017/1",
+          "uploader": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "author": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "createdOn": 1552668286,
+          "revision": "02390984695948a9e170f0262ff8a80dc80267c0",
+          "parents": [
+            "451d525150e9400ed44fd9efc8b0fb2586f5aeae"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/17/44017/2",
+          "uploader": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "author": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "createdOn": 1552668351,
+          "revision": "b8f5142a9a8b3ff54841e4389f0be793a5b3e486",
+          "parents": [
+            "3b5eb7ca90f130c6e31f42cb4c6883ef80a5faef"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -41,6 +41,7 @@ export default class PageHeader extends React.Component {
           datasetOverview={this.props.datasetOverview}
           selectedUsers={this.state.selectedUsers}
         />
+        <Link to="/">Home</Link>
         {this.renderBackButton()}
         <div style={{ display: "inline-block" }}>
           <h1 className="pageTitle">{this.renderMainTitle()}</h1>

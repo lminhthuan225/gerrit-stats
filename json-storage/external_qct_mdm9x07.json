@@ -1,0 +1,1033 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Shawn Wu",
+        "email": "ShWu@sierrawireless.com",
+        "username": "shwu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554178130
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1554178133
+        },
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1554270443
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1554270446
+        },
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1554273141
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1554273143
+        },
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Abandoned",
+          "timestamp": 1569570346
+        }
+      ],
+      "commitMessage": "nmea lost testbuild\n\nChange-Id: Ia2348d52cbf5176295c8eebe4fea97454bdc73bb\nSigned-off-by: Shawn Wu <ShWu@sierrawireless.com>\n",
+      "subject": "nmea lost testbuild",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1554178130,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/44766",
+      "number": 44766,
+      "lastUpdated": 1569570346,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ia2348d52cbf5176295c8eebe4fea97454bdc73bb",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 90,
+          "ref": "refs/changes/66/44766/1",
+          "uploader": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "author": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 16,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554178133,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1554178130,
+          "revision": "7a31f4b58fceaf30d35344894e919f2198fe117f",
+          "parents": [
+            "fecf9316db684dc600a9d0649a97ca30e4d65d94"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 193,
+          "ref": "refs/changes/66/44766/2",
+          "uploader": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "author": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 16,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554270446,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1554270443,
+          "revision": "7ce9336fdf2893836097aea607075227b311af79",
+          "parents": [
+            "fecf9316db684dc600a9d0649a97ca30e4d65d94"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 216,
+          "ref": "refs/changes/66/44766/3",
+          "uploader": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "author": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 16,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554273143,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1554273141,
+          "revision": "ce43593a90a6560e07ee460c73dc8136241f7066",
+          "parents": [
+            "fecf9316db684dc600a9d0649a97ca30e4d65d94"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Moore Chan",
+        "email": "MChan@sierrawireless.com",
+        "username": "mchan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1562236091
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1562236094
+        },
+        {
+          "reviewer": {
+            "name": "Charlie Chang",
+            "email": "CChang@sierrawireless.com",
+            "username": "cchang"
+          },
+          "message": "Patch Set 1: Code-Review+1\n\nFor New project HL7611, apply new product family and product instance value.",
+          "timestamp": 1562238089
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)\n\nWithout the other BS fuse & PID changes (e.g. bsfuse.c) a module burned with these fuse values will show as 'Unknown' when queried with AT commands.",
+          "timestamp": 1565127808
+        },
+        {
+          "reviewer": {
+            "name": "Charlie Chang",
+            "email": "CChang@sierrawireless.com",
+            "username": "cchang"
+          },
+          "message": "Abandoned\n\nNeed to discuss the implementation method.",
+          "timestamp": 1565148369
+        }
+      ],
+      "commitMessage": "Add HL7610 & HL7611 product IDs\n\nChange-Id: I6fc8c2289294f3bead32f824607e7c88c5210a4c\n",
+      "subject": "Add HL7610 & HL7611 product IDs",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1562236091,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/48247",
+      "number": 48247,
+      "lastUpdated": 1565148369,
+      "allReviewers": [
+        {
+          "name": "Brad Du",
+          "email": "bdu@sierrawireless.com",
+          "username": "bdu"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I6fc8c2289294f3bead32f824607e7c88c5210a4c",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/47/48247/1",
+          "comments": [
+            {
+              "file": "modem_proc/sierra/bs/api/bsprodid.h",
+              "line": 124,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "FYI, there's no specific need to match the HL7610 to WP7610 (but what you have is fine too). The IDs just need to be unique within the HL family."
+            }
+          ],
+          "uploader": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "author": {
+            "name": "Moore Chan",
+            "email": "mchan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1562236094,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Charlie Chang",
+                "email": "CChang@sierrawireless.com",
+                "username": "cchang"
+              },
+              "grantedOn": 1562238089,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1562236091,
+          "revision": "e24477d76ebd8cb30881936bed47054a2ccab22c",
+          "parents": [
+            "77749d19731f77137d332d7d25468f0ba859f701"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Moore Chan",
+        "email": "MChan@sierrawireless.com",
+        "username": "mchan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1564998524
+        },
+        {
+          "reviewer": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1564999002
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 2: Code-Review-2\n\n(5 comments)\n\nIs this supposed to be submitted under the 'master' branch?",
+          "timestamp": 1565128854
+        },
+        {
+          "reviewer": {
+            "name": "Brad Du",
+            "email": "bdu@sierrawireless.com",
+            "username": "bdu"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1565131294
+        },
+        {
+          "reviewer": {
+            "name": "Charlie Chang",
+            "email": "CChang@sierrawireless.com",
+            "username": "cchang"
+          },
+          "message": "Abandoned\n\nNeed to discuss how to implement this feature.",
+          "timestamp": 1565139654
+        }
+      ],
+      "commitMessage": "QTI9X07-3818 - Add HL761X product ID support\n\nResolves: QTI9X07-3818\nChange-Id: I884f3f3c3d7e22b0dab92ee0bb6d9b7d8f5c8b0e\nSigned-off-by: Moore Chan <mchan@sierrawireless.com>\n",
+      "subject": "QTI9X07-3818 - Add HL761X product ID support",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1564998524,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/49296",
+      "number": 49296,
+      "lastUpdated": 1565139654,
+      "allReviewers": [
+        {
+          "name": "Brad Du",
+          "email": "bdu@sierrawireless.com",
+          "username": "bdu"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Stanley Ho",
+          "email": "SHo@sierrawireless.com",
+          "username": "sho"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I884f3f3c3d7e22b0dab92ee0bb6d9b7d8f5c8b0e",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 87,
+          "ref": "refs/changes/96/49296/1",
+          "uploader": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "author": {
+            "name": "Moore Chan",
+            "email": "mchan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "createdOn": 1564998524,
+          "revision": "b879131151bb46af07050fd725df742054fa677e",
+          "parents": [
+            "d70f802f5962e01b7db7c7ef5bd76d92c06bd0bf"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 87,
+          "ref": "refs/changes/96/49296/2",
+          "comments": [
+            {
+              "file": "modem_proc/sierra/bs/api/bsudefs.h",
+              "line": 81,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Please fix indentation"
+            },
+            {
+              "file": "modem_proc/sierra/bs/src/bsfuse.c",
+              "line": 125,
+              "reviewer": {
+                "name": "Brad Du",
+                "email": "bdu@sierrawireless.com",
+                "username": "bdu"
+              },
+              "message": "Don't think this is needed. The spare is unused and the mem clear at line 93 should be enough."
+            },
+            {
+              "file": "modem_proc/sierra/bs/src/bsfuse.c",
+              "line": 278,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Please use spaces instead of tabs & update your IDE to inject the correct number of spaces per tab"
+            },
+            {
+              "file": "modem_proc/sierra/bs/src/bsfuse.c",
+              "line": 281,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Code would have to be reshuffled when adding HL7620. Suggest coding in similar style and structure to WP76xx family so it is easily expandable in the future and maintains a consistent style."
+            },
+            {
+              "file": "modem_proc/sierra/bs/src/bsuser.c",
+              "line": 872,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Use spaces instead of tabs"
+            },
+            {
+              "file": "modem_proc/sierra/bs/src/bsuser.c",
+              "line": 1342,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Doesn't make sense to check for HL under a WP switch case."
+            }
+          ],
+          "uploader": {
+            "name": "Moore Chan",
+            "email": "MChan@sierrawireless.com",
+            "username": "mchan"
+          },
+          "author": {
+            "name": "Moore Chan",
+            "email": "mchan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1565128854,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1564999002,
+          "revision": "da0dc29202250cf3d8eeb0c637b0f80d3ae23dc6",
+          "parents": [
+            "d70f802f5962e01b7db7c7ef5bd76d92c06bd0bf"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Vincent Gao",
+        "email": "VGao@sierrawireless.com",
+        "username": "vgao"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1564681821
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "message": "Abandoned\n\nmistakenly committed to master",
+          "timestamp": 1564681970
+        }
+      ],
+      "commitMessage": "LE-13098 - Add app CLI tool to ThreadX\n\nAdd linker options and build support to register a CLI\ntool app to ThreadX.\n\nResolves: LE-13098\nChange-Id: I4de636871d8493c86bfa55e3d9ba81fdecc15938\n",
+      "subject": "LE-13098 - Add app CLI tool to ThreadX",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1564681821,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/49178",
+      "number": 49178,
+      "lastUpdated": 1564681970,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I4de636871d8493c86bfa55e3d9ba81fdecc15938",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 36,
+          "ref": "refs/changes/78/49178/1",
+          "uploader": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "author": {
+            "name": "Vincent Gao",
+            "email": "vgao@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "createdOn": 1564681821,
+          "revision": "661048ae50a773097d2aef3efa9f11f091893bbc",
+          "parents": [
+            "368c7fcd1b1aef23bce2ce99519c5bf048df3c5b"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Lawrence Wong",
+        "email": "lwo@sierrawireless.com",
+        "username": "lwo"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1560154618
+        },
+        {
+          "reviewer": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1560244163
+        },
+        {
+          "reviewer": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "message": "Abandoned\n\nI abandon it, because it is on the master branch.",
+          "timestamp": 1561442347
+        }
+      ],
+      "commitMessage": "QTI9X07-3080 - identify secure bootloader\n\nTo have the debug information (EFUSE status, memory dump,\nJTAG access), the initialization of SSMEM,\nnew AT command AT!SECINFO and new QMS messages will be done.\n\nResolves: QTI9X07-3080\nRelated: FORE-104 QMIIDL-18\nChange-Id: I89c823a781fc8355c85e0eb749ef54a85e59699f\nSigned-off-by: Lawrence Wong <lwo@sierrawireless.com>\n",
+      "subject": "QTI9X07-3080 - identify secure bootloader",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1560154618,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/47295",
+      "number": 47295,
+      "lastUpdated": 1561442347,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I89c823a781fc8355c85e0eb749ef54a85e59699f",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 324,
+          "ref": "refs/changes/95/47295/1",
+          "uploader": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "author": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1560154618,
+          "revision": "c5f54e60644b8bbdf6cf82cd10694eaa5e3e61a1",
+          "parents": [
+            "a228ea6473bd556e5957f7072c7b6677f4074bb3"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 298,
+          "ref": "refs/changes/95/47295/2",
+          "uploader": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "author": {
+            "name": "Lawrence Wong",
+            "email": "lwo@sierrawireless.com",
+            "username": "lwo"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1560244163,
+          "revision": "7852d93cc417d9242b55d2c6893dfbd34ed53026",
+          "parents": [
+            "a228ea6473bd556e5957f7072c7b6677f4074bb3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Shawn Wu",
+        "email": "ShWu@sierrawireless.com",
+        "username": "shwu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1556161294
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1556161297
+        },
+        {
+          "reviewer": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "message": "Abandoned",
+          "timestamp": 1557021768
+        }
+      ],
+      "commitMessage": "swi qmi framework optimizition\n\nChange-Id: Ia6f7b0d05a5a59ef647ac15afa3a0aa56991dd10\nSigned-off-by: Shawn Wu <ShWu@sierrawireless.com>\n",
+      "subject": "swi qmi framework optimizition",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1556161294,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/45679",
+      "number": 45679,
+      "lastUpdated": 1557021768,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ia6f7b0d05a5a59ef647ac15afa3a0aa56991dd10",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1149,
+          "ref": "refs/changes/79/45679/1",
+          "uploader": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "author": {
+            "name": "Shawn Wu",
+            "email": "ShWu@sierrawireless.com",
+            "username": "shwu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 133,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1556161297,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1556161294,
+          "revision": "0650e1dc9b7b3ede380744b536a0a48f5c246d70",
+          "parents": [
+            "67b18c4b6dadfa23dd139826a9d36cd0b4b2333f"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mitchell Nichols",
+        "email": "MNichols@sierrawireless.com",
+        "username": "mnichols"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mitchell Nichols",
+            "email": "MNichols@sierrawireless.com",
+            "username": "mnichols"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1494896828
+        },
+        {
+          "reviewer": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "message": "Abandoned",
+          "timestamp": 1494899236
+        }
+      ],
+      "commitMessage": "QTI9X07-332 - 32KHz and 20MHz Digital clock outputs\n\nIssue Description:\nAfter kernel patch to add the sierra_tcxo_clock driver to the WP76\ndevice tree, the 20MHz clock works correctly with AT+WEXTCLK,\nbut the setting does not persist across a reset.\n\nRoot Cause:\nQAPI message to set the clock is sent before BS QAPI service\nis connected, so the request fails.\n\nSolution:\nMove clock initialization to apps side.\n\nTesting:\nSet clock to always on using AT+WEXTCLK=1,1, then reset. Probe resistor\nR237 to confirm clock is turned on after reboot.\n\nChange-Id: I7f19df407533b2200436fdadaa6f3e97e6367578\nSigned-off-by: Mitchell Nichols <MNichols@sierrawireless.com>\n",
+      "subject": "QTI9X07-332 - 32KHz and 20MHz Digital clock outputs",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1494896828,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/15108",
+      "number": 15108,
+      "lastUpdated": 1494899236,
+      "id": "I7f19df407533b2200436fdadaa6f3e97e6367578",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 17,
+          "ref": "refs/changes/08/15108/1",
+          "uploader": {
+            "name": "Mitchell Nichols",
+            "email": "MNichols@sierrawireless.com",
+            "username": "mnichols"
+          },
+          "author": {
+            "name": "Mitchell Nichols",
+            "email": "MNichols@sierrawireless.com",
+            "username": "mnichols"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 20,
+          "createdOn": 1494896828,
+          "revision": "d5a4465ce71152b33d73a83953d684dabbf84dc4",
+          "parents": [
+            "65baa3e857aa9304794ada968817ae6a07ce23a3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Ryan Kirk",
+        "email": "rkirk@sierrawireless.com",
+        "username": "rkirk"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1486711533
+        },
+        {
+          "reviewer": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "message": "Abandoned\n\nwrong branch",
+          "timestamp": 1486713590
+        }
+      ],
+      "commitMessage": "QTI9X07-236 - Disable A5 algorithms for Products Without GSM Support\n\nRoot Cause:\nA5 bits are reported as enabled in OTA messages when GSM is\nnot supported by the product.\n\nSolution:\nAdd logic when the NV is read to disable A5 algorithms for\nproducts that do not support GSM.\nError log messages for unset HWClassmark and IMEISV NV\nitems have been disabled.\n\nResolves: QTI9X07-236\nChange-Id: I8faac5cb81fceb12c32b90db8a69a6e532fc114a\nSigned-off-by: Michael Sheiner <msheiner@sierrawireless.com>\n(cherry picked from commit 2f3877047aa49858b7f5e809b4ecb287d1d1423a)\nSigned-off-by: Ryan Kirk <rkirk@sierrawireless.com>\n",
+      "subject": "QTI9X07-236 - Disable A5 algorithms for Products Without GSM Support",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1486711533,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/12339",
+      "number": 12339,
+      "lastUpdated": 1486713590,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I8faac5cb81fceb12c32b90db8a69a6e532fc114a",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 48,
+          "ref": "refs/changes/39/12339/1",
+          "uploader": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "author": {
+            "name": "Michael Sheiner",
+            "email": "msheiner@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1486711533,
+          "revision": "9645be0b84ec336af4eb9a4e6df44918764cc880",
+          "parents": [
+            "25eaedfe66756f3dce37a6f77024dbad71990d95"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Ryan Kirk",
+        "email": "rkirk@sierrawireless.com",
+        "username": "rkirk"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1480355633
+        },
+        {
+          "reviewer": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "message": "Abandoned\n\nWrong destination",
+          "timestamp": 1480356079
+        }
+      ],
+      "commitMessage": "QTI9X07-148 - Add Qualcomm MDM9607.LE.1.1-00050-STD.PROD-2\n\nConflicts:\n\tboot_images/build/ms/.sconsign_LAATANAZ.dblite\n\tmodem_proc/build/ms/dynrec.lst\n\nChange-Id: I09f70f07b0f021f6c1aa478332d42a70723681da\nSigned-off-by: Ryan Kirk <rkirk@sierrawireless.com>\n",
+      "subject": "QTI9X07-148 - Add Qualcomm MDM9607.LE.1.1-00050-STD.PROD-2",
+      "project": "external/qct/mdm9x07",
+      "branch": "master",
+      "createdOn": 1480355633,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x07/+/10777",
+      "number": 10777,
+      "lastUpdated": 1480356079,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I09f70f07b0f021f6c1aa478332d42a70723681da",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/77/10777/1",
+          "uploader": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "author": {
+            "name": "Ryan Kirk",
+            "email": "rkirk@sierrawireless.com",
+            "username": "rkirk"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 279,
+          "createdOn": 1480355633,
+          "revision": "3e1a6c88cc4d107cdb039e5f6a337f622630f99d",
+          "parents": [
+            "ae67757ad731bd3f187f60ddd629602f96962320",
+            "6717bd1a8ed0cb5b54834f683ee5674a44ec567c"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

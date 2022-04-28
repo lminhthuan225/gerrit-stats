@@ -1,0 +1,69 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Anh Tran",
+        "email": "tbanh@tma.com.vn",
+        "username": "atran"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1623309911
+        },
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Abandoned\n\nmistake",
+          "timestamp": 1623310062
+        }
+      ],
+      "commitMessage": "fx30 test\n\nChange-Id: I8647252d3214f60b6b23b6f81a8356b2554af487\n",
+      "subject": "fx30 test",
+      "project": "Airlink/legato-Columbia",
+      "branch": "master",
+      "createdOn": 1623309911,
+      "url": "http://10.107.128.8:8081/c/Airlink/legato-Columbia/+/75646",
+      "number": 75646,
+      "lastUpdated": 1623310062,
+      "id": "I8647252d3214f60b6b23b6f81a8356b2554af487",
+      "open": false,
+      "status": "ABANDONED",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/46/75646/1",
+          "uploader": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "author": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1623309911,
+          "revision": "98c7f0511464a8f176714981842fa496587358bf",
+          "parents": [
+            "34c8e628aeca76b6c762563e5e86345046fd720c"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

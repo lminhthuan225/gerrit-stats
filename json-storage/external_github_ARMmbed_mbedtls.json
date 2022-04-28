@@ -1,0 +1,1175 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Chung Tran",
+        "email": "ctran@sierrawireless.com",
+        "username": "ctran"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Chung Tran",
+            "email": "ctran@sierrawireless.com",
+            "username": "ctran"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1643084515
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/52542/",
+          "timestamp": 1643084566
+        },
+        {
+          "reviewer": {
+            "name": "Chung Tran",
+            "email": "ctran@sierrawireless.com",
+            "username": "ctran"
+          },
+          "message": "Abandoned\n\nFailed to push to branch master",
+          "timestamp": 1643085326
+        }
+      ],
+      "commitMessage": "HTTPS connection failed if server certificate contains SAN\n\nDescription:\nHTTPS connection failed if a subjectAltName extension of\ntype dNSName is present and the server name doesn't match\nwith DNSname (*.pipedream.net and *.pipedream.com)\n\nRoot Cause:\nIn establishing a TLS connection.\nIn step3: server certificate (server -> client)\nIf a subjectAltName extension of\ntype dNSName is present in the certificate,\nit SHOULD be used as the source of the server's identity.\n\nSolution:\nIf the server certificate has SAN extenstions, we will add it to hostname.\n\nResolves: LE-16532\nRelated: MOLRC9X07-315\nChange-Id: Icc0056995a3559dc5a82e5f49c3fe2ef0ead54ad\n",
+      "subject": "HTTPS connection failed if server certificate contains SAN",
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1643084515,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/81735",
+      "number": 81735,
+      "lastUpdated": 1643085326,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Icc0056995a3559dc5a82e5f49c3fe2ef0ead54ad",
+      "open": false,
+      "status": "ABANDONED",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 49,
+          "ref": "refs/changes/35/81735/1",
+          "uploader": {
+            "name": "Chung Tran",
+            "email": "ctran@sierrawireless.com",
+            "username": "ctran"
+          },
+          "author": {
+            "name": "Chung Tran",
+            "email": "ctran@sierrawireless.com",
+            "username": "ctran"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1643084515,
+          "revision": "de9ab47b71e812b1e3ba94095b2126668b10d6d5",
+          "parents": [
+            "d9019d02d44b4b32d027571955ae507574cf4eed"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jean-Bernard Damiano",
+        "email": "JDamiano@sierrawireless.com",
+        "username": "jdamiano"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jean-Bernard Damiano",
+            "email": "JDamiano@sierrawireless.com",
+            "username": "jdamiano"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1605024970
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-1\n\nTicket has status \"Integrated\" at \"patchset-created\" event",
+          "timestamp": 1605024979
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/45873/",
+          "timestamp": 1605025022
+        },
+        {
+          "reviewer": {
+            "name": "Jean-Bernard Damiano",
+            "email": "JDamiano@sierrawireless.com",
+            "username": "jdamiano"
+          },
+          "message": "Abandoned",
+          "timestamp": 1605027367
+        }
+      ],
+      "commitMessage": "Support the new IKS API change\n\nResolves: LE-14648\nChange-Id: I876e3a509160cff8cc7875fc6672250a43f46c87\n",
+      "subject": "Support the new IKS API change",
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1605024970,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/69592",
+      "number": 69592,
+      "lastUpdated": 1605027367,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I876e3a509160cff8cc7875fc6672250a43f46c87",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/92/69592/1",
+          "uploader": {
+            "name": "Jean-Bernard Damiano",
+            "email": "JDamiano@sierrawireless.com",
+            "username": "jdamiano"
+          },
+          "author": {
+            "name": "JB DAMIANO",
+            "email": "jdamiano@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1605024979,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1605024970,
+          "revision": "fb5bcea2884aa47563d4de4b6ea6062c76e2a4cd",
+          "parents": [
+            "502da151e1b8a27efc846b2d485c0df142b28eb9"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jon Back",
+        "email": "JBack@sierrawireless.com",
+        "username": "jback"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1589321927
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/41356/",
+          "timestamp": 1589322012
+        },
+        {
+          "reviewer": {
+            "name": "Yann Penet",
+            "email": "YPenet@sierrawireless.com",
+            "username": "ypenet"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1591170849
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/42046/",
+          "timestamp": 1591171023
+        },
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1600900758
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at https://jenkins.legato/job/Legato-Review/44794/",
+          "timestamp": 1600900860
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\nThis is on master.  Should this be rejected and the one on master-swi used instead?",
+          "timestamp": 1602180993
+        }
+      ],
+      "commitMessage": "Use IoT Keystore to handle PSK\n\nResolves: LE-14648\nChange-Id: Ib54bed484980860018b1611404827eae1dd91b91\n",
+      "subject": "Use IoT Keystore to handle PSK",
+      "cherryPickOfChange": 60372,
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1589321927,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/61632",
+      "number": 61632,
+      "lastUpdated": 1602180993,
+      "allReviewers": [
+        {
+          "name": "Keith Dunwoody",
+          "email": "kdunwoody@sierrawireless.com",
+          "username": "kdunwoody"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "cherryPickOfPatchSet": 5,
+      "topic": "LE-14648-mbedtls-master",
+      "id": "Ib54bed484980860018b1611404827eae1dd91b91",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 65,
+          "ref": "refs/changes/32/61632/1",
+          "uploader": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "author": {
+            "name": "Jonathan Back",
+            "email": "jback@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "createdOn": 1589321927,
+          "revision": "4919c08e74ad86779856488e8efbf0e9ac5ad0bd",
+          "parents": [
+            "75d76b83dcfda6438d5d61540bc612e53fb9890f"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 371,
+          "ref": "refs/changes/32/61632/2",
+          "uploader": {
+            "name": "Yann Penet",
+            "email": "YPenet@sierrawireless.com",
+            "username": "ypenet"
+          },
+          "author": {
+            "name": "Stan Podin",
+            "email": "spodin@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 9,
+          "createdOn": 1591170849,
+          "revision": "94be7e4d6e3a62d68220e9ad34e5b801d06ae9f1",
+          "parents": [
+            "04a049bda1ceca48060b57bc4bcf5203ce591421"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 484,
+          "ref": "refs/changes/32/61632/3",
+          "uploader": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "author": {
+            "name": "Stan Podin",
+            "email": "spodin@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Keith Dunwoody",
+                "email": "kdunwoody@sierrawireless.com",
+                "username": "kdunwoody"
+              },
+              "grantedOn": 1602180993,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1600900758,
+          "revision": "0091c8074860fbb10f72a6eebcda0929fd2625a5",
+          "parents": [
+            "523f0554b6cdc7ace5d360885c3f5bbcc73ec0e8"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jon Back",
+        "email": "JBack@sierrawireless.com",
+        "username": "jback"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1600992843
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.\n - Your commit contains forbidden words: ' MM ' in file 'library/bignum.c'.",
+          "timestamp": 1600992845
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/44863/",
+          "timestamp": 1600993015
+        },
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Abandoned",
+          "timestamp": 1600993049
+        },
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Restored",
+          "timestamp": 1600993157
+        },
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Abandoned",
+          "timestamp": 1600993264
+        }
+      ],
+      "commitMessage": "Merge tag 'v2.16.8' into master-swi\n\nChange-Id: I5d9394b3d4f856ae4325420ef73327d2915c07b7\n",
+      "subject": "Merge tag 'v2.16.8' into master-swi",
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1600992843,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/67749",
+      "number": 67749,
+      "lastUpdated": 1600993264,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I5d9394b3d4f856ae4325420ef73327d2915c07b7",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/49/67749/1",
+          "uploader": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "author": {
+            "name": "Jonathan Back",
+            "email": "jback@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1600992845,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1600992843,
+          "revision": "380d4d3982b437d3a2821601c465b1041108071f",
+          "parents": [
+            "04a049bda1ceca48060b57bc4bcf5203ce591421",
+            "848a4e06b375e067552f1a21d4bc69322c673217"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Keith Dunwoody",
+        "email": "kdunwoody@sierrawireless.com",
+        "username": "kdunwoody"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1581717417
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1581717418
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1581717442
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 1:\n\nThis change is ready for review.",
+          "timestamp": 1581717448
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1581717472
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/38625/",
+          "timestamp": 1581719700
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/38625/\nArtifacts: https://get.legato/legato/review/57546/1\nFlow: http://api.farm.legato/jenkins/flow/Legato-Review/38625.html\nDoc: https://get.legato/legato/review/57546/1/master/reviewBuild/doc/user/html_converted/index.html\nLeaf packages: https://get.legato/legato/review/57546/1/master/reviewBuild/leaf/\nGlobal Coverage: https://get.legato/legato/review/57546/1/master/reviewBuild/coverage/all/html/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/57546/1/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/57546/1/master/reviewBuild/wp750x&BUILD_NAME=wp750x :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/57546/1/master/reviewBuild/hl78&BUILD_NAME=hl78\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: Found 0 issues [1 fixed]\n  hl76: https://get.legato/legato/review/57546/1/master/reviewBuild/hl76-klocwork/klocwork-report.html\nBuild result: SUCCESS",
+          "timestamp": 1581740133
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 1:\n\nThis change is ready for review.",
+          "timestamp": 1582570235
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1582570240
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1582673124
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 2: Code-Review-2",
+          "timestamp": 1582673148
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/38806/",
+          "timestamp": 1582673199
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/38806/\nArtifacts: https://get.legato/legato/review/57546/2\nFlow: http://api.farm.legato/jenkins/flow/Legato-Review/38806.html\nDoc: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/doc/user/html_converted/index.html\nDoc: https://get.legato/legato/review/57546/2/master/reviewBuild/doc/user/html_converted/index.html\nLeaf packages: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/leaf/\nLeaf packages: https://get.legato/legato/review/57546/2/master/reviewBuild/leaf/\nGlobal Coverage: https://get.legato/legato/review/57546/2/master/reviewBuild/coverage/all/html/\nGlobal Coverage: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/coverage/all/html/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/57546/2/dev-hl78-merge/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/57546/2/dev-hl78-merge/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/57546/2/dev-hl78-merge/reviewBuild/hl78&BUILD_NAME=hl78\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: Found 0 issues [12 fixed]\n  wp76xx: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/wp76xx-klocwork/klocwork-report.html\nBuild result: UNSTABLE",
+          "timestamp": 1582677829
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nJenkins job: https://jenkins.legato/job/Legato-Review/38806/\nArtifacts: https://get.legato/legato/review/57546/2\nFlow: http://api.farm.legato/jenkins/flow/Legato-Review/38806.html\nDoc: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/doc/user/html_converted/index.html\nDoc: https://get.legato/legato/review/57546/2/master/reviewBuild/doc/user/html_converted/index.html\nLeaf packages: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/leaf/\nLeaf packages: https://get.legato/legato/review/57546/2/master/reviewBuild/leaf/\nGlobal Coverage: https://get.legato/legato/review/57546/2/master/reviewBuild/coverage/all/html/\nGlobal Coverage: https://get.legato/legato/review/57546/2/dev-hl78-merge/reviewBuild/coverage/all/html/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/57546/2/master/reviewBuild/wp750x&BUILD_NAME=wp750x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/57546/2/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/57546/2/master/reviewBuild/hl78&BUILD_NAME=hl78\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: Found 0 issues [4 fixed]\n  hl76: https://get.legato/legato/review/57546/2/master/reviewBuild/hl76-klocwork/klocwork-report.html\nBuild result: UNSTABLE",
+          "timestamp": 1582677867
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/38843/",
+          "timestamp": 1582753202
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/38843/\nArtifacts: https://get.legato/legato/review/57546/3\nFlow: http://api.farm.legato/jenkins/flow/Legato-Review/38843.html\nDoc: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/doc/user/html_converted/index.html\nDoc: https://get.legato/legato/review/57546/3/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/coverage/all/html/\nGlobal Coverage: https://get.legato/legato/review/57546/3/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/leaf/\nLeaf packages: https://get.legato/legato/review/57546/3/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/57546/3/dev-hl78-merge/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/57546/3/dev-hl78-merge/reviewBuild/wp750x&BUILD_NAME=wp750x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/57546/3/dev-hl78-merge/reviewBuild/wp76xx&BUILD_NAME=wp76xx\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: Found 0 issues [12 fixed]\n  wp76xx: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/wp76xx-klocwork/klocwork-report.html\nBuild result: UNSTABLE",
+          "timestamp": 1582755392
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nJenkins job: https://jenkins.legato/job/Legato-Review/38843/\nArtifacts: https://get.legato/legato/review/57546/3\nFlow: http://api.farm.legato/jenkins/flow/Legato-Review/38843.html\nDoc: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/doc/user/html_converted/index.html\nDoc: https://get.legato/legato/review/57546/3/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/coverage/all/html/\nGlobal Coverage: https://get.legato/legato/review/57546/3/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/57546/3/dev-hl78-merge/reviewBuild/leaf/\nLeaf packages: https://get.legato/legato/review/57546/3/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/57546/3/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/57546/3/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/57546/3/master/reviewBuild/wp750x&BUILD_NAME=wp750x\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: Found 0 issues [4 fixed]\n  hl76: https://get.legato/legato/review/57546/3/master/reviewBuild/hl76-klocwork/klocwork-report.html\nBuild result: UNSTABLE",
+          "timestamp": 1582755415
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Abandoned",
+          "timestamp": 1600474588
+        }
+      ],
+      "commitMessage": "TEMP: Logging for select() issue\n\nChange-Id: Ie5970559df1928ad165e89a02e288c928c0ab328\n",
+      "subject": "TEMP: Logging for select() issue",
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1581717417,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/57547",
+      "number": 57547,
+      "lastUpdated": 1600474588,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Keith Dunwoody",
+          "email": "kdunwoody@sierrawireless.com",
+          "username": "kdunwoody"
+        },
+        {
+          "name": "Ashok Kasilingam",
+          "email": "AKasilingam@sierrawireless.com",
+          "username": "akasilingam"
+        },
+        {
+          "name": "Song Sony Yu",
+          "email": "SoYu@sierrawireless.com",
+          "username": "soyu"
+        },
+        {
+          "name": "Shristi Pradhan",
+          "email": "SPradhan@sierrawireless.com",
+          "username": "spradhan"
+        },
+        {
+          "name": "Tom Huang",
+          "email": "THuang@sierrawireless.com",
+          "username": "thuang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "temp-logging-for-slow-fota",
+      "id": "Ie5970559df1928ad165e89a02e288c928c0ab328",
+      "open": false,
+      "status": "ABANDONED",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/47/57547/1",
+          "uploader": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "author": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1581717418,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1581740133,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1581740133,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1581717417,
+          "revision": "7eda3dea3f2f3e6792f4472e727b4cdba4724a50",
+          "parents": [
+            "04a049bda1ceca48060b57bc4bcf5203ce591421"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/47/57547/2",
+          "uploader": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "author": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Keith Dunwoody",
+                "email": "kdunwoody@sierrawireless.com",
+                "username": "kdunwoody"
+              },
+              "grantedOn": 1582673148,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1582677829,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1582755392,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1582673124,
+          "revision": "2084c12994d42e9d72f2873fcf320e592712b9c1",
+          "parents": [
+            "0fce215851cc069c5b5def12fcc18725055fa6cf"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Enoch Sun",
+        "email": "esun@sierrawireless.com",
+        "username": "esun"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1585347152
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1585347152
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1585347168
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1585347168
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Topic set to decouplembedtls",
+          "timestamp": 1585347200
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1585616751
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-1\n\nTicket has status \"New\" at \"patchset-created\" event",
+          "timestamp": 1585616754
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Patch Set 4: Patch Set 3 was rebased",
+          "timestamp": 1585616991
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 4: Quality-Check-1\n\nTicket has status \"New\" at \"patchset-created\" event",
+          "timestamp": 1585616995
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at https://jenkins.legato/job/Legato-Review/39799/",
+          "timestamp": 1585617269
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: Verified-1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/39799/\nArtifacts: https://get.legato/legato/review/59441/5\nFlow: http://api.farm.legato/v1/jenkins/service/Legato-Review/39799/flow\nmaster:builds:targets:ar758x: Build for target ar758x failed (FAILURE)\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: No issue found\nStatic Analysis: No analysis\nBuild result: FAILURE",
+          "timestamp": 1585618191
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Macisaac",
+            "email": "AMacisaac@sierrawireless.com",
+            "username": "amacisaac"
+          },
+          "message": "Patch Set 4: Code-Review-1\n\nI would rather that this be done without modifying the third party repository to include platform code.  The port file should become its own, tiny, separate static library (libmbedtls_port.a) in the ThreadX build, and added as a dependency of both the Legato build and the non-Legato DOTA build.",
+          "timestamp": 1585665024
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Macisaac",
+            "email": "AMacisaac@sierrawireless.com",
+            "username": "amacisaac"
+          },
+          "message": "Patch Set 4:\n\n(1 comment)",
+          "timestamp": 1586355831
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Topic decouplembedtls removed",
+          "timestamp": 1586383705
+        },
+        {
+          "reviewer": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "message": "Abandoned",
+          "timestamp": 1586384003
+        }
+      ],
+      "commitMessage": "Decouple mbedtls and liblegato\n\nResolves: LE-14602\nChange-Id: I5c2f7e723a0b44aaf8f5189104c2b192d9e05c6c\n",
+      "subject": "Decouple mbedtls and liblegato",
+      "project": "external/github/ARMmbed/mbedtls",
+      "branch": "master",
+      "createdOn": 1585347152,
+      "url": "http://10.107.128.8:8081/c/external/github/ARMmbed/mbedtls/+/59537",
+      "number": 59537,
+      "lastUpdated": 1586384003,
+      "allReviewers": [
+        {
+          "name": "Andrew Macisaac",
+          "email": "AMacisaac@sierrawireless.com",
+          "username": "amacisaac"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I5c2f7e723a0b44aaf8f5189104c2b192d9e05c6c",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 319,
+          "ref": "refs/changes/37/59537/1",
+          "uploader": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "author": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1585347152,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1585347152,
+          "revision": "122ab27eec3cd421bbb8dcaa953f0834dfd4c43d",
+          "parents": [
+            "04a049bda1ceca48060b57bc4bcf5203ce591421"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 319,
+          "ref": "refs/changes/37/59537/2",
+          "uploader": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "author": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1585347168,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1585347168,
+          "revision": "4a8c4c22451a41b2bac9016cdb34ace8043340c6",
+          "parents": [
+            "0fce215851cc069c5b5def12fcc18725055fa6cf"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 319,
+          "ref": "refs/changes/37/59537/3",
+          "uploader": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "author": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1585616754,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1585616751,
+          "revision": "6329bc1544dcd0c94481957dc1afdb13b5cbe57a",
+          "parents": [
+            "04a049bda1ceca48060b57bc4bcf5203ce591421"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 319,
+          "ref": "refs/changes/37/59537/4",
+          "comments": [
+            {
+              "file": "library/mbedtls_port.c",
+              "line": 52,
+              "reviewer": {
+                "name": "Andrew Macisaac",
+                "email": "AMacisaac@sierrawireless.com",
+                "username": "amacisaac"
+              },
+              "message": "This needs to be struct mbedtls_hmac_drbg_context *."
+            }
+          ],
+          "uploader": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "author": {
+            "name": "Enoch Sun",
+            "email": "esun@sierrawireless.com",
+            "username": "esun"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1585616995,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1585618191,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1585618191,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Andrew Macisaac",
+                "email": "AMacisaac@sierrawireless.com",
+                "username": "amacisaac"
+              },
+              "grantedOn": 1585665024,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1585616991,
+          "revision": "434d6af65c33a9ac032c7276c12dc0b87b1b2448",
+          "parents": [
+            "0fce215851cc069c5b5def12fcc18725055fa6cf"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

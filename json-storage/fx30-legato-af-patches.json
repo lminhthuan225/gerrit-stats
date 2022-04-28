@@ -1,0 +1,413 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Hong Nguyen",
+        "email": "hunguyen@sierrawireless.com",
+        "username": "hunguyen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1622188790
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.",
+          "timestamp": 1622188791
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1622189380
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1622189382
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1622189981
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1622190122
+        }
+      ],
+      "commitMessage": "Rename 18.09.04 -> 18.09.4\n\nResolves: FARM-5328\nChange-Id: Icff4475043bd51e0325e25319a669ae231c708c0\n",
+      "subject": "Rename 18.09.04 -> 18.09.4",
+      "project": "fx30-legato-af-patches",
+      "branch": "master",
+      "createdOn": 1622188790,
+      "url": "http://10.107.128.8:8081/c/fx30-legato-af-patches/+/75222",
+      "number": 75222,
+      "lastUpdated": 1622190122,
+      "allReviewers": [
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Icff4475043bd51e0325e25319a669ae231c708c0",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/22/75222/1",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1622188791,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1622188790,
+          "revision": "3e8b87bc7782243a623accbae12ca41994f6349d",
+          "parents": [
+            "5615e83f57b70a58858d4808ac822b2ae5f50f77"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/22/75222/2",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1622189981,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1622189981,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1622190122,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1622189380,
+          "revision": "3021e7c27d98804c4535f5ada39e6d2795f6a9dd",
+          "parents": [
+            "5615e83f57b70a58858d4808ac822b2ae5f50f77"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Lukasz Pacyk",
+        "email": "LPacyk@sierrawireless.com",
+        "username": "lpacyk"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1622078912
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1622078912
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1622078981
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1622078984
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1622079551
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1622079553
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Topic set to FARM-5328",
+          "timestamp": 1622079647
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Topic FARM-5328 removed",
+          "timestamp": 1622080018
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1622080023
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1622080026
+        }
+      ],
+      "commitMessage": "Add fx30 patches for legato 18.09.04\n\nResolves: FARM-5328\nChange-Id: I6413c32746891397d3903568c5d219a10561692b\n",
+      "subject": "Add fx30 patches for legato 18.09.04",
+      "project": "fx30-legato-af-patches",
+      "branch": "master",
+      "createdOn": 1622078912,
+      "url": "http://10.107.128.8:8081/c/fx30-legato-af-patches/+/75169",
+      "number": 75169,
+      "lastUpdated": 1622080026,
+      "allReviewers": [
+        {
+          "name": "Lukasz Pacyk",
+          "email": "LPacyk@sierrawireless.com",
+          "username": "lpacyk"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I6413c32746891397d3903568c5d219a10561692b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 474,
+          "ref": "refs/changes/69/75169/1",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1622078912,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1622078912,
+          "revision": "919cc977378eeca9516eaa10e052498fb7f8b0b3",
+          "parents": [
+            "7082915ed7e131b9341066d0e324ab91551695cb"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 474,
+          "ref": "refs/changes/69/75169/2",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1622078981,
+          "revision": "15dced9c25e6c9c14a92586466f955e8c67a7e80",
+          "parents": [
+            "7082915ed7e131b9341066d0e324ab91551695cb"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 474,
+          "ref": "refs/changes/69/75169/3",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1622080023,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1622080023,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1622080026,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1622079551,
+          "revision": "5615e83f57b70a58858d4808ac822b2ae5f50f77",
+          "parents": [
+            "7082915ed7e131b9341066d0e324ab91551695cb"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

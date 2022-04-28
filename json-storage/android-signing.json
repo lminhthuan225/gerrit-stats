@@ -1,0 +1,289 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Steve MacDonald",
+        "email": "SMacDonald@sierrawireless.com",
+        "username": "smacdonald"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1599689078
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1599689087
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-1\n\nTicket has status \"New\" at \"patchset-created\" event",
+          "timestamp": 1599689087
+        },
+        {
+          "reviewer": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\nThis is for reviewing the java to azure process. There is an accompanying confluence page.\n\nhttps://confluence.sierrawireless.com/display/LEGATO/Android+Signing+V1+-+Java+-+Integration+with+Azure+Keyvault",
+          "timestamp": 1599690419
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(2 comments)\n\nUnclear if this actually needs any of the python-port code or not",
+          "timestamp": 1599849995
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1599850081
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1600468960
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-1\n\nTicket has status \"New\" at \"patchset-created\" event",
+          "timestamp": 1600468962
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nNot for master for now",
+          "timestamp": 1600470202
+        }
+      ],
+      "commitMessage": "Integrate boot signer with azure\n\nFor review purposes, this commit represents the changes needed to\nintegrate the azure keyvault access with a modified android-signing\nverity BootSignature java code and package.\n\nResolves: LXSWIREF-1812\nChange-Id: I8b6ff25b2f0c9054a289fa06aa2c280e1afb1183\nModified-by: Steve MacDonald <smacdonald@sierrawireless.com>\n",
+      "subject": "Integrate boot signer with azure",
+      "project": "android-signing",
+      "branch": "master",
+      "createdOn": 1599689078,
+      "url": "http://10.107.128.8:8081/c/android-signing/+/66895",
+      "number": 66895,
+      "lastUpdated": 1600470202,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Steve MacDonald",
+          "email": "SMacDonald@sierrawireless.com",
+          "username": "smacdonald"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Stoyan Petrov",
+          "email": "spetrov@sierrawireless.com",
+          "username": "spetrov"
+        },
+        {
+          "name": "Mohit Pasrija",
+          "email": "MPasrija@sierrawireless.com",
+          "username": "mpasrija"
+        },
+        {
+          "name": "Brad Du",
+          "email": "bdu@sierrawireless.com",
+          "username": "bdu"
+        },
+        {
+          "name": "Giang Do-Tien",
+          "email": "GDoTien@sierrawireless.com",
+          "username": "gdotien"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        },
+        {
+          "name": "Ryan Kirk",
+          "email": "rkirk@sierrawireless.com",
+          "username": "rkirk"
+        },
+        {
+          "name": "Dejan Donin",
+          "email": "DDonin@sierrawireless.com",
+          "username": "ddonin"
+        },
+        {
+          "name": "Michael Lin",
+          "email": "MiLin@sierrawireless.com",
+          "username": "milin"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        }
+      ],
+      "id": "I8b6ff25b2f0c9054a289fa06aa2c280e1afb1183",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 399,
+          "ref": "refs/changes/95/66895/1",
+          "comments": [
+            {
+              "file": "verity/BootSignature.java",
+              "line": 112,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Mixed tabs & spaces ? In 2020?"
+            },
+            {
+              "file": "verity/BootSignature.java",
+              "line": 191,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Please clean-up your code, stick to one coding style. Java uses lowerCamelCase, spaces after and before =, ..."
+            },
+            {
+              "file": "verity/azure/keyvault_parameters.json",
+              "line": 11,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "The master branch from android-signing repo is public. We need to remove all references to internal stuff."
+            }
+          ],
+          "uploader": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "author": {
+            "name": "Steve MacDonald",
+            "email": "smacdonald@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 7,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1599689087,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "Steve MacDonald",
+                "email": "SMacDonald@sierrawireless.com",
+                "username": "smacdonald"
+              },
+              "grantedOn": 1599690419,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1599849995,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1599689078,
+          "revision": "c6655ff9e9095edb570fd641621965c6c23f79d8",
+          "parents": [
+            "ba54d2e0826444b6749b3ff77997755c81d47dac"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 399,
+          "ref": "refs/changes/95/66895/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Steve MacDonald",
+            "email": "smacdonald@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 7,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1600468962,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1600468960,
+          "revision": "b78935e98ade8fa83217bcbbbff3c79ab5d5b4d1",
+          "parents": [
+            "ba54d2e0826444b6749b3ff77997755c81d47dac"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

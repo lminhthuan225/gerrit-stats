@@ -29,7 +29,7 @@ public class GerritSshCommand {
 
             Process exec = runtime.exec(command, null);
 
-            char[] buffer = new char[1024];
+            char[] buffer = new char[10240];
             int readChars;
 
             BufferedReader readerOut = new BufferedReader(new InputStreamReader(exec.getInputStream(), "UTF-8"));

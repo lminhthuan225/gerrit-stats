@@ -1,0 +1,323 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Summer Peng",
+        "email": "speng@sierrawireless.com",
+        "username": "speng"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1528085092
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1528085096
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1528085168
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1528085171
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic set to FRAM-1605-ima",
+          "timestamp": 1528091062
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1528091997
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\n(3 comments)",
+          "timestamp": 1528141554
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1528689105
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1528732097
+        },
+        {
+          "reviewer": {
+            "name": "Nasif Shafi",
+            "email": "nshafi@sierrawireless.com",
+            "username": "nshafi"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1528740466
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 3:\n\nSo we need more work on meta-swi to support ima key generation during build.",
+          "timestamp": 1531726044
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Abandoned",
+          "timestamp": 1532508604
+        }
+      ],
+      "commitMessage": "[mdm9x28] Provide ima public/private keys\n\nResolves: FARM-1605\nChange-Id: Ica29ba76540ebee6e15fa0c1927ad9bd342f9793\n",
+      "subject": "[mdm9x28] Provide ima public/private keys",
+      "project": "ima-helper",
+      "branch": "master",
+      "createdOn": 1528085092,
+      "url": "http://10.107.128.8:8081/c/ima-helper/+/29631",
+      "number": 29631,
+      "lastUpdated": 1532508604,
+      "allReviewers": [
+        {
+          "name": "Yan Kong",
+          "email": "ykong@sierrawireless.com",
+          "username": "ykong"
+        },
+        {
+          "name": "Nasif Shafi",
+          "email": "nshafi@sierrawireless.com",
+          "username": "nshafi"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Jarch Hu",
+          "email": "JarHu@sierrawireless.com",
+          "username": "jarhu"
+        }
+      ],
+      "topic": "FRAM-1605-ima",
+      "id": "Ica29ba76540ebee6e15fa0c1927ad9bd342f9793",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 16,
+          "ref": "refs/changes/31/29631/1",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528085096,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528085092,
+          "revision": "d986a655adea0aa569cb1b2f0cfdae27b0aa0ce8",
+          "parents": [
+            "98407c01fc475881f0187b57f126f00e4c556f1d"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 16,
+          "ref": "refs/changes/31/29631/2",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528085168,
+          "revision": "8142fda15cda601913699dce3e1b1ea9806e6301",
+          "parents": [
+            "98407c01fc475881f0187b57f126f00e4c556f1d"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 81,
+          "ref": "refs/changes/31/29631/3",
+          "comments": [
+            {
+              "file": "/COMMIT_MSG",
+              "line": 7,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Not just 9x28, this is fairly generic."
+            },
+            {
+              "file": "ima/csr_ima.pem",
+              "line": 1,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Could we avoid checking-in the .ima stuff, and instead having a simple way (ie, oneliner) to 'request' a .ima generated from the .system.\n\nThe .genkey part could be checked-in, and it would use ima-support-tools to generate the .ima, but it would be nice to have that generated."
+            },
+            {
+              "file": "ima/csr_ima.pem",
+              "line": 1,
+              "reviewer": {
+                "name": "Yan Kong",
+                "email": "ykong@sierrawireless.com",
+                "username": "ykong"
+              },
+              "message": "Hi Bertrand, I suggest not to generate .ima keys during build time, for the reason that it is not convenient for debug. Anyway, ima-helper is only for debug purpose. For example, some guy build a legato by using generated .ima keys before, and the .ima key is not saved, then he will lost the .ima key forever, and the new signed legato app with new generated .ima key cannot run on previous legato."
+            },
+            {
+              "file": "ima/csr_ima.pem",
+              "line": 1,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "I though that as long as a .ima is generated from a common .system it would be accepted.\nSo that if a legato system is built with a .ima (1) and then a legato app is built with a second .ima (2) issued from the same .system CA, the app would be accepted. Isn't that the case?"
+            },
+            {
+              "file": "ima/csr_ima.pem",
+              "line": 1,
+              "reviewer": {
+                "name": "Nasif Shafi",
+                "email": "nshafi@sierrawireless.com",
+                "username": "nshafi"
+              },
+              "message": "Yes. Bertrand is right. Apps built with  different ima keys (as long as they are signed by same system key) should be accepted."
+            },
+            {
+              "file": "system/ima-local-ca.pem",
+              "line": 1,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Could we check-in the .genkey that was used to generate this key?"
+            }
+          ],
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1528141554,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1528091997,
+          "revision": "89801d015fae799ebffa6f8cd2f593a74af49edb",
+          "parents": [
+            "98407c01fc475881f0187b57f126f00e4c556f1d"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,444 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1434375153
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1437426237
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged into the git repository by Bertrand ROUSSEL",
+          "timestamp": 1437426238
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.05.0.Beta\n\nChange-Id: I4cd4d25c3446c9a80e7e50a5274b71c57f862c03\n",
+      "subject": "Legato Yocto 15.05.0.Beta",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1434375153,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/2184",
+      "number": 2184,
+      "lastUpdated": 1437426238,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        }
+      ],
+      "id": "I4cd4d25c3446c9a80e7e50a5274b71c57f862c03",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7108,
+          "ref": "refs/changes/84/2184/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 314,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1437426237,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1437426237,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1437426238,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1434375153,
+          "revision": "3b1bc3c81f63399fd6f44a3435b07a3d86b515e5",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenkins Farm (old)",
+        "email": "ctogroup@sierrawireless.com",
+        "username": "ctogroup"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1433442917
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nNot the one released",
+          "timestamp": 1434375124
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.05\n\nChange-Id: Ibb0a6442d865f3c7749a6ea6e4facba3421d4f40\n",
+      "subject": "Legato Yocto 15.05",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1433442917,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/2154",
+      "number": 2154,
+      "lastUpdated": 1434375124,
+      "id": "Ibb0a6442d865f3c7749a6ea6e4facba3421d4f40",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7108,
+          "ref": "refs/changes/54/2154/1",
+          "uploader": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 314,
+          "createdOn": 1433442917,
+          "revision": "174200341b6478b67df9863812f0bb51cd521d2c",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenkins Farm (old)",
+        "email": "ctogroup@sierrawireless.com",
+        "username": "ctogroup"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1430344882
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nNot public",
+          "timestamp": 1430439343
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.04\n\nChange-Id: I3f87113357d9c23f5099728f6c12e4d5975f0c58\n",
+      "subject": "Legato Yocto 15.04",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1430344882,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/2005",
+      "number": 2005,
+      "lastUpdated": 1430439343,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Andrew Mitchell",
+          "email": "amitchell@sierrawireless.com",
+          "username": "amitchell"
+        }
+      ],
+      "id": "I3f87113357d9c23f5099728f6c12e4d5975f0c58",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3841,
+          "ref": "refs/changes/05/2005/1",
+          "uploader": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 289,
+          "createdOn": 1430344882,
+          "revision": "48af9d41a9c39ae26194a45918cc1feb0a414b69",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenkins Farm (old)",
+        "email": "ctogroup@sierrawireless.com",
+        "username": "ctogroup"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1424289236
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\n15.02 is private",
+          "timestamp": 1426516167
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.02\n\nChange-Id: I86a44164b6dbff6cbe1ddb8926ea84a3ad20f6a8\n",
+      "subject": "Legato Yocto 15.02",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1424289236,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/1683",
+      "number": 1683,
+      "lastUpdated": 1426516167,
+      "id": "I86a44164b6dbff6cbe1ddb8926ea84a3ad20f6a8",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1721,
+          "ref": "refs/changes/83/1683/1",
+          "uploader": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 69,
+          "createdOn": 1424289236,
+          "revision": "1e134b27473c8f590f40370af679f4d8a69cb3f3",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenkins Farm (old)",
+        "email": "ctogroup@sierrawireless.com",
+        "username": "ctogroup"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1424286760
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1424289062
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.02\n\nChange-Id: I8ac6595058a08f5b84827770a5323982187d3ae5\n",
+      "subject": "Legato Yocto 15.02",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1424286760,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/1681",
+      "number": 1681,
+      "lastUpdated": 1424289062,
+      "id": "I8ac6595058a08f5b84827770a5323982187d3ae5",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1721,
+          "ref": "refs/changes/81/1681/1",
+          "uploader": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 69,
+          "createdOn": 1424286760,
+          "revision": "22180aee2af5ebe9f31f5afa75acfc9d7002e1df",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenkins Farm (old)",
+        "email": "ctogroup@sierrawireless.com",
+        "username": "ctogroup"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1424283340
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nBad one",
+          "timestamp": 1424286852
+        }
+      ],
+      "commitMessage": "Legato Yocto 15.02\n\nChange-Id: Ia4129c2177b8548ee4eaa96b4bd37f667fd3a232\n",
+      "subject": "Legato Yocto 15.02",
+      "project": "external/meta-swi",
+      "branch": "master",
+      "createdOn": 1424283340,
+      "url": "http://10.107.128.8:8081/c/external/meta-swi/+/1679",
+      "number": 1679,
+      "lastUpdated": 1424286852,
+      "id": "Ia4129c2177b8548ee4eaa96b4bd37f667fd3a232",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1721,
+          "ref": "refs/changes/79/1679/1",
+          "uploader": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "author": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 69,
+          "createdOn": 1424283340,
+          "revision": "4e6bc4ecda74258ab70eb32d165fbe3c612d6015",
+          "parents": [
+            "6a86036e0f7e84acec98899cb90658de1a3765b1"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,76 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Steve MacDonald",
+        "email": "SMacDonald@sierrawireless.com",
+        "username": "smacdonald"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1545234621
+        },
+        {
+          "reviewer": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "message": "Abandoned\n\nRefresh needed.",
+          "timestamp": 1545234845
+        }
+      ],
+      "commitMessage": "lk: ima: [WP76xx] revert:kernel fails to boot-up after enabling IMA fuse check\n\nReverts the changes that were introduced with IMA. These changes were not\nintended for the product branch\n\nResolves: QTI9X07-2973\nChange-Id: Iaf2b5f5292c2584b62c3f72db1945df788f42e26\nRelated: LXSWIREF-1164\nSigned-off-by: Steve MacDonald <smacdonald@sierrawireless.com>\n",
+      "subject": "lk: ima: [WP76xx] revert:kernel fails to boot-up after enabling IMA fuse check",
+      "project": "external/caf/kernel/lk",
+      "branch": "master",
+      "createdOn": 1545234621,
+      "url": "http://10.107.128.8:8081/c/external/caf/kernel/lk/+/40301",
+      "number": 40301,
+      "lastUpdated": 1545234845,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "QTI9X07-2973-REVERT-IMA",
+      "id": "Iaf2b5f5292c2584b62c3f72db1945df788f42e26",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 307,
+          "ref": "refs/changes/01/40301/1",
+          "uploader": {
+            "name": "Steve MacDonald",
+            "email": "SMacDonald@sierrawireless.com",
+            "username": "smacdonald"
+          },
+          "author": {
+            "name": "Steve MacDonald",
+            "email": "smacdonald@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 867,
+          "createdOn": 1545234621,
+          "revision": "6d59428772794435405090f2a15d91b55cc82c85",
+          "parents": [
+            "05520c6b48fdd37ee748b416e5aa636bf5ec0f72"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

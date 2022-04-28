@@ -1,0 +1,766 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Oscar Hou",
+        "email": "OHou@sierrawireless.com",
+        "username": "ohou"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1574113860
+        },
+        {
+          "reviewer": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "message": "Topic set to le-13551-tx-wdog",
+          "timestamp": 1574113936
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35498/",
+          "timestamp": 1574113941
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1 Quality-Check-2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35498/\nArtifacts: https://get.legato/legato/review/53092/1\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35498.html\nDoc: https://get.legato/legato/review/53092/1/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53092/1/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53092/1/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar86&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/ar86&BUILD_NAME=ar86 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-arm&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/virt-arm&BUILD_NAME=virt-arm :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53092/1/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: Found 8 issues [8 criticals]\n  ar758x: https://get.legato/legato/review/53092/1/master/reviewBuild/ar758x-klocwork/klocwork-report.html\n  wp76xx: https://get.legato/legato/review/53092/1/master/reviewBuild/wp76xx-klocwork/klocwork-report.html\n  hl78: https://get.legato/legato/review/53092/1/master/reviewBuild/hl78-klocwork/klocwork-report.html\n  mcu: https://get.legato/legato/review/53092/1/master/reviewBuild/hl78-mcu-klocwork/klocwork-report.html\nBuild result: SUCCESS",
+          "timestamp": 1574119558
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35550/",
+          "timestamp": 1574213794
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35551/",
+          "timestamp": 1574214420
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35551/\nArtifacts: https://get.legato/legato/review/53039/7\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35551.html\nDoc: https://get.legato/legato/review/53039/7/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/7/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/7/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp77xx&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/wp77xx&BUILD_NAME=wp77xx :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/7/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: Found 1 issues [1 major] http://frilm-ev-sonar:9000/project/issues?branch=le%2D13551%2Dtx%2Dwdog&id=SWIR:LEGATO_AF&resolved=false\nShellcheck: No issue found\nKlocwork: Found 8 issues [8 criticals]\n  hl78: https://get.legato/legato/review/53039/7/master/reviewBuild/hl78-klocwork/klocwork-report.html\n  wp76xx: https://get.legato/legato/review/53039/7/master/reviewBuild/wp76xx-klocwork/klocwork-report.html\n  ar758x: https://get.legato/legato/review/53039/7/master/reviewBuild/ar758x-klocwork/klocwork-report.html\n  mcu: https://get.legato/legato/review/53039/7/master/reviewBuild/hl78-mcu-klocwork/klocwork-report.html\nBuild result: SUCCESS",
+          "timestamp": 1574219801
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35585/",
+          "timestamp": 1574276405
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1 Quality-Check-1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35585/\nArtifacts: https://get.legato/legato/review/53039/8\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35585.html\nDoc: https://get.legato/legato/review/53039/8/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/8/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/8/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/wp76xx-onlycap&BUILD_NAME=wp76xx-onlycap :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-arm&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/virt-arm&BUILD_NAME=virt-arm :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/8/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86\nSonar Reports:\n  SWIR:LEGATO_AF: Found 1 issues [1 major] http://frilm-ev-sonar:9000/project/issues?branch=le%2D13551%2Dtx%2Dwdog&id=SWIR:LEGATO_AF&resolved=false\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574279578
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35588/",
+          "timestamp": 1574280413
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35588/\nArtifacts: https://get.legato/legato/review/53039/9\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35588.html\nDoc: https://get.legato/legato/review/53039/9/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/9/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/9/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=wp77xx&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/wp77xx&BUILD_NAME=wp77xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86 :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/9/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574287458
+        },
+        {
+          "reviewer": {
+            "name": "Shristi Pradhan",
+            "email": "SPradhan@sierrawireless.com",
+            "username": "spradhan"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(2 comments)",
+          "timestamp": 1574294663
+        },
+        {
+          "reviewer": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1574296991
+        },
+        {
+          "reviewer": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "message": "Patch Set 2:\n\n(2 comments)",
+          "timestamp": 1574297017
+        },
+        {
+          "reviewer": {
+            "name": "Shristi Pradhan",
+            "email": "SPradhan@sierrawireless.com",
+            "username": "spradhan"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1574297963
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35596/",
+          "timestamp": 1574298286
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35597/",
+          "timestamp": 1574300710
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35597/\nArtifacts: https://get.legato/legato/review/53039/10\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35597.html\nDoc: https://get.legato/legato/review/53039/10/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/10/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/10/master/reviewBuild/leaf/\nMain build has failed\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: FAILURE",
+          "timestamp": 1574311215
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35622/",
+          "timestamp": 1574366795
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35622/\nArtifacts: https://get.legato/legato/review/53039/10\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35622.html\nDoc: https://get.legato/legato/review/53039/10/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/10/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/10/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar86&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/ar86&BUILD_NAME=ar86 :: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86 :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/10/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574370991
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35662/",
+          "timestamp": 1574474801
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35666/",
+          "timestamp": 1574474935
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35666/\nArtifacts: https://get.legato/legato/review/53039/12\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35666.html\nDoc: https://get.legato/legato/review/53039/12/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/12/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/12/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=wp77xx&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/wp77xx&BUILD_NAME=wp77xx :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=ar86&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/ar86&BUILD_NAME=ar86 :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/12/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574478127
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35695/",
+          "timestamp": 1574736214
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35696/",
+          "timestamp": 1574736293
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35696/\nArtifacts: https://get.legato/legato/review/53094/3\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35696.html\nMain build has failed\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: No analysis\nBuild result: FAILURE",
+          "timestamp": 1574738894
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35723/",
+          "timestamp": 1574805028
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35723/\nArtifacts: https://get.legato/legato/review/53094/3\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35723.html\nDoc: https://get.legato/legato/review/53094/3/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53094/3/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53094/3/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=wp77xx&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/wp77xx&BUILD_NAME=wp77xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53094/3/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574809229
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35771/",
+          "timestamp": 1574885342
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35772/",
+          "timestamp": 1574885937
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Macisaac",
+            "email": "AMacisaac@sierrawireless.com",
+            "username": "amacisaac"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1574888714
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35772/\nArtifacts: https://get.legato/legato/review/53039/15\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35772.html\nDoc: https://get.legato/legato/review/53039/15/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/15/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/15/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/wp750x&BUILD_NAME=wp750x :: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86 :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/15/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574889705
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35848/",
+          "timestamp": 1574972208
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35848/\nArtifacts: https://get.legato/legato/review/53039/16\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35848.html\nDoc: https://get.legato/legato/review/53039/16/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/16/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/16/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/16/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1574977590
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35930/",
+          "timestamp": 1575265415
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35931/",
+          "timestamp": 1575265692
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35931/\nArtifacts: https://get.legato/legato/review/53039/18\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35931.html\nMain build has failed\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: No analysis\nBuild result: FAILURE",
+          "timestamp": 1575266044
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35932/",
+          "timestamp": 1575272238
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35932/\nArtifacts: https://get.legato/legato/review/53039/19\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35932.html\nMain build has failed\nSonar: No analysis\nShellcheck: No issue found\nKlocwork: No analysis\nBuild result: FAILURE",
+          "timestamp": 1575273656
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35935/",
+          "timestamp": 1575275565
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1 Quality-Check-2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35935/\nArtifacts: https://get.legato/legato/review/53039/20\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35935.html\nDoc: https://get.legato/legato/review/53039/20/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/20/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/20/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=ar86&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/ar86&BUILD_NAME=ar86 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=ar758x&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/ar758x&BUILD_NAME=ar758x :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/virt-x86&BUILD_NAME=virt-x86 :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/20/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: Found 1 issues [1 major] http://frilm-ev-sonar:9000/project/issues?branch=le%2D13551%2Dtx%2Dwdog&id=SWIR:LEGATO_AF&resolved=false\nShellcheck: No issue found\nKlocwork: Found 4 issues [4 criticals]\n  ar758x: https://get.legato/legato/review/53039/20/master/reviewBuild/ar758x-klocwork/klocwork-report.html\n  wp76xx: https://get.legato/legato/review/53039/20/master/reviewBuild/wp76xx-klocwork/klocwork-report.html\nBuild result: SUCCESS",
+          "timestamp": 1575279446
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at https://jenkins.legato/job/Legato-Review/35938/",
+          "timestamp": 1575313879
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35938/\nArtifacts: https://get.legato/legato/review/53039/21\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35938.html\nDoc: https://get.legato/legato/review/53039/21/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/21/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/21/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=ar86&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/ar86&BUILD_NAME=ar86 :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/wp76xx-onlycap&BUILD_NAME=wp76xx-onlycap :: TestBench-DeployChange/parambuild?SYSTEM=wp750x&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/wp750x&BUILD_NAME=wp750x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/21/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1575318644
+        },
+        {
+          "reviewer": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1575325687
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at https://jenkins.legato/job/Legato-Review/35948/",
+          "timestamp": 1575325976
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1 Quality-Check+2\n\nJenkins job: https://jenkins.legato/job/Legato-Review/35948/\nArtifacts: https://get.legato/legato/review/53039/22\nFlow: http://farm.legato/jenkins/flow/Legato-Review/35948.html\nDoc: https://get.legato/legato/review/53039/22/master/reviewBuild/doc/user/html_converted/index.html\nGlobal Coverage: https://get.legato/legato/review/53039/22/master/reviewBuild/coverage/all/html/\nLeaf packages: https://get.legato/legato/review/53039/22/master/reviewBuild/leaf/\nDeploy: TestBench-DeployChange/parambuild?SYSTEM=ar7&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/ar7&BUILD_NAME=ar7 :: TestBench-DeployChange/parambuild?SYSTEM=hl78&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/hl78&BUILD_NAME=hl78 :: TestBench-DeployChange/parambuild?SYSTEM=wp85&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/wp85&BUILD_NAME=wp85 :: TestBench-DeployChange/parambuild?SYSTEM=raspi&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/raspi&BUILD_NAME=raspi :: TestBench-DeployChange/parambuild?SYSTEM=ar759x&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/ar759x&BUILD_NAME=ar759x :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/wp76xx-onlycap&BUILD_NAME=wp76xx-onlycap :: TestBench-DeployChange/parambuild?SYSTEM=wp76xx&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/wp76xx&BUILD_NAME=wp76xx :: TestBench-DeployChange/parambuild?SYSTEM=virt-arm&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/virt-arm&BUILD_NAME=virt-arm :: TestBench-DeployChange/parambuild?SYSTEM=virt-x86&BUILD_ARTIFACTS=legato/review/53039/22/master/reviewBuild/virt-x86-coverage&BUILD_NAME=virt-x86-coverage\nSonar Reports:\n  SWIR:LEGATO_AF: No issue found\nShellcheck: No issue found\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1575329714
+        },
+        {
+          "reviewer": {
+            "name": "Shristi Pradhan",
+            "email": "SPradhan@sierrawireless.com",
+            "username": "spradhan"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1575335229
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1575409671
+        },
+        {
+          "reviewer": {
+            "name": "Keith Dunwoody",
+            "email": "kdunwoody@sierrawireless.com",
+            "username": "kdunwoody"
+          },
+          "message": "Change has been successfully merged by Keith Dunwoody",
+          "timestamp": 1575409900
+        }
+      ],
+      "commitMessage": "Add platform adaptor for watchdog API on TX\n\nImplement the watchdog platform adaptor for ThreadX.\n\nResolves: LE-13551\nChange-Id: I158b587d16312ebeef28945f31c26b1e2ce93878\n",
+      "subject": "Add platform adaptor for watchdog API on TX",
+      "project": "Legato/platformAdaptor/wdogThreadX",
+      "branch": "master",
+      "createdOn": 1574113860,
+      "url": "http://10.107.128.8:8081/c/Legato/platformAdaptor/wdogThreadX/+/53092",
+      "number": 53092,
+      "lastUpdated": 1575409900,
+      "allReviewers": [
+        {
+          "name": "Keith Dunwoody",
+          "email": "kdunwoody@sierrawireless.com",
+          "username": "kdunwoody"
+        },
+        {
+          "name": "Shristi Pradhan",
+          "email": "SPradhan@sierrawireless.com",
+          "username": "spradhan"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Andrew Macisaac",
+          "email": "AMacisaac@sierrawireless.com",
+          "username": "amacisaac"
+        },
+        {
+          "name": "Oscar Hou",
+          "email": "OHou@sierrawireless.com",
+          "username": "ohou"
+        },
+        {
+          "name": "Tom Huang",
+          "email": "THuang@sierrawireless.com",
+          "username": "thuang"
+        },
+        {
+          "name": "Vincent Gao",
+          "email": "VGao@sierrawireless.com",
+          "username": "vgao"
+        },
+        {
+          "name": "Graham Allegretto",
+          "email": "GAllegretto@sierrawireless.com",
+          "username": "gallegretto"
+        },
+        {
+          "name": "Lars Martin",
+          "email": "LMartin@sierrawireless.com",
+          "username": "lmartin"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "le-13551-tx-wdog",
+      "id": "I158b587d16312ebeef28945f31c26b1e2ce93878",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 139,
+          "ref": "refs/changes/92/53092/1",
+          "comments": [
+            {
+              "file": "components/le_pa_wdog/pa_wdog.c",
+              "line": 31,
+              "reviewer": {
+                "name": "Shristi Pradhan",
+                "email": "SPradhan@sierrawireless.com",
+                "username": "spradhan"
+              },
+              "message": "Should this be an error log? Does it make sense if it's a debug log or info log?"
+            },
+            {
+              "file": "components/le_pa_wdog/pa_wdog.c",
+              "line": 31,
+              "reviewer": {
+                "name": "Oscar Hou",
+                "email": "OHou@sierrawireless.com",
+                "username": "ohou"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "components/le_pa_wdog/pa_wdog.c",
+              "line": 124,
+              "reviewer": {
+                "name": "Shristi Pradhan",
+                "email": "SPradhan@sierrawireless.com",
+                "username": "spradhan"
+              },
+              "message": "Can we add logging similar to pa_wdog_Shutdown() instead of silently not doing anything."
+            },
+            {
+              "file": "components/le_pa_wdog/pa_wdog.c",
+              "line": 124,
+              "reviewer": {
+                "name": "Oscar Hou",
+                "email": "OHou@sierrawireless.com",
+                "username": "ohou"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "author": {
+            "name": "Oscar",
+            "email": "ohou@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1574287458,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1574287458,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Shristi Pradhan",
+                "email": "SPradhan@sierrawireless.com",
+                "username": "spradhan"
+              },
+              "grantedOn": 1574294663,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1574113860,
+          "revision": "68982781543e4e88898b852c2014e2191bbfa117",
+          "parents": [
+            "4e17108766a78efb4fb06b7c5732b536acdd9480"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 139,
+          "ref": "refs/changes/92/53092/2",
+          "uploader": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "author": {
+            "name": "Oscar",
+            "email": "ohou@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Shristi Pradhan",
+                "email": "SPradhan@sierrawireless.com",
+                "username": "spradhan"
+              },
+              "grantedOn": 1574297963,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Andrew Macisaac",
+                "email": "AMacisaac@sierrawireless.com",
+                "username": "amacisaac"
+              },
+              "grantedOn": 1574888714,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1575318644,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1575318644,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1574296991,
+          "revision": "d881c0133246515ecb72b696328cc8142bb7b14d",
+          "parents": [
+            "4e17108766a78efb4fb06b7c5732b536acdd9480"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 139,
+          "ref": "refs/changes/92/53092/3",
+          "uploader": {
+            "name": "Oscar Hou",
+            "email": "OHou@sierrawireless.com",
+            "username": "ohou"
+          },
+          "author": {
+            "name": "Oscar",
+            "email": "ohou@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1575329714,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1575329714,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Shristi Pradhan",
+                "email": "SPradhan@sierrawireless.com",
+                "username": "spradhan"
+              },
+              "grantedOn": 1575335229,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Keith Dunwoody",
+                "email": "kdunwoody@sierrawireless.com",
+                "username": "kdunwoody"
+              },
+              "grantedOn": 1575409671,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Keith Dunwoody",
+                "email": "kdunwoody@sierrawireless.com",
+                "username": "kdunwoody"
+              },
+              "grantedOn": 1575409900,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1575325687,
+          "revision": "25d23fccba24e368c2c5079976f84309b32e6c63",
+          "parents": [
+            "4e17108766a78efb4fb06b7c5732b536acdd9480"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

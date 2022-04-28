@@ -1,0 +1,718 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1598048415
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1598048417
+        }
+      ],
+      "commitMessage": "Demo commit\n\nChange-Id: I04e5cdb05084061b512f5931a9792436929a306c\n",
+      "subject": "Demo commit",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1598048415,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/66293",
+      "number": 66293,
+      "lastUpdated": 1598048417,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        }
+      ],
+      "id": "I04e5cdb05084061b512f5931a9792436929a306c",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/93/66293/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1598048417,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1598048415,
+          "revision": "98794d11bdbd04692dee47aaeb1f1096d5531ce7",
+          "parents": [
+            "6ee2d061bd168386db54ad881799836dabeb0632"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1598048415
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1598048417
+        }
+      ],
+      "commitMessage": "Added exception handeling for HMP2030.vb\n\nChange-Id: Icda19a313087ee7fb8bb888a9550dfda1d2ef347\n",
+      "subject": "Added exception handeling for HMP2030.vb",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1598048415,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/66292",
+      "number": 66292,
+      "lastUpdated": 1598048417,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        }
+      ],
+      "id": "Icda19a313087ee7fb8bb888a9550dfda1d2ef347",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 20,
+          "ref": "refs/changes/92/66292/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 59665,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1598048417,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1598048415,
+          "revision": "6ee2d061bd168386db54ad881799836dabeb0632",
+          "parents": [
+            "e3f72b70cc0963706ac504e713e161e390861b18"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1598048415
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1598048416
+        }
+      ],
+      "commitMessage": "August 6th changes\n\nChange-Id: I7af9e40f0bdaf136dd6ee463c156f901ff249136\n",
+      "subject": "August 6th changes",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1598048415,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/66291",
+      "number": 66291,
+      "lastUpdated": 1598048416,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        }
+      ],
+      "id": "I7af9e40f0bdaf136dd6ee463c156f901ff249136",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/91/66291/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1598048416,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1598048415,
+          "revision": "e3f72b70cc0963706ac504e713e161e390861b18",
+          "parents": [
+            "c8c8a9f04826e16cd35aeff2225b09cf53ee8cd1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594759015
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1594759028
+        },
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1595353889
+        }
+      ],
+      "commitMessage": "July 14th 2020 updates\n\nChange-Id: Id51d6e8fefc52bf48a00b2c252bfdc7b946167a4\n",
+      "subject": "July 14th 2020 updates",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1594759015,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/64697",
+      "number": 64697,
+      "lastUpdated": 1595353889,
+      "allReviewers": [
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Id51d6e8fefc52bf48a00b2c252bfdc7b946167a4",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 10212,
+          "ref": "refs/changes/97/64697/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 9307,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1594759028,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1595353889,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1595353889,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1594759015,
+          "revision": "c8c8a9f04826e16cd35aeff2225b09cf53ee8cd1",
+          "parents": [
+            "e5faf5de4d986c2374ea136e5476c1b6d68df170"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594759015
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1594759027
+        },
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1595353808
+        }
+      ],
+      "commitMessage": "Codebase as of March 2020\n\nChange-Id: Ie8d3e6d2e98436fc3eb7a2c34fd1ec1f9fc99f89\n",
+      "subject": "Codebase as of March 2020",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1594759015,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/64696",
+      "number": 64696,
+      "lastUpdated": 1595353808,
+      "allReviewers": [
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ie8d3e6d2e98436fc3eb7a2c34fd1ec1f9fc99f89",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1244308,
+          "ref": "refs/changes/96/64696/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "jslomowitz@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1594759027,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1595353808,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1595353808,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1594759015,
+          "revision": "e5faf5de4d986c2374ea136e5476c1b6d68df170",
+          "parents": [
+            "562dd7186df5ca7b0f4a9e99157c37cdf802b792"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594685961
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.\n - Your mentioned ticket does not exist\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1594685973
+        },
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1594746354
+        }
+      ],
+      "commitMessage": "changes for OEMRMDHW-16\n\nChange-Id: I2b39f9da8f522609c1829f0b09acd9ddfa909333\n",
+      "subject": "changes for OEMRMDHW-16",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1594685961,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/64653",
+      "number": 64653,
+      "lastUpdated": 1594746354,
+      "allReviewers": [
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I2b39f9da8f522609c1829f0b09acd9ddfa909333",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1244308,
+          "ref": "refs/changes/53/64653/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1594685973,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1594746354,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1594746354,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1594685961,
+          "revision": "ba26b0bebc6066738a425873b0a9b79226b1c81b",
+          "parents": [
+            "562dd7186df5ca7b0f4a9e99157c37cdf802b792"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jenna Slomowitz",
+        "email": "JSlomowitz@sierrawireless.com",
+        "username": "jslomowitz"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594676368
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1594676377
+        },
+        {
+          "reviewer": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1594679668
+        }
+      ],
+      "commitMessage": "code as of Jan 2020\n\nChange-Id: I8790477f0dd629c7f96ee1390cc57c28870762c4\n",
+      "subject": "code as of Jan 2020",
+      "project": "HW_ATE",
+      "branch": "master",
+      "createdOn": 1594676368,
+      "url": "http://10.107.128.8:8081/c/HW_ATE/+/64630",
+      "number": 64630,
+      "lastUpdated": 1594679668,
+      "allReviewers": [
+        {
+          "name": "Jenna Slomowitz",
+          "email": "JSlomowitz@sierrawireless.com",
+          "username": "jslomowitz"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I8790477f0dd629c7f96ee1390cc57c28870762c4",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1244143,
+          "ref": "refs/changes/30/64630/1",
+          "uploader": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "author": {
+            "name": "Jenna Slomowitz",
+            "email": "JSlomowitz@sierrawireless.com",
+            "username": "jslomowitz"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1594676377,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1594679668,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jenna Slomowitz",
+                "email": "JSlomowitz@sierrawireless.com",
+                "username": "jslomowitz"
+              },
+              "grantedOn": 1594679668,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1594676368,
+          "revision": "82adebd3652f916d831a782010b21231c96c8f84",
+          "parents": [
+            "562dd7186df5ca7b0f4a9e99157c37cdf802b792"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

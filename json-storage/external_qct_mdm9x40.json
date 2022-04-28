@@ -1,0 +1,1316 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Peter Chen",
+        "email": "PeChen@sierrawireless.com",
+        "username": "pechen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1555383275
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Abandoned",
+          "timestamp": 1555383695
+        }
+      ],
+      "commitMessage": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail\n\nIssue Description:\nACIS: QMI_VOICE_GetAllCallInfo test fail\n\nRoot Cause:\nVOICE_getAllCallInfo_Func call 12120 failed because of 12120 screen sim card calls\n\nSolution:\nchange to freefone 12117\n\nChange-Id: Ib72578291f437c45cf3c7f4aa0196ffd756de065\nSigned-off-by: Peter Chen <pechen@sierrawireless.com>\n",
+      "subject": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1555383275,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/45376",
+      "number": 45376,
+      "lastUpdated": 1555383695,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ib72578291f437c45cf3c7f4aa0196ffd756de065",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/76/45376/1",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1555383275,
+          "revision": "6010ca9eebe7067b0f431364ba9909e259773087",
+          "parents": [
+            "1afff47f497d73b214c65d8ef1f98999973925f4"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Chen",
+        "email": "PeChen@sierrawireless.com",
+        "username": "pechen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554970301
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Set private",
+          "timestamp": 1554970443
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Unset private",
+          "timestamp": 1554970450
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Abandoned",
+          "timestamp": 1555383113
+        }
+      ],
+      "commitMessage": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail\n\nIssue Description:\nACIS: QMI_VOICE_GetAllCallInfo test fail\n\nRoot Cause:\nVOICE_getAllCallInfo_Func call 12120 failed because of 12120 screen sim card calls\n\nSolution:\nchange to freefone 12117\n\nChange-Id: I8df3c8f2c91cc56b1336e43ae4774aa9978493bf\nSigned-off-by: Peter Chen <pechen@sierrawireless.com>\n",
+      "subject": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1554970301,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/45198",
+      "number": 45198,
+      "lastUpdated": 1555383113,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I8df3c8f2c91cc56b1336e43ae4774aa9978493bf",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/98/45198/1",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1554970301,
+          "revision": "edfe7e8d9af9425dd188c17e45234a92396ee631",
+          "parents": [
+            "ecc2b3adeac50e986013887e349f2fcd7ee9675c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Chen",
+        "email": "PeChen@sierrawireless.com",
+        "username": "pechen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554969230
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Ticket QTI9X28-5699 was resolved/closed",
+          "timestamp": 1554969236
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1554969277
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - The keyword [9x40] should be preceded by ' - '.\n - Your first line should separate the ticket declaration(s) from the summary with a dash.",
+          "timestamp": 1554969297
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1554969374
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1554969379
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Abandoned",
+          "timestamp": 1554969699
+        }
+      ],
+      "commitMessage": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail\n\nIssue Description:\nACIS: QMI_VOICE_GetAllCallInfo test fail\n\nRoot Cause:\nVOICE_getAllCallInfo_Func call 12120 failed because of 12120 screen sim card calls\n\nSolution:\nchange to freefone 12117\n\nChange-Id: I8df3c8f2c91cc56b1336e43ae4774aa9978493ef\nSigned-off-by: Peter Chen <pechen@sierrawireless.com>\n",
+      "subject": "QTI9X40-5699 - ACIS: QMI_VOICE_GetAllCallInfo test fail",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1554969230,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/45196",
+      "number": 45196,
+      "lastUpdated": 1554969699,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I8df3c8f2c91cc56b1336e43ae4774aa9978493ef",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/96/45196/1",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554969236,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1554969230,
+          "revision": "c2ee265f43c985158ab168801e2691ba10906362",
+          "parents": [
+            "ecc2b3adeac50e986013887e349f2fcd7ee9675c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/96/45196/2",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1554969277,
+          "revision": "9fd7841d3dba9d54a606a542c86d4d3f6ebe789c",
+          "parents": [
+            "ecc2b3adeac50e986013887e349f2fcd7ee9675c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/96/45196/3",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1554969374,
+          "revision": "699aaf0be52b0bdbb7bf1cbf74659a52d3251f6a",
+          "parents": [
+            "ecc2b3adeac50e986013887e349f2fcd7ee9675c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Chen",
+        "email": "PeChen@sierrawireless.com",
+        "username": "pechen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1543200467
+        },
+        {
+          "reviewer": {
+            "name": "Traving Chen",
+            "email": "trchen@sierrawireless.com",
+            "username": "trchen"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)\n\nAfter disscuss with Vicent, this code cahnge only apply for QMI NV read, not cover other operation such as AT。For the NV write operation should be optimized also.",
+          "timestamp": 1543205932
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1543297578
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1543298646
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1543299136
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 5.",
+          "timestamp": 1543302670
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 6: Commit message was updated.",
+          "timestamp": 1543302809
+        },
+        {
+          "reviewer": {
+            "name": "Traving Chen",
+            "email": "trchen@sierrawireless.com",
+            "username": "trchen"
+          },
+          "message": "Patch Set 6: Code-Review-1\n\n(4 comments)",
+          "timestamp": 1543311231
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 7.",
+          "timestamp": 1543323081
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 8.",
+          "timestamp": 1543323571
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 9.",
+          "timestamp": 1543324113
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 10.",
+          "timestamp": 1543367828
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 11.",
+          "timestamp": 1543370697
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 12.",
+          "timestamp": 1543371045
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 13.",
+          "timestamp": 1543374713
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Uploaded patch set 14.",
+          "timestamp": 1543376319
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Patch Set 15: Published edit on patch set 14.",
+          "timestamp": 1543397634
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Patch Set 15:\n\n(7 comments)\n\n1. After your ecall_efs_cfg failed, no need to call the original function\n2. Please submit the change to le-3.1-swi branch.",
+          "timestamp": 1543403500
+        },
+        {
+          "reviewer": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "message": "Abandoned",
+          "timestamp": 1543472263
+        }
+      ],
+      "commitMessage": "QTI9X40-4975 - ERA configuration HOST_BUILD_MSD is changed during eCall stress testing\n\nIssue Description:\nthe ERA-GLONASS configuration HOST_BUILD_MSD should be set as TRUE, but in VWIF issue\ndevice, it has been changed as FALSE.\n\nRoot Cause:\nin qmi task and ecall task,they call the same share variable ecall_efs_data at the same time,qmi_task will\nread the qc cfg file instead of read swi cfg file,this will make HOST_BUILD_MSD value wrong,so the case happend.\n\nSolution:\nModify the source code to call the ecall_efs_data in ecall task,qmi task not allowed to call the ecall_efs_data\n\nChange-Id: I664b189fdf27a6bb6b0d18006208a808bb3ac753\nSigned-off-by: Peter Chen <pechen@sierrawireless.com>\n",
+      "subject": "QTI9X40-4975 - ERA configuration HOST_BUILD_MSD is changed during eCall stress testing",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1543200467,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/38955",
+      "number": 38955,
+      "lastUpdated": 1543472263,
+      "allReviewers": [
+        {
+          "name": "Vincent Liu",
+          "email": "vliu@sierrawireless.com",
+          "username": "vliu"
+        },
+        {
+          "name": "Shawn Wu",
+          "email": "ShWu@sierrawireless.com",
+          "username": "shwu"
+        },
+        {
+          "name": "John Li",
+          "email": "jli@sierrawireless.com",
+          "username": "jli"
+        },
+        {
+          "name": "Traving Chen",
+          "email": "trchen@sierrawireless.com",
+          "username": "trchen"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I664b189fdf27a6bb6b0d18006208a808bb3ac753",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 122,
+          "ref": "refs/changes/55/38955/1",
+          "comments": [
+            {
+              "file": "modem_proc/mmcp/ecall/hlap/src/ecall_app.c",
+              "line": 2756,
+              "reviewer": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "message": "Can't share the same semaphore  between diffent tasks, every task should define its semaphore, if not, it will block in this function"
+            }
+          ],
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "createdOn": 1543200467,
+          "revision": "bb485eb1e2d8e0521609305780a4a6697e00d2ae",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 297,
+          "ref": "refs/changes/55/38955/2",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 28,
+          "createdOn": 1543297578,
+          "revision": "2c071878a1dc457ad027f3c48e4d91a613b6e70f",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 304,
+          "ref": "refs/changes/55/38955/3",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 40,
+          "createdOn": 1543298646,
+          "revision": "bf4a72203afe3ecb7d2ad788285bf4a1133a9202",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 308,
+          "ref": "refs/changes/55/38955/4",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 46,
+          "createdOn": 1543299136,
+          "revision": "4b0deb30ef696aa3913d0ae9ada3449b823a42d3",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 309,
+          "ref": "refs/changes/55/38955/5",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 46,
+          "createdOn": 1543302670,
+          "revision": "815ca84f1b8f2cb4f9fc4ef6ada0d6f300358c79",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 6,
+          "sizeInsertions": 309,
+          "ref": "refs/changes/55/38955/6",
+          "comments": [
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 509,
+              "reviewer": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "message": "Please remove two spaces."
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 513,
+              "reviewer": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "message": "It is better to start a new line"
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 515,
+              "reviewer": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "message": "Can put it in ecall's head file?"
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 8219,
+              "reviewer": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "message": "Please wait the semaphore ecall_efs_cfg()"
+            }
+          ],
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 46,
+          "approvals": [
+            {
+              "by": {
+                "name": "Traving Chen",
+                "email": "trchen@sierrawireless.com",
+                "username": "trchen"
+              },
+              "grantedOn": 1543311231,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1543302809,
+          "revision": "c0112bc2ce67582d34cafdf65c8d1ba2f6aea2d3",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 7,
+          "sizeInsertions": 315,
+          "ref": "refs/changes/55/38955/7",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 49,
+          "createdOn": 1543323081,
+          "revision": "5c7724912cc0e3d071f96ba2cd025d8e56e3d479",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 8,
+          "sizeInsertions": 332,
+          "ref": "refs/changes/55/38955/8",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 49,
+          "createdOn": 1543323571,
+          "revision": "97d1e8be542e1c3f0a9f5bf5c168169b3bf1544c",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 9,
+          "sizeInsertions": 337,
+          "ref": "refs/changes/55/38955/9",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543324113,
+          "revision": "f103714c30d846a1edfc8cbe2133f8534ad70e57",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 10,
+          "sizeInsertions": 335,
+          "ref": "refs/changes/55/38955/10",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543367828,
+          "revision": "ab75b0f71d006f286055122b0c553ec97184f92f",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 11,
+          "sizeInsertions": 347,
+          "ref": "refs/changes/55/38955/11",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543370697,
+          "revision": "cfdfa64f985a9064425edf4bbd33940bc3bbc0d9",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 12,
+          "sizeInsertions": 349,
+          "ref": "refs/changes/55/38955/12",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543371045,
+          "revision": "e7c2a7f0c78050226c70992a7cd27e8bc1a10147",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 13,
+          "sizeInsertions": 350,
+          "ref": "refs/changes/55/38955/13",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543374713,
+          "revision": "13c797041644498047c2297ed604bd546086e3f9",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 14,
+          "sizeInsertions": 355,
+          "ref": "refs/changes/55/38955/14",
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 54,
+          "createdOn": 1543376319,
+          "revision": "a0fcb7dc69a43fdb0c39b0b2e74abf512f9d58f2",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        },
+        {
+          "number": 15,
+          "sizeInsertions": 355,
+          "ref": "refs/changes/55/38955/15",
+          "comments": [
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 7941,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "No need for this, just return DSAT_ERROR, it is enough."
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 8142,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "No need for this, just return error"
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 8201,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "no need for this"
+            },
+            {
+              "file": "modem_proc/datamodem/interface/atcop/src/dsatvend.c",
+              "line": 8406,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "no need for this,"
+            },
+            {
+              "file": "modem_proc/mmcp/api/public/ecall_app.h",
+              "line": 111,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "Should be ERA, what is meaning of ERU?"
+            },
+            {
+              "file": "modem_proc/mmcp/ecall/hlap/src/ecall_app.c",
+              "line": 2864,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "I suggest to pass the address the semp, no need for the index"
+            },
+            {
+              "file": "modem_proc/mmcp/ecall/hlap/src/ecall_app_task.c",
+              "line": 313,
+              "reviewer": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "message": "Add the enter here, to let the code more readable"
+            }
+          ],
+          "uploader": {
+            "name": "Peter Chen",
+            "email": "PeChen@sierrawireless.com",
+            "username": "pechen"
+          },
+          "author": {
+            "name": "Peter Chen",
+            "email": "pechen@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 53,
+          "createdOn": 1543397634,
+          "revision": "a10c08c49567425df2fffd1e9805f644a99c1de7",
+          "parents": [
+            "4f063e21bb8ba15f006865c21a0d7aeabc49c8a6"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kaz Kylheku",
+        "email": "KKylheku@sierrawireless.com",
+        "username": "kkylheku"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1523327473
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your first line should separate the ticket declaration(s) from the summary with a dash.",
+          "timestamp": 1523327485
+        },
+        {
+          "reviewer": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1523382475
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1523382486
+        },
+        {
+          "reviewer": {
+            "name": "Zoran Markovic",
+            "email": "zmarkovic@sierrawireless.com",
+            "username": "zmarkovic"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\nInstead of configuring DMZ, we need WAN firewall enabled to do masquerading. Also I'd prefer to be one configuration step (e.g. enabling WAN uplink) away from enabling default IPA configuration (WAN uplink + masquerading + L2TP/IPv6/VLAN).",
+          "timestamp": 1523469303
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\nThe branch is not correct.",
+          "timestamp": 1523848032
+        },
+        {
+          "reviewer": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "message": "Abandoned\n\nWrong branch.",
+          "timestamp": 1524008874
+        }
+      ],
+      "commitMessage": "LXSWIREF-111 - IPA: VPN+L2TP settings in default XML.\n\nThe mobileap_cfg.xml is modified thusly:\n\n- DMZ IP is hard coded to 192.168.225.90.\n- VLAN #8 is configured: eth0.8.\n- L2TP is configured and enabled:\n  - IPv6: tunnel_id 1, session_id 1.\n  - remote IP: fd53:7cb8:383:8::124\n                             ^    ^\n                             '     `- local is 123\n                             '\n                              `- matches VLAN\n  - MTU is enabled.\n\nChange-Id: I674b5ec9932734298839f070b28b0bb3b30312b3\nSigned-off-by: Kaz Kylheku <kkylheku@sierrawireless.com>\n",
+      "subject": "LXSWIREF-111 - IPA: VPN+L2TP settings in default XML.",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1523327473,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/27006",
+      "number": 27006,
+      "lastUpdated": 1524008874,
+      "allReviewers": [
+        {
+          "name": "Yan Kong",
+          "email": "ykong@sierrawireless.com",
+          "username": "ykong"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Honan Li",
+          "email": "hli@sierrawireless.com",
+          "username": "hli"
+        },
+        {
+          "name": "Vincent Liu",
+          "email": "vliu@sierrawireless.com",
+          "username": "vliu"
+        },
+        {
+          "name": "Jason Liu",
+          "email": "jaliu@sierrawireless.com",
+          "username": "jaliu"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I674b5ec9932734298839f070b28b0bb3b30312b3",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 21,
+          "ref": "refs/changes/06/27006/1",
+          "uploader": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "author": {
+            "name": "Kaz Kylheku",
+            "email": "kkylheku@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1523327485,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1523327473,
+          "revision": "77ee6888023f6b5b2bb0106e06c691537cd3b138",
+          "parents": [
+            "b6fc90d626e8bbfbd759f3131ee739fbcb37233a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 21,
+          "ref": "refs/changes/06/27006/2",
+          "uploader": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "author": {
+            "name": "Kaz Kylheku",
+            "email": "kkylheku@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "Zoran Markovic",
+                "email": "zmarkovic@sierrawireless.com",
+                "username": "zmarkovic"
+              },
+              "grantedOn": 1523469303,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "Yan Kong",
+                "email": "ykong@sierrawireless.com",
+                "username": "ykong"
+              },
+              "grantedOn": 1523848032,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1523382475,
+          "revision": "7665a1db2a8c00482fa6db88c4b9c85e13392d4c",
+          "parents": [
+            "b6fc90d626e8bbfbd759f3131ee739fbcb37233a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kaz Kylheku",
+        "email": "KKylheku@sierrawireless.com",
+        "username": "kkylheku"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1523382215
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1523382216
+        },
+        {
+          "reviewer": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "message": "Abandoned\n\nBad, unintended submission.",
+          "timestamp": 1523382416
+        }
+      ],
+      "commitMessage": "LXSWIREF-111 - IPA: VPN+L2TP settings in default XML.\n\nThe mobileap_cfg.xml is modified thusly:\n\n- DMZ IP is hard coded to 192.168.225.90.\n- VLAN #8 is configured: eth0.8.\n- L2TP is configured and enabled:\n  - IPv6: tunnel_id 1, session_id 1.\n  - remote IP: fd53:7cb8:383:8::124\n                             ^    ^\n                             '     `- local is 123\n                             '\n                              `- matches VLAN\n  - MTU is enabled.\n\nResolves: Change-Id: I674b5ec9932734298839f070b28b0bb3b30312b3\nChange-Id: Ida853dc0f858dac7716a3ca2ca2e6029a6930467\nSigned-off-by: Kaz Kylheku <kkylheku@sierrawireless.com>\n",
+      "subject": "LXSWIREF-111 - IPA: VPN+L2TP settings in default XML.",
+      "project": "external/qct/mdm9x40",
+      "branch": "master",
+      "createdOn": 1523382215,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x40/+/27076",
+      "number": 27076,
+      "lastUpdated": 1523409107,
+      "allReviewers": [
+        {
+          "name": "Honan Li",
+          "email": "hli@sierrawireless.com",
+          "username": "hli"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ida853dc0f858dac7716a3ca2ca2e6029a6930467",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 21,
+          "ref": "refs/changes/76/27076/1",
+          "uploader": {
+            "name": "Kaz Kylheku",
+            "email": "KKylheku@sierrawireless.com",
+            "username": "kkylheku"
+          },
+          "author": {
+            "name": "Kaz Kylheku",
+            "email": "kkylheku@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1523382216,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1523382215,
+          "revision": "50cfe94dab30fc8567144cb3b0dd1b7c641c6fd0",
+          "parents": [
+            "b6fc90d626e8bbfbd759f3131ee739fbcb37233a"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

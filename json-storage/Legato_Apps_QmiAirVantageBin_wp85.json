@@ -1,0 +1,344 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1534202206
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/Legato-Review/22606/",
+          "timestamp": 1534202457
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1 Quality-Check+2\n\nJenkins job: http://jenkins-legato/job/Legato-Review/22606/\nArtifacts: http://get.legato.sierrawireless.local/legato/review/33018/2\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Legato-Review/22606.html\nMain build has failed\nSonar: No issue found\nShellcheck: No issue found\nKlocwork: No analysis\nBuild result: FAILURE",
+          "timestamp": 1534203838
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins-legato/job/Legato-Review/22620/",
+          "timestamp": 1534239379
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1\n\nJenkins job: http://jenkins-legato/job/Legato-Review/22620/\nArtifacts: http://get.legato.sierrawireless.local/legato/review/33018/3\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Legato-Review/22620.html\nSonar: No issue found\nShellcheck: No analysis\nKlocwork: No analysis\nBuild result: ABORTED",
+          "timestamp": 1534239857
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins-legato/job/Legato-Review/22621/",
+          "timestamp": 1534239862
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1\n\nJenkins job: http://jenkins-legato/job/Legato-Review/22621/\nArtifacts: http://get.legato.sierrawireless.local/legato/review/33399/1\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Legato-Review/22621.html\nMain build has failed\nSonar: No issue found\nShellcheck: No issue found\nKlocwork: No analysis\nBuild result: FAILURE",
+          "timestamp": 1534240607
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Topic qmiAirVantage-on-WPx5xx removed",
+          "timestamp": 1534270640
+        },
+        {
+          "reviewer": {
+            "name": "Calvin Fong",
+            "email": "CFong@sierrawireless.com",
+            "username": "cfong"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1534320340
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1534380510
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1534380516
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Patch Set 2 was rebased",
+          "timestamp": 1534380531
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at http://jenkins-legato/job/Legato-Review/22675/",
+          "timestamp": 1534380579
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1 Quality-Check+2\n\nJenkins job: http://jenkins-legato/job/Legato-Review/22675/\nArtifacts: http://get.legato.sierrawireless.local/legato/review/33367/3\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Legato-Review/22675.html\nDoc: http://get.legato.sierrawireless.local/legato/review/33367/3/soloBuild/doc/user/html_converted/index.html\nUT Coverage: http://get.legato.sierrawireless.local/legato/review/33367/3/soloBuild/coverage/localhost/html/\nGlobal Coverage: http://get.legato.sierrawireless.local/legato/review/33367/3/soloBuild/coverage/all/html/\nSonar: No issue found\nShellcheck: No analysis\nKlocwork: No issue found\nBuild result: SUCCESS",
+          "timestamp": 1534383784
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1534384132
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1534384134
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Cherry Picked\n\nThis patchset was cherry picked to branch 18.06-release as commit 61cac6650ce6d66eaaae8123d6ccceb4c3f7a721",
+          "timestamp": 1534478065
+        }
+      ],
+      "commitMessage": "Add wp750x symlink\n\nNecessary otherwise the pre-built app for wp750x can't be found.\n\nResolves: LE-10821\nChange-Id: I76ab044b573a6883d00b104776e3a503f90a8cf1\n",
+      "subject": "Add wp750x symlink",
+      "project": "Legato/Apps/QmiAirVantageBin/wp85",
+      "branch": "master",
+      "createdOn": 1534202206,
+      "url": "http://10.107.128.8:8081/c/Legato/Apps/QmiAirVantageBin/wp85/+/33367",
+      "number": 33367,
+      "lastUpdated": 1534478065,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I76ab044b573a6883d00b104776e3a503f90a8cf1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/67/33367/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1534203838,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1534240607,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            },
+            {
+              "by": {
+                "name": "Calvin Fong",
+                "email": "CFong@sierrawireless.com",
+                "username": "cfong"
+              },
+              "grantedOn": 1534320340,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1534202206,
+          "revision": "5ab1fecaf43e2e7ea64e37e9df5cb16f1888f7f1",
+          "parents": [
+            "145cb4212f68a79bc8acf37c154ddd20093c9195"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/67/33367/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1534380510,
+          "revision": "327b057531735cb91aa99a3295eb92c5d1e82b57",
+          "parents": [
+            "145cb4212f68a79bc8acf37c154ddd20093c9195"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/67/33367/3",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1534383784,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1534383784,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534384132,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534384134,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1534380531,
+          "revision": "57445b23e32547bae8395a98af8cb5b7ad19b44b",
+          "parents": [
+            "83debeb96b43df3a870c0fbf9f843321c437662b"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

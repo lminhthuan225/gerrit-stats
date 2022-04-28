@@ -1,0 +1,339 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1592903819
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1592903820
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1592903845
+        }
+      ],
+      "commitMessage": "Merge remote-tracking branch 'origin/master' into HEAD\n\nChange-Id: I3b895b6f4f5b522789efde8f539591ae1e37df3b\nSigned-off-by: Bertrand Roussel <broussel@sierrawireless.com>\n",
+      "subject": "Merge remote-tracking branch 'origin/master' into HEAD",
+      "project": "external/repo",
+      "branch": "master",
+      "createdOn": 1592903819,
+      "url": "http://10.107.128.8:8081/c/external/repo/+/63793",
+      "number": 63793,
+      "lastUpdated": 1592903845,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I3b895b6f4f5b522789efde8f539591ae1e37df3b",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/93/63793/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 50,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1592903820,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1592903819,
+          "revision": "349d1f2417a92daeee2df3f2f30193609612f7b3",
+          "parents": [
+            "360ca2c5f7d6be72042067183d74ae863ddd8297",
+            "ac29ac397fdaacd1bcec8fad59d3ad62a1a1867c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jon Back",
+        "email": "JBack@sierrawireless.com",
+        "username": "jback"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1582138596
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1582138596
+        }
+      ],
+      "commitMessage": "Changed URL to use gerrit.legato.\n\nChange-Id: I41cc14ed23c30bc3ace6d35a132ce299eba55feb\n",
+      "subject": "Changed URL to use gerrit.legato.",
+      "project": "external/repo",
+      "branch": "master",
+      "createdOn": 1582138596,
+      "url": "http://10.107.128.8:8081/c/external/repo/+/57697",
+      "number": 57697,
+      "lastUpdated": 1582138596,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I41cc14ed23c30bc3ace6d35a132ce299eba55feb",
+      "open": true,
+      "status": "NEW",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/97/57697/1",
+          "uploader": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "author": {
+            "name": "Jonathan Back",
+            "email": "jback@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1582138596,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1582138596,
+          "revision": "07d8930f8224d5826593f21f888f4183d5075fd0",
+          "parents": [
+            "360ca2c5f7d6be72042067183d74ae863ddd8297"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1522365975
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.\n - Your commit message should be more than one line.",
+          "timestamp": 1522365975
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1522366587
+        }
+      ],
+      "commitMessage": "Handle input errors for hook scripts execution\n",
+      "subject": "Handle input errors for hook scripts execution",
+      "project": "external/repo",
+      "branch": "master",
+      "createdOn": 1522365975,
+      "url": "http://10.107.128.8:8081/c/external/repo/+/26655",
+      "number": 26655,
+      "lastUpdated": 1522366587,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I393bde9e0f81c13b0bc280fa27fe3b2e41a011de",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 11,
+          "ref": "refs/changes/55/26655/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1522365975,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1522365975,
+          "revision": "6b9802125a64c7656e21f12650092731f21ddca4",
+          "parents": [
+            "5d4d0ab4e157a745026c725c9db6b7ef02e500d3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1520474075
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1520474185
+        }
+      ],
+      "commitMessage": "Use shallow clone only with git >= 1.14.2\n\nThis does not work on git 1.11.0 and was only verified to be working\nwith git 1.14.2.\n\nResolves: FARM-1512\nChange-Id: Ifb993f8066bc2ce9395e13d9cd28cba259332b83\n",
+      "subject": "Use shallow clone only with git >= 1.14.2",
+      "project": "external/repo",
+      "branch": "master",
+      "createdOn": 1520474075,
+      "url": "http://10.107.128.8:8081/c/external/repo/+/25695",
+      "number": 25695,
+      "lastUpdated": 1520474185,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ifb993f8066bc2ce9395e13d9cd28cba259332b83",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/95/25695/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1520474075,
+          "revision": "1fe851295e9a2450821f48001d5fab7df31ab29a",
+          "parents": [
+            "b184f2261ebe75b06f305298120e694af1703382"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

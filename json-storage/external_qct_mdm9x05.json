@@ -1,0 +1,525 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Vincent Gao",
+        "email": "VGao@sierrawireless.com",
+        "username": "vgao"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594849350
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: legacy\n\nPlease check the syntax of your ticket declaration(s):\n\n - Jira tickets:\n        PROJECT-1234 - My summary\n        PROJECT-1234 - [AR758x][Keyword] My summary\n        PROJ1-1234 PROJ2-4567 - My summary with multiple tickets\n\n - Your first line should separate the ticket declaration(s) from the summary with a dash.",
+          "timestamp": 1594849352
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "message": "Topic set to LE-14961_DTR_feature",
+          "timestamp": 1594849378
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1594849590
+        }
+      ],
+      "commitMessage": "Test to notify legato when there is a DTR signal change\n\nThis patch will be abandoned when fw added APIs to register\nlegato call-back functions when there is a DTR change.\n\nResolves: LE-14961\nChange-Id: I447fab5c6aed94dde60fa8691e34417c8fff18e0\n",
+      "subject": "Test to notify legato when there is a DTR signal change",
+      "project": "external/qct/mdm9x05",
+      "branch": "master",
+      "createdOn": 1594849350,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x05/+/64792",
+      "number": 64792,
+      "lastUpdated": 1594849590,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Vincent Gao",
+          "email": "VGao@sierrawireless.com",
+          "username": "vgao"
+        }
+      ],
+      "topic": "LE-14961_DTR_feature",
+      "id": "I447fab5c6aed94dde60fa8691e34417c8fff18e0",
+      "open": true,
+      "status": "NEW",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/92/64792/1",
+          "uploader": {
+            "name": "Vincent Gao",
+            "email": "VGao@sierrawireless.com",
+            "username": "vgao"
+          },
+          "author": {
+            "name": "Vincent Gao",
+            "email": "vgao@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 4,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1594849352,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1594849350,
+          "revision": "ce64f6ee66c1990d6e494f6e1e10693df6b9a159",
+          "parents": [
+            "4859d5a62116bbc994307628d2e28b580bff361a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Ajitpal Virdi",
+        "email": "avirdi@sierrawireless.com",
+        "username": "avirdi"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1570487984
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Abandoned",
+          "timestamp": 1570488553
+        }
+      ],
+      "commitMessage": "Revert \"QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\"\n\nThis reverts commit b97a5df83f86a7885afc9da37995d85edfb7e1af.\n\nReason for revert: Change was merged into wrong branch.\n\nChange-Id: I330223f930e577c5bc405aedb106b52105a0afd3\n",
+      "subject": "Revert \"QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\"",
+      "project": "external/qct/mdm9x05",
+      "branch": "master",
+      "createdOn": 1570487984,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x05/+/51464",
+      "number": 51464,
+      "lastUpdated": 1570488553,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Ryan Kirk",
+          "email": "rkirk@sierrawireless.com",
+          "username": "rkirk"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Nita Joseph",
+          "email": "NJoseph@sierrawireless.com",
+          "username": "njoseph"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Maggie Luo",
+          "email": "mluo@sierrawireless.com",
+          "username": "mluo"
+        },
+        {
+          "name": "Sam Hoshyar",
+          "email": "SHoshyar@sierrawireless.com",
+          "username": "shoshyar"
+        },
+        {
+          "name": "Stoyan Petrov",
+          "email": "spetrov@sierrawireless.com",
+          "username": "spetrov"
+        }
+      ],
+      "id": "I330223f930e577c5bc405aedb106b52105a0afd3",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 120116,
+          "ref": "refs/changes/64/51464/1",
+          "uploader": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "author": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 144943,
+          "createdOn": 1570487984,
+          "revision": "6e27c54833599e4ae702caa2c526b28afc6818c3",
+          "parents": [
+            "b97a5df83f86a7885afc9da37995d85edfb7e1af"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Ajitpal Virdi",
+        "email": "avirdi@sierrawireless.com",
+        "username": "avirdi"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1570488004
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Abandoned",
+          "timestamp": 1570488542
+        }
+      ],
+      "commitMessage": "Revert \"QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\"\n\nThis reverts commit b97a5df83f86a7885afc9da37995d85edfb7e1af.\n\nReason for revert: Change was merged into wrong branch.\n\nChange-Id: Ib497261b4d6de52c107f13d6448d91fc45269624\n",
+      "subject": "Revert \"QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\"",
+      "project": "external/qct/mdm9x05",
+      "branch": "master",
+      "createdOn": 1570488004,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x05/+/51465",
+      "number": 51465,
+      "lastUpdated": 1570488542,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Ryan Kirk",
+          "email": "rkirk@sierrawireless.com",
+          "username": "rkirk"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Nita Joseph",
+          "email": "NJoseph@sierrawireless.com",
+          "username": "njoseph"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Maggie Luo",
+          "email": "mluo@sierrawireless.com",
+          "username": "mluo"
+        },
+        {
+          "name": "Sam Hoshyar",
+          "email": "SHoshyar@sierrawireless.com",
+          "username": "shoshyar"
+        },
+        {
+          "name": "Stoyan Petrov",
+          "email": "spetrov@sierrawireless.com",
+          "username": "spetrov"
+        }
+      ],
+      "id": "Ib497261b4d6de52c107f13d6448d91fc45269624",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 120116,
+          "ref": "refs/changes/65/51465/1",
+          "uploader": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "author": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 144943,
+          "createdOn": 1570488004,
+          "revision": "11943e73cc562ecfafe6ddaef007d88375440c5e",
+          "parents": [
+            "b97a5df83f86a7885afc9da37995d85edfb7e1af"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Sam Hoshyar",
+        "email": "SHoshyar@sierrawireless.com",
+        "username": "shoshyar"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Sam Hoshyar",
+            "email": "SHoshyar@sierrawireless.com",
+            "username": "shoshyar"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1569883005
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)\n\nHi Sam,\nI'm assuming you just ran git merge from the QTI branch?\nI'm asking because I'm wondering how to review these tickets.\nIn the past, I kind of recall files would only show up that required additional changes by Sierra.\nDid you have to make any changes?\nThanks,\nPaul",
+          "timestamp": 1569953153
+        },
+        {
+          "reviewer": {
+            "name": "Sam Hoshyar",
+            "email": "SHoshyar@sierrawireless.com",
+            "username": "shoshyar"
+          },
+          "message": "Patch Set 1:\n\n> Patch Set 1:\n> \n> (1 comment)\n> \n> Hi Sam,\n> I'm assuming you just ran git merge from the QTI branch?\n> I'm asking because I'm wondering how to review these tickets.\n> In the past, I kind of recall files would only show up that required additional changes by Sierra.\n> Did you have to make any changes?\n> Thanks,\n> Paul\n\nHi Paul - I had to make no changes, I'm guessing that's because we have not started to modify the QTI code.\n\nsam@carmd-ed-11284:~/Desktop/ssd/QTI9X05-20-1/mdm9x05$ git log --graph --oneline\n*   b97a5df QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\n|\\  \n| * 2fb70b3 Commit label r00182.1 - Post-CS4 0.0.182.1\n* | d4771a3 QTI9X05-15 - Add independent and OS packages to 9X05\n* | 099e5c4 SWIMDM-290 - Add symlinks to reach Cellular Platform directory\n* | 8eae0e0 QTI9X05-17 - Add sierra build env variables in build script\n* | 23bf020 QTI9X05-6 - Update sierra-mdm branch and add sierra build hooks\n* | 620a9f0 QTI9X05-9 - Update compiler version for RPM image\n* |   43abf7e QTI9X05-4 - Stack merge for release Post-CS3 0.0.169.1\n|\\ \\  \n| |/  \n| * 8830774 Commit label r00169.1 - Post-CS3 0.0.169.1\n* | 56d5872 QTI9X05-3 - Add scripts for HL79XX\n|/  \n* 264f002 Commit label r00158.1 - Post-CS2 0.0.158.1\n* db6fe3f Commit label r00152.1 - Post-CS 0.0.152.1\n* fefd2ac Commit label r00144.1 - CS 0.0.144.1\n* 1b87749 Commit label r00130.1 - Pre-CS 0.0.130.1\n* bf72f6c Commit label r00118.3 - Pre-CS 0.0.118.3\n* 9904c67 Commit label r00103.2 - Post-FC 0.0.103.2\n* cfbe790 Commit label r00090.2 - FC 0.0.090.2\n* 563dc86 Commit label r00082.1 - ES3 0.0.082.1\n* 44aa0e1 Commit label r00068.1 - Post-CS 0.0.068.1\n* 45aae89 Commit label r00056.1 - ES1 0.0.056.1\n* f644b62 Commit label r00041.1 - ES 0.0.041.1\n* c39f519 init\n\nYes, I just range merge.",
+          "timestamp": 1569953530
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 1: Code-Review+2\n\nThanks.\nI generally don't do the range merge.\nI just pick the version I want to merge.\nExample:\ngit merge tx-1.0_r00182.1.\nI let git decide on the range, and assume we've historically merged correctly. I don't want to accidentally leave anything out.",
+          "timestamp": 1569954866
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1569954885
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Change has been successfully merged by Ajitpal Virdi",
+          "timestamp": 1569954889
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Created a revert of this change as I330223f930e577c5bc405aedb106b52105a0afd3",
+          "timestamp": 1570487984
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Created a revert of this change as Ib497261b4d6de52c107f13d6448d91fc45269624",
+          "timestamp": 1570488004
+        }
+      ],
+      "commitMessage": "QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1\n\nCommit label r00182.1 - Post-CS4 0.0.182.1\n\nChange-Id: Ibc784e154c1b9d309cfef685cabcb3dc446da317\n",
+      "subject": "QTI9X05-20 - Merge Qualcomm MDM9205.TX.1.0-r00182.1",
+      "project": "external/qct/mdm9x05",
+      "branch": "master",
+      "createdOn": 1569883005,
+      "url": "http://10.107.128.8:8081/c/external/qct/mdm9x05/+/51290",
+      "number": 51290,
+      "lastUpdated": 1570488004,
+      "allReviewers": [
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Maggie Luo",
+          "email": "mluo@sierrawireless.com",
+          "username": "mluo"
+        },
+        {
+          "name": "Sam Hoshyar",
+          "email": "SHoshyar@sierrawireless.com",
+          "username": "shoshyar"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Ryan Kirk",
+          "email": "rkirk@sierrawireless.com",
+          "username": "rkirk"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Stoyan Petrov",
+          "email": "spetrov@sierrawireless.com",
+          "username": "spetrov"
+        },
+        {
+          "name": "Nita Joseph",
+          "email": "NJoseph@sierrawireless.com",
+          "username": "njoseph"
+        }
+      ],
+      "id": "Ibc784e154c1b9d309cfef685cabcb3dc446da317",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/90/51290/1",
+          "comments": [
+            {
+              "file": "/MERGE_LIST",
+              "line": 1,
+              "reviewer": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "message": "What is this file? Is it something gerrit creates?"
+            }
+          ],
+          "uploader": {
+            "name": "Sam Hoshyar",
+            "email": "SHoshyar@sierrawireless.com",
+            "username": "shoshyar"
+          },
+          "author": {
+            "name": "shoshyar",
+            "email": "shoshyar@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1569954866,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1569954885,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1569954889,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1569883005,
+          "revision": "b97a5df83f86a7885afc9da37995d85edfb7e1af",
+          "parents": [
+            "d4771a327a36e9239d39115a6c672db440d39cb9",
+            "2fb70b36c94b2888488e21a0266b63239d3dd0b5"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

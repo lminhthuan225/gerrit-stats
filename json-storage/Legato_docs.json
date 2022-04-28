@@ -1,0 +1,355 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1517876314
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/Legato-Review/15080/",
+          "timestamp": 1517876324
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttp://jenkins-legato/job/Legato-Review/15080/ : SUCCESS",
+          "timestamp": 1517876326
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1517878247
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild Started http://jenkins-legato/job/Legato-Review/15082/",
+          "timestamp": 1517878253
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttp://jenkins-legato/job/Legato-Review/15082/ : SUCCESS",
+          "timestamp": 1517878255
+        },
+        {
+          "reviewer": {
+            "name": "Sarra Lyford",
+            "email": "SLyford@sierrawireless.com",
+            "username": "slyford"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1517937266
+        },
+        {
+          "reviewer": {
+            "name": "Jon Back",
+            "email": "JBack@sierrawireless.com",
+            "username": "jback"
+          },
+          "message": "Change has been successfully merged by Jon Back",
+          "timestamp": 1517938939
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild Successful \n\nhttp://jenkins-legato/job/Legato-Merged/3796/ : SUCCESS",
+          "timestamp": 1517938948
+        }
+      ],
+      "commitMessage": "Update Google analytics user\n\nResolves: LE-9343\nChange-Id: Ibee9ec67c0f24414c4fb65c7de613fa05b49e747\n",
+      "subject": "Update Google analytics user",
+      "project": "Legato/docs",
+      "branch": "master",
+      "createdOn": 1517876314,
+      "url": "http://10.107.128.8:8081/c/Legato/docs/+/24374",
+      "number": 24374,
+      "lastUpdated": 1517938948,
+      "allReviewers": [
+        {
+          "name": "Jon Back",
+          "email": "JBack@sierrawireless.com",
+          "username": "jback"
+        },
+        {
+          "name": "Sarra Lyford",
+          "email": "SLyford@sierrawireless.com",
+          "username": "slyford"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ibee9ec67c0f24414c4fb65c7de613fa05b49e747",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/74/24374/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1517876326,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1517876314,
+          "revision": "b72aafea94ad4ce742863e11b2de855601382792",
+          "parents": [
+            "6f594c5dfeffa9b4d4f258f323eff1038251aa9e"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/74/24374/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1517878255,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sarra Lyford",
+                "email": "SLyford@sierrawireless.com",
+                "username": "slyford"
+              },
+              "grantedOn": 1517937266,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Jon Back",
+                "email": "JBack@sierrawireless.com",
+                "username": "jback"
+              },
+              "grantedOn": 1517938939,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1517878247,
+          "revision": "6e4d7caa99c0d6d1c8cc5d924026adf87dc1c5c2",
+          "parents": [
+            "6f594c5dfeffa9b4d4f258f323eff1038251aa9e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1505166529
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully pushed.",
+          "timestamp": 1505166535
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/Legato-Review/10244/",
+          "timestamp": 1505166549
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/Legato-Merged/2557/",
+          "timestamp": 1505166550
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Successful \n\nhttp://jenkins-legato/job/Legato-Merged/2557/ : SUCCESS",
+          "timestamp": 1505166552
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttp://jenkins-legato/job/Legato-Review/10244/ : SUCCESS",
+          "timestamp": 1505166553
+        }
+      ],
+      "commitMessage": "[Docs] Fix incorrect search API endpoint\n\nResolves: LE-8003\nChange-Id: I258100a2a9077d544436668d44ce42b35e1accd9\n",
+      "subject": "[Docs] Fix incorrect search API endpoint",
+      "project": "Legato/docs",
+      "branch": "master",
+      "createdOn": 1505166529,
+      "url": "http://10.107.128.8:8081/c/Legato/docs/+/18586",
+      "number": 18586,
+      "lastUpdated": 1505166737,
+      "allReviewers": [
+        {
+          "name": "Sarra Lyford",
+          "email": "SLyford@sierrawireless.com",
+          "username": "slyford"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I258100a2a9077d544436668d44ce42b35e1accd9",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/86/18586/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1505166535,
+              "type": "SUBM",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1505166737,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1505166529,
+          "revision": "6f594c5dfeffa9b4d4f258f323eff1038251aa9e",
+          "parents": [
+            "3b5cdd2566930f29afe4493b96e77fcaa29e5df1"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

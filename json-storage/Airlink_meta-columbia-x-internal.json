@@ -1,0 +1,171 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1633671172
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at https://jenkins.legato/job/Fx30-Review/81/",
+          "timestamp": 1633671215
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nJenkins job: https://jenkins.legato/job/Fx30-Review/81/\nArtifacts: https://get.legato/fx30/review/79134/1\nFlow: http://api.farm.legato/v1/jenkins/service/Fx30-Review/81/flow\n[ prod3g ]\nBuild result: SUCCESS",
+          "timestamp": 1633681333
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1633684303
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1633684309
+        }
+      ],
+      "commitMessage": "Migrate meta-columbia-x-internal to gerrit.legato\n\nResolves: QTI9X1555-1492\nChange-Id: I0ebe58d59e89f853755330283ba229fc7b40b568\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "Migrate meta-columbia-x-internal to gerrit.legato",
+      "project": "Airlink/meta-columbia-x-internal",
+      "branch": "master",
+      "createdOn": 1633671172,
+      "url": "http://10.107.128.8:8081/c/Airlink/meta-columbia-x-internal/+/79134",
+      "number": 79134,
+      "lastUpdated": 1633684309,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Stanley Ho",
+          "email": "SHo@sierrawireless.com",
+          "username": "sho"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Anh Tran",
+          "email": "tbanh@tma.com.vn",
+          "username": "atran"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I0ebe58d59e89f853755330283ba229fc7b40b568",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/34/79134/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1633681333,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1633684303,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1633684303,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1633684309,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1633671172,
+          "revision": "16c6b50a7cc2c2eb3a5808ccb5b0745fe2213907",
+          "parents": [
+            "372839d296466b67037209be18bb809d50829660"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

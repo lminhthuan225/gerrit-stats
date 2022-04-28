@@ -40,7 +40,8 @@ public class Commit {
         REWORK,
         TRIVIAL_REBASE,
         NO_CODE_CHANGE,
-        NO_CHANGE
+        NO_CHANGE,
+        MERGE_FIRST_PARENT_UPDATE
     }
 
     public static class Identity {

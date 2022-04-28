@@ -1,0 +1,154 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Fayçal Noui",
+        "email": "FNO@sierrawireless.com",
+        "username": "fno"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1521727109
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.\n - Your commit message should be more than one line.",
+          "timestamp": 1521727110
+        },
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1521727197
+        },
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1521727203
+        },
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Removed reviewer CARMD-EV-LXCIM_sa.",
+          "timestamp": 1521727296
+        },
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1521727660
+        },
+        {
+          "reviewer": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "message": "Change has been successfully merged by Fayçal Noui",
+          "timestamp": 1521727664
+        }
+      ],
+      "commitMessage": "Add Amarisoft configuration files with default 'enb-catm1_2chan.cfg'\n",
+      "subject": "Add Amarisoft configuration files with default 'enb-catm1_2chan.cfg'",
+      "project": "lab-system-simulator",
+      "branch": "master",
+      "createdOn": 1521727109,
+      "url": "http://10.107.128.8:8081/c/lab-system-simulator/+/26351",
+      "number": 26351,
+      "lastUpdated": 1521727664,
+      "allReviewers": [
+        {
+          "name": "Fayçal Noui",
+          "email": "FNO@sierrawireless.com",
+          "username": "fno"
+        }
+      ],
+      "id": "Ife05bab1d9e0a790339d8ea9b3509f75b917c7a8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6792,
+          "ref": "refs/changes/51/26351/1",
+          "uploader": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "author": {
+            "name": "Fayçal Noui",
+            "email": "FNO@sierrawireless.com",
+            "username": "fno"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Fayçal Noui",
+                "email": "FNO@sierrawireless.com",
+                "username": "fno"
+              },
+              "grantedOn": 1521727203,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Fayçal Noui",
+                "email": "FNO@sierrawireless.com",
+                "username": "fno"
+              },
+              "grantedOn": 1521727660,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Fayçal Noui",
+                "email": "FNO@sierrawireless.com",
+                "username": "fno"
+              },
+              "grantedOn": 1521727664,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1521727109,
+          "revision": "f43aa0ee14f8ea92a375b87fe2561d35bae86c69",
+          "parents": [
+            "19e2af9a262ee6127866e268593e14014cec1801"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}
