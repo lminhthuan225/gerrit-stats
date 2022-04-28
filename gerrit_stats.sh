@@ -85,5 +85,5 @@ rewrite_project_info
 
 
 # # generate static file
-cd "$script_path/GerritStats" || exit 1
-npm run webpack 
+# cd "$script_path/GerritStats" || exit 1
+# npm run webpack 
