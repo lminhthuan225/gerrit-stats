@@ -1,0 +1,2218 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Sunjoo Park",
+        "email": "spark@sierrawireless.com",
+        "username": "spark"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1530916619
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.\n - Your commit should mention a least one ticket.",
+          "timestamp": 1530916620
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1530917045
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1531253301
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 3: Published edit on patch set 2.",
+          "timestamp": 1553701254
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1553701255
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild Started http://jenkins.legato/job/Tools-Fwate-Review/1/",
+          "timestamp": 1553701265
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 4: Commit message was updated.",
+          "timestamp": 1553702314
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1553702315
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins.legato/job/Tools-Fwate-Review/1/\nArtifacts: http://get.legato.sierrawireless.local/tools/fwate/review/31354/3/\n : SUCCESS",
+          "timestamp": 1553705287
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Abandoned",
+          "timestamp": 1581631437
+        }
+      ],
+      "commitMessage": "fwate: a patch for testing\n\ntest + tag\n\nChange-Id: Ic225f5ea009e5d0a4ec26f30aac49159d504aef2\n",
+      "subject": "fwate: a patch for testing",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1530916619,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/31354",
+      "number": 31354,
+      "lastUpdated": 1581631437,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        }
+      ],
+      "id": "Ic225f5ea009e5d0a4ec26f30aac49159d504aef2",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/31354/1",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1530916620,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1530917045,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1530917045,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1530916619,
+          "revision": "1676ed5f5044633c82ac0f98937f62806a33367c",
+          "parents": [
+            "fa9a4ddcf9b97e3b29cb9f06f08777b33525ec9d"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/31354/2",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1531253301,
+          "revision": "20e6ec9b43ca665a2ac3bc65a4b7ba7e78dc076e",
+          "parents": [
+            "fa9a4ddcf9b97e3b29cb9f06f08777b33525ec9d"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/31354/3",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1553701255,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1553705287,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1553701254,
+          "revision": "e7f299116761a4eab2dfe2977160f2f1085c673b",
+          "parents": [
+            "fa9a4ddcf9b97e3b29cb9f06f08777b33525ec9d"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/31354/4",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1553702314,
+          "revision": "de6d67bb49237d5c1150de20132faab83eb189dd",
+          "parents": [
+            "fa9a4ddcf9b97e3b29cb9f06f08777b33525ec9d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Hong Nguyen",
+        "email": "hunguyen@sierrawireless.com",
+        "username": "hunguyen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1559207030
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started https://jenkins.legato/job/Tools-Fwate-Review/3/",
+          "timestamp": 1559207959
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nJenkins job: https://jenkins.legato/job/Tools-Fwate-Review/3/\nArtifacts: http://get.legato.sierrawireless.local/tools/fwate/review/46975/1/\n : SUCCESS",
+          "timestamp": 1559210401
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Abandoned\n\nthis was just for testing.",
+          "timestamp": 1560394126
+        }
+      ],
+      "commitMessage": "fwate: check git push for review\n\nResolves: FARM-2857\nChange-Id: I71134148aaa2f36acc879586925bec8b0e95965a\n",
+      "subject": "fwate: check git push for review",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1559207030,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/46975",
+      "number": 46975,
+      "lastUpdated": 1560394126,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I71134148aaa2f36acc879586925bec8b0e95965a",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/75/46975/1",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1559210401,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1559207030,
+          "revision": "360935193f67cb2a5f12bfd8e2328013f2a4aed4",
+          "parents": [
+            "6eb54460f07dcb78ece508787dac2a24c855cfd4"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Hong Nguyen",
+        "email": "hunguyen@sierrawireless.com",
+        "username": "hunguyen"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554100497
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1554100502
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins.legato/job/Tools-Fwate-Review/2/",
+          "timestamp": 1554100507
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1554100700
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line, you should use 'Resolves:' .",
+          "timestamp": 1554100704
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins.legato/job/Tools-Fwate-Review/2/\nArtifacts: http://get.legato.sierrawireless.local/tools/fwate/review/44734/1/\n : SUCCESS",
+          "timestamp": 1554103662
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1554201730
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line, you should use 'Resolves:' .",
+          "timestamp": 1554201735
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Abandoned\n\nstop testing",
+          "timestamp": 1554375983
+        }
+      ],
+      "commitMessage": "FWATE-388 - Patch for testing purpose only\n\nResolves: FWATE-388\nChange-Id: Icbc7dfab132ce7920ed49fcf662150ef8e385317\n",
+      "subject": "FWATE-388 - Patch for testing purpose only",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1554100497,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/44734",
+      "number": 44734,
+      "lastUpdated": 1554375983,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Icbc7dfab132ce7920ed49fcf662150ef8e385317",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/34/44734/1",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554100502,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554103662,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1554100497,
+          "revision": "1a1b6ca801c719657aaa3d2fab7651896f1e896c",
+          "parents": [
+            "6eb54460f07dcb78ece508787dac2a24c855cfd4"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/34/44734/2",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1554100700,
+          "revision": "c86d15543966123ed24d4702fe6352edf748044d",
+          "parents": [
+            "6eb54460f07dcb78ece508787dac2a24c855cfd4"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/34/44734/3",
+          "uploader": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "author": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1554201730,
+          "revision": "4841ffc33eb8288a438b652d199d26faabd55df3",
+          "parents": [
+            "6eb54460f07dcb78ece508787dac2a24c855cfd4"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Serkan Dost",
+        "email": "sdost@sierrawireless.com",
+        "username": "sdost"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1530828971
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1530829103
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1530829236
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2\n\n(1 comment)",
+          "timestamp": 1530829301
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Change has been successfully merged by Serkan Dost",
+          "timestamp": 1530829310
+        }
+      ],
+      "commitMessage": "FWATE-000 - Change device\n\n-Changes vvv\n\nResolves: FWATE-388\nChange-Id: Ifb9192067eca704eed45145b52f6171fa8c2c763\n",
+      "subject": "FWATE-000 - Change device",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1530828971,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/31266",
+      "number": 31266,
+      "lastUpdated": 1530829310,
+      "allReviewers": [
+        {
+          "name": "Serkan Dost",
+          "email": "sdost@sierrawireless.com",
+          "username": "sdost"
+        },
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ifb9192067eca704eed45145b52f6171fa8c2c763",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/66/31266/1",
+          "comments": [
+            {
+              "file": "AnritsuMD8480C/Docs/FWTestOutline.json",
+              "line": 2,
+              "reviewer": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "message": "test"
+            },
+            {
+              "file": "AnritsuMD8480C/Docs/FWTestOutline.json",
+              "line": 2,
+              "reviewer": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "message": "ok"
+            }
+          ],
+          "uploader": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "author": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1530828971,
+          "revision": "d2b83803209fcc0c516e0d21fedce9cd1eee3e02",
+          "parents": [
+            "69366a4ef6840e10402762f8eabd544430ea0600"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/66/31266/2",
+          "uploader": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "author": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "grantedOn": 1530829301,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "grantedOn": 1530829301,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "grantedOn": 1530829310,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1530829236,
+          "revision": "fa9a4ddcf9b97e3b29cb9f06f08777b33525ec9d",
+          "parents": [
+            "69366a4ef6840e10402762f8eabd544430ea0600"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Sunjoo Park",
+        "email": "spark@sierrawireless.com",
+        "username": "spark"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1529698805
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 2: Published edit on patch set 1.",
+          "timestamp": 1529699008
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1529703156
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Change has been successfully rebased and submitted as 69366a4ef6840e10402762f8eabd544430ea0600 by Sunjoo Park",
+          "timestamp": 1529703174
+        }
+      ],
+      "commitMessage": "FWATE-380 Move 1CC TPUT tests from TP8 to TP7\n\n- Test push for review #2\n- Add changes checked in SVN trunk rev 8395\n\nResolves: FWATE-380 FWATE-388\nChange-Id: I0720c3ed2a0f5d89f9699f8728ada152fc91d2b2\n",
+      "subject": "FWATE-380 Move 1CC TPUT tests from TP8 to TP7",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1529698805,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/30700",
+      "number": 30700,
+      "lastUpdated": 1529703174,
+      "allReviewers": [
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        }
+      ],
+      "id": "I0720c3ed2a0f5d89f9699f8728ada152fc91d2b2",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 634,
+          "ref": "refs/changes/00/30700/1",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 123,
+          "createdOn": 1529698805,
+          "revision": "a19c4482a47be1791ec2e25616457a78b974aacd",
+          "parents": [
+            "620794aabeb5e6bbe191f9b37dde0020d106b3ee"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 633,
+          "ref": "refs/changes/00/30700/2",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 122,
+          "approvals": [
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703156,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703156,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703174,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1529699008,
+          "revision": "851a47a42686b944fc19ebe1a433b91dd0028806",
+          "parents": [
+            "620794aabeb5e6bbe191f9b37dde0020d106b3ee"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 633,
+          "ref": "refs/changes/00/30700/3",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 122,
+          "approvals": [
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703174,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703174,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529703174,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1529703174,
+          "revision": "69366a4ef6840e10402762f8eabd544430ea0600",
+          "parents": [
+            "d34256b69b7557cdc05db1fc323cccef4fafedf8"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kiavash Mirzahossein",
+        "email": "KMirzahossein@sierrawireless.com",
+        "username": "kmirzahossein"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kiavash Mirzahossein",
+            "email": "KMirzahossein@sierrawireless.com",
+            "username": "kmirzahossein"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1529701597
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)\n\njust one comment",
+          "timestamp": 1529701716
+        },
+        {
+          "reviewer": {
+            "name": "Kiavash Mirzahossein",
+            "email": "KMirzahossein@sierrawireless.com",
+            "username": "kmirzahossein"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1529701850
+        },
+        {
+          "reviewer": {
+            "name": "Kiavash Mirzahossein",
+            "email": "KMirzahossein@sierrawireless.com",
+            "username": "kmirzahossein"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1529701905
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2\n\nlooks good",
+          "timestamp": 1529701939
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Change has been successfully merged by Sunjoo Park",
+          "timestamp": 1529701945
+        }
+      ],
+      "commitMessage": "FWATE-XX Test Push\n\nTesting how to push changes to the master.\n\nResolves: FWATE-388\n\nChange-Id: I603f7f79c09e17e38bab76d6e088bfcc00d52210\n",
+      "subject": "FWATE-XX Test Push",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1529701597,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/30702",
+      "number": 30702,
+      "lastUpdated": 1529701945,
+      "allReviewers": [
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        },
+        {
+          "name": "Kiavash Mirzahossein",
+          "email": "KMirzahossein@sierrawireless.com",
+          "username": "kmirzahossein"
+        }
+      ],
+      "id": "I603f7f79c09e17e38bab76d6e088bfcc00d52210",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/02/30702/1",
+          "comments": [
+            {
+              "file": "ProxyLinux/Source/ATComPort.c",
+              "line": 102,
+              "reviewer": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "message": "lets sleep for 10 sec?"
+            },
+            {
+              "file": "ProxyLinux/Source/ATComPort.c",
+              "line": 102,
+              "reviewer": {
+                "name": "Kiavash Mirzahossein",
+                "email": "KMirzahossein@sierrawireless.com",
+                "username": "kmirzahossein"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Kiavash Mirzahossein",
+            "email": "KMirzahossein@sierrawireless.com",
+            "username": "kmirzahossein"
+          },
+          "author": {
+            "name": "Kiavash Mirzahossein",
+            "email": "kmirzahossein@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1529701597,
+          "revision": "0ee77c243cf7dcf5be84dc835d7098e5296168e9",
+          "parents": [
+            "620794aabeb5e6bbe191f9b37dde0020d106b3ee"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/02/30702/2",
+          "uploader": {
+            "name": "Kiavash Mirzahossein",
+            "email": "KMirzahossein@sierrawireless.com",
+            "username": "kmirzahossein"
+          },
+          "author": {
+            "name": "Kiavash Mirzahossein",
+            "email": "kmirzahossein@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529701939,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529701939,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529701945,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1529701850,
+          "revision": "d34256b69b7557cdc05db1fc323cccef4fafedf8",
+          "parents": [
+            "620794aabeb5e6bbe191f9b37dde0020d106b3ee"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Sunjoo Park",
+        "email": "spark@sierrawireless.com",
+        "username": "spark"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1528856155
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528856157
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1528858249
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528858252
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1528858591
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528858594
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 4: Commit message was updated.",
+          "timestamp": 1528904385
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528904387
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 5: Commit message was updated.",
+          "timestamp": 1528904633
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5: -Quality-Check",
+          "timestamp": 1528904638
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 6: Commit message was updated.",
+          "timestamp": 1528905453
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 6: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528905456
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 7: Commit message was updated.",
+          "timestamp": 1528905518
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 7:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528905520
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 8: Commit message was updated.",
+          "timestamp": 1528905661
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 8:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528905664
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 9: Commit message was updated.",
+          "timestamp": 1528905765
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 9: -Quality-Check",
+          "timestamp": 1528905769
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 10: Commit message was updated.",
+          "timestamp": 1528905836
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 10: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528905839
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 11: Commit message was updated.",
+          "timestamp": 1528905998
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 11: -Quality-Check",
+          "timestamp": 1528906002
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 11: Code-Review+2",
+          "timestamp": 1528906238
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 11:\n\n(1 comment)",
+          "timestamp": 1528906614
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Set private",
+          "timestamp": 1528906621
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Unset private",
+          "timestamp": 1528906625
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 12: Commit message was updated.",
+          "timestamp": 1528907026
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 12: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528907029
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 11:\n\n(1 comment)",
+          "timestamp": 1528907115
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 11:\n\n(1 comment)",
+          "timestamp": 1528907789
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 13: Commit message was updated.",
+          "timestamp": 1528908262
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 13:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528908265
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 14: Commit message was updated.",
+          "timestamp": 1528908393
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 14:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528908397
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 13:\n\nI confirm from the logs that CARMD-EV-LXCIM_sa doesn't have access to the FWATE JIRA project.\n\nAlso could you give the following users access to the JIRA project:\n- CARMD-EV-LXCIM_sa\n- broussel\n- jchien\n- hbui\n- ddoan\n- hguyen\n- atran",
+          "timestamp": 1528908617
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 15: Commit message was updated.",
+          "timestamp": 1528936737
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 15: -Quality-Check",
+          "timestamp": 1528936746
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 16: Commit message was updated.",
+          "timestamp": 1529436958
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Patch Set 16: Code-Review+2",
+          "timestamp": 1529438944
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Patch Set 16:\n\nGood",
+          "timestamp": 1529439254
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 16: Verified+1",
+          "timestamp": 1529447806
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Change has been successfully merged by Sunjoo Park",
+          "timestamp": 1529447810
+        }
+      ],
+      "commitMessage": "FWATE-399 - Test commit message\n\nAdd a change to test the gerrit review process..\n\nResolves: FWATE-388 FARM-1786\nChange-Id: I8331c13ac66118da24ed8d710a70d21a3402d5bd\n",
+      "subject": "FWATE-399 - Test commit message",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1528856155,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/30199",
+      "number": 30199,
+      "lastUpdated": 1529447810,
+      "allReviewers": [
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        },
+        {
+          "name": "Serkan Dost",
+          "email": "sdost@sierrawireless.com",
+          "username": "sdost"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I8331c13ac66118da24ed8d710a70d21a3402d5bd",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/99/30199/1",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528856157,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528856155,
+          "revision": "2c4e34a67e9a58f23e4cfe6f5838fcf6111ccf67",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/99/30199/2",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528858252,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528858249,
+          "revision": "e1526e83481b4a92e56a16a05eeddd47f57badf7",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/3",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528858594,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528858591,
+          "revision": "60140296038bad65f7459884fdaab94c9b62b9a9",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/4",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528904385,
+          "revision": "929c2964b1cab48e1a51643de979fbe6ef2764ab",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/5",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528904633,
+          "revision": "ca0e64bdfbfdcfee3f700185b9933f1fcb125952",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 6,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/6",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528905456,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528905453,
+          "revision": "3971d2e57ec7ddf2aead01ef4caaacb4435e7c15",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 7,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/7",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528905518,
+          "revision": "298cbe0f1d1818edb2bdd899e9eda9ea273a75ed",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 8,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/8",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528905661,
+          "revision": "d81524589efe6e2f020036fd8c1e4b9f79b04b17",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 9,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/9",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528905765,
+          "revision": "98bae4dd56d360f2384cae03b06e7ae587c90ba7",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 10,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/10",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528905839,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528905836,
+          "revision": "f3d3a59cbe80f0d9a3602cfdddd12a0dd295f5ef",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 11,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/11",
+          "comments": [
+            {
+              "file": "/COMMIT_MSG",
+              "line": 11,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Mentioning 'Resolves' updates the JIRA ticket.\nSo here you just updated LE-123 :p\n\nHere 'Resolves:' should be FWATE-900\n\nIt seems that the convention that you have on FWATE is a bit different.\nLike:\n  [FWATE-286][FWATE-371] Add USB2.0 current consumption test cases + Macro change\n\nIf possible, it would be best if you can switch to the:\n\n  Add USB2.0 current consumption test cases + Macro change  \n\n  Resolves: FWATE-286 FWATE-371\n  Related: FWATE-123\n\nNote that Related is optional, and the Resolves part is required by default but could be set as optional.\n\nThis is the convention that we have for Legato and most other projects with few exceptions such as mdm9xxx projects, kernel, ...\n\nIf you prefer to stick with your convention, you can create a FARM ticket and we can adapt the 'commit checker' for your convention (needs to be explicitly defined in the ticket)."
+            },
+            {
+              "file": "/COMMIT_MSG",
+              "line": 11,
+              "reviewer": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "message": "ohhhhh... boy. it actually updates the ticket. Sorry for spamming Le-123 watchers..  \nI just updated it to 'Resolves: FWATE-286 FWATE-371' but the checker is still complaining."
+            },
+            {
+              "file": "/COMMIT_MSG",
+              "line": 11,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Oh ... it might be because the user CARMD-EV-LXCIM_sa (which is behind the commit checker) can't access these tickets."
+            }
+          ],
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1528906238,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1528905998,
+          "revision": "642f18c9e14ef9ee376b264a871756c11d98e026",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 12,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/12",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528907029,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1528907026,
+          "revision": "341ddc9b7d2a799368ead2309ede62dff9b77870",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 13,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/13",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528908262,
+          "revision": "5ff0578bea28cec4109053bd17b602e1b0ac79ba",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 14,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/14",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528908393,
+          "revision": "cb112bbe3b18fe9f9e53639a88431e461c0c7eed",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 15,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/15",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1528936737,
+          "revision": "75300c6fe149bd745891073b72930a51d702d04e",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        },
+        {
+          "number": 16,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/99/30199/16",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "grantedOn": 1529438944,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529447806,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Sunjoo Park",
+                "email": "spark@sierrawireless.com",
+                "username": "spark"
+              },
+              "grantedOn": 1529447810,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1529436958,
+          "revision": "620794aabeb5e6bbe191f9b37dde0020d106b3ee",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Sunjoo Park",
+        "email": "spark@sierrawireless.com",
+        "username": "spark"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1528836332
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.\n - Your commit should mention a least one ticket.",
+          "timestamp": 1528836333
+        },
+        {
+          "reviewer": {
+            "name": "Serkan Dost",
+            "email": "sdost@sierrawireless.com",
+            "username": "sdost"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1528837511
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Abandoned\n\nabandon",
+          "timestamp": 1528837747
+        },
+        {
+          "reviewer": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "message": "Patch Set 1:\n\nreply msg?",
+          "timestamp": 1528838151
+        }
+      ],
+      "commitMessage": "test\n\nChange-Id: Ie4e9ef0e3acbc50b890a06d5a0e032dbe2690a30\n",
+      "subject": "test",
+      "project": "tools/FWATE",
+      "branch": "master",
+      "createdOn": 1528836332,
+      "url": "http://10.107.128.8:8081/c/tools/FWATE/+/30145",
+      "number": 30145,
+      "lastUpdated": 1528838151,
+      "allReviewers": [
+        {
+          "name": "Sunjoo Park",
+          "email": "spark@sierrawireless.com",
+          "username": "spark"
+        },
+        {
+          "name": "Serkan Dost",
+          "email": "sdost@sierrawireless.com",
+          "username": "sdost"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ie4e9ef0e3acbc50b890a06d5a0e032dbe2690a30",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/45/30145/1",
+          "uploader": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "author": {
+            "name": "Sunjoo Park",
+            "email": "spark@sierrawireless.com",
+            "username": "spark"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1528836333,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Serkan Dost",
+                "email": "sdost@sierrawireless.com",
+                "username": "sdost"
+              },
+              "grantedOn": 1528837511,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1528836332,
+          "revision": "d808e5969c8b6cd64981d13317607f08559383b5",
+          "parents": [
+            "916108e82a783e62487f5f37f3c674ddf020a58c"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,2475 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1467313456
+        },
+        {
+          "reviewer": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1467827719
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1467903905
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1467903909
+        }
+      ],
+      "commitMessage": "Add socialService.adef to mangoh.sdef\n\nChange-Id: Ib1b41764a7b194cc4efb6daf673c98d20ed58f9d\n",
+      "subject": "Add socialService.adef to mangoh.sdef",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1467313456,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/7806",
+      "number": 7806,
+      "lastUpdated": 1467903909,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Kelly Murphy",
+          "email": "kmurphy@sierrawireless.com",
+          "username": "kmurphy"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        }
+      ],
+      "id": "Ib1b41764a7b194cc4efb6daf673c98d20ed58f9d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/06/7806/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kelly Murphy",
+                "email": "kmurphy@sierrawireless.com",
+                "username": "kmurphy"
+              },
+              "grantedOn": 1467827719,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1467903905,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1467903905,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1467903909,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1467313456,
+          "revision": "a2af13f30ecb5be5ce654cf3818836bc8d75fdac",
+          "parents": [
+            "f8a8eb64c6034e63ffc6dcf73209ab9bb78eb6b2"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1464711557
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Topic set to dr tool",
+          "timestamp": 1464711662
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1464901667
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1464901680
+        }
+      ],
+      "commitMessage": "Introduce 'dr' a DataRouter command line tool\n\nChange-Id: I19d1a23f5531e10388e204b70f4ff2ab8f911bf6\n",
+      "subject": "Introduce 'dr' a DataRouter command line tool",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1464711557,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/7390",
+      "number": 7390,
+      "lastUpdated": 1464901680,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "dr tool",
+      "id": "I19d1a23f5531e10388e204b70f4ff2ab8f911bf6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/90/7390/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1464901667,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1464901667,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1464901680,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1464711557,
+          "revision": "f98b2142b24ea0fcdfb51ad7c4ad46ebe502d020",
+          "parents": [
+            "3e9aef23e2492ff7b6960a933caae104b073ca39"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1463419036
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review-2\n\nOnly compatible with 16.04, should we branch ?",
+          "timestamp": 1463419065
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\nI have an identical change sitting on a Legato_16.04 branch in my local workspace, but I didn't push it before I went on vacation.  gerrit didn't let me push to refs/for/new_branch or refs/heads/new_branch.",
+          "timestamp": 1463499484
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review-1",
+          "timestamp": 1463499492
+        },
+        {
+          "reviewer": {
+            "name": "Zeljko Blazek",
+            "email": "zblazek@sierrawireless.com",
+            "username": "zblazek"
+          },
+          "message": "Patch Set 1:\n\nI have a somewhat related question.  In the Legato default.sdef, I see the following bindings section:\n\nbindings:\n{\n    <root>.le_fwupdate -> fwupdateService.le_fwupdate\n}\n\nBut I don't see it here.  Why is that?",
+          "timestamp": 1463541706
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nHandled in David's patch",
+          "timestamp": 1463589123
+        }
+      ],
+      "commitMessage": "16.04: Add interfaceSearch section in sdef file\n\nChange-Id: I92f0d88639670504804238d19a5ef3e76ba6c524\n",
+      "subject": "16.04: Add interfaceSearch section in sdef file",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1463419036,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/7131",
+      "number": 7131,
+      "lastUpdated": 1463589123,
+      "allReviewers": [
+        {
+          "name": "Zeljko Blazek",
+          "email": "zblazek@sierrawireless.com",
+          "username": "zblazek"
+        },
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Dmitry Narkevich",
+          "email": "dnarkevich@sierrawireless.com",
+          "username": "dnarkevich"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I92f0d88639670504804238d19a5ef3e76ba6c524",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/31/7131/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1463419065,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1463499492,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1463419036,
+          "revision": "ac66e1e3819a2e6b20a5128b52249f4efb7e9a30",
+          "parents": [
+            "3e9aef23e2492ff7b6960a933caae104b073ca39"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1462308185
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\nDepends on 6964, 6965, 6966",
+          "timestamp": 1462308385
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1462317521
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1462397599
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1462397602
+        }
+      ],
+      "commitMessage": "Add mqttClient, dataRouter, arduinoBridge to sdef\n\nResolves: MANGOH-2\n\nChange-Id: Ic05fe83a720af7bb0fe5c5f45bfa9b09b7f52322\n",
+      "subject": "Add mqttClient, dataRouter, arduinoBridge to sdef",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1462308185,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/6963",
+      "number": 6963,
+      "lastUpdated": 1462397602,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ic05fe83a720af7bb0fe5c5f45bfa9b09b7f52322",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/63/6963/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1462317521,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462397599,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462397599,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462397602,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1462308185,
+          "revision": "3e9aef23e2492ff7b6960a933caae104b073ca39",
+          "parents": [
+            "36f324dc19dad77c44d24418ad8650fc2aee4d6b"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1459534190
+        },
+        {
+          "reviewer": {
+            "name": "Dragan Marinkovic",
+            "email": "dmarinkovi@sierrawireless.com",
+            "username": "dmarinkovi"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\nWhy are all additions commented out (as if these are not there)? Am I missing something?",
+          "timestamp": 1459535052
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\nDragan: The components should be part of the .sdef, but currently they don't build properly as part of mksys due to the api files not being visible.  I'm still trying to figure out the best way to make the api files visible.  I'm not happy with the way it was done on the other mangOH repositories such as GpioExpander and MuxControl.",
+          "timestamp": 1459536901
+        },
+        {
+          "reviewer": {
+            "name": "Dragan Marinkovic",
+            "email": "dmarinkovi@sierrawireless.com",
+            "username": "dmarinkovi"
+          },
+          "message": "Patch Set 1:\n\n> Dragan: The components should be part of the .sdef, but currently\n > they don't build properly as part of mksys due to the api files not\n > being visible.  I'm still trying to figure out the best way to make\n > the api files visible.  I'm not happy with the way it was done on\n > the other mangOH repositories such as GpioExpander and MuxControl.\n\nI do not think that this change should be in, because it does not have any effect and it does not buy you anything. Could you back this out until everything else is ready?",
+          "timestamp": 1459815107
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Abandoned",
+          "timestamp": 1459877766
+        }
+      ],
+      "commitMessage": "Comment out references to unbuildable components\n\nChange-Id: I00060cc856baee29f90db238d7fbfe6f5a3e605e\n",
+      "subject": "Comment out references to unbuildable components",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1459534190,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/6537",
+      "number": 6537,
+      "lastUpdated": 1459877766,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "David Clark",
+          "email": "dclark@sierrawireless.com",
+          "username": "dclark"
+        }
+      ],
+      "id": "I00060cc856baee29f90db238d7fbfe6f5a3e605e",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/37/6537/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Dragan Marinkovic",
+                "email": "dmarinkovi@sierrawireless.com",
+                "username": "dmarinkovi"
+              },
+              "grantedOn": 1459535052,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1459534190,
+          "revision": "cbe39bc21c8b6b0d6a2c8694ed12e704ec728de0",
+          "parents": [
+            "8d213fe2a634252deb477bad0759854059e5e53c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1459377276
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1459377578
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1459797802
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Code-Review+2\n\n(1 comment)\n\ncomments addressed",
+          "timestamp": 1459811195
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1459812184
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1459812186
+        }
+      ],
+      "commitMessage": "Add MuxControl app to mangoh.sdef\n\nChange-Id: Ie34e504548ddf64b45aa2cfa2449467a9a90483a\n",
+      "subject": "Add MuxControl app to mangoh.sdef",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1459377276,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/6508",
+      "number": 6508,
+      "lastUpdated": 1459812186,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        }
+      ],
+      "id": "Ie34e504548ddf64b45aa2cfa2449467a9a90483a",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/08/6508/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1459377276,
+          "revision": "e1daf8b1ae3ea28bfff00eca4a271dbba8f1dc76",
+          "parents": [
+            "8d213fe2a634252deb477bad0759854059e5e53c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/08/6508/2",
+          "comments": [
+            {
+              "file": "mangoh.sdef",
+              "line": 12,
+              "reviewer": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "message": "Not sure about this. Why there are LEGATO_ROOT service in mangoh.sdef?"
+            },
+            {
+              "file": "mangoh.sdef",
+              "line": 12,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "This file represents the complete system definition, not just the additional components supplied by mangOH on top of Legato."
+            }
+          ],
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459811195,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459812184,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459812186,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1459377578,
+          "revision": "36f324dc19dad77c44d24418ad8650fc2aee4d6b",
+          "parents": [
+            "8d213fe2a634252deb477bad0759854059e5e53c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Sandelin",
+        "email": "psa@sierrawireless.com",
+        "username": "psa"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1458170970
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1458210224
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 1: Code-Review+1\n\nOK.\n\nPlease update the mangOH/WiFi/targetDefs.wifi also.",
+          "timestamp": 1458289426
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1458554340
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1458554344
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by Gilles Raynal",
+          "timestamp": 1458554356
+        }
+      ],
+      "commitMessage": "trac:4197 - [WiFi] Add \"make docs\"\n\nPatch1:\nChanged name of the variables.\nBtw this is how it is all connected:\n\nThis enables Legato to build doxygen and include a link to a mainpage\nfrom another project.\nThe other system must define the following\n\nexport EXTERNAL_DOXYGEN_DEFINE = EXTERNAL_DOXYGEN_DEFINE\nexport EXTERNAL_DOXYGEN_ROOT = $(PROJECTX_ROOT)/apps/WiFi\nand it must also have a doxygen page called \"external_proj_mainpage\"\n\n\nThese defines are defined in targetDefs.projectx and will be read by CMake.\n\nframework/doc/Cmakelist.txt:\nEXTERNAL_DOXYGEN_DEFINE\nEXTERNAL_DOXYGEN_ROOT\nand sets\nCMAKE_EXTERNAL_DOXYGEN_ROOT\n\nThey are then transfered into the soon to be preproccessed\ndoxygen config files :\nframework/doc/doxygen.implementation.cfg.in\nframework/doc/doxygen.user.cfg.in\n\nThese doxygen configuration files are preprocessed by CMake\nand enables basic variable expansion.\nPlease note that doxygen variables are very restrictive\nand only the ones set with the variable ENABLED_SECTIONS\nin the config file are available.\n\nThis all enables the usage of conditional (similare to ifdef) usage to\ninclude/exclude text. Currently all that is done is a link from the\nLegato main page to the other projects page\nExample:\n@cond EXTERNAL_DOXYGEN_DEFINE\n@subpage external_proj_mainpage <br>\n@endcond\n\nChange-Id: I8d9770dfef2d784a3221716e4a2a3fb725d9c90b\n",
+      "subject": "trac:4197 - [WiFi] Add \"make docs\"",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1458170970,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/6357",
+      "number": 6357,
+      "lastUpdated": 1458554356,
+      "allReviewers": [
+        {
+          "name": "Gilles Raynal",
+          "email": "graynal@sierrawireless.com",
+          "username": "gra"
+        },
+        {
+          "name": "Christophe Gottheimer",
+          "email": "cgottheimer@sierrawireless.com",
+          "username": "cgottheimer"
+        },
+        {
+          "name": "Peter Sandelin",
+          "email": "psa@sierrawireless.com",
+          "username": "psa"
+        },
+        {
+          "name": "Tristan Pensel",
+          "email": "tpensel@sierrawireless.com",
+          "username": "tpensel"
+        },
+        {
+          "name": "Jean-Yves Derout",
+          "email": "jderout@sierrawireless.com",
+          "username": "jderout"
+        },
+        {
+          "name": "Jose Lourenco",
+          "email": "jlo@sierrawireless.com",
+          "username": "jlo"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I8d9770dfef2d784a3221716e4a2a3fb725d9c90b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/57/6357/1",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Peter Sandelin",
+                "email": "psa@sierrawireless.com",
+                "username": "psa"
+              },
+              "grantedOn": 1458210224,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1458289426,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458554340,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458554344,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458554356,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1458170970,
+          "revision": "8d213fe2a634252deb477bad0759854059e5e53c",
+          "parents": [
+            "eede69e75d733d5bbe3535713234d845e663d842"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Sandelin",
+        "email": "psa@sierrawireless.com",
+        "username": "psa"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1455896284
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1456320483
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Code-Review-2\n\n- The module [WiFi] should be preceded by ' - '",
+          "timestamp": 1456320483
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1456405260
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1456430630
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Code-Review",
+          "timestamp": 1456430630
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1457625376
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1458087034
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 5: Commit message was updated.",
+          "timestamp": 1458087174
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Patch Set 5: Code-Review+1",
+          "timestamp": 1458087299
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 5: Code-Review+1",
+          "timestamp": 1458140690
+        },
+        {
+          "reviewer": {
+            "name": "Jose Lourenco",
+            "email": "jlo@sierrawireless.com",
+            "username": "jlo"
+          },
+          "message": "Patch Set 5: Code-Review+1",
+          "timestamp": 1458143000
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 5: Code-Review+2",
+          "timestamp": 1458144186
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 5: Verified+1",
+          "timestamp": 1458144213
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by Gilles Raynal",
+          "timestamp": 1458144216
+        }
+      ],
+      "commitMessage": "trac:3247 - [MANGO REPO] Wifi Sample App: Local Router Configuration App\n\nPatch 4:\n  -rebase\n\nPatch 3:\n  -Jenkins CTO comment about review comment\n\nPatch 2:\n  -Added define for PA choice.\n\nPatch 1:\n  -Added wifiWebAp to list of apps to build for MangOH\n\nChange-Id: Ifb8c5667371dedcb49875c21184d353a77ee0043\n",
+      "subject": "trac:3247 - [MANGO REPO] Wifi Sample App: Local Router Configuration App",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1455896284,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/5926",
+      "number": 5926,
+      "lastUpdated": 1458144216,
+      "allReviewers": [
+        {
+          "name": "Gilles Raynal",
+          "email": "graynal@sierrawireless.com",
+          "username": "gra"
+        },
+        {
+          "name": "Jose Lourenco",
+          "email": "jlo@sierrawireless.com",
+          "username": "jlo"
+        },
+        {
+          "name": "Christophe Gottheimer",
+          "email": "cgottheimer@sierrawireless.com",
+          "username": "cgottheimer"
+        },
+        {
+          "name": "Peter Sandelin",
+          "email": "psa@sierrawireless.com",
+          "username": "psa"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Carlos Velez",
+          "email": "cvelez@sierrawireless.com",
+          "username": "cve"
+        },
+        {
+          "name": "Tristan Pensel",
+          "email": "tpensel@sierrawireless.com",
+          "username": "tpensel"
+        },
+        {
+          "name": "Jean-Yves Derout",
+          "email": "jderout@sierrawireless.com",
+          "username": "jderout"
+        },
+        {
+          "name": "Anthony Doussain",
+          "email": "ado@sierrawireless.com",
+          "username": "ado"
+        }
+      ],
+      "id": "Ifb8c5667371dedcb49875c21184d353a77ee0043",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/26/5926/1",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1455896284,
+          "revision": "736d20aea03dec63355cb85a980b0c774941d883",
+          "parents": [
+            "23b0010b1e9dbc48ad4f018698528865ff5924ca"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/26/5926/2",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1456320483,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1456405260,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1456320483,
+          "revision": "5ebaa74bddc47a779e8051828a8c20af818dbbc6",
+          "parents": [
+            "23b0010b1e9dbc48ad4f018698528865ff5924ca"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/26/5926/3",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1457625376,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1456430630,
+          "revision": "2a7eca0a92578e3e5b47333b3033466bcf62dd35",
+          "parents": [
+            "23b0010b1e9dbc48ad4f018698528865ff5924ca"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/26/5926/4",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1458087034,
+          "revision": "d9bb52e8f577e2c282b2cf46fbf8d3464c0058ad",
+          "parents": [
+            "ba65efa0182b7802fd3704254cd5c5719d1f339a"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 10,
+          "ref": "refs/changes/26/5926/5",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Peter Sandelin",
+                "email": "psa@sierrawireless.com",
+                "username": "psa"
+              },
+              "grantedOn": 1458087299,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1458140690,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jose Lourenco",
+                "email": "jlo@sierrawireless.com",
+                "username": "jlo"
+              },
+              "grantedOn": 1458143000,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458144186,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458144213,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1458144216,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1458087174,
+          "revision": "eede69e75d733d5bbe3535713234d845e663d842",
+          "parents": [
+            "ba65efa0182b7802fd3704254cd5c5719d1f339a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Sandelin",
+        "email": "psa@sierrawireless.com",
+        "username": "psa"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1456978725
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1457624636
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1457713092
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1457713177
+        },
+        {
+          "reviewer": {
+            "name": "Gilles Raynal",
+            "email": "graynal@sierrawireless.com",
+            "username": "gra"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1457713184
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by Gilles Raynal",
+          "timestamp": 1457713187
+        }
+      ],
+      "commitMessage": "trac:4197 - [WiFi] Add \"make docs\"\n\npatch 1:\n- Added variable that will be transfered by cmake into doxygen to be used to test.\n- please note that only  ENABLED_SECTIONS variables are visible to doxygen.\n- doing \"make docs\" in legato, will now detect and bring MangOH into the doxygen.\n\nChange-Id: I4e5aeee4ffbfdc541e8fcfba2b6f02f4143e06b3\n",
+      "subject": "trac:4197 - [WiFi] Add \"make docs\"",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1456978725,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/6182",
+      "number": 6182,
+      "lastUpdated": 1457713187,
+      "allReviewers": [
+        {
+          "name": "Gilles Raynal",
+          "email": "graynal@sierrawireless.com",
+          "username": "gra"
+        },
+        {
+          "name": "Christophe Gottheimer",
+          "email": "cgottheimer@sierrawireless.com",
+          "username": "cgottheimer"
+        },
+        {
+          "name": "Tristan Pensel",
+          "email": "tpensel@sierrawireless.com",
+          "username": "tpensel"
+        },
+        {
+          "name": "Jean-Yves Derout",
+          "email": "jderout@sierrawireless.com",
+          "username": "jderout"
+        },
+        {
+          "name": "Jose Lourenco",
+          "email": "jlo@sierrawireless.com",
+          "username": "jlo"
+        },
+        {
+          "name": "Carlos Velez",
+          "email": "cvelez@sierrawireless.com",
+          "username": "cve"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I4e5aeee4ffbfdc541e8fcfba2b6f02f4143e06b3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/82/6182/1",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1457624636,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1457713177,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1457713184,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gilles Raynal",
+                "email": "graynal@sierrawireless.com",
+                "username": "gra"
+              },
+              "grantedOn": 1457713187,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1456978725,
+          "revision": "c7df7eaa91798c7e345582a690c34750a06b8568",
+          "parents": [
+            "23b0010b1e9dbc48ad4f018698528865ff5924ca"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Peter Sandelin",
+        "email": "psa@sierrawireless.com",
+        "username": "psa"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1454361966
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 1: Code-Review-2\n\n- Your first line should separate the ticket declaration(s) from the summary with a dash.\n\nPlease check the syntax of your ticket declaration(s):\n\n - Trac tickets:\n        trac:1234 - My summary\n        trac:1234 trac:4567 - My summary with multiple tickets\n        (ticket:1234 is now forbidden)\n\n - SBM tickets:\n        SBM12345 - My summary\n        DEV12345 NEW56789 - My summary with multiple tickets",
+          "timestamp": 1454361967
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1454362506
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 2: -Code-Review",
+          "timestamp": 1454362510
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1454406839
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1454408543
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1454408550
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\nI was requesting a specific targetDefs.wifi and wifi.sdef belonging into the mangOH/Wifi directory.\n\nFor Wifi build, it is not expected to build and deploy the gpioExpander application.\n\nOnly wifiService daemon, sample applications if any, and wifi cm tool have to be deployed to legato image.",
+          "timestamp": 1454408828
+        },
+        {
+          "reviewer": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "message": "Patch Set 3: Code-Review+1\n\n> I was requesting a specific targetDefs.wifi and wifi.sdef belonging\n > into the mangOH/Wifi directory.\n > \n > For Wifi build, it is not expected to build and deploy the\n > gpioExpander application.\n > \n > Only wifiService daemon, sample applications if any, and wifi cm\n > tool have to be deployed to legato image.\n\nI will add the requested files will be added in the other project change \nhttps://gerrit-legato/#/c/5686/\n\nBut we keep these files because give the possibility to build a complete MangOH system with all subsystems.",
+          "timestamp": 1454412393
+        },
+        {
+          "reviewer": {
+            "name": "Christophe Gottheimer",
+            "email": "cgottheimer@sierrawireless.com",
+            "username": "cgottheimer"
+          },
+          "message": "Patch Set 3: Code-Review+1\n\nAgree :)",
+          "timestamp": 1454414672
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1454418828
+        },
+        {
+          "reviewer": {
+            "name": "Tristan Pensel",
+            "email": "tpensel@sierrawireless.com",
+            "username": "tpensel"
+          },
+          "message": "Patch Set 3: Verified+1",
+          "timestamp": 1454418830
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged into the git repository by Tristan Pensel",
+          "timestamp": 1454418832
+        }
+      ],
+      "commitMessage": "trac:4097 - [ColdPlay] Provides targetDefs.wifi and wifi.sdef\n\npatch 3:\nremoved trailing space\n\npatch 2:\n- added -\n\npatch 1:\n- when building legato, it will also build and integrate MangOH wifi\n- note that MANGOH_WIFI_ROOT is set by the build\n\nChange-Id: I06bee34525a8bb5ddbf2749dcd137b460b9d38ed\n",
+      "subject": "trac:4097 - [ColdPlay] Provides targetDefs.wifi and wifi.sdef",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1454361966,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/5685",
+      "number": 5685,
+      "lastUpdated": 1454418832,
+      "allReviewers": [
+        {
+          "name": "Tristan Pensel",
+          "email": "tpensel@sierrawireless.com",
+          "username": "tpensel"
+        },
+        {
+          "name": "Christophe Gottheimer",
+          "email": "cgottheimer@sierrawireless.com",
+          "username": "cgottheimer"
+        },
+        {
+          "name": "Peter Sandelin",
+          "email": "psa@sierrawireless.com",
+          "username": "psa"
+        },
+        {
+          "name": "Gilles Raynal",
+          "email": "graynal@sierrawireless.com",
+          "username": "gra"
+        },
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        }
+      ],
+      "id": "I06bee34525a8bb5ddbf2749dcd137b460b9d38ed",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/85/5685/1",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jenkins Farm (old)",
+                "email": "ctogroup@sierrawireless.com",
+                "username": "ctogroup"
+              },
+              "grantedOn": 1454361967,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1454361966,
+          "revision": "c3b62d041a4c85b3c73b9cbb0b53852a7370a1aa",
+          "parents": [
+            "6510b8bd6ce271ad2665c02ff6272fc6ee6e8665"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/85/5685/2",
+          "comments": [
+            {
+              "file": "mangoh.sdef",
+              "line": 31,
+              "reviewer": {
+                "name": "Tristan Pensel",
+                "email": "tpensel@sierrawireless.com",
+                "username": "tpensel"
+              },
+              "message": "trailing space"
+            },
+            {
+              "file": "mangoh.sdef",
+              "line": 31,
+              "reviewer": {
+                "name": "Peter Sandelin",
+                "email": "psa@sierrawireless.com",
+                "username": "psa"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Tristan Pensel",
+                "email": "tpensel@sierrawireless.com",
+                "username": "tpensel"
+              },
+              "grantedOn": 1454406839,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1454362506,
+          "revision": "9c054b756719dc104781e328497335ccf21782b5",
+          "parents": [
+            "6510b8bd6ce271ad2665c02ff6272fc6ee6e8665"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/85/5685/3",
+          "uploader": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "author": {
+            "name": "Peter Sandelin",
+            "email": "psa@sierrawireless.com",
+            "username": "psa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Peter Sandelin",
+                "email": "psa@sierrawireless.com",
+                "username": "psa"
+              },
+              "grantedOn": 1454412393,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Christophe Gottheimer",
+                "email": "cgottheimer@sierrawireless.com",
+                "username": "cgottheimer"
+              },
+              "grantedOn": 1454414672,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Tristan Pensel",
+                "email": "tpensel@sierrawireless.com",
+                "username": "tpensel"
+              },
+              "grantedOn": 1454418828,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Tristan Pensel",
+                "email": "tpensel@sierrawireless.com",
+                "username": "tpensel"
+              },
+              "grantedOn": 1454418830,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Tristan Pensel",
+                "email": "tpensel@sierrawireless.com",
+                "username": "tpensel"
+              },
+              "grantedOn": 1454418831,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1454408543,
+          "revision": "23b0010b1e9dbc48ad4f018698528865ff5924ca",
+          "parents": [
+            "6510b8bd6ce271ad2665c02ff6272fc6ee6e8665"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Andrew Mitchell",
+        "email": "amitchell@sierrawireless.com",
+        "username": "amitchell"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1453328128
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 1: Code-Review-2\n\n- Your commit should mention a least one ticket.\n\nPlease check the syntax of your ticket declaration(s):\n\n - Trac tickets:\n        trac:1234 - My summary\n        trac:1234 trac:4567 - My summary with multiple tickets\n        (ticket:1234 is now forbidden)\n\n - SBM tickets:\n        SBM12345 - My summary\n        DEV12345 NEW56789 - My summary with multiple tickets",
+          "timestamp": 1453328128
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Patch Set 2: Published edit on patch set 1",
+          "timestamp": 1453328169
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 2: -Code-Review",
+          "timestamp": 1453328170
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Patch Set 2: Code-Review+2 Verified+1",
+          "timestamp": 1453328193
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged into the git repository by Andrew Mitchell",
+          "timestamp": 1453328194
+        }
+      ],
+      "commitMessage": "trac:3537 - Renamed the targetdefs file\n\nChange-Id: Iad5e5d21a041bc3c1c02ade87c8358a206666e9b\n",
+      "subject": "trac:3537 - Renamed the targetdefs file",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1453328128,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/5535",
+      "number": 5535,
+      "lastUpdated": 1453328194,
+      "allReviewers": [
+        {
+          "name": "Andrew Mitchell",
+          "email": "amitchell@sierrawireless.com",
+          "username": "amitchell"
+        },
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        }
+      ],
+      "id": "Iad5e5d21a041bc3c1c02ade87c8358a206666e9b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/35/5535/1",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jenkins Farm (old)",
+                "email": "ctogroup@sierrawireless.com",
+                "username": "ctogroup"
+              },
+              "grantedOn": 1453328128,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1453328128,
+          "revision": "ee47e6c96b43bf49475c9a2c736d3150c9661ea8",
+          "parents": [
+            "70157352688663b30148525c6b6e5014e08bf17e"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/35/5535/2",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453328193,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453328193,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453328194,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1453328169,
+          "revision": "6510b8bd6ce271ad2665c02ff6272fc6ee6e8665",
+          "parents": [
+            "70157352688663b30148525c6b6e5014e08bf17e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Andrew Mitchell",
+        "email": "amitchell@sierrawireless.com",
+        "username": "amitchell"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1453320132
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1453320444
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Patch Set 2: Code-Review+2 Verified+1",
+          "timestamp": 1453327822
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged into the git repository by Andrew Mitchell",
+          "timestamp": 1453327825
+        }
+      ],
+      "commitMessage": "trac:3537 - Setup of MangOH repositories\n\nPatch 2:\n - Add targetDefs for mangOH\n - Tell git to ignore apps subdirectory\n\nPatch 1:\n - Add mangOH sdef file\n\nChange-Id: Ia75786b6e188d07b3abb89a91686d59145bbab8d\n",
+      "subject": "trac:3537 - Setup of MangOH repositories",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1453320132,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/5532",
+      "number": 5532,
+      "lastUpdated": 1453327825,
+      "allReviewers": [
+        {
+          "name": "Andrew Mitchell",
+          "email": "amitchell@sierrawireless.com",
+          "username": "amitchell"
+        },
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "Ia75786b6e188d07b3abb89a91686d59145bbab8d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 38,
+          "ref": "refs/changes/32/5532/1",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1453320132,
+          "revision": "516c17e087eef47eb3b528bd8f6f9229e64a7aa7",
+          "parents": [
+            "916b1de08151bd582a5284eaa2fa86ca0b859406"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 45,
+          "ref": "refs/changes/32/5532/2",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453327822,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453327822,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453327825,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1453320444,
+          "revision": "70157352688663b30148525c6b6e5014e08bf17e",
+          "parents": [
+            "916b1de08151bd582a5284eaa2fa86ca0b859406"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Andrew Mitchell",
+        "email": "amitchell@sierrawireless.com",
+        "username": "amitchell"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1453319694
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1453319708
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged into the git repository by Andrew Mitchell",
+          "timestamp": 1453319710
+        }
+      ],
+      "commitMessage": "Initial commit\n\nChange-Id: I7cb8bc3d5dab68ef72ca1a4c33061b2aa053bd56\n",
+      "subject": "Initial commit",
+      "project": "mangOH",
+      "branch": "master",
+      "createdOn": 1453319694,
+      "url": "http://10.107.128.8:8081/c/mangOH/+/5530",
+      "number": 5530,
+      "lastUpdated": 1453319710,
+      "allReviewers": [
+        {
+          "name": "Andrew Mitchell",
+          "email": "amitchell@sierrawireless.com",
+          "username": "amitchell"
+        }
+      ],
+      "id": "I7cb8bc3d5dab68ef72ca1a4c33061b2aa053bd56",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/30/5530/1",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453319708,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453319708,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Andrew Mitchell",
+                "email": "amitchell@sierrawireless.com",
+                "username": "amitchell"
+              },
+              "grantedOn": 1453319710,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1453319694,
+          "revision": "916b1de08151bd582a5284eaa2fa86ca0b859406",
+          "parents": [
+            "8ba67f2475feeca0d690488008c3240fb70a39e0"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,3313 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Caupar Gu",
+        "email": "cgu@sierrawireless.com",
+        "username": "cgu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1553830241
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1553830246
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins.legato/job/LxSwi-Review/3672/",
+          "timestamp": 1553830376
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1553830378
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\n- Your commit message should start with an upper case.\n - The keyword [mdm9x40] should be followed by a space, then a word (like '[mdm9x40] My summary').",
+          "timestamp": 1553830386
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1553830430
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1553830434
+        },
+        {
+          "reviewer": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1554083188
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Topic set to QTI9X40-5689",
+          "timestamp": 1554087015
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3919/",
+          "timestamp": 1554089688
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1\n\nBuild success\nJenkins job: http://jenkins.legato/job/Yocto-Review/3919/\nArtifacts: https://get.legato/yocto/review/44731/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3919.html",
+          "timestamp": 1554092797
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Verified\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3926/",
+          "timestamp": 1554111493
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1\n\nBuild success\nJenkins job: http://jenkins.legato/job/Yocto-Review/3926/\nArtifacts: https://get.legato/yocto/review/44731/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3926.html",
+          "timestamp": 1554118393
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1554177339
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic QTI9X40-5689 removed",
+          "timestamp": 1554177476
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Change has been successfully rebased and submitted as 79c107d8169e5654e4b0433d5fc32efcf64657a0 by Caupar Gu",
+          "timestamp": 1554262590
+        }
+      ],
+      "commitMessage": "[mdm9x40] Remove tcp-splice-bin.tar.bz2\n\nDescription:\nFrom source code, ar759x/mdm9x40/apps_proc/tcp-splice,\nthis is an GPLv2 license.\n\nRoot cause:\ntcp-splice is an GPLv2 license.\n\nSolution:\nMove tcp-splice recipes to meta-swi,and remove\ntcp-splice binary.\n\nResolves: QTI9X40-5689\nChange-Id: Ia959c61026710fc3a77924c0790e0f3864af6ee6\nSigned-off-by: Jarvis Wang <JaWang@sierrawireless.com>\n",
+      "subject": "[mdm9x40] Remove tcp-splice-bin.tar.bz2",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1553830241,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/44673",
+      "number": 44673,
+      "lastUpdated": 1554262590,
+      "allReviewers": [
+        {
+          "name": "Caupar Gu",
+          "email": "cgu@sierrawireless.com",
+          "username": "cgu"
+        },
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Jarch Hu",
+          "email": "JarHu@sierrawireless.com",
+          "username": "jarhu"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        },
+        {
+          "name": "Jarvis Wang",
+          "email": "JaWang@sierrawireless.com",
+          "username": "jawang"
+        }
+      ],
+      "id": "Ia959c61026710fc3a77924c0790e0f3864af6ee6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/73/44673/1",
+          "uploader": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "author": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1553830246,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1553830241,
+          "revision": "b843b995eed90aed07c56ef2716062d7434855df",
+          "parents": [
+            "38dc8604a7f14618980940b678961e24dd147c1d"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/73/44673/2",
+          "uploader": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "author": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1553830378,
+          "revision": "b60c0689f629ec966bc398ee7f4e6a00b1cb1f65",
+          "parents": [
+            "38dc8604a7f14618980940b678961e24dd147c1d"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/73/44673/3",
+          "uploader": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "author": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jarch Hu",
+                "email": "JarHu@sierrawireless.com",
+                "username": "jarhu"
+              },
+              "grantedOn": 1554083188,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554118393,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1554177339,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1554262590,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1553830430,
+          "revision": "60f7e5c57346275ef860cf897077bd4123915bbc",
+          "parents": [
+            "38dc8604a7f14618980940b678961e24dd147c1d"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/73/44673/4",
+          "uploader": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "author": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554262590,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1554262590,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Jarch Hu",
+                "email": "JarHu@sierrawireless.com",
+                "username": "jarhu"
+              },
+              "grantedOn": 1554262590,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1554262590,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1554262590,
+          "revision": "79c107d8169e5654e4b0433d5fc32efcf64657a0",
+          "parents": [
+            "e044cc97a8d77dd00081f346aeefa19555d5b9e5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jarvis Wang",
+        "email": "JaWang@sierrawireless.com",
+        "username": "jawang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1553848804
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3915/",
+          "timestamp": 1553848963
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins.legato/job/LxSwi-Review/3676/",
+          "timestamp": 1553848982
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild success\nJenkins job: http://jenkins.legato/job/Yocto-Review/3915/\nArtifacts: https://get.legato/yocto/review/44691/1\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3915.html",
+          "timestamp": 1553852650
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3920/",
+          "timestamp": 1554090049
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1\n\nBuild failed\nJenkins job: http://jenkins.legato/job/Yocto-Review/3920/\nArtifacts: https://get.legato/yocto/review/44691/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3920.html\nUnable to build topic",
+          "timestamp": 1554091883
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3921/",
+          "timestamp": 1554097574
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1\n\nBuild failed\nJenkins job: http://jenkins.legato/job/Yocto-Review/3921/\nArtifacts: https://get.legato/yocto/review/44691/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3921.html\nUnable to build topic",
+          "timestamp": 1554099544
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3925/",
+          "timestamp": 1554111168
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild success\nJenkins job: http://jenkins.legato/job/Yocto-Review/3925/\nArtifacts: https://get.legato/yocto/review/44691/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3925.html",
+          "timestamp": 1554120024
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: -Verified\n\nBuild started at http://jenkins.legato/job/Yocto-Review/3928/",
+          "timestamp": 1554184696
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild success\nJenkins job: http://jenkins.legato/job/Yocto-Review/3928/\nArtifacts: https://get.legato/yocto/review/44690/2\nFlow: http://farm.legato/jenkins/flow/Yocto-Review/3928.html",
+          "timestamp": 1554202506
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1554261177
+        },
+        {
+          "reviewer": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "message": "Topic QTI9X40-5691 removed",
+          "timestamp": 1554261479
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1554262556
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Change has been successfully merged by Caupar Gu",
+          "timestamp": 1554262565
+        }
+      ],
+      "commitMessage": "[mdm9x40] Remove open-avb-bin.tar.bz2\n\nDescription:\nFrom source code, ar759x/mdm9x40/apps_proc/external/open-avb,\nit contains GPLv2 and BSD license.\n\nRoot cause:\nopen-avb contains GPLv2 license.\n\nSolution:\nMove open-avb recipes to meta-swi,and remove\nopen-avb binary.\n\nResolves: QTI9X40-5691\nChange-Id: I2e1e0c1c03df839980f62dabe7471116ac9738b8\nSigned-off-by: Jarvis Wang <JaWang@sierrawireless.com>\n",
+      "subject": "[mdm9x40] Remove open-avb-bin.tar.bz2",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1553848804,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/44692",
+      "number": 44692,
+      "lastUpdated": 1554262565,
+      "allReviewers": [
+        {
+          "name": "Caupar Gu",
+          "email": "cgu@sierrawireless.com",
+          "username": "cgu"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        }
+      ],
+      "id": "I2e1e0c1c03df839980f62dabe7471116ac9738b8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/92/44692/1",
+          "uploader": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "author": {
+            "name": "Jarvis Wang",
+            "email": "JaWang@sierrawireless.com",
+            "username": "jawang"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554202506,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1554262556,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1554262565,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1553848804,
+          "revision": "e044cc97a8d77dd00081f346aeefa19555d5b9e5",
+          "parents": [
+            "38dc8604a7f14618980940b678961e24dd147c1d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Felix Zhu",
+        "email": "FZhu@sierrawireless.com",
+        "username": "fzhu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Felix Zhu",
+            "email": "FZhu@sierrawireless.com",
+            "username": "fzhu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1548642335
+        },
+        {
+          "reviewer": {
+            "name": "Felix Zhu",
+            "email": "FZhu@sierrawireless.com",
+            "username": "fzhu"
+          },
+          "message": "Topic set to QTI9X40-5456",
+          "timestamp": 1548643180
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/3410/",
+          "timestamp": 1548732916
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/Mdm9x40-Review/4870/",
+          "timestamp": 1548733038
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/Mdm9x40-Review/4871/",
+          "timestamp": 1548733254
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/Mdm9x40-Review/4872/",
+          "timestamp": 1548733979
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nJenkins job: http://jenkins-legato/job/Mdm9x40-Review/4872/\nArtifacts: http://get.legato.sierrawireless.local/mdm9x40/review/41895/1\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Mdm9x40-Review/4872.html\n[ 1.7_Mdm9x40r31 ]\nSonar: No analysis\nShellcheck: No analysis\nKlocwork: No analysis\nBuild result: SUCCESS",
+          "timestamp": 1548736400
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nJenkins job: http://jenkins-legato/job/Mdm9x40-Review/4872/\nArtifacts: http://get.legato.sierrawireless.local/mdm9x40/review/41895/1\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Mdm9x40-Review/4872.html\n[ 2.2_Mdm9x40r31 ]\nSonar: No analysis\nShellcheck: No analysis\nKlocwork: No analysis\nBuild result: SUCCESS",
+          "timestamp": 1548736415
+        },
+        {
+          "reviewer": {
+            "name": "Taotao Tao",
+            "email": "ttao@sierrawireless.com",
+            "username": "ttao"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1548742039
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1548818061
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1548833134
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Change has been successfully rebased and submitted as 2ed9f42ac1d01254084f14e66e8ce5a17e151dde by Vincent Liu",
+          "timestamp": 1548833299
+        }
+      ],
+      "commitMessage": "Add swirbtpre\n\nResolves: QTI9X40-5456\nChange-Id: I33c47e0ce5f76087c75ea8bf4469eab33a1d818b\n",
+      "subject": "Add swirbtpre",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1548642335,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/41894",
+      "number": 41894,
+      "lastUpdated": 1548833299,
+      "allReviewers": [
+        {
+          "name": "Vincent Liu",
+          "email": "vliu@sierrawireless.com",
+          "username": "vliu"
+        },
+        {
+          "name": "Caupar Gu",
+          "email": "cgu@sierrawireless.com",
+          "username": "cgu"
+        },
+        {
+          "name": "Taotao Tao",
+          "email": "ttao@sierrawireless.com",
+          "username": "ttao"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "John Li",
+          "email": "jli@sierrawireless.com",
+          "username": "jli"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        }
+      ],
+      "topic": "QTI9X40-5456",
+      "id": "I33c47e0ce5f76087c75ea8bf4469eab33a1d818b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/94/41894/1",
+          "uploader": {
+            "name": "Felix Zhu",
+            "email": "FZhu@sierrawireless.com",
+            "username": "fzhu"
+          },
+          "author": {
+            "name": "Felix Zhu",
+            "email": "FZhu@sierrawireless.com",
+            "username": "fzhu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1548736400,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Taotao Tao",
+                "email": "ttao@sierrawireless.com",
+                "username": "ttao"
+              },
+              "grantedOn": 1548742039,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1548818061,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1548833134,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1548833299,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1548642335,
+          "revision": "e2cd1e3926ffbb0b2ef7c659cdb2392f9997a07f",
+          "parents": [
+            "38564154f1f351743a19f9087409756e2109ff39"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/94/41894/2",
+          "uploader": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "author": {
+            "name": "Felix Zhu",
+            "email": "FZhu@sierrawireless.com",
+            "username": "fzhu"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1548833299,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1548833299,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Taotao Tao",
+                "email": "ttao@sierrawireless.com",
+                "username": "ttao"
+              },
+              "grantedOn": 1548833299,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1548833299,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1548833299,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1548833299,
+          "revision": "2ed9f42ac1d01254084f14e66e8ce5a17e151dde",
+          "parents": [
+            "dceecf251a9786ae6e552f83173003aa2a61a442"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mason Huo",
+        "email": "mhuo@sierrawireless.com",
+        "username": "mhuo"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1542242761
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Ticket QTI9X40-469 was resolved/closed",
+          "timestamp": 1542242764
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2880/",
+          "timestamp": 1542242789
+        },
+        {
+          "reviewer": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1542242859
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\n- Your commit message should start with an upper case.\n - Ticket QTI9X40-469 was resolved/closed",
+          "timestamp": 1542242862
+        },
+        {
+          "reviewer": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1542242954
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1542242957
+        },
+        {
+          "reviewer": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "message": "Topic set to QTI9X40-4691",
+          "timestamp": 1542243313
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3532/",
+          "timestamp": 1542247782
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3532/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3532.html\nUnable to build topic",
+          "timestamp": 1542250048
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3534/",
+          "timestamp": 1542252251
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3534/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3534.html\nUnable to build topic",
+          "timestamp": 1542253614
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3540/",
+          "timestamp": 1542264115
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3540/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/5\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3540.html\nUnable to build topic",
+          "timestamp": 1542268237
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3545/",
+          "timestamp": 1542270275
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3547/",
+          "timestamp": 1542277264
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3547/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/5\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3547.html\nUnable to build topic",
+          "timestamp": 1542280475
+        },
+        {
+          "reviewer": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1542281548
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2885/",
+          "timestamp": 1542281594
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2890/",
+          "timestamp": 1542329936
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2891/",
+          "timestamp": 1542330403
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3550/",
+          "timestamp": 1542332706
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3551/",
+          "timestamp": 1542333208
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3551/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/5\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3551.html\nhudson.AbortException: Error in 93 [3551 QTI9X40-4691 (38361/5)]: cancelled",
+          "timestamp": 1542333847
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3552/",
+          "timestamp": 1542334499
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3552/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/38361/5\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3552.html\nhudson.AbortException: Error in 967 [3552 QTI9X40-4691 (38361/5)]: cancelled",
+          "timestamp": 1542335295
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild failed\nJenkins job: http://jenkins-legato/job/LxSwi-Review/2891/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/38450/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/LxSwi-Review/2891.html\nUnable to build topic",
+          "timestamp": 1542341458
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Removed Verified-1 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1542352164
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1542352171
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1542353714
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Change has been successfully rebased and submitted as e4f8149d55c0b5f5fc2ea447c0c7ef40523cd0ea by Vincent Liu",
+          "timestamp": 1542358004
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5:\n\nBuild started at http://jenkins-legato/job/Yocto-Merged/1144/",
+          "timestamp": 1542358068
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5:\n\nBuild started at http://jenkins-legato/job/LxSwi-Merged/879/",
+          "timestamp": 1542358072
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5:\n\nBuild success\nJenkins job: http://jenkins-legato/job/Yocto-Merged/1144/\nArtifacts: http://get.legato.sierrawireless.local/yocto/merged/1144\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Merged/1144.html",
+          "timestamp": 1542376560
+        }
+      ],
+      "commitMessage": "Threaded open-avb\n\nIssue Description:\n1.Compile Qualcomm open-AVB source code into a library.\n2.Start open-AVB service by test_avb.\n\nRoot Cause:\nNew Feature for AVB.\n\nSolution:\n1. Add the file of open-avb.bb to compile.\n2. Modify the code to build the function library of avb.\n\nResolves: QTI9X40-4691\nChange-Id: I6c5632238dc1bdbca33d72be31f04fd121374a42\nSigned-off-by: ychi <ychi@sierrawireless.com>\n",
+      "subject": "Threaded open-avb",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1542242761,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/38450",
+      "number": 38450,
+      "lastUpdated": 1542376560,
+      "allReviewers": [
+        {
+          "name": "Vincent Liu",
+          "email": "vliu@sierrawireless.com",
+          "username": "vliu"
+        },
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        }
+      ],
+      "topic": "QTI9X40-4691",
+      "id": "I6c5632238dc1bdbca33d72be31f04fd121374a42",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/50/38450/1",
+          "uploader": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "author": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1542242764,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1542242761,
+          "revision": "047d036c84ed80916759f43ad5091c5f05bc6a3c",
+          "parents": [
+            "f76be33fef66c49609f78b5106ab480a526f1dca"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/50/38450/2",
+          "uploader": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "author": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1542242859,
+          "revision": "892c3b7059157d3b013006010c09603ec0fda741",
+          "parents": [
+            "f76be33fef66c49609f78b5106ab480a526f1dca"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/50/38450/3",
+          "uploader": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "author": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1542280475,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1542242954,
+          "revision": "5526dc236760ab2f086cb9dc8235782f53c6c4fd",
+          "parents": [
+            "f76be33fef66c49609f78b5106ab480a526f1dca"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/50/38450/4",
+          "uploader": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "author": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1542352171,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1542353714,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1542358004,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1542281548,
+          "revision": "f7f038f52880fe87d2d8bd3b2070fe72940d55d0",
+          "parents": [
+            "f76be33fef66c49609f78b5106ab480a526f1dca"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/50/38450/5",
+          "uploader": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "author": {
+            "name": "Mason Huo",
+            "email": "mhuo@sierrawireless.com",
+            "username": "mhuo"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1542358004,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1542358004,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Vincent Liu",
+                "email": "vliu@sierrawireless.com",
+                "username": "vliu"
+              },
+              "grantedOn": 1542358004,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1542358004,
+          "revision": "e4f8149d55c0b5f5fc2ea447c0c7ef40523cd0ea",
+          "parents": [
+            "207a52fd5e5d7e88033ff42a050c80527bd0e425"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Jarch Hu",
+        "email": "JarHu@sierrawireless.com",
+        "username": "jarhu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1536833871
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2477/",
+          "timestamp": 1536833903
+        },
+        {
+          "reviewer": {
+            "name": "Caupar Gu",
+            "email": "cgu@sierrawireless.com",
+            "username": "cgu"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1536907425
+        },
+        {
+          "reviewer": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1536919188
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2488/",
+          "timestamp": 1536919548
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic set to QTI9X40-4233",
+          "timestamp": 1537172781
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3350/",
+          "timestamp": 1537173216
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3350/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/34939/3\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3350.html\n1.7-Mdm9x40-3.1: failing the build",
+          "timestamp": 1537182874
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3351/",
+          "timestamp": 1537239893
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3351/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/34939/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3351.html\n1.7-Mdm9x40-3.1: failing the build",
+          "timestamp": 1537243591
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3353/",
+          "timestamp": 1537250873
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3355/",
+          "timestamp": 1537251164
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at http://jenkins-legato/job/Mdm9x40-Review/4139/",
+          "timestamp": 1537251406
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3355/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/34939/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3355.html\n1.7-Mdm9x40-3.1: failing the build",
+          "timestamp": 1537256729
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at http://jenkins-legato/job/Yocto-Review/3360/",
+          "timestamp": 1537264537
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified-1\n\nBuild failed\nJenkins job: http://jenkins-legato/job/Yocto-Review/3360/\nArtifacts: http://get.legato.sierrawireless.local/yocto/review/34939/4\nFlow: http://get.legato.sierrawireless.local/farm/graph/jenkins-builds/Yocto-Review/3360.html\n2.2-Mdm9x28-2.0.1: failing the build",
+          "timestamp": 1537264862
+        },
+        {
+          "reviewer": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "message": "Topic QTI9X40-4233 removed",
+          "timestamp": 1537264899
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Verified\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2508/",
+          "timestamp": 1537268510
+        },
+        {
+          "reviewer": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1537348679
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild started at http://jenkins-legato/job/LxSwi-Review/2529/",
+          "timestamp": 1537492401
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1537496421
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Change has been successfully merged by Summer Peng",
+          "timestamp": 1537496429
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild started at http://jenkins-legato/job/LxSwi-Merged/773/",
+          "timestamp": 1537496455
+        }
+      ],
+      "commitMessage": "Add tcp splice module\n\nResolves: QTI9X40-4233\nChange-Id: I56fbcd0e0f384e5831f4a93ff4996ba6bdabf22b\nSigned-off-by: Jarch Hu <jarhu@sierrawireless.com>\n",
+      "subject": "Add tcp splice module",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1536833871,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/34940",
+      "number": 34940,
+      "lastUpdated": 1537496455,
+      "allReviewers": [
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Lucy He",
+          "email": "LHe@sierrawireless.com",
+          "username": "lhe"
+        },
+        {
+          "name": "Caupar Gu",
+          "email": "cgu@sierrawireless.com",
+          "username": "cgu"
+        },
+        {
+          "name": "Jarch Hu",
+          "email": "JarHu@sierrawireless.com",
+          "username": "jarhu"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        }
+      ],
+      "id": "I56fbcd0e0f384e5831f4a93ff4996ba6bdabf22b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/40/34940/1",
+          "uploader": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "author": {
+            "name": "Jarch Hu",
+            "email": "jarhu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Caupar Gu",
+                "email": "cgu@sierrawireless.com",
+                "username": "cgu"
+              },
+              "grantedOn": 1536907425,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1536833871,
+          "revision": "e5a9df9b3d4fb9264f2eac22879af953c8cd59a1",
+          "parents": [
+            "1eb7ea62a43299f80dab7008a58c6b4e0cdad596"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/40/34940/2",
+          "uploader": {
+            "name": "Jarch Hu",
+            "email": "JarHu@sierrawireless.com",
+            "username": "jarhu"
+          },
+          "author": {
+            "name": "Jarch Hu",
+            "email": "jarhu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Lucy He",
+                "email": "LHe@sierrawireless.com",
+                "username": "lhe"
+              },
+              "grantedOn": 1537348679,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1537496421,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1537496421,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1537496429,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1536919188,
+          "revision": "7c04c978e91d03c917d70267541f50a2f35a390b",
+          "parents": [
+            "1eb7ea62a43299f80dab7008a58c6b4e0cdad596"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Lucy He",
+        "email": "LHe@sierrawireless.com",
+        "username": "lhe"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1525922447
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1952/",
+          "timestamp": 1525922455
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - There is a blank line after Resolves: (or Related:), please amend to fix the order.",
+          "timestamp": 1525922457
+        },
+        {
+          "reviewer": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "message": "Topic set to downstream_LXSWIREF-386",
+          "timestamp": 1525922483
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1525933498
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1525933509
+        },
+        {
+          "reviewer": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1525933928
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1525933938
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1526026278
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic downstream_LXSWIREF-386 removed",
+          "timestamp": 1526026437
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 4: Patch Set 3 was rebased",
+          "timestamp": 1526026531
+        },
+        {
+          "reviewer": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1526026534
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1966/",
+          "timestamp": 1526026541
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1526026941
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Change has been successfully merged by Summer Peng",
+          "timestamp": 1526026946
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild Started http://jenkins-legato/job/LxSwi-Merged/591/",
+          "timestamp": 1526026958
+        }
+      ],
+      "commitMessage": "Add neutrino firmware for Neutrino Ethernet chip\n\nResolves: QTI9X40-3427\nChange-Id: Idf2430565d3ba584275c7a5d0febc7b2209a5ead\nSigned-off-by: Lucy He <LHe@sierrawireless.com>\n",
+      "subject": "Add neutrino firmware for Neutrino Ethernet chip",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1525922447,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/28488",
+      "number": 28488,
+      "lastUpdated": 1526026958,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "Yan Kong",
+          "email": "ykong@sierrawireless.com",
+          "username": "ykong"
+        },
+        {
+          "name": "Zoran Markovic",
+          "email": "zmarkovic@sierrawireless.com",
+          "username": "zmarkovic"
+        },
+        {
+          "name": "Dragan Marinkovic",
+          "email": "dmarinkovi@sierrawireless.com",
+          "username": "dmarinkovi"
+        },
+        {
+          "name": "Software Code Review Records",
+          "email": "SoftwareCodeReviewRecords@sierrawireless.com",
+          "username": "softwarecodereviewre"
+        }
+      ],
+      "id": "Idf2430565d3ba584275c7a5d0febc7b2209a5ead",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/88/28488/1",
+          "uploader": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "author": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1525922457,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1525922447,
+          "revision": "b743e0644671c3357481891e2a990e962992d310",
+          "parents": [
+            "59723a9aefe5822022ca547ccc954b1bd2953f3c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/88/28488/2",
+          "uploader": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "author": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1525933498,
+          "revision": "5910777d0aa2d0578a332c116c21ae1e9b2d1a9a",
+          "parents": [
+            "59723a9aefe5822022ca547ccc954b1bd2953f3c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/88/28488/3",
+          "uploader": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "author": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Yan Kong",
+                "email": "ykong@sierrawireless.com",
+                "username": "ykong"
+              },
+              "grantedOn": 1526026278,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1525933928,
+          "revision": "e76a731f8950eff20a728281eed57c099b360633",
+          "parents": [
+            "59723a9aefe5822022ca547ccc954b1bd2953f3c"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/88/28488/4",
+          "uploader": {
+            "name": "Yan Kong",
+            "email": "ykong@sierrawireless.com",
+            "username": "ykong"
+          },
+          "author": {
+            "name": "Lucy He",
+            "email": "LHe@sierrawireless.com",
+            "username": "lhe"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Yan Kong",
+                "email": "ykong@sierrawireless.com",
+                "username": "ykong"
+              },
+              "grantedOn": 1526026534,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1526026941,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1526026946,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1526026531,
+          "revision": "e9c003b3d8a0f5a61b4b49ad65f60ffaff0261b4",
+          "parents": [
+            "cc4ff396de414f5621b6b9474deebab048014b33"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Vincent Liu",
+        "email": "vliu@sierrawireless.com",
+        "username": "vliu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1519459526
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1591/",
+          "timestamp": 1519459536
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "message": "Topic set to QTI9X40-3025_yocto_2.2",
+          "timestamp": 1519459590
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1591/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/25112/1/\n : SUCCESS",
+          "timestamp": 1519459682
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1519483269
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Change has been successfully merged by Summer Peng",
+          "timestamp": 1519483353
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Merged/477/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/25112/1/\n : SUCCESS",
+          "timestamp": 1519483525
+        }
+      ],
+      "commitMessage": "Add qmi_shutdown_modem\n\nEffect Platform:\nAR759x Release 1: Yes\nAR759x Release 2: Yes\n\nThis commit is for added for QTI9X40-3025.\n1, /etc/init.d/modem_shutdown invoke an application \"qmi_shutdown_modem\".\n2, This application is used to do PC mode transition and UIM powerdown task.\n3, But it doesn't take effect in sierra code.\n4, Enable the \"qmi_shutdown_modem\" application.\n5, Fix the bug system stuck when excute \"qmi_shutdown_modem --immediately\".\n6, More details about point 5 can be found QTI9X28-2655.\n\nResolves: QTI9X40-3025\nChange-Id: Idb535f8fa3b9e5b251514c4e552a82d9781b03a0\nSigned-off-by: Felix Zhu <FZhu@sierrawireless.com>\n",
+      "subject": "Add qmi_shutdown_modem",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1519459526,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/25112",
+      "number": 25112,
+      "lastUpdated": 1519483525,
+      "allReviewers": [
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Felix Zhu",
+          "email": "FZhu@sierrawireless.com",
+          "username": "fzhu"
+        }
+      ],
+      "topic": "QTI9X40-3025_yocto_2.2",
+      "id": "Idb535f8fa3b9e5b251514c4e552a82d9781b03a0",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/12/25112/1",
+          "uploader": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "author": {
+            "name": "Vincent Liu",
+            "email": "vliu@sierrawireless.com",
+            "username": "vliu"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1519459682,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1519483269,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1519483353,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1519459526,
+          "revision": "361cbb8ec4194a573637f499c23a38e57cd38c4f",
+          "parents": [
+            "77544b530a32d2cd0b03c8590987ee3df3498c47"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Summer Peng",
+        "email": "speng@sierrawireless.com",
+        "username": "speng"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1518167426
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Your commit should mention a least one ticket.",
+          "timestamp": 1518167427
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1491/",
+          "timestamp": 1518167435
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1518167517
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1492/",
+          "timestamp": 1518167525
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1518167527
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1491/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/1/\n : ABORTED\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( http://jenkins-legato/job/LxSwi-Review/1491/ )",
+          "timestamp": 1518167544
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1492/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/2/\n : SUCCESS",
+          "timestamp": 1518167688
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1518167790
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1518167800
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1493/",
+          "timestamp": 1518167801
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1493/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/3/\n : SUCCESS",
+          "timestamp": 1518168058
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 4: Commit message was updated.",
+          "timestamp": 1518168214
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1494/",
+          "timestamp": 1518168221
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.",
+          "timestamp": 1518168223
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 5: Commit message was updated.",
+          "timestamp": 1518168306
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1518168315
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5: -Verified\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1495/",
+          "timestamp": 1518168317
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 4: Verified-1\n\nBuild Failed \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1494/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/4/\n : ABORTED\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( http://jenkins-legato/job/LxSwi-Review/1494/ )",
+          "timestamp": 1518168333
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 6: Commit message was updated.",
+          "timestamp": 1518168376
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 6:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1496/",
+          "timestamp": 1518168382
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 5: Verified-1\n\nBuild Failed \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1495/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/5/\n : ABORTED\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( http://jenkins-legato/job/LxSwi-Review/1495/ )",
+          "timestamp": 1518168393
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 6: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1496/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/6/\n : SUCCESS",
+          "timestamp": 1518168600
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 7.",
+          "timestamp": 1518173786
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 7:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1499/",
+          "timestamp": 1518173793
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 7: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1518173795
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 8: Commit message was updated.",
+          "timestamp": 1518173866
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 8:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1500/",
+          "timestamp": 1518173878
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 7: Verified-1\n\nBuild Failed \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1499/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/7/\n : ABORTED\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( http://jenkins-legato/job/LxSwi-Review/1499/ )",
+          "timestamp": 1518173891
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 8: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1500/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/8/\n : SUCCESS",
+          "timestamp": 1518174061
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 8: Code-Review+2",
+          "timestamp": 1518174093
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Change has been successfully merged by Summer Peng",
+          "timestamp": 1518174095
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 8:\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Merged/458/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24654/8/\n : SUCCESS",
+          "timestamp": 1518174350
+        }
+      ],
+      "commitMessage": "Add binaries in meta-swi-extras-ar759x-bin\n\nResolves: QTI9X40-3106\nChange-Id: I6a56af35be8ba3f2b1b05404c9d129e6cc79a03c\n",
+      "subject": "Add binaries in meta-swi-extras-ar759x-bin",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1518167426,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/24654",
+      "number": 24654,
+      "lastUpdated": 1518174350,
+      "allReviewers": [
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I6a56af35be8ba3f2b1b05404c9d129e6cc79a03c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/1",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518167427,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518167544,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1518167426,
+          "revision": "52f715ce17c52bdee1fc8a923b2c8364a35859f6",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/2",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518167527,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518167688,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1518167517,
+          "revision": "d33e0b871bed419a614404653ec32d02acbd7e52",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/3",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518167800,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168058,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1518167790,
+          "revision": "f9ebd0d7156a5823c2b4b4650959b163c0c09ec3",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/4",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168223,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168333,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1518168214,
+          "revision": "f999364ee630f0859d1ad35009c21b25caef96b1",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/5",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168315,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168393,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1518168306,
+          "revision": "e7f7ce1239e92ea83d78630f465d11f94f709ffc",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 6,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/24654/6",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518168600,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1518168376,
+          "revision": "758246df9b936d33593ca1cc085c8fe4176c4835",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 7,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/24654/7",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518173795,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518173891,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1518173786,
+          "revision": "c678ca26f8281d369bf316353cc6bf81f43077b5",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        },
+        {
+          "number": 8,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/54/24654/8",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518174061,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1518174093,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1518174095,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1518173866,
+          "revision": "77544b530a32d2cd0b03c8590987ee3df3498c47",
+          "parents": [
+            "d662f25f05de937487418c92f33e2b8e0262b12b"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Summer Peng",
+        "email": "speng@sierrawireless.com",
+        "username": "speng"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 1: Cherry Picked from branch lxswi-master.",
+          "timestamp": 1518151848
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Your commit should mention a least one ticket.",
+          "timestamp": 1518151849
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/LxSwi-Review/1488/",
+          "timestamp": 1518151855
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1518151886
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic QTI9X28-2589_1-yocto-2.2-swi-ar75xx.r1-master removed",
+          "timestamp": 1518151900
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Review/1488/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24633/1/\n : SUCCESS",
+          "timestamp": 1518152045
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic set to QTI9X28-2589_1-yocto-2.2-swi-ar75xx.r1",
+          "timestamp": 1518152095
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1518152901
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Topic QTI9X28-2589_1-yocto-2.2-swi-ar75xx.r1 removed",
+          "timestamp": 1518152907
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Change has been successfully merged by Summer Peng",
+          "timestamp": 1518152912
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1:\n\nBuild Successful \n\nJenkins job: http://jenkins-legato/job/LxSwi-Merged/456/\nArtifacts: http://get.legato.sierrawireless.local/lxswi/review/24633/1/\n : SUCCESS",
+          "timestamp": 1518153103
+        }
+      ],
+      "commitMessage": "mdm9x40: add binaries for mdm9x40r312\n\nChange-Id: If95bbd09899cbe8911871be32c2b826258b718f8\n",
+      "subject": "mdm9x40: add binaries for mdm9x40r312",
+      "project": "meta-swi-bin-files/mdm9x40le312",
+      "branch": "master",
+      "createdOn": 1518151848,
+      "url": "http://10.107.128.8:8081/c/meta-swi-bin-files/mdm9x40le312/+/24633",
+      "number": 24633,
+      "lastUpdated": 1518153103,
+      "allReviewers": [
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "If95bbd09899cbe8911871be32c2b826258b718f8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/33/24633/1",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1518152045,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1518152901,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Summer Peng",
+                "email": "speng@sierrawireless.com",
+                "username": "speng"
+              },
+              "grantedOn": 1518152912,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1518151848,
+          "revision": "d662f25f05de937487418c92f33e2b8e0262b12b",
+          "parents": [
+            "987b5701a358899ff4c480eb798e16947b3e94f3"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

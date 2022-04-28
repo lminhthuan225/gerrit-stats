@@ -1,0 +1,1395 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1463596079
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 1: Code-Review+1\n\nThanks Bertrand. Looks good to me.",
+          "timestamp": 1463600296
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1463764901
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1466508631
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1466519437
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1466692637
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1466693734
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1466702205
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1466770081
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by Bertrand ROUSSEL",
+          "timestamp": 1466770083
+        }
+      ],
+      "commitMessage": "Provide Arduino Reset APIs\n\nChange-Id: Id22397b5f696f0bca1f12886bc0580fbd682df31\n",
+      "subject": "Provide Arduino Reset APIs",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1463596079,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/7193",
+      "number": 7193,
+      "lastUpdated": 1466770083,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "David Clark",
+          "email": "dclark@sierrawireless.com",
+          "username": "dclark"
+        }
+      ],
+      "id": "Id22397b5f696f0bca1f12886bc0580fbd682df31",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 53,
+          "ref": "refs/changes/93/7193/1",
+          "comments": [
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 517,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "What do you think about `le_result_t mangoh_muxCtrl_ArduioReset(bool assertReset)` instead?  I can imagine that there might be a scenario where you want to hold the arduino in reset until some event occurs."
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 517,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Yes that's a good idea, so if assertReset = false, the Deactivate would not run ?"
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 517,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "What I meant was that mangoh_muxCtrl_ArduinoReset(true) would put the arduino in reset (so it would call mangoh_gpioPinArduinoReset_Activate()) and mangoh_muxCtrl_ArduinoReset(false) would take the arduino out of reset by calling mangoh_gpioPinArduinoReset_Deactivate()"
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 517,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "In that case it would not be a reset anymore no ? I mean, one (=true) would disable the arduino, while one (=false) would enable the arduino. I understand the sleep with a fix time is not the best though, but it seemed like a reasonable default."
+            }
+          ],
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "grantedOn": 1463600296,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1463596079,
+          "revision": "552fe46a41cc27066f6e1221c17ca0b07a72e7e9",
+          "parents": [
+            "3879ae889ebfa53bbbce2c7d3bd4a2ae89bfd2e5"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 126,
+          "ref": "refs/changes/93/7193/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1466702205,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1466770081,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1466770083,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1466693734,
+          "revision": "5809bd4149b1121b27f3640d8b80033b9d64c544",
+          "parents": [
+            "3879ae889ebfa53bbbce2c7d3bd4a2ae89bfd2e5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1462429005
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1462440990
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1462483724
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1462483726
+        }
+      ],
+      "commitMessage": "Set muxCtrlTools sandboxed=false\n\nIt seems that the command line program mux cannot be used if the app\nis configured as sandboxed=true.\n\nChange-Id: I69eed2de3be4c22d0adb0beea8a78e1f36cf0108\n",
+      "subject": "Set muxCtrlTools sandboxed=false",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1462429005,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/7000",
+      "number": 7000,
+      "lastUpdated": 1462483726,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I69eed2de3be4c22d0adb0beea8a78e1f36cf0108",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/00/7000/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "grantedOn": 1462440990,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462483724,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462483724,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462483726,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1462429005,
+          "revision": "3879ae889ebfa53bbbce2c7d3bd4a2ae89bfd2e5",
+          "parents": [
+            "93cb3fab95a358d4a721bc9a029e24f2fc3c21e2"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1462385252
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1462386123
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1462392686
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by Bertrand ROUSSEL",
+          "timestamp": 1462392688
+        }
+      ],
+      "commitMessage": "Make app restart on failure\n\nChange-Id: Ib280f4a96246b32bc7d535a189b178e3a1e67050\n",
+      "subject": "Make app restart on failure",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1462385252,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/6989",
+      "number": 6989,
+      "lastUpdated": 1462392688,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ib280f4a96246b32bc7d535a189b178e3a1e67050",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/89/6989/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1462386123,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1462392686,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1462392687,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1462385252,
+          "revision": "93cb3fab95a358d4a721bc9a029e24f2fc3c21e2",
+          "parents": [
+            "8b047ebdc0fd994dde07dcd5fb9a427c048c7e79"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1461600460
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1461600891
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 2:\n\n(2 comments)",
+          "timestamp": 1461733292
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2:\n\n(2 comments)\n\nVincent: I have replied to both of your comments.  No code changes are planned unless you have any further comments.",
+          "timestamp": 1461768347
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 2: Code-Review+1\n\n> (2 comments)\n > \n > Vincent: I have replied to both of your comments.  No code changes\n > are planned unless you have any further comments.\n\nok to keep UART1 mux control for IoT slot0",
+          "timestamp": 1461773863
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Code-Review+2 Verified+1\n\nApproving based on +1 from Vincent",
+          "timestamp": 1461791108
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1461791133
+        }
+      ],
+      "commitMessage": "Update to use le_gpio.api\n\nThe GPIO expander now implements the standard le_gpio.api interface, so\nupdate the code to reflect that.  Also rename \"IotSlotNReset\" functions\nto \"IotSlotNDeassertReset\" to better reflect what they do.\n\nResolves: MANGOH-1\n\nChange-Id: Ib8b317c1b7d31055df8efe32789d5b409e5b5f27\n",
+      "subject": "Update to use le_gpio.api",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1461600460,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/6874",
+      "number": 6874,
+      "lastUpdated": 1461791133,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        }
+      ],
+      "id": "Ib8b317c1b7d31055df8efe32789d5b409e5b5f27",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 155,
+          "ref": "refs/changes/74/6874/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 252,
+          "createdOn": 1461600460,
+          "revision": "37eb7a8951f0287d168059e7461b7d2994349aea",
+          "parents": [
+            "6d5a2cf3e82aaf32e3e3874bce456c51eff3e4c9"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 155,
+          "ref": "refs/changes/74/6874/2",
+          "comments": [
+            {
+              "file": "mangoh_muxCtrl.api",
+              "line": 54,
+              "reviewer": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "message": "Do we still need this mux control api since on DV3, uart1 is already on."
+            },
+            {
+              "file": "mangoh_muxCtrl.api",
+              "line": 54,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "I believe for UART 1 there are 3 options:\n\n 1. Off\n 2. Route to IoT slot 0\n 3. Route to IoT slot 1\n\nSo I think we need to provide an API to control the routing."
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/Component.cdef",
+              "line": 7,
+              "reviewer": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "message": "Why the naming as 'Enable', another 'Select', is that standard naming convention?"
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/Component.cdef",
+              "line": 7,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "In the cases where there is an \"enable\" and a \"select\", the \"enable\" it to turn the signal on/off and the \"select\" is to choose where the signal is routed to (assuming that it is enabled)."
+            }
+          ],
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 252,
+          "approvals": [
+            {
+              "by": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "grantedOn": 1461773863,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1461791108,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1461791108,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1461791133,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1461600891,
+          "revision": "8b047ebdc0fd994dde07dcd5fb9a427c048c7e79",
+          "parents": [
+            "6d5a2cf3e82aaf32e3e3874bce456c51eff3e4c9"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1460591749
+        },
+        {
+          "reviewer": {
+            "name": "Ashish Syal",
+            "email": "asyal@sierrawireless.com",
+            "username": "asyal"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1460595694
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Fouillard",
+            "email": "vfouillard@sierrawireless.com",
+            "username": "vfouillard"
+          },
+          "message": "Patch Set 1:\n\n(2 comments)",
+          "timestamp": 1460616071
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1460650331
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1460650462
+        },
+        {
+          "reviewer": {
+            "name": "Ashish Syal",
+            "email": "asyal@sierrawireless.com",
+            "username": "asyal"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1460650739
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Fouillard",
+            "email": "vfouillard@sierrawireless.com",
+            "username": "vfouillard"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1460651026
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Code-Review+2 Verified+1",
+          "timestamp": 1460653764
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1460653768
+        }
+      ],
+      "commitMessage": "Fix breakage in previous audio mux commit\n\nChange-Id: I7daed21ba2dec8b47e98cd6dd89afbbd16556a3f\n",
+      "subject": "Fix breakage in previous audio mux commit",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1460591749,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/6738",
+      "number": 6738,
+      "lastUpdated": 1460653768,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Vincent Fouillard",
+          "email": "vfouillard@sierrawireless.com",
+          "username": "vfouillard"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        }
+      ],
+      "id": "I7daed21ba2dec8b47e98cd6dd89afbbd16556a3f",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 16,
+          "ref": "refs/changes/38/6738/1",
+          "comments": [
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 479,
+              "reviewer": {
+                "name": "Vincent Fouillard",
+                "email": "vfouillard@sierrawireless.com",
+                "username": "vfouillard"
+              },
+              "message": "is mangoh only intended for WP85 modules ?"
+            },
+            {
+              "file": "muxCtrlService/muxCtrl/muxCtrl.c",
+              "line": 479,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "Good catch.  Will change \"WP85\" -> \"CF3\""
+            },
+            {
+              "file": "tools/mux/muxCtrl.c",
+              "line": 98,
+              "reviewer": {
+                "name": "Vincent Fouillard",
+                "email": "vfouillard@sierrawireless.com",
+                "username": "vfouillard"
+              },
+              "message": "same question"
+            }
+          ],
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 20,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ashish Syal",
+                "email": "asyal@sierrawireless.com",
+                "username": "asyal"
+              },
+              "grantedOn": 1460595694,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1460591749,
+          "revision": "2d83da4b857ef6343e4738d9e7edf7c56dd63657",
+          "parents": [
+            "48b8f06c8174b81af9d4673f9278c2eb0642175a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 17,
+          "ref": "refs/changes/38/6738/2",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 21,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ashish Syal",
+                "email": "asyal@sierrawireless.com",
+                "username": "asyal"
+              },
+              "grantedOn": 1460650739,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Vincent Fouillard",
+                "email": "vfouillard@sierrawireless.com",
+                "username": "vfouillard"
+              },
+              "grantedOn": 1460651026,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1460653764,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1460653764,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1460653768,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1460650462,
+          "revision": "6d5a2cf3e82aaf32e3e3874bce456c51eff3e4c9",
+          "parents": [
+            "48b8f06c8174b81af9d4673f9278c2eb0642175a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1459789379
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 1:\n\n(2 comments)",
+          "timestamp": 1459798165
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)\n\nI added a comment about why I disagree about describing implementation details in the .api file.",
+          "timestamp": 1459811473
+        },
+        {
+          "reviewer": {
+            "name": "Vincent Zhu",
+            "email": "vzhu@sierrawireless.com",
+            "username": "vzhu"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1459812787
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1459876935
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1459876954
+        }
+      ],
+      "commitMessage": "Provide a simpler audio muxing interface\n\nChange-Id: I23d00d9638dac316f70ba5dad42c53e557dbdb8d\n",
+      "subject": "Provide a simpler audio muxing interface",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1459789379,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/6544",
+      "number": 6544,
+      "lastUpdated": 1459876954,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        }
+      ],
+      "id": "I23d00d9638dac316f70ba5dad42c53e557dbdb8d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 129,
+          "ref": "refs/changes/44/6544/1",
+          "comments": [
+            {
+              "file": "mangoh_muxCtrl.api",
+              "line": 208,
+              "reviewer": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "message": "Add comment here to indicate which signal will be set output as high or low."
+            },
+            {
+              "file": "mangoh_muxCtrl.api",
+              "line": 208,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "The reason that this API exists is so that users don't have to care about which GPIOs are changing.  I believe that we should not document what user visible impact calling this function has, not how it achieves that result."
+            },
+            {
+              "file": "mangoh_muxCtrl.api",
+              "line": 219,
+              "reviewer": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "message": "Add comment here to indicate which signal will be set output as high or low.\n\ne.g.\n\n\"The signal PCM_ANALOG_SELECT is set output as LOW\""
+            }
+          ],
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 170,
+          "approvals": [
+            {
+              "by": {
+                "name": "Vincent Zhu",
+                "email": "vzhu@sierrawireless.com",
+                "username": "vzhu"
+              },
+              "grantedOn": 1459812787,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459876935,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459876935,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459876954,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1459789379,
+          "revision": "48b8f06c8174b81af9d4673f9278c2eb0642175a",
+          "parents": [
+            "94bba5d1f4fd09701ea44f57ccf154f86f45d8ee"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1459377053
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2\n\nVincent has reviewed this code, and verbally confirmed that it is ok.  Pushing it through.",
+          "timestamp": 1459811037
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1459812127
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1459812133
+        }
+      ],
+      "commitMessage": "Rename app (MuxCtrl->MuxControl) and refactor\n\n- Change references to MuxCtrl to MuxControl\n- Start muxCtrlService automatically\n- Configure GPIOs as output during COMPONENT_INIT rather than setting\n  them as output each time a function is called.\n\nChange-Id: I6af725d0f06876bed9b75a9978de40df22ad3807\n",
+      "subject": "Rename app (MuxCtrl->MuxControl) and refactor",
+      "project": "mangOH/MuxControl",
+      "branch": "master",
+      "createdOn": 1459377053,
+      "url": "http://10.107.128.8:8081/c/mangOH/MuxControl/+/6507",
+      "number": 6507,
+      "lastUpdated": 1459812133,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Ashish Syal",
+          "email": "asyal@sierrawireless.com",
+          "username": "asyal"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Vincent Zhu",
+          "email": "vzhu@sierrawireless.com",
+          "username": "vzhu"
+        }
+      ],
+      "id": "I6af725d0f06876bed9b75a9978de40df22ad3807",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 215,
+          "ref": "refs/changes/07/6507/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 300,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459811037,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459812127,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1459812133,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1459377053,
+          "revision": "94bba5d1f4fd09701ea44f57ccf154f86f45d8ee",
+          "parents": [
+            "00416b2088f4c72f2ca1031349c18d482d001289"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

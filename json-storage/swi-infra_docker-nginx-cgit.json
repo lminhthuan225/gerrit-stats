@@ -1,0 +1,672 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1606582748
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1606582764
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1606582767
+        }
+      ],
+      "commitMessage": "Fix missing python-docutils package\n\nResolves: FARM-4926\nChange-Id: I7b5e0453f2fc893607140e6c23161860045506eb\n",
+      "subject": "Fix missing python-docutils package",
+      "project": "swi-infra/docker-nginx-cgit",
+      "branch": "master",
+      "createdOn": 1606582748,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-nginx-cgit/+/70183",
+      "number": 70183,
+      "lastUpdated": 1606582767,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I7b5e0453f2fc893607140e6c23161860045506eb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/83/70183/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1606582764,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1606582764,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1606582767,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1606582748,
+          "revision": "6bf98d36accf1ecf0041caaa86e66768a8d213d8",
+          "parents": [
+            "363f20f19237ba3b25c9be7a4a1c65ce7462c2e2"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1550241796
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1550242342
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1550242345
+        }
+      ],
+      "commitMessage": "Add missing spawn-fcgi\n\nResolves: FARM-2509\nChange-Id: Ie98d9c25e45e5e62962811b0d8ed2e2f85e6200e\n",
+      "subject": "Add missing spawn-fcgi",
+      "project": "swi-infra/docker-nginx-cgit",
+      "branch": "master",
+      "createdOn": 1550241796,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-nginx-cgit/+/42733",
+      "number": 42733,
+      "lastUpdated": 1550242345,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ie98d9c25e45e5e62962811b0d8ed2e2f85e6200e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/33/42733/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1550242342,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1550242342,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1550242345,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1550241796,
+          "revision": "363f20f19237ba3b25c9be7a4a1c65ce7462c2e2",
+          "parents": [
+            "158ddefe187a3971e0b8226c4f287c3d75c056be"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1547590924
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1547590925
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1547590983
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1547590984
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1547591009
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1547591011
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1547591671
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Removed Code-Review+2 by Bertrand Roussel <broussel@sierrawireless.com>\n",
+          "timestamp": 1547591812
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Removed Verified+1 by Bertrand Roussel <broussel@sierrawireless.com>\n",
+          "timestamp": 1547591814
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\nDoesn't build properly:\n\nRunning hooks in /etc/ca-certificates/update.d...\ndone.\n\nCurrent default time zone: 'Etc/UTC'\nLocal time is now:      Tue Jan 15 22:30:54 UTC 2019.\nUniversal Time is now:  Tue Jan 15 22:30:54 UTC 2019.\n\nInstalling https://luarocks.org/luacrypto-0.3.2-2.src.rock\n\nError: Could not find header file for OPENSSL\n  No file openssl/evp.h in /usr/local/include\n  No file openssl/evp.h in /usr/include\nYou may have to install OPENSSL in your system and/or pass OPENSSL_DIR or OPENSSL_INCDIR to the luarocks command.\nExample: luarocks install luacrypto OPENSSL_DIR=/usr/local",
+          "timestamp": 1547591831
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Assignee added: Phan Dinh Khai <pdkhai@tma.com.vn>",
+          "timestamp": 1547591868
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1548317291
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Verified+1 Code-Review+2",
+          "timestamp": 1548694122
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1548694302
+        }
+      ],
+      "commitMessage": "For cgit authentication\n\nAdd libs: luacrypto, lua and ldap for cgit authentication\n\nResolves: FARM-2421\nChange-Id: I5996c3e4169738be72d138d998e2c647a2d29f9e\n",
+      "subject": "For cgit authentication",
+      "project": "swi-infra/docker-nginx-cgit",
+      "branch": "master",
+      "createdOn": 1547590924,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-nginx-cgit/+/41465",
+      "number": 41465,
+      "lastUpdated": 1548694302,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I5996c3e4169738be72d138d998e2c647a2d29f9e",
+      "assignee": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/65/41465/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "nhanvpt102",
+            "email": "nhanvpt102@gmail.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1547590925,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1547590924,
+          "revision": "3e447e9123a838df7021486604b8b10fc58a6254",
+          "parents": [
+            "c0743ef6bb63856deb90ccb2aac1707039643a06"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/65/41465/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "nhanvpt102",
+            "email": "nhanvpt102@gmail.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547591009,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547591009,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1547590983,
+          "revision": "1cf4512e3cdca739ca0654e8e1eecb128a26a35a",
+          "parents": [
+            "c0743ef6bb63856deb90ccb2aac1707039643a06"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/65/41465/3",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "nhanvpt102",
+            "email": "nhanvpt102@gmail.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547591831,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1547591671,
+          "revision": "47a4d58dcfa7f45844d66f0aa9a98465a922012f",
+          "parents": [
+            "c0743ef6bb63856deb90ccb2aac1707039643a06"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/65/41465/4",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "nhanvpt102",
+            "email": "nhanvpt102@gmail.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1548694122,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1548694122,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1548694302,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1548317291,
+          "revision": "158ddefe187a3971e0b8226c4f287c3d75c056be",
+          "parents": [
+            "c0743ef6bb63856deb90ccb2aac1707039643a06"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1547590924
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1547590925
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1547590995
+        }
+      ],
+      "commitMessage": "Update Dockerfile\n\nChange-Id: Iab4f6fc9bca59fb90f7792f48688065c96c24747\n",
+      "subject": "Update Dockerfile",
+      "project": "swi-infra/docker-nginx-cgit",
+      "branch": "master",
+      "createdOn": 1547590924,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-nginx-cgit/+/41466",
+      "number": 41466,
+      "lastUpdated": 1547590995,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Iab4f6fc9bca59fb90f7792f48688065c96c24747",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/66/41466/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "nhanvpt102",
+            "email": "nhanvpt102@gmail.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1547590925,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1547590924,
+          "revision": "ebeeaa368a58e96787d2ccf624f76a10c02990c5",
+          "parents": [
+            "3e447e9123a838df7021486604b8b10fc58a6254"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

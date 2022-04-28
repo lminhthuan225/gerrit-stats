@@ -1,0 +1,322 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "David Frey",
+        "email": "DFrey@sierrawireless.com",
+        "username": "dfrey"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1465508665
+        },
+        {
+          "reviewer": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "message": "Patch Set 1: Code-Review+1",
+          "timestamp": 1465509321
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 1: Code-Review+2 Verified+1",
+          "timestamp": 1465574920
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1465574922
+        }
+      ],
+      "commitMessage": "Bundle a resolv.conf due to a Legato bug\n\nChange-Id: If66a0a649b600155112c7b03ca756233fe31e4df\n",
+      "subject": "Bundle a resolv.conf due to a Legato bug",
+      "project": "mangOH/SocialService",
+      "branch": "master",
+      "createdOn": 1465508665,
+      "url": "http://10.107.128.8:8081/c/mangOH/SocialService/+/7521",
+      "number": 7521,
+      "lastUpdated": 1465574922,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "Kelly Murphy",
+          "email": "kmurphy@sierrawireless.com",
+          "username": "kmurphy"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "If66a0a649b600155112c7b03ca756233fe31e4df",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/21/7521/1",
+          "uploader": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "author": {
+            "name": "David Frey",
+            "email": "dfrey@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kelly Murphy",
+                "email": "kmurphy@sierrawireless.com",
+                "username": "kmurphy"
+              },
+              "grantedOn": 1465509321,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465574920,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465574920,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465574922,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1465508665,
+          "revision": "ca7aed7b552dbf5a5d18b2ba7c1a9a88d9ced678",
+          "parents": [
+            "dabcefd7239e24752de60fca50d9cc2428e94e80"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kelly Murphy",
+        "email": "kmurphy@sierrawireless.com",
+        "username": "kmurphy"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1465409624
+        },
+        {
+          "reviewer": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1465409762
+        },
+        {
+          "reviewer": {
+            "name": "David Frey",
+            "email": "DFrey@sierrawireless.com",
+            "username": "dfrey"
+          },
+          "message": "Patch Set 2: Code-Review+2 Verified+1\n\n(3 comments)",
+          "timestamp": 1465415214
+        },
+        {
+          "reviewer": {
+            "name": "Gerrit Code Review",
+            "email": "gerrit@df75d4135594"
+          },
+          "message": "Change has been successfully merged by David Frey",
+          "timestamp": 1465415216
+        }
+      ],
+      "commitMessage": "Initial push of the code.\n\nChange-Id: If656145889d4022f0edc881b2dc3c26b307e7369\n",
+      "subject": "Initial push of the code.",
+      "project": "mangOH/SocialService",
+      "branch": "master",
+      "createdOn": 1465409624,
+      "url": "http://10.107.128.8:8081/c/mangOH/SocialService/+/7499",
+      "number": 7499,
+      "lastUpdated": 1465415216,
+      "allReviewers": [
+        {
+          "name": "David Frey",
+          "email": "DFrey@sierrawireless.com",
+          "username": "dfrey"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "If656145889d4022f0edc881b2dc3c26b307e7369",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 45774,
+          "ref": "refs/changes/99/7499/1",
+          "uploader": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "author": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1465409624,
+          "revision": "8081d9302017330680c4fb2174f360fed90636db",
+          "parents": []
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 18782,
+          "ref": "refs/changes/99/7499/2",
+          "comments": [
+            {
+              "file": "socialService.adef",
+              "line": 14,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "Was this only required for development or is this still necessary?"
+            },
+            {
+              "file": "socialService.adef",
+              "line": 50,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "\"add\"?"
+            },
+            {
+              "file": "twitterClient/debug.txt",
+              "line": 0,
+              "reviewer": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "message": "Is this file necessary?"
+            }
+          ],
+          "uploader": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "author": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465415214,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465415214,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "David Frey",
+                "email": "DFrey@sierrawireless.com",
+                "username": "dfrey"
+              },
+              "grantedOn": 1465415216,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1465409762,
+          "revision": "dabcefd7239e24752de60fca50d9cc2428e94e80",
+          "parents": []
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

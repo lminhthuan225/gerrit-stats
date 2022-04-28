@@ -1,0 +1,3188 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Lukasz Pacyk",
+        "email": "LPacyk@sierrawireless.com",
+        "username": "lpacyk"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642465356
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1642465379
+        },
+        {
+          "reviewer": {
+            "name": "Choong Jin Ng",
+            "email": "CNg@sierrawireless.com",
+            "username": "cng"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1642466377
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1642466408
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1642466410
+        },
+        {
+          "reviewer": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "message": "Change has been successfully rebased and submitted as da4db307cb48a171f52457749cd3a39a4ffeff02",
+          "timestamp": 1642466412
+        }
+      ],
+      "commitMessage": "Fix docker right issue on Ubuntu 20.04 host\n\nHosts that use Ubuntu 20.04 map the docker group to GID 998\n\nResolves: FARM-6125\nChange-Id: I8ee78b4e586dfe68fd5327c9a83f402b4c053ec8\n",
+      "subject": "Fix docker right issue on Ubuntu 20.04 host",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1642465356,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/81562",
+      "number": 81562,
+      "lastUpdated": 1642466412,
+      "allReviewers": [
+        {
+          "name": "Lukasz Pacyk",
+          "email": "LPacyk@sierrawireless.com",
+          "username": "lpacyk"
+        },
+        {
+          "name": "Choong Jin Ng",
+          "email": "CNg@sierrawireless.com",
+          "username": "cng"
+        },
+        {
+          "name": "Ashok Kasilingam",
+          "email": "AKasilingam@sierrawireless.com",
+          "username": "akasilingam"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I8ee78b4e586dfe68fd5327c9a83f402b4c053ec8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/62/81562/1",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1642465356,
+          "revision": "cb5f4af8a6ab136f729b6348a683585027a4d029",
+          "parents": [
+            "d48c93bb463b7a9c3cbae5dcf4de6cb9b316ca0c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/62/81562/2",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Choong Jin Ng",
+                "email": "CNg@sierrawireless.com",
+                "username": "cng"
+              },
+              "grantedOn": 1642466377,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466408,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466410,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466412,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642465379,
+          "revision": "d22dda5d26a4beeac50c5e877dee0abab0f7a74d",
+          "parents": [
+            "d48c93bb463b7a9c3cbae5dcf4de6cb9b316ca0c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/62/81562/3",
+          "uploader": {
+            "name": "Lukasz Pacyk",
+            "email": "LPacyk@sierrawireless.com",
+            "username": "lpacyk"
+          },
+          "author": {
+            "name": "Lukasz Pacyk",
+            "email": "lpacyk@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466412,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466412,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Choong Jin Ng",
+                "email": "CNg@sierrawireless.com",
+                "username": "cng"
+              },
+              "grantedOn": 1642466412,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Lukasz Pacyk",
+                "email": "LPacyk@sierrawireless.com",
+                "username": "lpacyk"
+              },
+              "grantedOn": 1642466412,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642466412,
+          "revision": "da4db307cb48a171f52457749cd3a39a4ffeff02",
+          "parents": [
+            "c8ab7f97e62a941e80aadd56317553499384f604"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1607439112
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1607439143
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1607439212
+        }
+      ],
+      "commitMessage": "Upgrade to 3.24 and buster\n\nResolves: FARM-4970\nChange-Id: If5ea7ebaf5d3c61fc95eff6094e08f25454637c9\n",
+      "subject": "Upgrade to 3.24 and buster",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1607439112,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/70483",
+      "number": 70483,
+      "lastUpdated": 1607439212,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "If5ea7ebaf5d3c61fc95eff6094e08f25454637c9",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/83/70483/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1607439143,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1607439143,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1607439212,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1607439112,
+          "revision": "c8ab7f97e62a941e80aadd56317553499384f604",
+          "parents": [
+            "22c896e8694802f48d80600f30ab7873aa3a4581"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1603797793
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1603797999
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1603798003
+        }
+      ],
+      "commitMessage": "Upgrade to 3.23 and java 11\n\nResolves: FARM-3582\nChange-Id: I81a304269c8e452e7dff7024d9e6a0e5ce94e47b\n",
+      "subject": "Upgrade to 3.23 and java 11",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1603797793,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/68905",
+      "number": 68905,
+      "lastUpdated": 1603798003,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I81a304269c8e452e7dff7024d9e6a0e5ce94e47b",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/05/68905/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 7,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1603797999,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1603797999,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1603798003,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1603797793,
+          "revision": "22c896e8694802f48d80600f30ab7873aa3a4581",
+          "parents": [
+            "d48c93bb463b7a9c3cbae5dcf4de6cb9b316ca0c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1564071849
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1564071857
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1564071893
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1564071901
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review-1\n\n(1 comment)",
+          "timestamp": 1564072770
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1564074455
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1564076094
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1564077091
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1564077093
+        }
+      ],
+      "commitMessage": "Update jq to v1.6\n\nResolves: FARM-2992\nChange-Id: I716e0abc01b26dc8188ff1528af8d1f051ce1204\n",
+      "subject": "Update jq to v1.6",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1564071849,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/48926",
+      "number": 48926,
+      "lastUpdated": 1564077093,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "FARM-2992",
+      "id": "I716e0abc01b26dc8188ff1528af8d1f051ce1204",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/26/48926/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1564071857,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1564071849,
+          "revision": "ba54bdb3b191dbf7e56bd747bcb039252aa32f7b",
+          "parents": [
+            "71974c00ed52cc1d23147d440eabfe84a1a9edbb"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/26/48926/2",
+          "comments": [
+            {
+              "file": "Dockerfile",
+              "line": 29,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "It would make sense to put it in the install.sh since that where everything else is being installed"
+            },
+            {
+              "file": "Dockerfile",
+              "line": 29,
+              "reviewer": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564072770,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564072770,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1564071893,
+          "revision": "0db2aedbae8303ff806c9aed9b5b0c93fd8b5be9",
+          "parents": [
+            "71974c00ed52cc1d23147d440eabfe84a1a9edbb"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/26/48926/3",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564077091,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564077091,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564077093,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1564074455,
+          "revision": "d48c93bb463b7a9c3cbae5dcf4de6cb9b316ca0c",
+          "parents": [
+            "71974c00ed52cc1d23147d440eabfe84a1a9edbb"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1563902744
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1563902754
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1563902845
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1563902851
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1563907305
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1563907307
+        }
+      ],
+      "commitMessage": "Add git-lfs support\n\nResolves: FARM-2973\nChange-Id: If039612339bb94f7b4577fb85677b48b0053dff3\n",
+      "subject": "Add git-lfs support",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1563902744,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/48823",
+      "number": 48823,
+      "lastUpdated": 1563907307,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "FARM-2973-MCU",
+      "id": "If039612339bb94f7b4577fb85677b48b0053dff3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/23/48823/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1563902754,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1563902744,
+          "revision": "278b70b0f3e832b6c47dab7436bde10fc7c1532b",
+          "parents": [
+            "d9604cb2aedea6250ef292aba38f613e7d6d3dca"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/23/48823/2",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563907305,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563907305,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563907307,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1563902845,
+          "revision": "71974c00ed52cc1d23147d440eabfe84a1a9edbb",
+          "parents": [
+            "d9604cb2aedea6250ef292aba38f613e7d6d3dca"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1563817659
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1563818456
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully rebased and submitted as d9604cb2aedea6250ef292aba38f613e7d6d3dca by Bertrand Roussel",
+          "timestamp": 1563818460
+        }
+      ],
+      "commitMessage": "Upgrade to 3.17\n\nChange-Id: Id2e332ed1e91ea8683221eca5249a9180ddf2de3\n",
+      "subject": "Upgrade to 3.17",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1563817659,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/48778",
+      "number": 48778,
+      "lastUpdated": 1563818460,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "Id2e332ed1e91ea8683221eca5249a9180ddf2de3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/78/48778/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818456,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818456,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818460,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1563817659,
+          "revision": "ac422514594264dd222350a8699431e69a11b5f7",
+          "parents": [
+            "ec37cca34435b5ea75e2a993467098ce3994a6f7"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/78/48778/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "NO_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818460,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818460,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563818460,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1563818460,
+          "revision": "d9604cb2aedea6250ef292aba38f613e7d6d3dca",
+          "parents": [
+            "9801c7fa4bb53f870c5e2391ebdf93dc34ea00c5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Summer Peng",
+        "email": "speng@sierrawireless.com",
+        "username": "speng"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1551324083
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1551335746
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Code-Review+1\n\nThis is OK to do I think, but the problem is that we are using /run/user/$UID in the first place, while it is not necessary to me.",
+          "timestamp": 1551367565
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\nDone at the encaps level instead.",
+          "timestamp": 1551428990
+        },
+        {
+          "reviewer": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "message": "Abandoned",
+          "timestamp": 1551429056
+        }
+      ],
+      "commitMessage": "Add directory /run/user/${uid} for jenkins\n\nResolves: FARM-2544\nChange-Id: I2563a4488eae9ef302c915afead39ae63cfd5213\n",
+      "subject": "Add directory /run/user/${uid} for jenkins",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1551324083,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/43246",
+      "number": 43246,
+      "lastUpdated": 1551429056,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Ryan Kirk",
+          "email": "rkirk@sierrawireless.com",
+          "username": "rkirk"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Xin Wang",
+          "email": "xwang@sierrawireless.com",
+          "username": "xwang"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I2563a4488eae9ef302c915afead39ae63cfd5213",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/46/43246/1",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1551324083,
+          "revision": "93a316ed7600e734408b36714b76ff93a3961c36",
+          "parents": [
+            "ec37cca34435b5ea75e2a993467098ce3994a6f7"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/46/43246/2",
+          "uploader": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "author": {
+            "name": "Summer Peng",
+            "email": "speng@sierrawireless.com",
+            "username": "speng"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551428990,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1551335746,
+          "revision": "87e53e952a0c897bc6df76059aedacda3e0397e3",
+          "parents": [
+            "ec37cca34435b5ea75e2a993467098ce3994a6f7"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1551427695
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2\n\nTaking the opportunity to upgrade the plugin since we are already rebuilding the image.",
+          "timestamp": 1551427730
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully rebased and submitted as 9801c7fa4bb53f870c5e2391ebdf93dc34ea00c5 by Bertrand Roussel",
+          "timestamp": 1551427734
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2:\n\nOh well, that was already up-to-date ...",
+          "timestamp": 1551427839
+        }
+      ],
+      "commitMessage": "Upgrade to 3.15\n\nResolves: FARM-2544\nChange-Id: If177ad5547f64d5b4235b34c58b9b9f86b4294cb\n",
+      "subject": "Upgrade to 3.15",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1551427695,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/43316",
+      "number": 43316,
+      "lastUpdated": 1551427839,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Summer Peng",
+          "email": "speng@sierrawireless.com",
+          "username": "speng"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "If177ad5547f64d5b4235b34c58b9b9f86b4294cb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/16/43316/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427730,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427730,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427734,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1551427695,
+          "revision": "82bbd40c99f76debdc2b9e187e142ab2f76a0edd",
+          "parents": [
+            "aae47d926207afbab21b9ca1f5f903940fb78090"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/16/43316/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427734,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427734,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1551427734,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1551427734,
+          "revision": "9801c7fa4bb53f870c5e2391ebdf93dc34ea00c5",
+          "parents": [
+            "ec37cca34435b5ea75e2a993467098ce3994a6f7"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1547257230
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1547257231
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1547257251
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1547257256
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1547257274
+        }
+      ],
+      "commitMessage": "Upgrade to 3.15\n\nChange-Id: I3c5b415fbb4f76c3bdac788e89681505877eb9ad\n",
+      "subject": "Upgrade to 3.15",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1547257230,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/41334",
+      "number": 41334,
+      "lastUpdated": 1547257274,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I3c5b415fbb4f76c3bdac788e89681505877eb9ad",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/34/41334/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257256,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257256,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257274,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1547257230,
+          "revision": "ec37cca34435b5ea75e2a993467098ce3994a6f7",
+          "parents": [
+            "3071544046ba4f0a72f31a97518bfbedd4dc73ad"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1547257045
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1547257045
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1547257263
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-LXCIM_sa <CARMD-EV-LXCIM_sa@sierrawireless.com>\n",
+          "timestamp": 1547257270
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1547257274
+        }
+      ],
+      "commitMessage": "Make wget calls quiet\n\nChange-Id: If9d94ae23992e30089a77887c82bf04828388cf1\n",
+      "subject": "Make wget calls quiet",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1547257045,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/41333",
+      "number": 41333,
+      "lastUpdated": 1547257274,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "If9d94ae23992e30089a77887c82bf04828388cf1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/33/41333/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257263,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257263,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1547257274,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1547257045,
+          "revision": "3071544046ba4f0a72f31a97518bfbedd4dc73ad",
+          "parents": [
+            "1fdfc125bf568c2999cd7d5c1d9d462791c239f8"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1534270921
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1534270934
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1534270935
+        }
+      ],
+      "commitMessage": "Fix docker right issues\n\nResolves: FARM-1968\nChange-Id: I1683a8844fd9e19a9795864c979414529092959d\n",
+      "subject": "Fix docker right issues",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1534270921,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/33418",
+      "number": 33418,
+      "lastUpdated": 1534270935,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I1683a8844fd9e19a9795864c979414529092959d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/18/33418/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534270934,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534270934,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534270935,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1534270921,
+          "revision": "1fdfc125bf568c2999cd7d5c1d9d462791c239f8",
+          "parents": [
+            "aae47d926207afbab21b9ca1f5f903940fb78090"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1534269530
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1534269561
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1534269577
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1534269578
+        }
+      ],
+      "commitMessage": "Reduce number of layers + newer Docker version\n\nResolves: FARM-1968\nChange-Id: I070be8519ab661b81fd3fa9f690af4e5fe22475e\n",
+      "subject": "Reduce number of layers + newer Docker version",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1534269530,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/33416",
+      "number": 33416,
+      "lastUpdated": 1534269578,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I070be8519ab661b81fd3fa9f690af4e5fe22475e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 54,
+          "ref": "refs/changes/16/33416/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 55,
+          "createdOn": 1534269530,
+          "revision": "965ca8c2b552b69ea713198f18ed49596f17d54f",
+          "parents": [
+            "72cc1d400e2b771e3742cf0ab37b899c06373feb"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 54,
+          "ref": "refs/changes/16/33416/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 55,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534269577,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534269577,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1534269578,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1534269561,
+          "revision": "aae47d926207afbab21b9ca1f5f903940fb78090",
+          "parents": [
+            "72cc1d400e2b771e3742cf0ab37b899c06373feb"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Quan Huynh",
+        "email": "hmquan@tma.com.vn",
+        "username": "qhuynh"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1531996251
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Declaration of your tickets is not valid: Farm-183.",
+          "timestamp": 1531996255
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1531996339
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1531996345
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2\n\n(1 comment)",
+          "timestamp": 1532003177
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1532003179
+        }
+      ],
+      "commitMessage": "Create symlink to use lbzip2\n\nChange-Id: Ibbb73c797fad3113dd32bbf9b6f33a7afe05ee2c\nResolves: FARM-183\n",
+      "subject": "Create symlink to use lbzip2",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1531996251,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/32158",
+      "number": 32158,
+      "lastUpdated": 1532003179,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        }
+      ],
+      "id": "Ibbb73c797fad3113dd32bbf9b6f33a7afe05ee2c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/58/32158/1",
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1531996255,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1531996251,
+          "revision": "88908b6b03a10d6772d1b61ead7838101cee21ac",
+          "parents": [
+            "15e10f7b628dc01cac6e932694ba1586242fe61e"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/58/32158/2",
+          "comments": [
+            {
+              "file": "Dockerfile",
+              "line": 52,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "A bit risky but why not ..."
+            }
+          ],
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1532003177,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1532003177,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1532003179,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1531996339,
+          "revision": "72cc1d400e2b771e3742cf0ab37b899c06373feb",
+          "parents": [
+            "15e10f7b628dc01cac6e932694ba1586242fe61e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1529584063
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1529584205
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1529584206
+        }
+      ],
+      "commitMessage": "Upgrade to 3.13\n\nResolves: FARM-550\nChange-Id: Iaa4b003670cc4604fc7c7bf365e6ad00e4537239\n",
+      "subject": "Upgrade to 3.13",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1529584063,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/30600",
+      "number": 30600,
+      "lastUpdated": 1529584206,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Iaa4b003670cc4604fc7c7bf365e6ad00e4537239",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/00/30600/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1529584205,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1529584205,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1529584206,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1529584063,
+          "revision": "15e10f7b628dc01cac6e932694ba1586242fe61e",
+          "parents": [
+            "49bbcd2f458c4174b724dfdf37cac1c0b9a0002c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1527621141
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1527621412
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1527621413
+        }
+      ],
+      "commitMessage": "Upgrade to 3.12\n\nResolves: FARM-183\nChange-Id: I525b9dc7f9137932f1423b423c4a77b3b4d61845\n",
+      "subject": "Upgrade to 3.12",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1527621141,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/29410",
+      "number": 29410,
+      "lastUpdated": 1527621413,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I525b9dc7f9137932f1423b423c4a77b3b4d61845",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/10/29410/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621412,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621412,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621413,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1527621141,
+          "revision": "49bbcd2f458c4174b724dfdf37cac1c0b9a0002c",
+          "parents": [
+            "a028952acfa1a0dd2ff34d9bb91243470698bc59"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1527621141
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1527621402
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1527621413
+        }
+      ],
+      "commitMessage": "Install lbzip2\n\nResolves: FARM-183\nChange-Id: I7d529a788174f3dcad156070a3d3e66dd4e3bc4d\n",
+      "subject": "Install lbzip2",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1527621141,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/29409",
+      "number": 29409,
+      "lastUpdated": 1527621413,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I7d529a788174f3dcad156070a3d3e66dd4e3bc4d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/09/29409/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621402,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621402,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1527621413,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1527621141,
+          "revision": "a028952acfa1a0dd2ff34d9bb91243470698bc59",
+          "parents": [
+            "e0b46084b70d653ad9dc99b9ed28679fc5994710"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1520359058
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1520359076
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1520359187
+        }
+      ],
+      "commitMessage": "Install rsync\n\nResolves: FARM-1512\nChange-Id: I501d5055d41f37235ed3bf670e530610ca84fc72\n",
+      "subject": "Install rsync",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1520359058,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/25608",
+      "number": 25608,
+      "lastUpdated": 1520359187,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I501d5055d41f37235ed3bf670e530610ca84fc72",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/08/25608/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520359076,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520359076,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520359187,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1520359058,
+          "revision": "e0b46084b70d653ad9dc99b9ed28679fc5994710",
+          "parents": [
+            "e0cd050eb7404302180ffa3d28f1771ca182d84d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1520350152
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1520350704
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1520350725
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1520350735
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1520350737
+        }
+      ],
+      "commitMessage": "Install newer version of git from backports\n\nResolves: FARM-1512\nChange-Id: I850b9829b9f16cf89bbe9dbe31c4d0456488ea44\n",
+      "subject": "Install newer version of git from backports",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1520350152,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/25604",
+      "number": 25604,
+      "lastUpdated": 1520350743,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I850b9829b9f16cf89bbe9dbe31c4d0456488ea44",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 9,
+          "ref": "refs/changes/04/25604/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1520350152,
+          "revision": "4fb927e577d69c9d7e85a3ef0c4fd6fdda376315",
+          "parents": [
+            "4cb2f0f4b9ed60b75d59456a082be80003cabd50"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/04/25604/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "createdOn": 1520350704,
+          "revision": "21043f17233fd42027a9a033083fd83b46422f98",
+          "parents": [
+            "4cb2f0f4b9ed60b75d59456a082be80003cabd50"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/04/25604/3",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350735,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350735,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350737,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1520350725,
+          "revision": "e0cd050eb7404302180ffa3d28f1771ca182d84d",
+          "parents": [
+            "4cb2f0f4b9ed60b75d59456a082be80003cabd50"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1520350152
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1520350176
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1520350178
+        }
+      ],
+      "commitMessage": "Upgrade to 3.10\n\nResolves: FARM-1512\nChange-Id: Ibc0d955b94bae4c9ff6af707d8ecbb2a7a43d9a4\n",
+      "subject": "Upgrade to 3.10",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1520350152,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/25603",
+      "number": 25603,
+      "lastUpdated": 1520350178,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ibc0d955b94bae4c9ff6af707d8ecbb2a7a43d9a4",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/03/25603/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350176,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350176,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1520350178,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1520350152,
+          "revision": "4cb2f0f4b9ed60b75d59456a082be80003cabd50",
+          "parents": [
+            "018f7b5fd14942b1f312787c377a6bea6e58ee18"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1516039338
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1516039465
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1516039466
+        }
+      ],
+      "commitMessage": "Upgrade to 3.8 + tini v0.16.1\n\nResolves: FARM-1083\nChange-Id: Ia7d66e36cc4d842156045a73431c9e9cfc365f27\n",
+      "subject": "Upgrade to 3.8 + tini v0.16.1",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1516039338,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/23525",
+      "number": 23525,
+      "lastUpdated": 1516039466,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ia7d66e36cc4d842156045a73431c9e9cfc365f27",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/25/23525/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1516039465,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1516039465,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1516039466,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1516039338,
+          "revision": "018f7b5fd14942b1f312787c377a6bea6e58ee18",
+          "parents": [
+            "d2dd807e4247d5cacc69c4f0a04357e704a87f5d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1508432411
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1508432431
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1508432432
+        }
+      ],
+      "commitMessage": "Upgrade to 3.6\n\nResolves: FARM-1083\nChange-Id: I74c8a7d0c8db21e189802fbbe0f4633d2c9c01a3\n",
+      "subject": "Upgrade to 3.6",
+      "project": "swi-infra/jenkins-swarm-docker-client",
+      "branch": "master",
+      "createdOn": 1508432411,
+      "url": "http://10.107.128.8:8081/c/swi-infra/jenkins-swarm-docker-client/+/20144",
+      "number": 20144,
+      "lastUpdated": 1508432432,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I74c8a7d0c8db21e189802fbbe0f4633d2c9c01a3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/44/20144/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 4,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1508432431,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1508432431,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1508432432,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1508432411,
+          "revision": "d2dd807e4247d5cacc69c4f0a04357e704a87f5d",
+          "parents": [
+            "a555b03dc790b04a11d7547be963e836f3210ae2"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,1757 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Jeffrey Wang",
+        "email": "JeWang@sierrawireless.com",
+        "username": "jewang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1627332170
+        },
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1627332648
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1629921308
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1629921311
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1629921315
+        }
+      ],
+      "commitMessage": "[FWINT-696] Generate proper header string when generating QCN/ST cwe image\n\nChanges:\n1) Add -cwe_header parameter to the script so the user can define the header string\n\nChange-Id: I4a1758fd96f2e1bfd00ace0e929dd2a2804059cb\nResolves: FWINT-696\nSigned-off-by: Jeffrey Wang <jewang@sierrawireless.com>\n",
+      "subject": "[FWINT-696] Generate proper header string when generating QCN/ST cwe image",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1627332170,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76999",
+      "number": 76999,
+      "lastUpdated": 1629921315,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I4a1758fd96f2e1bfd00ace0e929dd2a2804059cb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 17,
+          "ref": "refs/changes/99/76999/1",
+          "uploader": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "author": {
+            "name": "Jeffrey Wang",
+            "email": "jewang@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "createdOn": 1627332170,
+          "revision": "72c0186c7bc7668f77bb151359e2a6724773b434",
+          "parents": [
+            "cd01a8d9855784aa411717756aa507231c57986c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 18,
+          "ref": "refs/changes/99/76999/2",
+          "uploader": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "author": {
+            "name": "Jeffrey Wang",
+            "email": "jewang@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 4,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1629921308,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1629921311,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1629921315,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1627332648,
+          "revision": "51ed2f1a73ca5745b06b8beff5fb85ce8518405d",
+          "parents": [
+            "cd01a8d9855784aa411717756aa507231c57986c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1625090092
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1625090095
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1625094625
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(3 comments)",
+          "timestamp": 1625782304
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1:\n\n(3 comments)",
+          "timestamp": 1625782589
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1625785363
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1625785366
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1625785518
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1625785537
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Code-Review+2 by Kaiyu Yang <KaYang@sierrawireless.com>\n",
+          "timestamp": 1625785565
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1625791562
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1625791564
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 3: Code-Review+1\n\n(1 comment)",
+          "timestamp": 1625791662
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1625795844
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 3: Verified+1",
+          "timestamp": 1625795848
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625795853
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625795868
+        }
+      ],
+      "commitMessage": "FWINT-689 - Adjustments required for rfnvugenerator.exe\n\nDescription:\n- use pyinstaller.exe --onefile rfnvugenerator.py command\nto produce a stand-alone executable out of .py file\n- add import clause to address run-time failures.\n- excluded ability to send mail due to missing MIMEText library\n- add the unified executable reflecting above changes\n- update the readme to reflect the executable renaming\n\nResolves: FWINT-689\nChange-Id: Ib01f57ed9923dad32021feee2b4cd3645b7f79a6\n",
+      "subject": "FWINT-689 - Adjustments required for rfnvugenerator.exe",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1625090092,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76324",
+      "number": 76324,
+      "lastUpdated": 1625795868,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Mircea Carausu",
+          "email": "MCarausu@sierrawireless.com",
+          "username": "mcarausu"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ib01f57ed9923dad32021feee2b4cd3645b7f79a6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/24/76324/1",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "So far all tests show consistent results with previous implementation"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "message": "Minor comments...."
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "Thank you for review - will address, as suggested."
+            },
+            {
+              "file": "bin/readme.txt",
+              "line": 1,
+              "reviewer": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "message": "update this line with correct name and version"
+            },
+            {
+              "file": "bin/readme.txt",
+              "line": 1,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "sorry I missed it. Will do"
+            },
+            {
+              "file": "bin/readme.txt",
+              "line": 27,
+              "reviewer": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "message": "can we add usage & example on how to generate ST ?"
+            },
+            {
+              "file": "bin/readme.txt",
+              "line": 27,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "makes  sense; will add"
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1625090095,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625782304,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1625090092,
+          "revision": "4ebfffc887c6fb64444661a595e951243a2f598b",
+          "parents": [
+            "e60093b04c941a123b4a0cda2c157ac1c72ae02a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 50,
+          "ref": "refs/changes/24/76324/2",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "Hi Kaiyu, I enhanced the readme, as suggested. \nDuring testing I noticed the cwe generated in the output folder is always named \"-efs2nvu.cwe\". \nThat is not as expected. Please allow me to look into this before merging.\nMarking -1 for this reason. \n"
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 31,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1625785366,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "grantedOn": 1625785518,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1625785363,
+          "revision": "33cc15a88382abc778e71cbf1fbaf2a6c873065b",
+          "parents": [
+            "e60093b04c941a123b4a0cda2c157ac1c72ae02a"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 50,
+          "ref": "refs/changes/24/76324/3",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "issue is now understood - the executable binary was not reflecting latest .py code.\nRegenerated, verified - behaves as expected now."
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 31,
+          "approvals": [
+            {
+              "by": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "grantedOn": 1625791662,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625795844,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625795848,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625795868,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1625791562,
+          "revision": "cd01a8d9855784aa411717756aa507231c57986c",
+          "parents": [
+            "e60093b04c941a123b4a0cda2c157ac1c72ae02a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624690041
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624690043
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1624690220
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1624691153
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624691155
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625782042
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1625782048
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1625782051
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625782054
+        }
+      ],
+      "commitMessage": "FWINT-689 - Combine qcn and rtsar tools into rfnvugenerator\n\nDescription:\n- Combine rtsar2nvu and qcn2nvu conversion tools\nMajority of the code is common. Preserved the delta\nin separate functions called from the same skeleton\n- Renamed as rfnvugnerator\n- Updated copyright info of all modules\n- Updated version to 1.50\n\nResolves: FWINT-689\nChange-Id: I7e22965e3c5eaf570cfab98c74d1f0cb73a457c4\n",
+      "subject": "FWINT-689 - Combine qcn and rtsar tools into rfnvugenerator",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624690041,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76256",
+      "number": 76256,
+      "lastUpdated": 1625782054,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Mircea Carausu",
+          "email": "MCarausu@sierrawireless.com",
+          "username": "mcarausu"
+        }
+      ],
+      "id": "I7e22965e3c5eaf570cfab98c74d1f0cb73a457c4",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 185,
+          "ref": "refs/changes/56/76256/1",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "We may want to hold off for two reasons:\nfull verification of both rtsar and qcn conversions.\nbundle the 1.5 binary file generated out of this code."
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 640,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1624690043,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "grantedOn": 1624690220,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1624690041,
+          "revision": "c6ee21e3eaeba702ef06ca3f666426becd067abc",
+          "parents": [
+            "c643f66834fb8279ecf091b0875253ad462821c3"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 184,
+          "ref": "refs/changes/56/76256/2",
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 639,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625782048,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625782051,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625782054,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624691153,
+          "revision": "e60093b04c941a123b4a0cda2c157ac1c72ae02a",
+          "parents": [
+            "c643f66834fb8279ecf091b0875253ad462821c3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624688320
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624688323
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625779052
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1625779058
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1625779061
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625779065
+        }
+      ],
+      "commitMessage": "FWINT-689 - Fix trailing spaces\n\nDescription:\nHandle fixing trailing spaces in a separate commit\nCleanup would interfere with content changes otherwise.\n\nResolves: FWINT-689\nChange-Id: Id950bfb25ac7ead89d947c2aa1a31a7a1ef090e1\n",
+      "subject": "FWINT-689 - Fix trailing spaces",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624688320,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76255",
+      "number": 76255,
+      "lastUpdated": 1625779065,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Id950bfb25ac7ead89d947c2aa1a31a7a1ef090e1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 71,
+          "ref": "refs/changes/55/76255/1",
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 71,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625779058,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625779061,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625779065,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624688320,
+          "revision": "c643f66834fb8279ecf091b0875253ad462821c3",
+          "parents": [
+            "6c369a04c421abefb81798af74981439bf099ee3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624687015
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624687016
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1625778842
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625778845
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1625778894
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625778901
+        }
+      ],
+      "commitMessage": "FWINT-689 - remove pyc files from lib folder\n\nDescription:\nNo need to check them in;\nthey are binaries generated every time\nThe executable is a stand-alone file\nIt does not depend on pyc files\n\nResolves: FWINT-689\nChange-Id: I68c3ae86481f6c7eb09bc83a1da3510537ae4d30\n",
+      "subject": "FWINT-689 - remove pyc files from lib folder",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624687015,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76254",
+      "number": 76254,
+      "lastUpdated": 1625778901,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I68c3ae86481f6c7eb09bc83a1da3510537ae4d30",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/54/76254/1",
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778842,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778894,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778901,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624687015,
+          "revision": "6c369a04c421abefb81798af74981439bf099ee3",
+          "parents": [
+            "fdd2de5a0fc41fd827aa40f663641e9d9401d68a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624662740
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624662743
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1624686657
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624686659
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1625778785
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1625778789
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625778792
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1625778885
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625778889
+        }
+      ],
+      "commitMessage": "FWINT-689 - Convert to Unix file endings\n\nDescription:\nHandle conversion to unix file endings\nof all source files\nThis is done in a separate commit to avoid\nmasking meaningful changes.\n\nResolves: FWINT-689\nChange-Id: I42c92acca6bef3a80ece3ced26cdad271d4eff97\n",
+      "subject": "FWINT-689 - Convert to Unix file endings",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624662740,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76248",
+      "number": 76248,
+      "lastUpdated": 1625778889,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I42c92acca6bef3a80ece3ced26cdad271d4eff97",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 557,
+          "ref": "refs/changes/48/76248/1",
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 557,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1624662743,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1624662740,
+          "revision": "78a4117550a178707a8041e8b96e47bbd588f88c",
+          "parents": [
+            "18f74e9de90d90db909c545e6d360287728b48dd"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 3227,
+          "ref": "refs/changes/48/76248/2",
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3227,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778789,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778885,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625778889,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624686657,
+          "revision": "fdd2de5a0fc41fd827aa40f663641e9d9401d68a",
+          "parents": [
+            "903e9cc2c3afacf716206fe3a72642c179e8b214"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624659365
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624659368
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1624659560
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1624663603
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624663611
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1624685013
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1624685016
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1624685183
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 3: Code-Review+2",
+          "timestamp": 1625776902
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 3: Verified+1",
+          "timestamp": 1625776908
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1625776913
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625776923
+        }
+      ],
+      "commitMessage": "FWINT-689 - Initial checking of qcn2nvu\n\nDescription:\n-The code base used to merge the tools was\nobtained from FWTOOLS-1284: sdx55_xqcn2nvu.zip\n-Add FWINT-647 fix:xqcn2nvu: Update NV attrib in QCN CWE\n-Add reference v1.4 binary from:\n\\\\JASMINE2\\Projects-1\\Engineering\\Firmware\\Releases\\\nInternal\\EM91XX\\mmW-Support\\tools\\xqcn2nvu\\xqcn2nvu_v1.4\\\n\nResolves: FWINT-689\nChange-Id: I6795986eaabcd6c81a089201bb657a53e6ffa5ed\nSigned-off-by: Kaiyu Yang <kayang@sierrawireless.com>\n",
+      "subject": "FWINT-689 - Initial checking of qcn2nvu",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624659365,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76246",
+      "number": 76246,
+      "lastUpdated": 1625776923,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "CARMD-EV-VMWS68_sa",
+          "email": "kayang@sierrawireless.com",
+          "username": "carmd-ev-vmws68_sa"
+        }
+      ],
+      "id": "I6795986eaabcd6c81a089201bb657a53e6ffa5ed",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 570,
+          "ref": "refs/changes/46/76246/1",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "Un-modified file extracted from sdx55_xqcn2nvu.zip"
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1624659368,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1624659365,
+          "revision": "d5e0045302c9eae92490f3f54b70992ef1911c04",
+          "parents": [
+            "18f74e9de90d90db909c545e6d360287728b48dd"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 571,
+          "ref": "refs/changes/46/76246/2",
+          "uploader": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1624663611,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1624663603,
+          "revision": "2aa49e71ec4ade5e5704ed3ba6fcf105f307a831",
+          "parents": [
+            "18f74e9de90d90db909c545e6d360287728b48dd"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 571,
+          "ref": "refs/changes/46/76246/3",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "Delivering against FWINT-689 (the new ticket to track merging)."
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625776902,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625776908,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625776923,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624685013,
+          "revision": "903e9cc2c3afacf716206fe3a72642c179e8b214",
+          "parents": [
+            "18f74e9de90d90db909c545e6d360287728b48dd"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kaiyu Yang",
+        "email": "KaYang@sierrawireless.com",
+        "username": "kayang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624657393
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1624657394
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed Quality-Check-2 by CARMD-EV-GIT01_sa (1000328)\n",
+          "timestamp": 1624657456
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1624657476
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1624657479
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624657482
+        }
+      ],
+      "commitMessage": "Initial commit rfnvugenerator source codes\n\nChange-Id: Ib1e5cdee242ca7295435c4729e27c6ade369d97d\nSigned-off-by: Kaiyu Yang <kayang@sierrawireless.com>\n",
+      "subject": "Initial commit rfnvugenerator source codes",
+      "project": "tools/rfnvugenerator",
+      "branch": "master",
+      "createdOn": 1624657393,
+      "url": "http://10.107.128.8:8081/c/tools/rfnvugenerator/+/76244",
+      "number": 76244,
+      "lastUpdated": 1624657482,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "CARMD-EV-VMWS68_sa",
+          "email": "kayang@sierrawireless.com",
+          "username": "carmd-ev-vmws68_sa"
+        }
+      ],
+      "id": "Ib1e5cdee242ca7295435c4729e27c6ade369d97d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2743,
+          "ref": "refs/changes/44/76244/1",
+          "uploader": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "author": {
+            "name": "CARMD-EV-VMWS68_sa",
+            "email": "kayang@sierrawireless.com",
+            "username": "carmd-ev-vmws68_sa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1624657476,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1624657479,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1624657482,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624657393,
+          "revision": "18f74e9de90d90db909c545e6d360287728b48dd",
+          "parents": [
+            "101765706d834f08cdaab3e55e062b0a127f94c9"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

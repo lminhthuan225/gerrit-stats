@@ -1,0 +1,390 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1513758378
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1513759398
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1513759400
+        }
+      ],
+      "commitMessage": "Provide recovery mechanism\n\nIn case the repository is in a bad state, it triggers a recovery\nmechanism that replaces the existing .git .\n\nResolves: FARM-1287\nChange-Id: Ief5a2240a8f773c4a50b11c0416fb4df4708c602\n",
+      "subject": "Provide recovery mechanism",
+      "project": "swi-infra/docker-git-autoupdate",
+      "branch": "master",
+      "createdOn": 1513758378,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-git-autoupdate/+/22773",
+      "number": 22773,
+      "lastUpdated": 1513759400,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Ief5a2240a8f773c4a50b11c0416fb4df4708c602",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 37,
+          "ref": "refs/changes/73/22773/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1513759398,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1513759398,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1513759400,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1513758378,
+          "revision": "0b1290a9558b28ce7f67fc13be1ee0c35a972047",
+          "parents": [
+            "bec3a27f9dc65b2c0fdc0bfbc4a1a0dbac997b25"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1503641855
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1503642468
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully pushed.",
+          "timestamp": 1503642476
+        }
+      ],
+      "commitMessage": "Update script to fetch + reset (no pull)\n\nThe 'git pull' can provide weird results when there\nwas a force merged.\n\nResolves: FARM-941\nChange-Id: I12a3cc08bbf835b5c7d0d9a3ac958632a0bfdcc2\n",
+      "subject": "Update script to fetch + reset (no pull)",
+      "project": "swi-infra/docker-git-autoupdate",
+      "branch": "master",
+      "createdOn": 1503641855,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-git-autoupdate/+/17949",
+      "number": 17949,
+      "lastUpdated": 1503642481,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I12a3cc08bbf835b5c7d0d9a3ac958632a0bfdcc2",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 12,
+          "ref": "refs/changes/49/17949/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "createdOn": 1503641855,
+          "revision": "2444fad1bff47d7b32446768f4b629ec45143a91",
+          "parents": [
+            "ac568538b7867a69c876cb07cf201350643bcacd"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/49/17949/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1503642476,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1503642468,
+          "revision": "bec3a27f9dc65b2c0fdc0bfbc4a1a0dbac997b25",
+          "parents": [
+            "8d4ae694563f85cf1f14f3e502dc1a0e8a34bc0b"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1503641855
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1503641882
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1503642468
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully pushed.",
+          "timestamp": 1503642476
+        }
+      ],
+      "commitMessage": "Switch to alpine\n\nResolves: FARM-941\nChange-Id: I6e51118614a859a646f2e52ecff198b3999d2881\n",
+      "subject": "Switch to alpine",
+      "project": "swi-infra/docker-git-autoupdate",
+      "branch": "master",
+      "createdOn": 1503641855,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-git-autoupdate/+/17948",
+      "number": 17948,
+      "lastUpdated": 1503642476,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I6e51118614a859a646f2e52ecff198b3999d2881",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/48/17948/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 12,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1503641882,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1503641882,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1503641855,
+          "revision": "ac568538b7867a69c876cb07cf201350643bcacd",
+          "parents": [
+            "50f608700f31503df56de284f435fd2675de5d15"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 9,
+          "ref": "refs/changes/48/17948/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1503642476,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1503642468,
+          "revision": "8d4ae694563f85cf1f14f3e502dc1a0e8a34bc0b",
+          "parents": [
+            "50f608700f31503df56de284f435fd2675de5d15"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,208 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Mircea Carausu",
+        "email": "MCarausu@sierrawireless.com",
+        "username": "mcarausu"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1626881536
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1626881539
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1626881663
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1626881778
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1626883368
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1626884324
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Abandoned\n\nchecked in with proper folder structure with: https://gerrit.legato/c/sdx55/rfc_qcn/+/77444. Abandoning.",
+          "timestamp": 1629416593
+        }
+      ],
+      "commitMessage": "Initial checkin of previously released files\n\nDescription:\nChecking in the files from:\n\\\\jasmine2\\Projects-1\\Engineering\\Firmware\\Releases\\Internal\\EM91XX\\mmW-Support\\qcn\n\nChange-Id: I5849c3ada9e249b218ac636a0a12a8e1e51b0d7f\n",
+      "subject": "Initial checkin of previously released files",
+      "project": "sdx55/rfc_qcn",
+      "branch": "master",
+      "createdOn": 1626881536,
+      "url": "http://10.107.128.8:8081/c/sdx55/rfc_qcn/+/76909",
+      "number": 76909,
+      "lastUpdated": 1629416593,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Sam Zahed",
+          "email": "szahed@sierrawireless.com",
+          "username": "szahed"
+        },
+        {
+          "name": "Maggie Luo",
+          "email": "mluo@sierrawireless.com",
+          "username": "mluo"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Bruce Gao",
+          "email": "BrGao@sierrawireless.com",
+          "username": "brgao"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I5849c3ada9e249b218ac636a0a12a8e1e51b0d7f",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 778162,
+          "ref": "refs/changes/09/76909/1",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "This is a test. \nI am not sure how we want this git repo organized. \nI was just testing the ability to push. \nThank you"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "message": "Adding reviewers for visibility"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "message": "suggest to use the same branch format as rfc_xml\ne.g. \nprod-em919x-le11\nprod-em919x-le12\nprod-em919x-le14"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "message": "Hi Kaiyu, this is the folder structure on Jasmine. Since the repo is SDX55, I think the directories are OK. But I'm OK either way."
+            }
+          ],
+          "uploader": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "author": {
+            "name": "Mircea Carausu",
+            "email": "mcarausu@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1626881539,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1626883368,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1626881536,
+          "revision": "0e5d0241eb25623243a3f4d249ad1e923cc12458",
+          "parents": [
+            "c317526bd9ad64a5a85cd768ab9319e14a670d0c"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

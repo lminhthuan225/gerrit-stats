@@ -1,0 +1,195 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Chloe Strainge",
+        "email": "CStrainge@sierrawireless.com",
+        "username": "cstrainge"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1503333803
+        },
+        {
+          "reviewer": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1503361143
+        },
+        {
+          "reviewer": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1503430773
+        },
+        {
+          "reviewer": {
+            "name": "Jen Chitty",
+            "email": "JChitty@sierrawireless.com",
+            "username": "jchitty"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1503431173
+        },
+        {
+          "reviewer": {
+            "name": "Jen Chitty",
+            "email": "JChitty@sierrawireless.com",
+            "username": "jchitty"
+          },
+          "message": "Change has been successfully merged by Jen Chitty",
+          "timestamp": 1503431175
+        }
+      ],
+      "commitMessage": "Importing the initial binary build of ArmV7m GCC.\n\nChange-Id: I2f1bda114ecd0269b6e53bd57e47acd8eb5f5c72\nResolves: LE-7599\n",
+      "subject": "Importing the initial binary build of ArmV7m GCC.",
+      "project": "toolchain/gnu-newlib-armv7m",
+      "branch": "master",
+      "createdOn": 1503333803,
+      "url": "http://10.107.128.8:8081/c/toolchain/gnu-newlib-armv7m/+/17768",
+      "number": 17768,
+      "lastUpdated": 1503431175,
+      "allReviewers": [
+        {
+          "name": "Jen Chitty",
+          "email": "JChitty@sierrawireless.com",
+          "username": "jchitty"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Apelete Seketeli",
+          "email": "Aseketeli@sierrawireless.com",
+          "username": "aseketeli"
+        },
+        {
+          "name": "Kelly Murphy",
+          "email": "kmurphy@sierrawireless.com",
+          "username": "kmurphy"
+        }
+      ],
+      "id": "I2f1bda114ecd0269b6e53bd57e47acd8eb5f5c72",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 616614,
+          "ref": "refs/changes/68/17768/1",
+          "uploader": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "author": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1503333803,
+          "revision": "26290a6b0b18cfbade47bfc5c504048664a29c50",
+          "parents": [
+            "1a6e9f396ed6964dfc0d69da06d6b4ef7ff50d95"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 616655,
+          "ref": "refs/changes/68/17768/2",
+          "uploader": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "author": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1503361143,
+          "revision": "d8c8a66cc005b224ca1d94d10eabc43d7f2f30eb",
+          "parents": [
+            "1a6e9f396ed6964dfc0d69da06d6b4ef7ff50d95"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 616655,
+          "ref": "refs/changes/68/17768/3",
+          "uploader": {
+            "name": "Chloe Strainge",
+            "email": "CStrainge@sierrawireless.com",
+            "username": "cstrainge"
+          },
+          "author": {
+            "name": "Kelly Murphy",
+            "email": "kmurphy@sierrawireless.com",
+            "username": "kmurphy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jen Chitty",
+                "email": "JChitty@sierrawireless.com",
+                "username": "jchitty"
+              },
+              "grantedOn": 1503431173,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Jen Chitty",
+                "email": "JChitty@sierrawireless.com",
+                "username": "jchitty"
+              },
+              "grantedOn": 1503431173,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Jen Chitty",
+                "email": "JChitty@sierrawireless.com",
+                "username": "jchitty"
+              },
+              "grantedOn": 1503431175,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1503430773,
+          "revision": "c2cbcbf9e97d77ce27bce6a8cf0216b2dccb9b9c",
+          "parents": [
+            "1a6e9f396ed6964dfc0d69da06d6b4ef7ff50d95"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

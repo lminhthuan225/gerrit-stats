@@ -1,0 +1,342 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "James Northway",
+        "email": "JNorthway@sierrawireless.com",
+        "username": "jnorthway"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1649353203
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1649353225
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1649353235
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1649353237
+        }
+      ],
+      "commitMessage": "Adds support for download HL78 repo\n\nResolves: FARM-6317\nChange-Id: I46c42cdfdd1772ae9b49f4c20a82d8aa6d2a786c\n",
+      "subject": "Adds support for download HL78 repo",
+      "project": "swi-infra/docker-repo-autoupdate",
+      "branch": "master",
+      "createdOn": 1649353203,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-repo-autoupdate/+/83530",
+      "number": 83530,
+      "lastUpdated": 1649353237,
+      "allReviewers": [
+        {
+          "name": "James Northway",
+          "email": "JNorthway@sierrawireless.com",
+          "username": "jnorthway"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I46c42cdfdd1772ae9b49f4c20a82d8aa6d2a786c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/30/83530/1",
+          "uploader": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "author": {
+            "name": "jnorthway",
+            "email": "jnorthway@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1649353203,
+          "revision": "57c4ae24ab9484cfb43f97be138ebbbf498b9e81",
+          "parents": [
+            "c9db0fdfcc6f332b6ed16435edee19a5a69ecc9b"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/30/83530/2",
+          "uploader": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "author": {
+            "name": "jnorthway",
+            "email": "jnorthway@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649353235,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649353235,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649353237,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1649353225,
+          "revision": "631244c4343c769ae0730bbc8d1452bc9f593b70",
+          "parents": [
+            "4b9acf097a04828b11b9ef84873b74b04290ca7b"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "James Northway",
+        "email": "JNorthway@sierrawireless.com",
+        "username": "jnorthway"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1649268819
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1649268820
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1649268874
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1649268875
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+1",
+          "timestamp": 1649271163
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1649273181
+        },
+        {
+          "reviewer": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1649273184
+        }
+      ],
+      "commitMessage": "Adds source files for repo-autoupdate\n\nDocker container that maintains a repo.\nSee README\n\nResolves: FARM-6317\nChange-Id: I07bf4e184fc659bec688c4354232e5751b8dc5a9\n",
+      "subject": "Adds source files for repo-autoupdate",
+      "project": "swi-infra/docker-repo-autoupdate",
+      "branch": "master",
+      "createdOn": 1649268819,
+      "url": "http://10.107.128.8:8081/c/swi-infra/docker-repo-autoupdate/+/83485",
+      "number": 83485,
+      "lastUpdated": 1649273184,
+      "allReviewers": [
+        {
+          "name": "James Northway",
+          "email": "JNorthway@sierrawireless.com",
+          "username": "jnorthway"
+        },
+        {
+          "name": "Lukasz Pacyk",
+          "email": "LPacyk@sierrawireless.com",
+          "username": "lpacyk"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I07bf4e184fc659bec688c4354232e5751b8dc5a9",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 141,
+          "ref": "refs/changes/85/83485/1",
+          "uploader": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "author": {
+            "name": "jnorthway",
+            "email": "jnorthway@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1649268820,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1649268819,
+          "revision": "c9db0fdfcc6f332b6ed16435edee19a5a69ecc9b",
+          "parents": [
+            "b7c20f298b90ed83a509a5721412ff821260d8ca"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 141,
+          "ref": "refs/changes/85/83485/2",
+          "uploader": {
+            "name": "James Northway",
+            "email": "JNorthway@sierrawireless.com",
+            "username": "jnorthway"
+          },
+          "author": {
+            "name": "jnorthway",
+            "email": "jnorthway@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649271163,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649273181,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "James Northway",
+                "email": "JNorthway@sierrawireless.com",
+                "username": "jnorthway"
+              },
+              "grantedOn": 1649273184,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1649268874,
+          "revision": "4b9acf097a04828b11b9ef84873b74b04290ca7b",
+          "parents": [
+            "b7c20f298b90ed83a509a5721412ff821260d8ca"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

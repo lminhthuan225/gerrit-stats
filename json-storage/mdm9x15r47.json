@@ -1,0 +1,168 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1438377087
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 1:\n\nBuild Started http://jenkins-legato/job/Mdm9x15-Review/2/",
+          "timestamp": 1438377093
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttp://jenkins-legato/job/Mdm9x15-Review/2/ : FAILURE",
+          "timestamp": 1438384005
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nPatch is being rebased by Vincent Chen",
+          "timestamp": 1438808813
+        }
+      ],
+      "commitMessage": "Patch from DEV80839_LWM2M_AVC_00.11.15.06 - r29322\n\nChange-Id: Ia021a7471a2fe3301c770b007808225a9e09c409\n",
+      "subject": "Patch from DEV80839_LWM2M_AVC_00.11.15.06 - r29322",
+      "project": "mdm9x15r47",
+      "branch": "master",
+      "createdOn": 1438377087,
+      "url": "http://10.107.128.8:8081/c/mdm9x15r47/+/2459",
+      "number": 2459,
+      "lastUpdated": 1438808813,
+      "allReviewers": [
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        }
+      ],
+      "id": "Ia021a7471a2fe3301c770b007808225a9e09c409",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 906,
+          "ref": "refs/changes/59/2459/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 397,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jenkins Farm (old)",
+                "email": "ctogroup@sierrawireless.com",
+                "username": "ctogroup"
+              },
+              "grantedOn": 1438384005,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1438377087,
+          "revision": "fe8696dfaae2e7c4a667b316b33a19992b7a1fe8",
+          "parents": [
+            "c6cd56dad990be47c7cd87c2f205eab0b79f4e3d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1435629191
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1436415127
+        }
+      ],
+      "commitMessage": "Workaround for too many TLB entries\n\nChange-Id: I2f1397b52f7cd05dc6e44102ed15033671f8caa9\n",
+      "subject": "Workaround for too many TLB entries",
+      "project": "mdm9x15r47",
+      "branch": "master",
+      "createdOn": 1435629191,
+      "url": "http://10.107.128.8:8081/c/mdm9x15r47/+/2244",
+      "number": 2244,
+      "lastUpdated": 1436415127,
+      "id": "I2f1397b52f7cd05dc6e44102ed15033671f8caa9",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/44/2244/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1435629191,
+          "revision": "d3f3ca8955ff08d957ddd8cd795ec88d49657469",
+          "parents": [
+            "38330b21152df56a005b2b5480943c77380de443"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

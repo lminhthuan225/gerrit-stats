@@ -1,0 +1,323 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Kaiyu Yang",
+        "email": "KaYang@sierrawireless.com",
+        "username": "kayang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1625689811
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Removed reviewer CARMD-EV-VMWS68_sa.",
+          "timestamp": 1625689832
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1625690626
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1626721536
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1626721539
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1626721544
+        }
+      ],
+      "commitMessage": "[ParserTool] Update tool to support EM91 NV compression\n\nResolves: FWINT-691\nChange-Id: Ib91c730018db16c3810a6090f4c0a7fbf7f72ce6\nSigned-off-by: Kaiyu Yang <kayang@sierrawireless.com>\n",
+      "subject": "[ParserTool] Update tool to support EM91 NV compression",
+      "project": "oem/config/utilities/ParserTool",
+      "branch": "master",
+      "createdOn": 1625689811,
+      "url": "http://10.107.128.8:8081/c/oem/config/utilities/ParserTool/+/76477",
+      "number": 76477,
+      "lastUpdated": 1626721544,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-VMWS68_sa",
+          "email": "kayang@sierrawireless.com",
+          "username": "carmd-ev-vmws68_sa"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Sammy Ng",
+          "email": "sng@sierrawireless.com",
+          "username": "sng"
+        },
+        {
+          "name": "Jeffrey Wang",
+          "email": "JeWang@sierrawireless.com",
+          "username": "jewang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "FWINT-691",
+      "id": "Ib91c730018db16c3810a6090f4c0a7fbf7f72ce6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2631,
+          "ref": "refs/changes/77/76477/1",
+          "uploader": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "author": {
+            "name": "CARMD-EV-VMWS68_sa",
+            "email": "kayang@sierrawireless.com",
+            "username": "carmd-ev-vmws68_sa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "createdOn": 1625689811,
+          "revision": "13a40b5e0924af32314c002aaf649d0186710097",
+          "parents": [
+            "da0ed26bb99ffaa8624177cb8a6c05fe9d858fd1"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 2632,
+          "ref": "refs/changes/77/76477/2",
+          "uploader": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "author": {
+            "name": "CARMD-EV-VMWS68_sa",
+            "email": "kayang@sierrawireless.com",
+            "username": "carmd-ev-vmws68_sa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1626721536,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1626721539,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1626721544,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1625690626,
+          "revision": "6b022b331e3f2790914fe9b17f19b87c726943a4",
+          "parents": [
+            "da0ed26bb99ffaa8624177cb8a6c05fe9d858fd1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kaiyu Yang",
+        "email": "KaYang@sierrawireless.com",
+        "username": "kayang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1625531684
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1625531722
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1625531729
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1625531734
+        }
+      ],
+      "commitMessage": "Initial commit ParserTool_24 from SVN\n\n- Initial commit ParserTool_24 from svn@29552\n- https://carmd-app30.sierrawireless.local/svn/ap_hostsw/SwiSoftware/trunk/FactoryTools/ParsesrTool\n- The last fix in SVN is HSWPT-105\n\nResolves: FWINT-691\nChange-Id: Icaf540fb829e1a657e0af269d25aea076f248fa6\nSigned-off-by: Kaiyu Yang <kayang@sierrawireless.com>\n",
+      "subject": "Initial commit ParserTool_24 from SVN",
+      "project": "oem/config/utilities/ParserTool",
+      "branch": "master",
+      "createdOn": 1625531684,
+      "url": "http://10.107.128.8:8081/c/oem/config/utilities/ParserTool/+/76411",
+      "number": 76411,
+      "lastUpdated": 1625531734,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "CARMD-EV-VMWS68_sa",
+          "email": "kayang@sierrawireless.com",
+          "username": "carmd-ev-vmws68_sa"
+        }
+      ],
+      "topic": "FWINT-691",
+      "id": "Icaf540fb829e1a657e0af269d25aea076f248fa6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 18425,
+          "ref": "refs/changes/11/76411/1",
+          "uploader": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "author": {
+            "name": "CARMD-EV-VMWS68_sa",
+            "email": "kayang@sierrawireless.com",
+            "username": "carmd-ev-vmws68_sa"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625531722,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625531729,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1625531734,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1625531684,
+          "revision": "da0ed26bb99ffaa8624177cb8a6c05fe9d858fd1",
+          "parents": [
+            "90ee1c6b18560ba30a1cdbba59b79a1042d7d8db"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

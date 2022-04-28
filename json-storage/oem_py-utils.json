@@ -1,0 +1,153 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1648094522
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1648094742
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1648094757
+        }
+      ],
+      "commitMessage": "env: Install env config to ~/.pycfg\n\nResolves: DEVOPS-450\nChange-Id: Iecba4c2de3b07a3434ed0d0d35fa6ced9110efc1\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "env: Install env config to ~/.pycfg",
+      "project": "oem/py-utils",
+      "branch": "master",
+      "createdOn": 1648094522,
+      "url": "http://10.107.128.8:8081/c/oem/py-utils/+/83132",
+      "number": 83132,
+      "lastUpdated": 1648094757,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "Iecba4c2de3b07a3434ed0d0d35fa6ced9110efc1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 12,
+          "ref": "refs/changes/32/83132/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 6,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1648094742,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1648094742,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1648094757,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1648094522,
+          "revision": "7b280442a0d41f5ed476e0e18083af706b43388a",
+          "parents": [
+            "7d7bc2484fab3a78dcdc65c12b7812333eedd37a"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

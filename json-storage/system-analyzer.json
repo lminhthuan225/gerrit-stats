@@ -1,0 +1,1633 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1555390595
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1555390600
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1555390670
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1555390674
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 2: Code-Review-2\n\nThis is reference to FARM-2540 system-analyzer scans.\nNeed to see how it's finally implemented to update this correctly.",
+          "timestamp": 1555390771
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1615868228
+        }
+      ],
+      "commitMessage": "Update to read licenses.json file\n\nResolves: FARM-2540\nChange-Id: Icfedc9522a8bbb14f40779be78fc7814be074dcc\n",
+      "subject": "Update to read licenses.json file",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1555390595,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/45379",
+      "number": 45379,
+      "lastUpdated": 1615868228,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "Icfedc9522a8bbb14f40779be78fc7814be074dcc",
+      "open": true,
+      "status": "NEW",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/79/45379/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 11,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1555390600,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1555390595,
+          "revision": "53fed588e063e640fcedb876439b5cd9e9d3117f",
+          "parents": [
+            "1dedc02aacfb8f55458e7602d78544a0ecd2371a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/79/45379/2",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 11,
+          "approvals": [
+            {
+              "by": {
+                "name": "Phan Dinh Khai",
+                "email": "pdkhai@tma.com.vn",
+                "username": "pkhai"
+              },
+              "grantedOn": 1555390771,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1555390670,
+          "revision": "c600544b38f769e895a214a8a7a22def110312af",
+          "parents": [
+            "1dedc02aacfb8f55458e7602d78544a0ecd2371a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1594756014
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1594765585
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1594765590
+        }
+      ],
+      "commitMessage": "Provide README.md\n\nResolves: FARM-3042\nChange-Id: I481640a854d4360ef05864878d9893301b93bc1e\nSigned-off-by: Bertrand Roussel <broussel@sierrawireless.com>\n",
+      "subject": "Provide README.md",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1594756014,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/64695",
+      "number": 64695,
+      "lastUpdated": 1594765590,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I481640a854d4360ef05864878d9893301b93bc1e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 393,
+          "ref": "refs/changes/95/64695/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 9,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1594765585,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1594765585,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1594765590,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1594756014,
+          "revision": "d17ffd279b9641104dc5e4d8a09d0fd42828a17c",
+          "parents": [
+            "752eddea2d1884186506b459a497e710448f3309"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1562923096
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1562923102
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1562923158
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1562923161
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1562939516
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1563158463
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1565385181
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully rebased and submitted as 752eddea2d1884186506b459a497e710448f3309 by Bertrand Roussel",
+          "timestamp": 1565385183
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1565386406
+        }
+      ],
+      "commitMessage": "Fix executable files are stated as shared_library\n\nResolves: FARM-2951\nChange-Id: I9316d56dd7b920a710dd04919f2c9cabe8c0972e\n",
+      "subject": "Fix executable files are stated as shared_library",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1562923096,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/48519",
+      "number": 48519,
+      "lastUpdated": 1565386406,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I9316d56dd7b920a710dd04919f2c9cabe8c0972e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/19/48519/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1562923102,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1562923096,
+          "revision": "17a67b4ed2ec4f73c58c250252f5538645d773bd",
+          "parents": [
+            "3524641b2106764cab9ae9869eba16cfc36748d3"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/19/48519/2",
+          "comments": [
+            {
+              "file": "src/file.py",
+              "line": 31,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Just though that we also need the use case for sbin"
+            },
+            {
+              "file": "src/file.py",
+              "line": 35,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Are we sure that the mime doesn't match this, in which case we should consider that as Executable?"
+            },
+            {
+              "file": "src/file.py",
+              "line": 35,
+              "reviewer": {
+                "name": "Phan Dinh Khai",
+                "email": "pdkhai@tma.com.vn",
+                "username": "pkhai"
+              },
+              "message": "No it doesn't match this, some executable files in 'bin' dir are 'application/x-sharedlib'.\nShould we count this as Executable as well?"
+            }
+          ],
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385181,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385181,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385183,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1562923158,
+          "revision": "264ddd609bc3269943ccf165bbbf1da06e33713d",
+          "parents": [
+            "3524641b2106764cab9ae9869eba16cfc36748d3"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/19/48519/3",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385183,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385183,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1565385183,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1565385183,
+          "revision": "752eddea2d1884186506b459a497e710448f3309",
+          "parents": [
+            "a8a86ac5b511fbfdf46515d906048ffc17990ed6"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1563247774
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1563459121
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1563459123
+        }
+      ],
+      "commitMessage": "Standardize license name with Fossology\n\nResolves: FARM-2951\nChange-Id: If5c2147e553af75843e0ef3e8b0f09d45094921f\n",
+      "subject": "Standardize license name with Fossology",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1563247774,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/48589",
+      "number": 48589,
+      "lastUpdated": 1563459123,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "If5c2147e553af75843e0ef3e8b0f09d45094921f",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 65,
+          "ref": "refs/changes/89/48589/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 12,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563459121,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563459121,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1563459123,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1563247774,
+          "revision": "a8a86ac5b511fbfdf46515d906048ffc17990ed6",
+          "parents": [
+            "3524641b2106764cab9ae9869eba16cfc36748d3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1559553074
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 1:\n\nTest: http://10.107.129.9:8080/job/Oss-System-Analyzer-Analyze/810/console",
+          "timestamp": 1559553170
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1559577827
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1559577828
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1559577832
+        }
+      ],
+      "commitMessage": "Specify versions in requirements.txt\n\nResolves: FARM-2865\nChange-Id: I37fe6f6552b159bac6bd11689080c875936bfbe0\n",
+      "subject": "Specify versions in requirements.txt",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1559553074,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/47050",
+      "number": 47050,
+      "lastUpdated": 1559577832,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I37fe6f6552b159bac6bd11689080c875936bfbe0",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/50/47050/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 6,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1559577827,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1559577828,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1559577832,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1559553074,
+          "revision": "3524641b2106764cab9ae9869eba16cfc36748d3",
+          "parents": [
+            "1dedc02aacfb8f55458e7602d78544a0ecd2371a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Quan Huynh",
+        "email": "hmquan@tma.com.vn",
+        "username": "qhuynh"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1542872964
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1542873155
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Topic set to FARM-2167",
+          "timestamp": 1542873724
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Abandoned",
+          "timestamp": 1544582664
+        }
+      ],
+      "commitMessage": "Export library into a spdx file\n\nResolves: FARM-2167\nChange-Id: Ie7db44d353cd43d31474547be55a2aa070a971cb\n",
+      "subject": "Export library into a spdx file",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1542872964,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/38753",
+      "number": 38753,
+      "lastUpdated": 1544582664,
+      "allReviewers": [
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "FARM-2167",
+      "id": "Ie7db44d353cd43d31474547be55a2aa070a971cb",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 84,
+          "ref": "refs/changes/53/38753/1",
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1542872964,
+          "revision": "422b837c4ed01573582f1fe78e57819a4c4f4668",
+          "parents": [
+            "ce4fb4297773303842e187e64846b8b79d11b83d"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 84,
+          "ref": "refs/changes/53/38753/2",
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1542873155,
+          "revision": "ae8040e4ef89ae38754f8c14fba6aacb6d874752",
+          "parents": [
+            "ce4fb4297773303842e187e64846b8b79d11b83d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1543562939
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1543919222
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1543919223
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1543919232
+        }
+      ],
+      "commitMessage": "Fix bugs of YoctoImage\n\nResolves: FARM-2155\nChange-Id: I228b6ef7dadb5ea23d527bcddf1ae15ce7ed3bfc\n",
+      "subject": "Fix bugs of YoctoImage",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1543562939,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/39258",
+      "number": 39258,
+      "lastUpdated": 1543919232,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I228b6ef7dadb5ea23d527bcddf1ae15ce7ed3bfc",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/58/39258/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1543919222,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1543919223,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1543919232,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1543562939,
+          "revision": "1dedc02aacfb8f55458e7602d78544a0ecd2371a",
+          "parents": [
+            "9d1389de20fefc5efd7230b5ffec6d7f262098c2"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Quan Huynh",
+        "email": "hmquan@tma.com.vn",
+        "username": "qhuynh"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1539791201
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1539791244
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1539849824
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Set Ready For Review",
+          "timestamp": 1539919568
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2:\n\n(2 comments)\n\nThe idea is to analyse legato through legato (ie manifest/legato/branches/master.xml)\n\nThe main idea is to have the scripts capable of finding all 3rd party application and understand how component of the legato system works.",
+          "timestamp": 1539931556
+        },
+        {
+          "reviewer": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "message": "Patch Set 2:\n\nWith Legato, I don't know where to get package information and map components with license. I think first we have to build fossology database contains all license information of the components. And when scanning the files we can lookup from database",
+          "timestamp": 1539934255
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1540806930
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 3: Code-Review+2\n\nIf we see some issues with the library result we will add more patch",
+          "timestamp": 1543338844
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Commit message was updated.",
+          "timestamp": 1543348639
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1543348644
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully rebased and submitted as 9d1389de20fefc5efd7230b5ffec6d7f262098c2 by Bertrand Roussel",
+          "timestamp": 1543348647
+        }
+      ],
+      "commitMessage": "Add Legato analyser\n\nResolves: FARM-2154\nChange-Id: I56862007dfc56c24b349a88d5a6080e99eebf4b6\n",
+      "subject": "Add Legato analyser",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1539791201,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/36312",
+      "number": 36312,
+      "lastUpdated": 1543348647,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "Quan Huynh",
+          "email": "hmquan@tma.com.vn",
+          "username": "qhuynh"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I56862007dfc56c24b349a88d5a6080e99eebf4b6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 224,
+          "ref": "refs/changes/12/36312/1",
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1539791201,
+          "revision": "0e2d46979389712c03691226b6ef25d1136dc2e2",
+          "parents": [
+            "5c6a9fb7d20ec1468f9c8b9b34fb08733cb9a68c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 229,
+          "ref": "refs/changes/12/36312/2",
+          "comments": [
+            {
+              "file": "src/analyzers/legato.py",
+              "line": 24,
+              "reviewer": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "message": "Seems that you analyse legato through yocto.\n\nThis is not was we want."
+            },
+            {
+              "file": "src/analyzers/legato.py",
+              "line": 78,
+              "reviewer": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "message": "Same thing, there is no 'recipeinfo' in legato build."
+            }
+          ],
+          "uploader": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "author": {
+            "name": "Quan Huynh",
+            "email": "hmquan@tma.com.vn",
+            "username": "qhuynh"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 4,
+          "createdOn": 1539849824,
+          "revision": "58209bf13bff04b3fd00509889ff33d44b307b15",
+          "parents": [
+            "5c6a9fb7d20ec1468f9c8b9b34fb08733cb9a68c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 363,
+          "ref": "refs/changes/12/36312/3",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 60,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1543338844,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1540806930,
+          "revision": "631866da8572b17905dd88f56974d1b7c19896a9",
+          "parents": [
+            "5c6a9fb7d20ec1468f9c8b9b34fb08733cb9a68c"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 363,
+          "ref": "refs/changes/12/36312/4",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 60,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1543348644,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1543348647,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1543348639,
+          "revision": "8a965ad01a3ada549f128e56c066e0ea5c587543",
+          "parents": [
+            "5c6a9fb7d20ec1468f9c8b9b34fb08733cb9a68c"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 363,
+          "ref": "refs/changes/12/36312/5",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 60,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1543348647,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1543348647,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1543348647,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1543348647,
+          "revision": "9d1389de20fefc5efd7230b5ffec6d7f262098c2",
+          "parents": [
+            "ce4fb4297773303842e187e64846b8b79d11b83d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1541577990
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1542018219
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1542018223
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1542018227
+        }
+      ],
+      "commitMessage": "Add matplotlib to requirements\n\nResolves: FARM-2155\nChange-Id: I7491bfa140f95c2bbd3e1a9a1c5e99b0ac968329\n",
+      "subject": "Add matplotlib to requirements",
+      "project": "system-analyzer",
+      "branch": "master",
+      "createdOn": 1541577990,
+      "url": "http://10.107.128.8:8081/c/system-analyzer/+/38089",
+      "number": 38089,
+      "lastUpdated": 1542018227,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I7491bfa140f95c2bbd3e1a9a1c5e99b0ac968329",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/89/38089/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1542018219,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1542018223,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1542018227,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1541577990,
+          "revision": "ce4fb4297773303842e187e64846b8b79d11b83d",
+          "parents": [
+            "5c6a9fb7d20ec1468f9c8b9b34fb08733cb9a68c"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

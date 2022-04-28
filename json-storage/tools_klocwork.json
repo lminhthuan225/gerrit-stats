@@ -1,0 +1,494 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Alex Jiang",
+        "email": "ajiang@sierrawireless.com",
+        "username": "ajiang"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1560556787
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1560556789
+        },
+        {
+          "reviewer": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1561056283
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1561056288
+        },
+        {
+          "reviewer": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1561667717
+        },
+        {
+          "reviewer": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1561667726
+        },
+        {
+          "reviewer": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "message": "Change has been successfully merged by Alex Jiang",
+          "timestamp": 1561667730
+        }
+      ],
+      "commitMessage": "Remove SV.STRBO.BOUND_COPY.UNTERM to access.\n\nResolves: FARM-1376\nChange-Id: I25fa659bedaba9a699b03e566307e8edede15a78\n",
+      "subject": "Remove SV.STRBO.BOUND_COPY.UNTERM to access.",
+      "project": "tools/klocwork",
+      "branch": "master",
+      "createdOn": 1560556787,
+      "url": "http://10.107.128.8:8081/c/tools/klocwork/+/47492",
+      "number": 47492,
+      "lastUpdated": 1561667730,
+      "allReviewers": [
+        {
+          "name": "Alex Jiang",
+          "email": "ajiang@sierrawireless.com",
+          "username": "ajiang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        }
+      ],
+      "id": "I25fa659bedaba9a699b03e566307e8edede15a78",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/92/47492/1",
+          "uploader": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "author": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1560556789,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1560556787,
+          "revision": "f17e060d71c39a3af7492928fb683d7af8db8bce",
+          "parents": [
+            "4590ae448f533f1dedde46c1f326eb889b1be685"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/92/47492/2",
+          "uploader": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "author": {
+            "name": "Alex Jiang",
+            "email": "ajiang@sierrawireless.com",
+            "username": "ajiang"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Alex Jiang",
+                "email": "ajiang@sierrawireless.com",
+                "username": "ajiang"
+              },
+              "grantedOn": 1561667717,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Alex Jiang",
+                "email": "ajiang@sierrawireless.com",
+                "username": "ajiang"
+              },
+              "grantedOn": 1561667726,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Alex Jiang",
+                "email": "ajiang@sierrawireless.com",
+                "username": "ajiang"
+              },
+              "grantedOn": 1561667730,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1561056283,
+          "revision": "f54dde97efb588329a184befa9bb09d0dfed6d71",
+          "parents": [
+            "4590ae448f533f1dedde46c1f326eb889b1be685"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1559768192
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Your commit should mention at least one ticket.",
+          "timestamp": 1559768193
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1559768305
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.\n - Ticket FARM-1209 was resolved/closed",
+          "timestamp": 1559768312
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1559768451
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3:\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1559768458
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 4: Commit message was updated.",
+          "timestamp": 1559768604
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 4: -Quality-Check",
+          "timestamp": 1559768609
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 5.",
+          "timestamp": 1559768763
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 5: Code-Review+1",
+          "timestamp": 1559837116
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 5: Verified+1 Code-Review+2",
+          "timestamp": 1559837710
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Change has been successfully merged by Julian Buliga",
+          "timestamp": 1559837729
+        }
+      ],
+      "commitMessage": "[klocwork] Add initial taxonomy and checkers config\n\nResolves: FARM-1290\nChange-Id: Id5655315166bf963c2908016b8310ba7d5628f03\n",
+      "subject": "[klocwork] Add initial taxonomy and checkers config",
+      "project": "tools/klocwork",
+      "branch": "master",
+      "createdOn": 1559768192,
+      "url": "http://10.107.128.8:8081/c/tools/klocwork/+/47179",
+      "number": 47179,
+      "lastUpdated": 1559837729,
+      "allReviewers": [
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "FARM-1290",
+      "id": "Id5655315166bf963c2908016b8310ba7d5628f03",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1206,
+          "ref": "refs/changes/79/47179/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1559768193,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1559768192,
+          "revision": "2f455bf9e6201dcbd6e07b7488b904d0acca9072",
+          "parents": [
+            "48696637fcbc087cfb3ac060fcaf68e652a66853"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1206,
+          "ref": "refs/changes/79/47179/2",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1559768305,
+          "revision": "21e15164e31d505a77cc5533dc03f81ea2c8051a",
+          "parents": [
+            "48696637fcbc087cfb3ac060fcaf68e652a66853"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 1206,
+          "ref": "refs/changes/79/47179/3",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1559768451,
+          "revision": "5087996123592136a212bc9598e7b8b77962f58f",
+          "parents": [
+            "48696637fcbc087cfb3ac060fcaf68e652a66853"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 1206,
+          "ref": "refs/changes/79/47179/4",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1559768604,
+          "revision": "9ff2e26b75981f7009a0ea69dce4d6b3e8c3e455",
+          "parents": [
+            "48696637fcbc087cfb3ac060fcaf68e652a66853"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 1206,
+          "ref": "refs/changes/79/47179/5",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1559837710,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1559837710,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1559837729,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1559768763,
+          "revision": "4590ae448f533f1dedde46c1f326eb889b1be685",
+          "parents": [
+            "48696637fcbc087cfb3ac060fcaf68e652a66853"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

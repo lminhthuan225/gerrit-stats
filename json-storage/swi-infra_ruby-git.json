@@ -1,0 +1,1370 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Chien Pham",
+        "email": "CPham@sierrawireless.com",
+        "username": "cpham"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1629884628
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.",
+          "timestamp": 1629884631
+        },
+        {
+          "reviewer": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1629884756
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message should start with an upper case.",
+          "timestamp": 1629884759
+        },
+        {
+          "reviewer": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1629885027
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1629885029
+        },
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1629885391
+        },
+        {
+          "reviewer": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1629885575
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1629951950
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1629951967
+        }
+      ],
+      "commitMessage": "Manifest-utils: Highlight the Git Error in RED\n\nResolves: FARM-5365\nChange-Id: Iaea71d7f98a979458e93070fb571abadbb68cd2f\n",
+      "subject": "Manifest-utils: Highlight the Git Error in RED",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1629884628,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/77867",
+      "number": 77867,
+      "lastUpdated": 1629951967,
+      "allReviewers": [
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Anh Tran",
+          "email": "tbanh@tma.com.vn",
+          "username": "atran"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Iaea71d7f98a979458e93070fb571abadbb68cd2f",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/67/77867/1",
+          "uploader": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "author": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1629884631,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1629884628,
+          "revision": "2c9069f0c3aa5bc068dc3f21d53c7c627b827393",
+          "parents": [
+            "c68b42aabc581cd893e9b883235f6e62dc0a8825"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/67/77867/2",
+          "uploader": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "author": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1629884756,
+          "revision": "6ac46cf059fa3384ae6f746d8efce408013a1aa5",
+          "parents": [
+            "c68b42aabc581cd893e9b883235f6e62dc0a8825"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/67/77867/3",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Chien Pham",
+                "email": "CPham@sierrawireless.com",
+                "username": "cpham"
+              },
+              "message": "Console output when tested on dev farm: https://jenkins.dev.legato/view/Mdm9x50/job/Mdm9x50-GenerateManifest/40/console"
+            }
+          ],
+          "uploader": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "author": {
+            "name": "Chien Pham",
+            "email": "CPham@sierrawireless.com",
+            "username": "cpham"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Anh Tran",
+                "email": "tbanh@tma.com.vn",
+                "username": "atran"
+              },
+              "grantedOn": 1629885391,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1629951950,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1629951950,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Hong Nguyen",
+                "email": "hunguyen@sierrawireless.com",
+                "username": "hunguyen"
+              },
+              "grantedOn": 1629951967,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1629885027,
+          "revision": "13aa75998988e12b56bff429dc2b6f68da168420",
+          "parents": [
+            "c68b42aabc581cd893e9b883235f6e62dc0a8825"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1575443957
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1575444465
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1575444467
+        }
+      ],
+      "commitMessage": "Fix exception if exitstatus is nil\n\nResolves: FARM-3344\nChange-Id: I381db30a5c8d715927f153b19287e7f7d2fc2640\n",
+      "subject": "Fix exception if exitstatus is nil",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1575443957,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/53878",
+      "number": 53878,
+      "lastUpdated": 1575444467,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I381db30a5c8d715927f153b19287e7f7d2fc2640",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/78/53878/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1575444465,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1575444465,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1575444467,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1575443957,
+          "revision": "c68b42aabc581cd893e9b883235f6e62dc0a8825",
+          "parents": [
+            "8db0498e638fd7cb50c268a56557617def088259"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Vo Pham Thanh Nhan",
+        "email": "vptnhan@sierrawireless.com",
+        "username": "vptnhan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1569981855
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1570029678
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1570029681
+        }
+      ],
+      "commitMessage": "Support ls-remote and symbolic-ref\n\nResolves: FARM-2639\nChange-Id: Ic10115f22044e7ac3a1445c96a0f931bc5427996\n",
+      "subject": "Support ls-remote and symbolic-ref",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1569981855,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/51327",
+      "number": 51327,
+      "lastUpdated": 1570029681,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Vo Pham Thanh Nhan",
+          "email": "vptnhan@sierrawireless.com",
+          "username": "vptnhan"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ic10115f22044e7ac3a1445c96a0f931bc5427996",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 18,
+          "ref": "refs/changes/27/51327/1",
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1570029678,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1570029678,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1570029681,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1569981855,
+          "revision": "8db0498e638fd7cb50c268a56557617def088259",
+          "parents": [
+            "b7da88bc2e1598825cb4dcc284db0461c55d35ec"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1564153578
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1564155591
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 2: Code-Review-2\n\nStill needs some work, would introduce regressions at the moment since there are some API breakage.",
+          "timestamp": 1564174045
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1564174048
+        }
+      ],
+      "commitMessage": "Merge upstream/master into swiinfra/master\n\nLatest code from upstream.\n\nResolves: FARM-3000\nChange-Id: I04029ab01d1daee5420bf014d49bc5184792c838\n",
+      "subject": "Merge upstream/master into swiinfra/master",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1564153578,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/48975",
+      "number": 48975,
+      "lastUpdated": 1564174048,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I04029ab01d1daee5420bf014d49bc5184792c838",
+      "open": true,
+      "status": "NEW",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/75/48975/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 110,
+          "createdOn": 1564153578,
+          "revision": "73ccc023e24e05f2f38074e0d27e0e9067295ad8",
+          "parents": [
+            "b7da88bc2e1598825cb4dcc284db0461c55d35ec",
+            "9bd4407c56068e1604f14a1b6c0c5a84868e6378"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/75/48975/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 117,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1564174045,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1564155591,
+          "revision": "94464242add2465c921110c3b1b9132188e186d3",
+          "parents": [
+            "b7da88bc2e1598825cb4dcc284db0461c55d35ec",
+            "9bd4407c56068e1604f14a1b6c0c5a84868e6378"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1556915691
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1556915717
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1556915719
+        }
+      ],
+      "commitMessage": "Provide a simple fsck command\n\nResolves: FARM-2794\nChange-Id: I63b08a29fe269b2811017dcab1eeec37aa2baed1\n",
+      "subject": "Provide a simple fsck command",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1556915691,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/46029",
+      "number": 46029,
+      "lastUpdated": 1556915719,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I63b08a29fe269b2811017dcab1eeec37aa2baed1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 32,
+          "ref": "refs/changes/29/46029/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1556915717,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1556915717,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1556915719,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1556915691,
+          "revision": "b7da88bc2e1598825cb4dcc284db0461c55d35ec",
+          "parents": [
+            "0e216b9e038880a85d84e556d5d28e6847ee38ce"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554731180
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1554731354
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1554731364
+        }
+      ],
+      "commitMessage": "Do not check for orphans on every git call\n\nResolves: FARM-2721\nChange-Id: I624965e250108709394cafb9330bb01e84580e80\n",
+      "subject": "Do not check for orphans on every git call",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1554731180,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/45065",
+      "number": 45065,
+      "lastUpdated": 1554731364,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I624965e250108709394cafb9330bb01e84580e80",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/65/45065/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1554731354,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1554731354,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1554731364,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1554731180,
+          "revision": "0e216b9e038880a85d84e556d5d28e6847ee38ce",
+          "parents": [
+            "36ffa2edd19ad2f50f3d74c95c747a0b30c39029"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Anh Tran",
+        "email": "tbanh@tma.com.vn",
+        "username": "atran"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1535454465
+        },
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1535455073
+        },
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Set Ready For Review",
+          "timestamp": 1535646179
+        },
+        {
+          "reviewer": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "message": "Patch Set 1:\n\nAs far as I know, we need to update git: \"http://github.com/CoRfr/ruby-git\", branch: \"fixutf8\" in order reuse in manifest-utils.",
+          "timestamp": 1535646339
+        },
+        {
+          "reviewer": {
+            "name": "Hong Nguyen",
+            "email": "hunguyen@sierrawireless.com",
+            "username": "hunguyen"
+          },
+          "message": "Removed reviewer Hong Nguyen.",
+          "timestamp": 1536807686
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review+2\n\nYou're right Anh, as of now the declaration in the Gemfile is:\n\n  gem 'git', git: \"http://github.com/CoRfr/ruby-git\", branch: \"fixutf8\"\n\nWe need to change it to:\n  gem 'git', git: \"http://github.com/swi-infra/ruby-git\", branch: \"master\"\n\nI looked at the revisions and that should be good.",
+          "timestamp": 1538154046
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1538155219
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1553840870
+        }
+      ],
+      "commitMessage": "Provide git log --all option\n\nResolves: FARM-1860\nChange-Id: I43acd1a6582881d1768f66763b1beb0b11b54fa0\n",
+      "subject": "Provide git log --all option",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1535454465,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/34241",
+      "number": 34241,
+      "lastUpdated": 1553840870,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Anh Tran",
+          "email": "tbanh@tma.com.vn",
+          "username": "atran"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "FARM-1860-update-gerrit-links",
+      "id": "I43acd1a6582881d1768f66763b1beb0b11b54fa0",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/41/34241/1",
+          "uploader": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "author": {
+            "name": "Anh Tran",
+            "email": "tbanh@tma.com.vn",
+            "username": "atran"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1538154046,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1538155219,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1553840870,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1535454465,
+          "revision": "36ffa2edd19ad2f50f3d74c95c747a0b30c39029",
+          "parents": [
+            "844deb4aabe626764300c2cc8a590072577c015d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Huy Bui",
+        "email": "bthuy@tma.com.vn",
+        "username": "hbui"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1531233893
+        },
+        {
+          "reviewer": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "message": "Patch Set 1:\n\nCould you help to review my code?",
+          "timestamp": 1531233974
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 1: Code-Review-1\n\n(3 comments)",
+          "timestamp": 1531234545
+        },
+        {
+          "reviewer": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1531303699
+        },
+        {
+          "reviewer": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1531304217
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1531814917
+        },
+        {
+          "reviewer": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1531910876
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Verified+1 Code-Review+2",
+          "timestamp": 1531912330
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1531912440
+        }
+      ],
+      "commitMessage": "Fix git-sync does not kill child git process when git-sync timeout\n\nResolves: FARM-1821\nChange-Id: I845ed0022973d47b3ae25b8a95349ea644efef5d\n",
+      "subject": "Fix git-sync does not kill child git process when git-sync timeout",
+      "project": "swi-infra/ruby-git",
+      "branch": "master",
+      "createdOn": 1531233893,
+      "url": "http://10.107.128.8:8081/c/swi-infra/ruby-git/+/31479",
+      "number": 31479,
+      "lastUpdated": 1531912440,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        },
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Duy Doan",
+          "email": "dkduy@tma.com.vn",
+          "username": "ddoan"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        }
+      ],
+      "id": "I845ed0022973d47b3ae25b8a95349ea644efef5d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 22,
+          "ref": "refs/changes/79/31479/1",
+          "comments": [
+            {
+              "file": "lib/git/lib.rb",
+              "line": 1043,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Add a space after?"
+            },
+            {
+              "file": "lib/git/lib.rb",
+              "line": 1047,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Arg this is not so nice, but you could try to use https://github.com/djberg96/sys-proctable to be slightly more crossplatform?"
+            },
+            {
+              "file": "lib/git/lib.rb",
+              "line": 1048,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "Might be best to check that this is not 0 anymore before using it."
+            }
+          ],
+          "uploader": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1531234545,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1531233893,
+          "revision": "2827c70fbd257b96645cffa519c8888a9aa5ba8d",
+          "parents": [
+            "dcde6359334f062035bda182b80632077cc2a95d"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 24,
+          "ref": "refs/changes/79/31479/2",
+          "uploader": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1531303699,
+          "revision": "bf42d5f6a359b57891f3a1255e57e5b566dcbf48",
+          "parents": [
+            "dcde6359334f062035bda182b80632077cc2a95d"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 29,
+          "ref": "refs/changes/79/31479/3",
+          "comments": [
+            {
+              "file": ".travis.yml",
+              "line": 13,
+              "reviewer": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "message": "That should be installed with the bundle."
+            }
+          ],
+          "uploader": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1531814917,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1531304217,
+          "revision": "780b442e9687002bb9b7737ae6aacab43b887788",
+          "parents": [
+            "dcde6359334f062035bda182b80632077cc2a95d"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 27,
+          "ref": "refs/changes/79/31479/4",
+          "uploader": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "author": {
+            "name": "Huy Bui",
+            "email": "bthuy@tma.com.vn",
+            "username": "hbui"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1531912330,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1531912330,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1531912440,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1531910876,
+          "revision": "844deb4aabe626764300c2cc8a590072577c015d",
+          "parents": [
+            "dcde6359334f062035bda182b80632077cc2a95d"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

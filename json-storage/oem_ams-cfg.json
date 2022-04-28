@@ -1,0 +1,5515 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642666253
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1642666533
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642666550
+        }
+      ],
+      "commitMessage": "mme: enable paptest and chaptest APNs\n\nAlso fix incorrect tun0 generated in route_update.sh\n\nResolves: DEVOPS-440\nRelated: DEVOPS-437\nChange-Id: I98d292e2629dade2c535feb04e3816aca56f76a1\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme: enable paptest and chaptest APNs",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642666253,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81650",
+      "number": 81650,
+      "lastUpdated": 1642666550,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "I98d292e2629dade2c535feb04e3816aca56f76a1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 33,
+          "ref": "refs/changes/50/81650/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 32,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666533,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666533,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666550,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642666253,
+          "revision": "66d5affcf34fde7b7c5c94a672a0f3cf4c1a00af",
+          "parents": [
+            "c90384afa7522a959c2cfdef871b5aaef7531795"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642661774
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1642666478
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642666550
+        }
+      ],
+      "commitMessage": "mme: support force_sms_over_sg\n\nResolves: DEVOPS-439\nChange-Id: I24b135665d8299a8da80a69e925058f22c54fe8e\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme: support force_sms_over_sg",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642661774,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81645",
+      "number": 81645,
+      "lastUpdated": 1642666550,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "I24b135665d8299a8da80a69e925058f22c54fe8e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 15,
+          "ref": "refs/changes/45/81645/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666478,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666478,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666550,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642661774,
+          "revision": "c90384afa7522a959c2cfdef871b5aaef7531795",
+          "parents": [
+            "694e4453642e7c3728a6675c9fca440f1ba1e7b4"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642646348
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1642646718
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: New patch set was added with same tree, parent, and commit message as Patch Set 1.",
+          "timestamp": 1642646849
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2\n\nThis change is ready for review.",
+          "timestamp": 1642666326
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642666550
+        }
+      ],
+      "commitMessage": "mme: set band to 20 and edrx_ptw_wb_s1 to 1\n\nResolves: DEVOPS-438\nChange-Id: Ief9424b1268647015009657440b1e6923ca6e0da\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme: set band to 20 and edrx_ptw_wb_s1 to 1",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642646348,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81640",
+      "number": 81640,
+      "lastUpdated": 1642666550,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "Ief9424b1268647015009657440b1e6923ca6e0da",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/40/81640/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 9,
+          "createdOn": 1642646348,
+          "revision": "b089296f90a23724cfff7b73e8727ff2327e3db1",
+          "parents": [
+            "dffe582c9e5e1529e2244240a95c2845900176ac"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/40/81640/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CHANGE",
+          "sizeDeletions": 9,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666326,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666326,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666550,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642646849,
+          "revision": "694e4453642e7c3728a6675c9fca440f1ba1e7b4",
+          "parents": [
+            "63074e318445de68d997c295809e1d327ab0c87d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642584173
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Patch Set 1 was rebased.",
+          "timestamp": 1642646348
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1642646849
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1642661927
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642666550
+        }
+      ],
+      "commitMessage": "enb: use downlink RB of value 25\n\nResolves: DEVOPS-436\nChange-Id: I6c9255d7aed166c1110608b0e0347a4afde8a698\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb: use downlink RB of value 25",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642584173,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81618",
+      "number": 81618,
+      "lastUpdated": 1642666550,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I6c9255d7aed166c1110608b0e0347a4afde8a698",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/18/81618/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "createdOn": 1642584173,
+          "revision": "4fe2d127f0f31d48f5075a9d272ec024d297a23a",
+          "parents": [
+            "573274a12924271773242c04ab7491c3f489910a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/18/81618/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 2,
+          "createdOn": 1642646348,
+          "revision": "dffe582c9e5e1529e2244240a95c2845900176ac",
+          "parents": [
+            "f9a4b74fbd99645261f67f7ebb736e9acb7db04f"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 8,
+          "ref": "refs/changes/18/81618/3",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642661927,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642661927,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642666550,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642646849,
+          "revision": "63074e318445de68d997c295809e1d327ab0c87d",
+          "parents": [
+            "f9a4b74fbd99645261f67f7ebb736e9acb7db04f"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642646348
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1642646893
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642646927
+        }
+      ],
+      "commitMessage": "sim: j2 variables in inner loop become private\n\nResolves: DEVOPS-437\nChange-Id: Ifa4ab0993e0dd03d0d0ece6f53ad61c98f5aff82\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "sim: j2 variables in inner loop become private",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642646348,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81639",
+      "number": 81639,
+      "lastUpdated": 1642646927,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "Ifa4ab0993e0dd03d0d0ece6f53ad61c98f5aff82",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/39/81639/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 25,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646893,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646893,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646927,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642646348,
+          "revision": "7c49b778b0daac85f7ddde2eb057b71d0e930e5e",
+          "parents": [
+            "456efa199d0461b5b72cf1610f04b675c814ba89"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1642584173
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Patch Set 1 was rebased.",
+          "timestamp": 1642646348
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1642646903
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1642646927
+        }
+      ],
+      "commitMessage": "sim: add test SIMs of VZW PLMN for LeTAS\n\nResolves: DEVOPS-435\nChange-Id: I23d398fe4294aac8df3340b0b4cadfa33d181d1d\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "sim: add test SIMs of VZW PLMN for LeTAS",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1642584173,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/81617",
+      "number": 81617,
+      "lastUpdated": 1642646927,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Anna Wu",
+          "email": "AWu@sierrawireless.com",
+          "username": "awu"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Tom Liu",
+          "email": "TLiu@sierrawireless.com",
+          "username": "tliu"
+        },
+        {
+          "name": "Yuri Chen",
+          "email": "YuChen@sierrawireless.com",
+          "username": "yuchen"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I23d398fe4294aac8df3340b0b4cadfa33d181d1d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 13,
+          "ref": "refs/changes/17/81617/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1642584173,
+          "revision": "573274a12924271773242c04ab7491c3f489910a",
+          "parents": [
+            "456efa199d0461b5b72cf1610f04b675c814ba89"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 13,
+          "ref": "refs/changes/17/81617/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646903,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646903,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1642646927,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1642646348,
+          "revision": "f9a4b74fbd99645261f67f7ebb736e9acb7db04f",
+          "parents": [
+            "7c49b778b0daac85f7ddde2eb057b71d0e930e5e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1629435287
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1629435576
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1629437357
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 3: Patch Set 2 was rebased.",
+          "timestamp": 1629437604
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1629437686
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1629437691
+        }
+      ],
+      "commitMessage": "route: add IP routes to SWI network\n\nResolves: DEVOPS-376\nChange-Id: I3cf8aa5804830749faa23c88fb405fc1dce0ac15\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "route: add IP routes to SWI network",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1629435287,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/77684",
+      "number": 77684,
+      "lastUpdated": 1629437691,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I3cf8aa5804830749faa23c88fb405fc1dce0ac15",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 144,
+          "ref": "refs/changes/84/77684/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "createdOn": 1629435287,
+          "revision": "ad0e0c4095208716a130f77262ba57895fe17e92",
+          "parents": [
+            "e2e44acdac66ec1a652594c3dfb151ff32e73a6b"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 144,
+          "ref": "refs/changes/84/77684/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437357,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437357,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1629435576,
+          "revision": "692c050f5fc942708d1996f95aeade1428783889",
+          "parents": [
+            "e2e44acdac66ec1a652594c3dfb151ff32e73a6b"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 144,
+          "ref": "refs/changes/84/77684/3",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437686,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437686,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437691,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1629437604,
+          "revision": "456efa199d0461b5b72cf1610f04b675c814ba89",
+          "parents": [
+            "0848d224c7e981706116fc0533fe7466af155c1d"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1629372774
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1629437604
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1629437676
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1629437691
+        }
+      ],
+      "commitMessage": "ams: move route config to systemd\n\nResolves: DEVOPS-375\nChange-Id: I4a8a859a2485944b96ea8a43425a0828418aa3f1\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: move route config to systemd",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1629372774,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/77659",
+      "number": 77659,
+      "lastUpdated": 1629437691,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I4a8a859a2485944b96ea8a43425a0828418aa3f1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 115,
+          "ref": "refs/changes/59/77659/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 37,
+          "createdOn": 1629372774,
+          "revision": "e2e44acdac66ec1a652594c3dfb151ff32e73a6b",
+          "parents": [
+            "4ab99c7076a69f67f9ca8e431bac435318b2ef18"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 115,
+          "ref": "refs/changes/59/77659/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 37,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437676,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437676,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629437691,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1629437604,
+          "revision": "0848d224c7e981706116fc0533fe7466af155c1d",
+          "parents": [
+            "4ab99c7076a69f67f9ca8e431bac435318b2ef18"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1629199211
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1629203015
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1629203020
+        }
+      ],
+      "commitMessage": "enb: use HPLMN 311480 for blank SIMs\n\nResolves: DEVOPS-374\nChange-Id: I413c34d3a243476b393a5fc5e1f640dfc493f9d8\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb: use HPLMN 311480 for blank SIMs",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1629199211,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/77558",
+      "number": 77558,
+      "lastUpdated": 1629203020,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Moore Chan",
+          "email": "MChan@sierrawireless.com",
+          "username": "mchan"
+        },
+        {
+          "name": "Doreen Tang",
+          "email": "DTang@sierrawireless.com",
+          "username": "dtang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I413c34d3a243476b393a5fc5e1f640dfc493f9d8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 25,
+          "ref": "refs/changes/58/77558/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 19,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629203015,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629203015,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1629203020,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1629199211,
+          "revision": "4ab99c7076a69f67f9ca8e431bac435318b2ef18",
+          "parents": [
+            "0b21f735bb947c6f26b6806174992611f289d6e0"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1626408572
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1626408902
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1626409148
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1626409155
+        }
+      ],
+      "commitMessage": "enb: add ams_m1 and support multiple cells\n\nResolves: DEVOPS-365\nChange-Id: I870290d5630bab7609cc067ce0b9adc0110262c1\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb: add ams_m1 and support multiple cells",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1626408572,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76714",
+      "number": 76714,
+      "lastUpdated": 1626409155,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "I870290d5630bab7609cc067ce0b9adc0110262c1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1503,
+          "ref": "refs/changes/14/76714/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 72,
+          "createdOn": 1626408572,
+          "revision": "257e923dbb5725a9548b65c92f3ebcaf238d2d0d",
+          "parents": [
+            "e69287774caf979e9f97e1a84cca1c0b040eddea"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1503,
+          "ref": "refs/changes/14/76714/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 72,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409148,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409148,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409155,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1626408902,
+          "revision": "0b21f735bb947c6f26b6806174992611f289d6e0",
+          "parents": [
+            "abc06584e86a314a659aa39bb2c567d8fca3dd83"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1626408572
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1626408902
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1626409025
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1626409155
+        }
+      ],
+      "commitMessage": "route: correct ipv6 route commands\n\nResolves: DEVOPS-367\nChange-Id: I7fc78740089ca9bebda5b404eff984d11d19fbca\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "route: correct ipv6 route commands",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1626408572,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76713",
+      "number": 76713,
+      "lastUpdated": 1626409155,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "I7fc78740089ca9bebda5b404eff984d11d19fbca",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/13/76713/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "createdOn": 1626408572,
+          "revision": "e69287774caf979e9f97e1a84cca1c0b040eddea",
+          "parents": [
+            "065779f350d746785f9a73356fecaec0af194cc3"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/13/76713/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409025,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409025,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409155,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1626408902,
+          "revision": "abc06584e86a314a659aa39bb2c567d8fca3dd83",
+          "parents": [
+            "415a6da82ead2b10e6df9a32d9033cf501db8ed2"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1626408572
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1626408902
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1626408960
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1626409155
+        }
+      ],
+      "commitMessage": "ams: set band NB-IoT to B66 and CatM1 to B5\n\nResolves: DEVOPS-366\nChange-Id: I4835d5374ba5407339bdb184f469a7df0cf1144c\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: set band NB-IoT to B66 and CatM1 to B5",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1626408572,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76712",
+      "number": 76712,
+      "lastUpdated": 1626409155,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "I4835d5374ba5407339bdb184f469a7df0cf1144c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/12/76712/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 4,
+          "createdOn": 1626408572,
+          "revision": "065779f350d746785f9a73356fecaec0af194cc3",
+          "parents": [
+            "b83d30acc781cc3c4ba819c57c48eaf49af4326a"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 4,
+          "ref": "refs/changes/12/76712/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 4,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626408960,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626408960,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1626409155,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1626408902,
+          "revision": "415a6da82ead2b10e6df9a32d9033cf501db8ed2",
+          "parents": [
+            "b83d30acc781cc3c4ba819c57c48eaf49af4326a"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624971068
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624971169
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624971175
+        }
+      ],
+      "commitMessage": "ams: add new blank LTE SIMs\n\nResolves: DEVOPS-361\nChange-Id: I0354511123246f61a7cd1d6433d6f4cf8ea30932\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: add new blank LTE SIMs",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624971068,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76292",
+      "number": 76292,
+      "lastUpdated": 1624971175,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "I0354511123246f61a7cd1d6433d6f4cf8ea30932",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 17,
+          "ref": "refs/changes/92/76292/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624971169,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624971169,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624971175,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624971068,
+          "revision": "b83d30acc781cc3c4ba819c57c48eaf49af4326a",
+          "parents": [
+            "30e73e4f4163374949117f6c508983532872ccf8"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624611716
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624611783
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624611790
+        }
+      ],
+      "commitMessage": "amarisoft: upgrade to ver 2021-06-17\n\nResolves: DEVOPS-360\nChange-Id: I5eb6df0094d24a76197243f127087012c5f6d8b4\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "amarisoft: upgrade to ver 2021-06-17",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624611716,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76212",
+      "number": 76212,
+      "lastUpdated": 1624611790,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "I5eb6df0094d24a76197243f127087012c5f6d8b4",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1007,
+          "ref": "refs/changes/12/76212/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 12,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624611783,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624611783,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624611790,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624611716,
+          "revision": "30e73e4f4163374949117f6c508983532872ccf8",
+          "parents": [
+            "452b5f371b048867ebf0afe6bb706360f95bf0c6"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624609947
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1624609971
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1624610090
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624610115
+        }
+      ],
+      "commitMessage": "inv: change of default IP, add cms_ams_fb_ipaddr\n\nResolves: DEVOPS-347\nChange-Id: Iaacd031bc0c2ea11ef9820353137fb19af1b3f00\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "inv: change of default IP, add cms_ams_fb_ipaddr",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624609947,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76210",
+      "number": 76210,
+      "lastUpdated": 1624610115,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        }
+      ],
+      "id": "Iaacd031bc0c2ea11ef9820353137fb19af1b3f00",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/10/76210/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1624609947,
+          "revision": "4774e240e4460e7e6170cbdbf2951fd64545bcf1",
+          "parents": [
+            "b956ab1e9dcb6704d8b42b86422cd56b1cdb5265"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 7,
+          "ref": "refs/changes/10/76210/2",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624610090,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624610090,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624610115,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624609971,
+          "revision": "452b5f371b048867ebf0afe6bb706360f95bf0c6",
+          "parents": [
+            "b956ab1e9dcb6704d8b42b86422cd56b1cdb5265"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624606056
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "ams: add NBIoT to rf_port=1\n\nResolves: DEVOPS-355\nChange-Id: I660c756aac1b44b7adb01ff88980d1f55ee341cb\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: add NBIoT to rf_port=1",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76196",
+      "number": 76196,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "I660c756aac1b44b7adb01ff88980d1f55ee341cb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 228,
+          "ref": "refs/changes/96/76196/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606056,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606056,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "b956ab1e9dcb6704d8b42b86422cd56b1cdb5265",
+          "parents": [
+            "869cdbf4f124d8aca140f40ad6399d8e5648daef"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624606042
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "ams: update pdn and add global/volte config\n\nResolves: DEVOPS-354\nChange-Id: Idafaa9e3f57fbaa4f03380dd34ebb36083e82c86\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: update pdn and add global/volte config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76195",
+      "number": 76195,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "Idafaa9e3f57fbaa4f03380dd34ebb36083e82c86",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 136,
+          "ref": "refs/changes/95/76195/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 15,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606042,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606042,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "869cdbf4f124d8aca140f40ad6399d8e5648daef",
+          "parents": [
+            "d2d5c9f4d447f841731af80277dc94260cd15406"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624605990
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "ams: add ims.cfg and tidy up variables naming\n\nResolves: DEVOPS-353\nChange-Id: Ib1776db5cfd7524e40c3b55e26fa392abf687b57\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "ams: add ims.cfg and tidy up variables naming",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76194",
+      "number": 76194,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "Ib1776db5cfd7524e40c3b55e26fa392abf687b57",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 236,
+          "ref": "refs/changes/94/76194/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 48,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605990,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605990,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "d2d5c9f4d447f841731af80277dc94260cd15406",
+          "parents": [
+            "46f9f52285d1a44b31c80aa3bb4e80613e08d028"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624605973
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "enb: set ams_cat=1m and add var ams_chan\n\nResolves: DEVOPS-352\nChange-Id: I7fe3d49b9f32f42616ec91fb328cbefdd3c4ba44\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb: set ams_cat=1m and add var ams_chan",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76193",
+      "number": 76193,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "I7fe3d49b9f32f42616ec91fb328cbefdd3c4ba44",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 9,
+          "ref": "refs/changes/93/76193/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605973,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605973,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "46f9f52285d1a44b31c80aa3bb4e80613e08d028",
+          "parents": [
+            "4ac631ac68730203d56e585d8a23198c60d43395"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624605925
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "amarisoft : upgrade to ver 2021-03-15\n\nResolves: DEVOPS-351\nChange-Id: Ied9ebbe5b49ea660724118415892101a8c4936c1\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "amarisoft : upgrade to ver 2021-03-15",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76192",
+      "number": 76192,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "Ied9ebbe5b49ea660724118415892101a8c4936c1",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1928,
+          "ref": "refs/changes/92/76192/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605925,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605925,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "4ac631ac68730203d56e585d8a23198c60d43395",
+          "parents": [
+            "f978219b8bb64c3b1316cf510f458fe9ceae96ae"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624605895
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "sim: add blank LTE SIM\n\nResolves: DEVOPS-348\nChange-Id: I81bbbf507fc97cc1f67ecafd752f4230bbe0540f\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "sim: add blank LTE SIM",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76191",
+      "number": 76191,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "I81bbbf507fc97cc1f67ecafd752f4230bbe0540f",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 64,
+          "ref": "refs/changes/91/76191/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 44,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605895,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605895,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "f978219b8bb64c3b1316cf510f458fe9ceae96ae",
+          "parents": [
+            "de94272016058c6733def8053f9e2f6e6be4eea6"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1624604602
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1624605621
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1624606143
+        }
+      ],
+      "commitMessage": "inv: change of default IP\n\nResolves: DEVOPS-347\nChange-Id: Ib5ccd83410b51d8eb051a310a1f6c2f6670d2480\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "inv: change of default IP",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1624604602,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/76190",
+      "number": 76190,
+      "lastUpdated": 1624606143,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Chiate Wang",
+          "email": "CWang@sierrawireless.com",
+          "username": "cwang"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Joyce Liang",
+          "email": "JLiang@sierrawireless.com",
+          "username": "jliang"
+        },
+        {
+          "name": "Tracy Chou",
+          "email": "TChou@sierrawireless.com",
+          "username": "tchou"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        }
+      ],
+      "id": "Ib5ccd83410b51d8eb051a310a1f6c2f6670d2480",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/90/76190/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605621,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624605621,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1624606143,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1624604602,
+          "revision": "de94272016058c6733def8053f9e2f6e6be4eea6",
+          "parents": [
+            "89933f085e5e26395d0f9e4fb9524079e3393050"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1611303676
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1611304918
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1611304937
+        }
+      ],
+      "commitMessage": "amarisoft : align IP addresses of PDN wrt ims.cfg\n\nCurrently, ims.default.cfg is not templated yet, to avoid issues in IMS,\nalign IP addresses of PDN with IMS's default config for IMS to work properly.\n\nResolves: DEVOPS-324\nChange-Id: I00508e4d1a4be91a59c1183215131059f51010ce\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "amarisoft : align IP addresses of PDN wrt ims.cfg",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1611303676,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/71670",
+      "number": 71670,
+      "lastUpdated": 1611304937,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Floki Lee",
+          "email": "FLee@sierrawireless.com",
+          "username": "flee"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Joseph Wu",
+          "email": "JoWu@sierrawireless.com",
+          "username": "jowu"
+        },
+        {
+          "name": "Max Hung",
+          "email": "MHung@sierrawireless.com",
+          "username": "mhung"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "I00508e4d1a4be91a59c1183215131059f51010ce",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 15,
+          "ref": "refs/changes/70/71670/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304918,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304918,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304937,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1611303676,
+          "revision": "89933f085e5e26395d0f9e4fb9524079e3393050",
+          "parents": [
+            "ada2148db9e743b89c30fa447c99029d6ef67f3c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1611303676
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1611304878
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1611304937
+        }
+      ],
+      "commitMessage": "amarisoft : upgrade to ver 2020-12-14\n\nUpgrade amarisoft version to 2020-12-14\n- sync inventory information from hosts-cfg (hostname/DHCP and etc)\n- fix filenames of templates/config/ams/2020-04-24/*-default.cfg as *.default.cfg\n- add templates/config/ams/2020-12-14/*.default.cfg from ver 2020-12-14\n- sync changes from 2020-12-14 to templates/config/enb.cfg.j2|mme.cfg.j2\n\nResolves: DEVOPS-323\nChange-Id: Id9f047b6029d48bcb02b17f65b1c76bd3c1f0319\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "amarisoft : upgrade to ver 2020-12-14",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1611303676,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/71669",
+      "number": 71669,
+      "lastUpdated": 1611304937,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "J.C Huang",
+          "email": "JcHuang@sierrawireless.com",
+          "username": "jchuang"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Floki Lee",
+          "email": "FLee@sierrawireless.com",
+          "username": "flee"
+        },
+        {
+          "name": "Lavender Fan",
+          "email": "LFan@sierrawireless.com",
+          "username": "lfan"
+        },
+        {
+          "name": "Jackson Lian",
+          "email": "JLian@sierrawireless.com",
+          "username": "jlian"
+        },
+        {
+          "name": "Joseph Wu",
+          "email": "JoWu@sierrawireless.com",
+          "username": "jowu"
+        },
+        {
+          "name": "Max Hung",
+          "email": "MHung@sierrawireless.com",
+          "username": "mhung"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        }
+      ],
+      "id": "Id9f047b6029d48bcb02b17f65b1c76bd3c1f0319",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 570,
+          "ref": "refs/changes/69/71669/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 12,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304878,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304878,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1611304937,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1611303676,
+          "revision": "ada2148db9e743b89c30fa447c99029d6ef67f3c",
+          "parents": [
+            "c923391cab0d619cfd2417687c331d7442d44acc"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1592212234
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1592212280
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1592212303
+        }
+      ],
+      "commitMessage": "inv - avoid warnings from core/core6\n\nAvoid some warnings due to missing group core6_nodes\n\nResolves: DEVOPS-148\nChange-Id: Ie7110bcef16981b8851546643e7868abf90fb8fb\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "inv - avoid warnings from core/core6",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1592212234,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/63289",
+      "number": 63289,
+      "lastUpdated": 1592212303,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "Ie7110bcef16981b8851546643e7868abf90fb8fb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/89/63289/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1592212280,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1592212280,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1592212303,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1592212234,
+          "revision": "c923391cab0d619cfd2417687c331d7442d44acc",
+          "parents": [
+            "ed0121d982e61a1133a0e30d8421ca1fd983bc77"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591091841
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591091873
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591091878
+        }
+      ],
+      "commitMessage": "mme - add ams_tun_base and refine some descriptions\n\nResolves: DEVOPS-153\nChange-Id: I02161f366be03c2aa19e5ed3dc0ac5fb7f4b613c\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme - add ams_tun_base and refine some descriptions",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591091841,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62564",
+      "number": 62564,
+      "lastUpdated": 1591091878,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I02161f366be03c2aa19e5ed3dc0ac5fb7f4b613c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 6,
+          "ref": "refs/changes/64/62564/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591091873,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591091873,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591091878,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591091841,
+          "revision": "ed0121d982e61a1133a0e30d8421ca1fd983bc77",
+          "parents": [
+            "117ea33a5dbcd0d43020e664b378091cbc4495f7"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006770
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006776
+        }
+      ],
+      "commitMessage": "tasks - push config to remote\n\nResolves: DEVOPS-155\nChange-Id: I7e81e3e927d6a5da56d5ff22ae8668548ebdb544\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "tasks - push config to remote",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62489",
+      "number": 62489,
+      "lastUpdated": 1591006776,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I7e81e3e927d6a5da56d5ff22ae8668548ebdb544",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 154,
+          "ref": "refs/changes/89/62489/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006770,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006770,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006776,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "117ea33a5dbcd0d43020e664b378091cbc4495f7",
+          "parents": [
+            "9ff73e3420054b0f5f29a9f9e47310a27c651aa5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006702
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006725
+        }
+      ],
+      "commitMessage": "mme - add SimDB config\n\nResolves: DEVOPS-154\nChange-Id: I538eb76f34d3471748aa9b307b46cfc8d77b5474\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme - add SimDB config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62488",
+      "number": 62488,
+      "lastUpdated": 1591006725,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I538eb76f34d3471748aa9b307b46cfc8d77b5474",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 289,
+          "ref": "refs/changes/88/62488/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006702,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006702,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006725,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "9ff73e3420054b0f5f29a9f9e47310a27c651aa5",
+          "parents": [
+            "296e24844160d25ff6ba531c549a8f0a360352c1"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006681
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006687
+        }
+      ],
+      "commitMessage": "mme - add PDN config\n\nResolves: DEVOPS-153\nChange-Id: I011c01da761216559d7069188b7767c5b600607d\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "mme - add PDN config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62487",
+      "number": 62487,
+      "lastUpdated": 1591006687,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I011c01da761216559d7069188b7767c5b600607d",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 90,
+          "ref": "refs/changes/87/62487/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 39,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006681,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006681,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006687,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "296e24844160d25ff6ba531c549a8f0a360352c1",
+          "parents": [
+            "2763c4331c9c1266f1eca84c71762a801d54df0f"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006655
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006660
+        }
+      ],
+      "commitMessage": "enb - add CAT7 config\n\nResolves: DEVOPS-152\nChange-Id: I13747acae5d9f6e9c82ea04459519eb3f3264632\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb - add CAT7 config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62486",
+      "number": 62486,
+      "lastUpdated": 1591006660,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I13747acae5d9f6e9c82ea04459519eb3f3264632",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 78,
+          "ref": "refs/changes/86/62486/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 15,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006655,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006655,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006660,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "2763c4331c9c1266f1eca84c71762a801d54df0f",
+          "parents": [
+            "fd73f85b07ee3edfaf22c1aaed18a682c48173c7"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006637
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006642
+        }
+      ],
+      "commitMessage": "enb - add CAT1M config\n\nResolves: DEVOPS-151\nChange-Id: I4b14008a7710636a3508d6affc10d122e2b009c9\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb - add CAT1M config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62485",
+      "number": 62485,
+      "lastUpdated": 1591006642,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I4b14008a7710636a3508d6affc10d122e2b009c9",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 83,
+          "ref": "refs/changes/85/62485/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 21,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006637,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006637,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006642,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "fd73f85b07ee3edfaf22c1aaed18a682c48173c7",
+          "parents": [
+            "13cc3dc86988a55d8ce42cbd919d98b5adb826a3"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006620
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006625
+        }
+      ],
+      "commitMessage": "enb - add CAT4 config\n\nResolves: DEVOPS-150\nChange-Id: Ia56ecdb79740ae03625d46f2787fd4164c23ac9c\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb - add CAT4 config",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62484",
+      "number": 62484,
+      "lastUpdated": 1591006625,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "Ia56ecdb79740ae03625d46f2787fd4164c23ac9c",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 75,
+          "ref": "refs/changes/84/62484/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006620,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006620,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006625,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "13cc3dc86988a55d8ce42cbd919d98b5adb826a3",
+          "parents": [
+            "080767072f403dfaa42e5c14daabc1af01509f32"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591006589
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591006594
+        }
+      ],
+      "commitMessage": "enb,mme,ims - add default config from Amarisoft\n\nResolves: DEVOPS-149\nChange-Id: Ic35ee55bc08624ff11a7215d0d0b8c6a729d8266\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "enb,mme,ims - add default config from Amarisoft",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62483",
+      "number": 62483,
+      "lastUpdated": 1591006594,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "Ic35ee55bc08624ff11a7215d0d0b8c6a729d8266",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 889,
+          "ref": "refs/changes/83/62483/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006589,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006589,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591006594,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "080767072f403dfaa42e5c14daabc1af01509f32",
+          "parents": [
+            "c5e02b67c7f2a8583d362bbc0158570e6685fc26"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Paul Chan",
+        "email": "pchan@sierrawireless.com",
+        "username": "pca"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1591000446
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1591000784
+        },
+        {
+          "reviewer": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "message": "Change has been successfully merged by Paul Chan",
+          "timestamp": 1591000790
+        }
+      ],
+      "commitMessage": "inv - add core/core6 inventory\n\nResolves: DEVOPS-148\nChange-Id: I53a09f62d5028f21a8efbdce4fc1ef1da484ef82\nSigned-off-by: Paul Chan <pchan@sierrawireless.com>\n",
+      "subject": "inv - add core/core6 inventory",
+      "project": "oem/ams-cfg",
+      "branch": "master",
+      "createdOn": 1591000446,
+      "url": "http://10.107.128.8:8081/c/oem/ams-cfg/+/62482",
+      "number": 62482,
+      "lastUpdated": 1591000790,
+      "allReviewers": [
+        {
+          "name": "Paul Chan",
+          "email": "pchan@sierrawireless.com",
+          "username": "pca"
+        },
+        {
+          "name": "Johnny Lin",
+          "email": "JLin@sierrawireless.com",
+          "username": "jlin"
+        },
+        {
+          "name": "Paul Tseng",
+          "email": "PTseng@sierrawireless.com",
+          "username": "ptseng"
+        },
+        {
+          "name": "Kevin Law",
+          "email": "klaw@sierrawireless.com",
+          "username": "klaw"
+        },
+        {
+          "name": "Charlie Chang",
+          "email": "CChang@sierrawireless.com",
+          "username": "cchang"
+        },
+        {
+          "name": "Lawrence Wong",
+          "email": "lwo@sierrawireless.com",
+          "username": "lwo"
+        },
+        {
+          "name": "Alan Lam",
+          "email": "alam@sierrawireless.com",
+          "username": "alam"
+        },
+        {
+          "name": "Ryan Shan",
+          "email": "rsa@sierrawireless.com",
+          "username": "rsa"
+        },
+        {
+          "name": "Calvin Fong",
+          "email": "CFong@sierrawireless.com",
+          "username": "cfong"
+        }
+      ],
+      "id": "I53a09f62d5028f21a8efbdce4fc1ef1da484ef82",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 172,
+          "ref": "refs/changes/82/62482/1",
+          "uploader": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "author": {
+            "name": "Paul Chan",
+            "email": "pchan@sierrawireless.com",
+            "username": "pca"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591000784,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591000784,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Paul Chan",
+                "email": "pchan@sierrawireless.com",
+                "username": "pca"
+              },
+              "grantedOn": 1591000790,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1591000446,
+          "revision": "c5e02b67c7f2a8583d362bbc0158570e6685fc26",
+          "parents": []
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

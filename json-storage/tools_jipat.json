@@ -1,0 +1,432 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Kenneth Yeung",
+        "email": "kyeung@sierrawireless.com",
+        "username": "kyeung"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1609302522
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1609302691
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1609303070
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 4: Commit message was updated.",
+          "timestamp": 1609303518
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 4: Verified+1 Code-Review+2",
+          "timestamp": 1609303549
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Change has been successfully merged by Kenneth Yeung",
+          "timestamp": 1609303584
+        }
+      ],
+      "commitMessage": "Add the command line execution mode.\n\nChanges include:\n- Split main.py into jipat.py and jipat_core.py\n- Allow arguments passing and to execute in command line mode.\n- Add html report generation.\n- Remove groups.json that is no longer used.\n- Rename total-unresolved to unresolved.\n- Use line graph instead of curve in GUI mode.\n- Add the support of query on inactive staff.\n\nResolves: QTI9X07-4757\nChange-Id: Ieb7ce2d7a6c6d00e498889b45976f80494dbc724\nSigned-off-by: Kenneth Yeung <kyeung@sierrawireless.com>\n",
+      "subject": "Add the command line execution mode.",
+      "project": "tools/jipat",
+      "branch": "master",
+      "createdOn": 1609302522,
+      "url": "http://10.107.128.8:8081/c/tools/jipat/+/71075",
+      "number": 71075,
+      "lastUpdated": 1609303584,
+      "allReviewers": [
+        {
+          "name": "Kenneth Yeung",
+          "email": "kyeung@sierrawireless.com",
+          "username": "kyeung"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ieb7ce2d7a6c6d00e498889b45976f80494dbc724",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 949,
+          "ref": "refs/changes/75/71075/1",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 360,
+          "createdOn": 1609302522,
+          "revision": "298591ecf366ae7a2d7065a4d06e265901ffc59c",
+          "parents": [
+            "1929ffbd9d3b3b32e656664c38e003bd48b5b7ea"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 949,
+          "ref": "refs/changes/75/71075/2",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CHANGE",
+          "sizeDeletions": 360,
+          "createdOn": 1609302691,
+          "revision": "05a3b8550693334c0b22678ec8b154bcab33b7ed",
+          "parents": [
+            "7aae20f1ea61753b872df64f3ce7bea5894b6b18"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 949,
+          "ref": "refs/changes/75/71075/3",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 360,
+          "createdOn": 1609303070,
+          "revision": "da1a96bfc96c9c6abfae22822cef475d23fb64cb",
+          "parents": [
+            "7aae20f1ea61753b872df64f3ce7bea5894b6b18"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 949,
+          "ref": "refs/changes/75/71075/4",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 360,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1609303549,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1609303549,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1609303584,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1609303518,
+          "revision": "671b655b3200701cc1a1693dcab7d7b2484eb8fb",
+          "parents": [
+            "7aae20f1ea61753b872df64f3ce7bea5894b6b18"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kenneth Yeung",
+        "email": "kyeung@sierrawireless.com",
+        "username": "kyeung"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1608722796
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1608722796
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1608723135
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1608723138
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1608723198
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1608778298
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 3: Commit message was updated.",
+          "timestamp": 1608778953
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Change has been successfully merged by Kenneth Yeung",
+          "timestamp": 1608778976
+        }
+      ],
+      "commitMessage": "Add the first version of JIPAT on behalf of Adarsh Rai\n\nResolves: QTI9X07-4757\nChange-Id: Iff386a7a5b5c50ebb9d286e990e2d310d83a27ef\nSigned-off-by: Kenneth Yeung <kyeung@sierrawireless.com>\n",
+      "subject": "Add the first version of JIPAT on behalf of Adarsh Rai",
+      "project": "tools/jipat",
+      "branch": "master",
+      "createdOn": 1608722796,
+      "url": "http://10.107.128.8:8081/c/tools/jipat/+/70969",
+      "number": 70969,
+      "lastUpdated": 1608778976,
+      "allReviewers": [
+        {
+          "name": "Kenneth Yeung",
+          "email": "kyeung@sierrawireless.com",
+          "username": "kyeung"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Iff386a7a5b5c50ebb9d286e990e2d310d83a27ef",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 15949,
+          "ref": "refs/changes/69/70969/1",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1608722796,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1608722796,
+          "revision": "1929ffbd9d3b3b32e656664c38e003bd48b5b7ea",
+          "parents": [
+            "90b94472f27150116d090c3d0ab2b121f2dea180"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 15949,
+          "ref": "refs/changes/69/70969/2",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1608778298,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1608778298,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            }
+          ],
+          "createdOn": 1608723135,
+          "revision": "7386758e4555e7b442de6cc18b2b6a2b899794f0",
+          "parents": [
+            "90b94472f27150116d090c3d0ab2b121f2dea180"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 15949,
+          "ref": "refs/changes/69/70969/3",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "grantedOn": 1608778976,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1608778953,
+          "revision": "7aae20f1ea61753b872df64f3ce7bea5894b6b18",
+          "parents": [
+            "90b94472f27150116d090c3d0ab2b121f2dea180"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,68 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Samuel Ingvalson",
+        "email": "SIngvalson@sierrawireless.com",
+        "username": "singvalson"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Samuel Ingvalson",
+            "email": "SIngvalson@sierrawireless.com",
+            "username": "singvalson"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1488320763
+        },
+        {
+          "reviewer": {
+            "name": "Samuel Ingvalson",
+            "email": "SIngvalson@sierrawireless.com",
+            "username": "singvalson"
+          },
+          "message": "Abandoned",
+          "timestamp": 1495671206
+        }
+      ],
+      "commitMessage": "QTI9X50-79 - Add oe-downloads for 9x50\n\nResolves: QTI9X50-79\nChange-Id: Ibd67b1765ebe2ebf5dac9316d0b850dc2812bea0\nSigned-off-by: Samuel Ingvalson <SIngvalson@sierrawireless.com>\n",
+      "subject": "QTI9X50-79 - Add oe-downloads for 9x50",
+      "project": "oe-downloads",
+      "branch": "master",
+      "createdOn": 1488320763,
+      "url": "http://10.107.128.8:8081/c/oe-downloads/+/12790",
+      "number": 12790,
+      "lastUpdated": 1495671206,
+      "id": "Ibd67b1765ebe2ebf5dac9316d0b850dc2812bea0",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 9878,
+          "ref": "refs/changes/90/12790/1",
+          "uploader": {
+            "name": "Samuel Ingvalson",
+            "email": "SIngvalson@sierrawireless.com",
+            "username": "singvalson"
+          },
+          "author": {
+            "name": "Samuel Ingvalson",
+            "email": "SIngvalson@sierrawireless.com",
+            "username": "singvalson"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1488320763,
+          "revision": "6b86bf0986901b8149f31704984ae60fcdcdd4d0",
+          "parents": [
+            "bb1ba536faf9ffaff210c08bba4dc9fa93f65281"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

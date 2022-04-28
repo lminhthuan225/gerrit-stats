@@ -1,0 +1,506 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Tom Foy",
+        "email": "tfoy@sierrawireless.com",
+        "username": "tfoy"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Tom Foy",
+            "email": "tfoy@sierrawireless.com",
+            "username": "tfoy"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1449253815
+        },
+        {
+          "reviewer": {
+            "name": "Jenkins Farm (old)",
+            "email": "ctogroup@sierrawireless.com",
+            "username": "ctogroup"
+          },
+          "message": "Patch Set 1: Code-Review-2\n\n- Your commit should mention a least one ticket.\n\nPlease check the syntax of your ticket declaration(s):\n\n - Trac tickets:\n        trac:1234 - My summary\n        trac:1234 trac:4567 - My summary with multiple tickets\n        (ticket:1234 is now forbidden)\n\n - SBM tickets:\n        SBM12345 - My summary\n        DEV12345 NEW56789 - My summary with multiple tickets",
+          "timestamp": 1449253816
+        },
+        {
+          "reviewer": {
+            "name": "Tom Foy",
+            "email": "tfoy@sierrawireless.com",
+            "username": "tfoy"
+          },
+          "message": "Abandoned\n\nWrong branch!",
+          "timestamp": 1449254084
+        }
+      ],
+      "commitMessage": "trac-3680: Make Legato compatible with dash\n\n   - Minor scripting tweaks\n\nChange-Id: I3706c47b7cd55274a836d876a7650ce2f43fe6e3\n",
+      "subject": "trac-3680: Make Legato compatible with dash",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1449253815,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/4990",
+      "number": 4990,
+      "lastUpdated": 1449254084,
+      "allReviewers": [
+        {
+          "name": "Jenkins Farm (old)",
+          "email": "ctogroup@sierrawireless.com",
+          "username": "ctogroup"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        }
+      ],
+      "id": "I3706c47b7cd55274a836d876a7650ce2f43fe6e3",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/90/4990/1",
+          "uploader": {
+            "name": "Tom Foy",
+            "email": "tfoy@sierrawireless.com",
+            "username": "tfoy"
+          },
+          "author": {
+            "name": "Tom Foy",
+            "email": "tfoy@sierrawireless.com",
+            "username": "tfoy"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jenkins Farm (old)",
+                "email": "ctogroup@sierrawireless.com",
+                "username": "ctogroup"
+              },
+              "grantedOn": 1449253816,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1449253815,
+          "revision": "e61df8fef50c2b16dfb2e7bf14e47f3808025cfa",
+          "parents": [
+            "b14ea843166e7a48b021261af548381341114f42"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Wukui Sun",
+        "email": "wsun@sierrawireless.com",
+        "username": "wsun"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Wukui Sun",
+            "email": "wsun@sierrawireless.com",
+            "username": "wsun"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1442889690
+        },
+        {
+          "reviewer": {
+            "name": "Wukui Sun",
+            "email": "wsun@sierrawireless.com",
+            "username": "wsun"
+          },
+          "message": "Abandoned",
+          "timestamp": 1442889790
+        }
+      ],
+      "commitMessage": "DEV83462 - clean up userrw partition\n\nChange-Id: Ic5f6c5e95d0eb0b6cde3e5233dace1f9b28d24e0\n",
+      "subject": "DEV83462 - clean up userrw partition",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1442889690,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/2821",
+      "number": 2821,
+      "lastUpdated": 1442889790,
+      "id": "Ic5f6c5e95d0eb0b6cde3e5233dace1f9b28d24e0",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/21/2821/1",
+          "uploader": {
+            "name": "Wukui Sun",
+            "email": "wsun@sierrawireless.com",
+            "username": "wsun"
+          },
+          "author": {
+            "name": "Wukui Sun",
+            "email": "wsun@sierrawireless.com",
+            "username": "wsun"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 2,
+          "createdOn": 1442889690,
+          "revision": "8d20644c675dd799e3c41e44cfd33af68f8e9b79",
+          "parents": [
+            "3202ab280bf1b8b5b98ae98620126e027027abf8"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1423003241
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned",
+          "timestamp": 1423004016
+        }
+      ],
+      "commitMessage": "ticket:1784 Check-in external Makefile (external.mk)\n\nThis is the makefile that should be used by customers\n(as a Makefile symlink from the parent directory).\n\nChange-Id: I9e02de4ecef31a38905ab580ffe45669747fb01b\n",
+      "subject": "ticket:1784 Check-in external Makefile (external.mk)",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1423003241,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/1612",
+      "number": 1612,
+      "lastUpdated": 1423004016,
+      "topic": "externalmk",
+      "id": "I9e02de4ecef31a38905ab580ffe45669747fb01b",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 169,
+          "ref": "refs/changes/12/1612/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1423003241,
+          "revision": "0100d102c28d928f3b2fd35606697e5944169f9b",
+          "parents": [
+            "1efe81130778259cf5ef1dcbd45b41cf2250df5f"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Andrew Mitchell",
+        "email": "amitchell@sierrawireless.com",
+        "username": "amitchell"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1419031670
+        },
+        {
+          "reviewer": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "message": "Abandoned",
+          "timestamp": 1419031813
+        }
+      ],
+      "commitMessage": "ticket:1467: Updated Legato build inclusion in Yocto\n\n    Patch 1: Use :: as the delimiter\n             By default pick Legato up from repo\n\nChange-Id: I201fdf87941c18a59f9fe63b73373f6ff8b0cf19\n",
+      "subject": "ticket:1467: Updated Legato build inclusion in Yocto",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1419031670,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/1419",
+      "number": 1419,
+      "lastUpdated": 1419031813,
+      "id": "I201fdf87941c18a59f9fe63b73373f6ff8b0cf19",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/19/1419/1",
+          "uploader": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "author": {
+            "name": "Andrew Mitchell",
+            "email": "amitchell@sierrawireless.com",
+            "username": "amitchell"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 5,
+          "createdOn": 1419031670,
+          "revision": "e8140c7a583051a77b0761d0be145842bc02131f",
+          "parents": [
+            "7e4ae93456d507f0fa8469ffd228f81cfd40f037"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1413829808
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nWrong branch (again !)",
+          "timestamp": 1413829842
+        }
+      ],
+      "commitMessage": "meta-toolchain-swi-ext: Provide both .sh and .tar.bz2\n\nDS toolchain process relies on original .sh\n\nChange-Id: Id2ec0b99892d5d282933084bceabf96fe8d1d753\n",
+      "subject": "meta-toolchain-swi-ext: Provide both .sh and .tar.bz2",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1413829808,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/1194",
+      "number": 1194,
+      "lastUpdated": 1413829842,
+      "id": "Id2ec0b99892d5d282933084bceabf96fe8d1d753",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 26,
+          "ref": "refs/changes/94/1194/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 8,
+          "createdOn": 1413829808,
+          "revision": "68d16154219cfe676146ecbaca501abee613e8cb",
+          "parents": [
+            "1aa90ee38345735544aaf9aa0a71134c353d7403"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1413584352
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nWrong branch",
+          "timestamp": 1413584392
+        }
+      ],
+      "commitMessage": "Rebase toolchain root in y16-ext\n\nChange-Id: I32a159f47a67dc4bf966b22a132555bea284f4bb\n",
+      "subject": "Rebase toolchain root in y16-ext",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1413584352,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/1188",
+      "number": 1188,
+      "lastUpdated": 1413584392,
+      "id": "I32a159f47a67dc4bf966b22a132555bea284f4bb",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 20,
+          "ref": "refs/changes/88/1188/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 10,
+          "createdOn": 1413584352,
+          "revision": "189e81da11f4872a6a84e7bd627c28c76531c501",
+          "parents": [
+            "748c5c945bcae5abab62ed3f90210225c3bfa570"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Bertrand Roussel",
+        "email": "broussel@sierrawireless.com",
+        "username": "broussel"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1412963136
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1412964950
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Abandoned\n\nWrong branch ...",
+          "timestamp": 1412965733
+        }
+      ],
+      "commitMessage": "Factorize common things in meta-swi-{bin,src}\n\nChange-Id: Id723d51d51f8698dd6a9d39869b0a4c6c2fceca6\n",
+      "subject": "Factorize common things in meta-swi-{bin,src}",
+      "project": "meta-swi-extras",
+      "branch": "master",
+      "createdOn": 1412963136,
+      "url": "http://10.107.128.8:8081/c/meta-swi-extras/+/1140",
+      "number": 1140,
+      "lastUpdated": 1412965733,
+      "id": "Id723d51d51f8698dd6a9d39869b0a4c6c2fceca6",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 101,
+          "ref": "refs/changes/40/1140/1",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 894,
+          "createdOn": 1412963136,
+          "revision": "e01612147f050afa4a133802ab2a1a7f8f5c2e3d",
+          "parents": [
+            "e1a53c8f33ff30089e057bd1d587493c401f0c15"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 127,
+          "ref": "refs/changes/40/1140/2",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 922,
+          "createdOn": 1412964950,
+          "revision": "ab8a1a91624b0d3ff3869cb21a03c55f41d292eb",
+          "parents": [
+            "e1a53c8f33ff30089e057bd1d587493c401f0c15"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

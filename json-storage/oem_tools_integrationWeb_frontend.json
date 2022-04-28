@@ -1,0 +1,314 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Jasper Chan",
+        "email": "Jaschan@sierrawireless.com",
+        "username": "jaschan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1566234222
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1566234224
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1566234338
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Only a space-separated list of valid tickets is allowed in the 'Resolves:' field.",
+          "timestamp": 1566234350
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1566234781
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Only a space-separated list of valid tickets is allowed in the 'Resolves:' field.",
+          "timestamp": 1566234786
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 4: Commit message was updated.",
+          "timestamp": 1566234900
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 4: -Quality-Check",
+          "timestamp": 1566234908
+        },
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Patch Set 4:\n\nQuestion: From integrationWeb/frontend/README.md, the command \"webdev serve web:8081 --auto restart --hostname 0.0.0.0\" didn't work for me, I got the following error:\nwebdev: error: unrecognized arguments: web:8081 --auto restart --hostname 0.0.0.0\n\nHowever running \"flutter packages pub global run webdev serve web:8081 --auto restart --hostname 0.0.0.0\" will start the web server. Is there a step I'm missing to run your version of the command?",
+          "timestamp": 1567037222
+        },
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Patch Set 4: Code-Review+1",
+          "timestamp": 1567099868
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1567124351
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1567124364
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged by Kaiyu Yang",
+          "timestamp": 1567124367
+        }
+      ],
+      "commitMessage": "Import from local repository\n\nResolves: FWINT-19 FWINT-8\nSigned-off-by: Jasper Chan <JasChan@sierrawireless.com>\nChange-Id: Ie858549a336ac7c5a7283a1691032eb45ae8ece3\n",
+      "subject": "Import from local repository",
+      "project": "oem/tools/integrationWeb/frontend",
+      "branch": "master",
+      "createdOn": 1566234222,
+      "url": "http://10.107.128.8:8081/c/oem/tools/integrationWeb/frontend/+/49733",
+      "number": 49733,
+      "lastUpdated": 1567124367,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Jeffrey Wang",
+          "email": "JeWang@sierrawireless.com",
+          "username": "jewang"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ie858549a336ac7c5a7283a1691032eb45ae8ece3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 52611,
+          "ref": "refs/changes/33/49733/1",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1566234224,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1566234222,
+          "revision": "d9e71f5aa711f3e7d212671ad07d743a643c3a3f",
+          "parents": [
+            "1d541e88e594dc9cbfb73d5854be1a8846398836"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 52611,
+          "ref": "refs/changes/33/49733/2",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1566234338,
+          "revision": "2043ca6ba39f94ec605cb01e37e34cd390e38735",
+          "parents": [
+            "1d541e88e594dc9cbfb73d5854be1a8846398836"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 52616,
+          "ref": "refs/changes/33/49733/3",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1566234786,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1566234781,
+          "revision": "cd7edc9c50f8a60bd9660807340334da2d977963",
+          "parents": [
+            "1d541e88e594dc9cbfb73d5854be1a8846398836"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 52616,
+          "ref": "refs/changes/33/49733/4",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jeffrey Wang",
+                "email": "JeWang@sierrawireless.com",
+                "username": "jewang"
+              },
+              "grantedOn": 1567099868,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124351,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124364,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124367,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1566234900,
+          "revision": "0481b8ebd8670a05af2de9926d4ebbec57573184",
+          "parents": [
+            "1d541e88e594dc9cbfb73d5854be1a8846398836"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

@@ -1,0 +1,1891 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Santhosh Thota",
+        "email": "sthota@sierrawireless.com",
+        "username": "sthota"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1648620514
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1648620515
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1648620566
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1648620567
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1648677843
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1648743113
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1649089244
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1649090826
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1649102511
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Code-Review+1",
+          "timestamp": 1649436068
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1649695068
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1649695070
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1649695077
+        }
+      ],
+      "commitMessage": "Update rfcombos python scripts for SDX65\n\nUpdate rfcombos generate script for SDX65:\n- ability to parse Sierra rf features spreadsheet\n- support for specifying maximum bandwidth for NR bands(currently hardcoded)\n- support NR CA combos\n\nAlso separates SDX55 and SDX65 scripts into different folders.\nrfcombos parsing script is also updated by adding additional bands\nsupported by EM929x\n\nResolves: QTIX65-217\nChange-Id: I5586879b600c33c5ecfb1b6c943055e71fe7e5b8\nSigned-off-by: Santhosh Thota <sthota@sierrawireless.com>\n",
+      "subject": "Update rfcombos python scripts for SDX65",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1648620514,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/83269",
+      "number": 83269,
+      "lastUpdated": 1649695077,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Kenneth Yeung",
+          "email": "kyeung@sierrawireless.com",
+          "username": "kyeung"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I5586879b600c33c5ecfb1b6c943055e71fe7e5b8",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 971,
+          "ref": "refs/changes/69/83269/1",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1648620515,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1648620514,
+          "revision": "1245739e0470d1504d5ef1bcd8f3c282c68ffb99",
+          "parents": [
+            "51d3496540cd15a2c90ce735e07946587c7ca59c"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 971,
+          "ref": "refs/changes/69/83269/2",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1648620566,
+          "revision": "dc0b9f926465d4fe9b4d6265bcecb01e027d9f2e",
+          "parents": [
+            "51d3496540cd15a2c90ce735e07946587c7ca59c"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 972,
+          "ref": "refs/changes/69/83269/3",
+          "comments": [
+            {
+              "file": "generate/SDX65/generate.py",
+              "line": 15,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Comparing the sdx55 version, the two generate.py files are very similar. Is it viable to have one script? Or is it not worth the effort?\nWondering if it will get confusing if there are two different version strings that may at one time have the same value in the future?"
+            },
+            {
+              "file": "generate/SDX65/generate.py",
+              "line": 15,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Big part of the script is dependent on the input spreadsheet's format.\nI plan on splitting the spreadsheet dependent part out but, it's not urgent for now. Until then, I think it's better leave the SDX55 script untouched.\nI missed to increase the version number. Will update."
+            }
+          ],
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1648743113,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1648677843,
+          "revision": "a9501ae5c7757d6e1feec71f3fb638738c3fdb0e",
+          "parents": [
+            "51d3496540cd15a2c90ce735e07946587c7ca59c"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 972,
+          "ref": "refs/changes/69/83269/4",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1649695068,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1649695070,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1649695077,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1649102511,
+          "revision": "bd46082384dcbda377021e0309f06b8f11c5e25e",
+          "parents": [
+            "51d3496540cd15a2c90ce735e07946587c7ca59c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Kenneth Yeung",
+        "email": "kyeung@sierrawireless.com",
+        "username": "kyeung"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1637624696
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your tickets should be declared in a 'Resolves:' field, please check syntax.\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1637624701
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1637625010
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1637625013
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Patch Set 2:\n\n(3 comments)",
+          "timestamp": 1637631400
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1637637186
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 3:\n\n(4 comments)",
+          "timestamp": 1637637333
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1637637858
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1637687962
+        },
+        {
+          "reviewer": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "message": "Patch Set 4:\n\n(1 comment)",
+          "timestamp": 1637688033
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 4: Code-Review+1",
+          "timestamp": 1638484321
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1638486220
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1638486221
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1638486234
+        }
+      ],
+      "commitMessage": "Archive the scripts used for disabling ENDC combos\n\nArchive the below scripts used to resolve FERRARI-2432.\n\"split_ca_endc_combo.py\" - to split combs into CA & ENDC combos.\n\"convert_combos_to_ca_string.py\"  - convert combos to CA string\n\nResolves: QTIX5510-3386\nChange-Id: I6df2ec48571ca745b7e013da1c194c1a6b84a371\nSigned-off-by: Kenneth Yeung <kyeung@sierrawireless.com>\n",
+      "subject": "Archive the scripts used for disabling ENDC combos",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1637624696,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/80371",
+      "number": 80371,
+      "lastUpdated": 1638486234,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Santhosh Thota",
+          "email": "sthota@sierrawireless.com",
+          "username": "sthota"
+        },
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I6df2ec48571ca745b7e013da1c194c1a6b84a371",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 111,
+          "ref": "refs/changes/71/80371/1",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1637624701,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1637624696,
+          "revision": "37652c5185f25fd63f3bdf7b76dac4b5b498a42c",
+          "parents": [
+            "79ec18098fe18fd5812484fb36d72d9fc20fcb50"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 111,
+          "ref": "refs/changes/71/80371/2",
+          "comments": [
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 4,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Please mention the expected format of the input combos and the output format. An example would be even better. Also, when we would want to use this."
+            },
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 4,
+              "reviewer": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 49,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "This might replace CA band class B as well e.g. B5B[2]B[1] We should replace only if the B is followed by a digit to indicate a band number."
+            },
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 49,
+              "reviewer": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "rfcombos_parse/split_ca_endc_combo.py",
+              "line": 24,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "We may want to search for 'N' too"
+            },
+            {
+              "file": "rfcombos_parse/split_ca_endc_combo.py",
+              "line": 24,
+              "reviewer": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1637625010,
+          "revision": "571e6fe218523324d2b6ebed06bf765921b7b89d",
+          "parents": [
+            "79ec18098fe18fd5812484fb36d72d9fc20fcb50"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 120,
+          "ref": "refs/changes/71/80371/3",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "message": "Thanks for the review. Corrections are made.\nPlease check."
+            },
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 58,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Still, this will not work for NR bands even though we don't currently support them.. e.g. N5B[2]. Perhaps just check the character at index 0 instead."
+            },
+            {
+              "file": "rfcombos_parse/convert_combos_to_ca_string.py",
+              "line": 58,
+              "reviewer": {
+                "name": "Kenneth Yeung",
+                "email": "kyeung@sierrawireless.com",
+                "username": "kyeung"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1637637186,
+          "revision": "5bdcb4260b0ca671dd5b7049962c8bb8a68560e9",
+          "parents": [
+            "79ec18098fe18fd5812484fb36d72d9fc20fcb50"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 120,
+          "ref": "refs/changes/71/80371/4",
+          "uploader": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "author": {
+            "name": "Kenneth Yeung",
+            "email": "kyeung@sierrawireless.com",
+            "username": "kyeung"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1638484321,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1638486220,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1638486221,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1638486234,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1637687962,
+          "revision": "51d3496540cd15a2c90ce735e07946587c7ca59c",
+          "parents": [
+            "79ec18098fe18fd5812484fb36d72d9fc20fcb50"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Taylor Murias",
+        "email": "TMurias@sierrawireless.com",
+        "username": "tmurias"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1634165419
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1634165423
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1634165475
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1634165477
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1634165554
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1634676802
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1634677375
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4: Code-Review+2\n\n(1 comment)",
+          "timestamp": 1634700675
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1634700678
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4:\n\n(1 comment)",
+          "timestamp": 1634700699
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1634700702
+        }
+      ],
+      "commitMessage": "Update rfcombos.py script to handle combos with no UL\n\nDescription:\nThe rfcombos.py script fails in a not-so-nice way when it comes across\ncombos with no UL band (which is currently happening due to the issue\naddressed in FERRARI-2339). The script should be updated to handle these\ncombos more gracefully.\n\nSolution:\nMade the script skip over combos with no UL band.\nNote: also added B43 to the list of accepted LTE bands.\n\nResolves: QTIX5510-3312\nRelated: FERRARI-2339\nChange-Id: I724990fd765ee1fc3f9f6b95e5839e2391603ac6\n",
+      "subject": "Update rfcombos.py script to handle combos with no UL",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1634165419,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/79283",
+      "number": 79283,
+      "lastUpdated": 1634700702,
+      "allReviewers": [
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Santhosh Thota",
+          "email": "sthota@sierrawireless.com",
+          "username": "sthota"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I724990fd765ee1fc3f9f6b95e5839e2391603ac6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/83/79283/1",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1634165423,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1634165419,
+          "revision": "48ab8f9deaf0cbc0641dcd96a445d86afafe1646",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/83/79283/2",
+          "comments": [
+            {
+              "file": "rfcombos.py",
+              "line": 422,
+              "reviewer": {
+                "name": "Taylor Murias",
+                "email": "TMurias@sierrawireless.com",
+                "username": "tmurias"
+              },
+              "message": "Also added B43 to this list as I'm seeing it in recent combo lists. Are there any other bands that should be added here?"
+            },
+            {
+              "file": "rfcombos.py",
+              "line": 422,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "When compared to the PTS, B43 is the only one that we were missing."
+            },
+            {
+              "file": "rfcombos.py",
+              "line": 422,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Ack"
+            }
+          ],
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1634165475,
+          "revision": "ee6aa2d906a05cf4703ae6ceb3219942e1734908",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 835,
+          "ref": "refs/changes/83/79283/3",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "createdOn": 1634676802,
+          "revision": "29b4c2700ac56945b711ff3928a92e16c2b72916",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 5,
+          "ref": "refs/changes/83/79283/4",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634700675,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634700678,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634700702,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1634677375,
+          "revision": "79ec18098fe18fd5812484fb36d72d9fc20fcb50",
+          "parents": [
+            "3d4b4f168a9314d1530fd26fe9d6b0ac2ae8fa8c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Santhosh Thota",
+        "email": "sthota@sierrawireless.com",
+        "username": "sthota"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1633657564
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1633657568
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1633657693
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1633657695
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1633659359
+        },
+        {
+          "reviewer": {
+            "name": "Ajitpal Virdi",
+            "email": "avirdi@sierrawireless.com",
+            "username": "avirdi"
+          },
+          "message": "Patch Set 3: Code-Review+1",
+          "timestamp": 1633740024
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 3:\n\n(1 comment)",
+          "timestamp": 1634070069
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 3: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1634070168
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 3:\n\n(2 comments)",
+          "timestamp": 1634070391
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1634187026
+        },
+        {
+          "reviewer": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "message": "Patch Set 4:\n\n(4 comments)",
+          "timestamp": 1634187375
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4: Code-Review+1\n\n(1 comment)",
+          "timestamp": 1634313092
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4: Code-Review+2",
+          "timestamp": 1634664308
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 4: Verified+1",
+          "timestamp": 1634664310
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1634664313
+        }
+      ],
+      "commitMessage": "Add script to generate RFC combos from QTI combo list\n\nAdded generate.py script that generates CA/ENDC combinations in RFC format from the 3gpp format in Qualcomm's RF combos list.\nAlso added the Qualcomm's combos list customized to the support of Sierra's EM9x products.\n\nResolves: QTIX5510-2974\nChange-Id: Iac5eec0f01678618f639db635b97ee9684ff6130\nSigned-off-by: Santhosh Thota <sthota@sierrawireless.com>\n",
+      "subject": "Add script to generate RFC combos from QTI combo list",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1633657564,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/79131",
+      "number": 79131,
+      "lastUpdated": 1634664313,
+      "allReviewers": [
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Iac5eec0f01678618f639db635b97ee9684ff6130",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 814,
+          "ref": "refs/changes/31/79131/1",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1633657568,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1633657564,
+          "revision": "161c26c14580d2beb5fa581875211799744c5445",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 814,
+          "ref": "refs/changes/31/79131/2",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1633657693,
+          "revision": "17aeccaf6a3187455b4a6de2fa60028b4ecf1200",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 815,
+          "ref": "refs/changes/31/79131/3",
+          "comments": [
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "There are newer versions (80-PM475-650_R and 80-PM671-651_J). Should we use those?"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Checked in these new files. The script works for these revisions too but the combos we currently implemented are based ver P & H files.\nNeed to review the differences closely but, there are some additions/differences for FR1 combos and minor differences for LTE combos.\n\nConsidering that our FW is close to MR, do you think we should review to see anymore combos can be added now?"
+            },
+            {
+              "file": "/PATCHSET_LEVEL",
+              "line": 0,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "It may be wise to do a quick summary of the changes, particularly focused on ATT/VZW/TMO impacts."
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 1,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Needs a file header similar to rfcombos.py (purpose and copyright)"
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 1,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 102,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "update"
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 102,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 110,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "remove?"
+            },
+            {
+              "file": "generate/generate.py",
+              "line": 110,
+              "reviewer": {
+                "name": "Santhosh Thota",
+                "email": "sthota@sierrawireless.com",
+                "username": "sthota"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Ajitpal Virdi",
+                "email": "avirdi@sierrawireless.com",
+                "username": "avirdi"
+              },
+              "grantedOn": 1633740024,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634070168,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "-1"
+            }
+          ],
+          "createdOn": 1633659359,
+          "revision": "dc92a463efc2b7fd04e949a1030b29f04aef110a",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 830,
+          "ref": "refs/changes/31/79131/4",
+          "uploader": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "author": {
+            "name": "Santhosh Thota",
+            "email": "sthota@sierrawireless.com",
+            "username": "sthota"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634664308,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634664310,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1634664313,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1634187026,
+          "revision": "3d4b4f168a9314d1530fd26fe9d6b0ac2ae8fa8c",
+          "parents": [
+            "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Taylor Murias",
+        "email": "TMurias@sierrawireless.com",
+        "username": "tmurias"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1621025406
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 1:\n\n(1 comment)",
+          "timestamp": 1621232766
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1621268745
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1621268793
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1621269887
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1621269889
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1621269892
+        }
+      ],
+      "commitMessage": "Updates to rfcombos.py script\n\nDescription:\n- UL columns in 3gpp CSV now display multiple uplinks if present\n- UL columns now display correct class (instead of downlink class)\n- Updated script to run on either python 2 or python 3\n\nResolves: QTIX5510-3094\nRelated: FERRARI-1687 FERRARI-1719\nChange-Id: I63c3d99198e066d1ffcdf6709aa2fdb1178512eb\n",
+      "subject": "Updates to rfcombos.py script",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1621025406,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/74866",
+      "number": 74866,
+      "lastUpdated": 1621269892,
+      "allReviewers": [
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Santhosh Thota",
+          "email": "sthota@sierrawireless.com",
+          "username": "sthota"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I63c3d99198e066d1ffcdf6709aa2fdb1178512eb",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 25,
+          "ref": "refs/changes/66/74866/1",
+          "comments": [
+            {
+              "file": "rfcombos.py",
+              "line": 14,
+              "reviewer": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "message": "Let's change to 1.5 (a crude versioning system for now)"
+            },
+            {
+              "file": "rfcombos.py",
+              "line": 14,
+              "reviewer": {
+                "name": "Taylor Murias",
+                "email": "TMurias@sierrawireless.com",
+                "username": "tmurias"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "createdOn": 1621025406,
+          "revision": "0a5d96ab9ae79f2b4be2876b93bce4b8d3a4ab3b",
+          "parents": [
+            "2c4779022db2a249d283fb31305a987b99779b6e"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 29,
+          "ref": "refs/changes/66/74866/2",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 17,
+          "approvals": [
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1621269887,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1621269889,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1621269892,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1621268745,
+          "revision": "f9d780ae9aa35d9277dd2d728b22fd240d9b77c0",
+          "parents": [
+            "2c4779022db2a249d283fb31305a987b99779b6e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Taylor Murias",
+        "email": "TMurias@sierrawireless.com",
+        "username": "tmurias"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1620935421
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your mentioned ticket does not exist\n - Tickets are declared in the first line and they shouldn't be, you should use 'Resolves:' declaration instead.",
+          "timestamp": 1620935424
+        },
+        {
+          "reviewer": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1620936389
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1620936391
+        },
+        {
+          "reviewer": {
+            "name": "Mircea Carausu",
+            "email": "MCarausu@sierrawireless.com",
+            "username": "mcarausu"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1620936544
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+1",
+          "timestamp": 1620948268
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1620948271
+        },
+        {
+          "reviewer": {
+            "name": "Kevin Walton",
+            "email": "kwalton@sierrawireless.com",
+            "username": "kwalton"
+          },
+          "message": "Change has been successfully merged",
+          "timestamp": 1620948280
+        }
+      ],
+      "commitMessage": "Add rfcombos.py script to version control\n\nDescription:\nInitial commit. rfcombos.py takes the output from AT!RFCOMBOS and\ngenerates a readable list of combos.\n\nResolves: QTIX5510-3092\nRelated: FERRARI-1687\nChange-Id: Ia46cd2aa6b83e328bdff3088a872a1699fb8a413\n",
+      "subject": "Add rfcombos.py script to version control",
+      "project": "tools/rfcombos",
+      "branch": "master",
+      "createdOn": 1620935421,
+      "url": "http://10.107.128.8:8081/c/tools/rfcombos/+/74820",
+      "number": 74820,
+      "lastUpdated": 1620948280,
+      "allReviewers": [
+        {
+          "name": "Kevin Walton",
+          "email": "kwalton@sierrawireless.com",
+          "username": "kwalton"
+        },
+        {
+          "name": "Ajitpal Virdi",
+          "email": "avirdi@sierrawireless.com",
+          "username": "avirdi"
+        },
+        {
+          "name": "Mircea Carausu",
+          "email": "MCarausu@sierrawireless.com",
+          "username": "mcarausu"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ia46cd2aa6b83e328bdff3088a872a1699fb8a413",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 430,
+          "ref": "refs/changes/20/74820/1",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1620935424,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1620935421,
+          "revision": "40c7ae69487be6506121869c67a2744412c5d6a0",
+          "parents": [
+            "f210fcd6ab3b12fa0be054ee4813e214746bf857"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 430,
+          "ref": "refs/changes/20/74820/2",
+          "uploader": {
+            "name": "Taylor Murias",
+            "email": "TMurias@sierrawireless.com",
+            "username": "tmurias"
+          },
+          "author": {
+            "name": "Taylor Murias",
+            "email": "tmurias@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Mircea Carausu",
+                "email": "MCarausu@sierrawireless.com",
+                "username": "mcarausu"
+              },
+              "grantedOn": 1620936544,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1620948268,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1620948271,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kevin Walton",
+                "email": "kwalton@sierrawireless.com",
+                "username": "kwalton"
+              },
+              "grantedOn": 1620948280,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1620936389,
+          "revision": "2c4779022db2a249d283fb31305a987b99779b6e",
+          "parents": [
+            "f210fcd6ab3b12fa0be054ee4813e214746bf857"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

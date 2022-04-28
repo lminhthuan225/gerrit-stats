@@ -1,0 +1,426 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Jasper Chan",
+        "email": "Jaschan@sierrawireless.com",
+        "username": "jaschan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1566257891
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1566586312
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 3.",
+          "timestamp": 1566589314
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 4.",
+          "timestamp": 1566593178
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 5.",
+          "timestamp": 1566943669
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 6.",
+          "timestamp": 1566944267
+        },
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Patch Set 6:\n\n(2 comments)",
+          "timestamp": 1567036369
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Uploaded patch set 7.",
+          "timestamp": 1567038117
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Patch Set 7:\n\n(2 comments)",
+          "timestamp": 1567038136
+        },
+        {
+          "reviewer": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "message": "Patch Set 7:\n\n(1 comment)",
+          "timestamp": 1567038162
+        },
+        {
+          "reviewer": {
+            "name": "Jeffrey Wang",
+            "email": "JeWang@sierrawireless.com",
+            "username": "jewang"
+          },
+          "message": "Patch Set 7: Code-Review+1",
+          "timestamp": 1567100597
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 7: Code-Review+2",
+          "timestamp": 1567124387
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Patch Set 7: Verified+1",
+          "timestamp": 1567124388
+        },
+        {
+          "reviewer": {
+            "name": "Kaiyu Yang",
+            "email": "KaYang@sierrawireless.com",
+            "username": "kayang"
+          },
+          "message": "Change has been successfully merged by Kaiyu Yang",
+          "timestamp": 1567124391
+        }
+      ],
+      "commitMessage": "Import from local repository\n\nResolves: FWINT-19 FWINT-8\nChange-Id: I31eb19b979acd1e23836d8aa458be0f58fc7f38e\nSigned-off-by: Jasper Chan <JasChan@sierrawireless.com>\n",
+      "subject": "Import from local repository",
+      "project": "oem/tools/integrationWeb/backend",
+      "branch": "master",
+      "createdOn": 1566257891,
+      "url": "http://10.107.128.8:8081/c/oem/tools/integrationWeb/backend/+/49750",
+      "number": 49750,
+      "lastUpdated": 1567124391,
+      "allReviewers": [
+        {
+          "name": "Kaiyu Yang",
+          "email": "KaYang@sierrawireless.com",
+          "username": "kayang"
+        },
+        {
+          "name": "Jeffrey Wang",
+          "email": "JeWang@sierrawireless.com",
+          "username": "jewang"
+        },
+        {
+          "name": "Jasper Chan",
+          "email": "Jaschan@sierrawireless.com",
+          "username": "jaschan"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I31eb19b979acd1e23836d8aa458be0f58fc7f38e",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 28178,
+          "ref": "refs/changes/50/49750/1",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566257891,
+          "revision": "eece864c3d330a269ab198bc979c37247b5fa52d",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 28201,
+          "ref": "refs/changes/50/49750/2",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566586312,
+          "revision": "6d33d953dca32e5f3293187a2beff5c725a2e75c",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 28336,
+          "ref": "refs/changes/50/49750/3",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566589314,
+          "revision": "edbd0b2994839c8397114309fbd9c851b38f33ec",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 28339,
+          "ref": "refs/changes/50/49750/4",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566593178,
+          "revision": "5a648410cedc5e189724894daf65622c3bb66c7f",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 5,
+          "sizeInsertions": 22556,
+          "ref": "refs/changes/50/49750/5",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566943669,
+          "revision": "34937c6271ff28222350f88efe3cc7b532e7befb",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 6,
+          "sizeInsertions": 22572,
+          "ref": "refs/changes/50/49750/6",
+          "comments": [
+            {
+              "file": "README.md",
+              "line": 11,
+              "reviewer": {
+                "name": "Jeffrey Wang",
+                "email": "JeWang@sierrawireless.com",
+                "username": "jewang"
+              },
+              "message": "Should we add these dependencies to the Pipfile (all the flask packages etc)?"
+            },
+            {
+              "file": "README.md",
+              "line": 11,
+              "reviewer": {
+                "name": "Jasper Chan",
+                "email": "Jaschan@sierrawireless.com",
+                "username": "jaschan"
+              },
+              "message": "Done"
+            },
+            {
+              "file": "scripts/altair1250_cataloger/Pipfile.lock",
+              "line": 187,
+              "reviewer": {
+                "name": "Jeffrey Wang",
+                "email": "JeWang@sierrawireless.com",
+                "username": "jewang"
+              },
+              "message": "Should we use >=0.2 here?"
+            },
+            {
+              "file": "scripts/altair1250_cataloger/Pipfile.lock",
+              "line": 187,
+              "reviewer": {
+                "name": "Jasper Chan",
+                "email": "Jaschan@sierrawireless.com",
+                "username": "jaschan"
+              },
+              "message": "The whole point of a lockfile is to specify a specific version"
+            },
+            {
+              "file": "scripts/altair1250_cataloger/Pipfile.lock",
+              "line": 187,
+              "reviewer": {
+                "name": "Jasper Chan",
+                "email": "Jaschan@sierrawireless.com",
+                "username": "jaschan"
+              },
+              "message": "Done"
+            }
+          ],
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1566944267,
+          "revision": "20099db63c4731473c4a4fd29bd1e6b801f5f3b2",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        },
+        {
+          "number": 7,
+          "sizeInsertions": 22993,
+          "ref": "refs/changes/50/49750/7",
+          "uploader": {
+            "name": "Jasper Chan",
+            "email": "Jaschan@sierrawireless.com",
+            "username": "jaschan"
+          },
+          "author": {
+            "name": "Jasper Chan",
+            "email": "JasChan@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Jeffrey Wang",
+                "email": "JeWang@sierrawireless.com",
+                "username": "jewang"
+              },
+              "grantedOn": 1567100597,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124387,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124388,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Kaiyu Yang",
+                "email": "KaYang@sierrawireless.com",
+                "username": "kayang"
+              },
+              "grantedOn": 1567124391,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1567038117,
+          "revision": "f5036bddcdfbdf17494df27cd1cb9946fd769fec",
+          "parents": [
+            "489f93e0a8aaa7c522313b8253742760a8e4c865"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}

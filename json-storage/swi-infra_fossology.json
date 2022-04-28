@@ -1,0 +1,2095 @@
+{
+  "gerritStatsVersion": 1,
+  "commits": [
+    {
+      "owner": {
+        "name": "Vo Pham Thanh Nhan",
+        "email": "vptnhan@sierrawireless.com",
+        "username": "vptnhan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1603964566
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 2.",
+          "timestamp": 1603964665
+        },
+        {
+          "reviewer": {
+            "name": "Wilson (Wei Chao) Lin",
+            "email": "Willin@sierrawireless.com",
+            "username": "willin"
+          },
+          "message": "Patch Set 2: Code-Review+1",
+          "timestamp": 1603987973
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+          "timestamp": 1604102943
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Patch Set 2:\n\n(1 comment)",
+          "timestamp": 1604304741
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1604335941
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1604335948
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Change has been successfully merged by Julian Buliga",
+          "timestamp": 1604335956
+        }
+      ],
+      "commitMessage": "Recover DB incase license_ref table was corrupted\n\nResolves: FARM-4656\nChange-Id: Ieb9bfb640c4472b2bdca81b31ac688e8ef35b931\n",
+      "subject": "Recover DB incase license_ref table was corrupted",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1603964566,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/69022",
+      "number": 69022,
+      "lastUpdated": 1604335956,
+      "allReviewers": [
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        },
+        {
+          "name": "Wilson (Wei Chao) Lin",
+          "email": "Willin@sierrawireless.com",
+          "username": "willin"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "Ieb9bfb640c4472b2bdca81b31ac688e8ef35b931",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/22/69022/1",
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1603964566,
+          "revision": "7e973485c2799d3865cc24a135c11d4c16c14ba0",
+          "parents": [
+            "cfa8461b445f4bd9a84076099cb6b11d5f3afee5"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 23,
+          "ref": "refs/changes/22/69022/2",
+          "comments": [
+            {
+              "file": "docker-entrypoint.sh",
+              "line": 79,
+              "reviewer": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "message": "Once we merge this there will be no way to upgrade the schema on license_ref table if it will change in upstream"
+            },
+            {
+              "file": "docker-entrypoint.sh",
+              "line": 79,
+              "reviewer": {
+                "name": "Vo Pham Thanh Nhan",
+                "email": "vptnhan@sierrawireless.com",
+                "username": "vptnhan"
+              },
+              "message": "Hi Julian,\nI don't have much experience on this. Could you please clarify the reason why we cannot upgrade the schema on license_ref table?\n\nAs usual way, incase license_ref table was corrupted, we can you /usr/local/lib/fossology/fo-postinstall command to fix the issue, right? \nLet me know if i'm wrong. Thanks"
+            }
+          ],
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Wilson (Wei Chao) Lin",
+                "email": "Willin@sierrawireless.com",
+                "username": "willin"
+              },
+              "grantedOn": 1603987973,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1604335941,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1604335948,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Julian Buliga",
+                "email": "JBuliga@sierrawireless.com",
+                "username": "jbuliga"
+              },
+              "grantedOn": 1604335956,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1603964665,
+          "revision": "826b3b9e02f4992e673174a4df44122542db0a47",
+          "parents": [
+            "cfa8461b445f4bd9a84076099cb6b11d5f3afee5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1599599789
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Ticket FARM-4270 was resolved/closed",
+          "timestamp": 1599599792
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Abandoned\n\nwrong branch",
+          "timestamp": 1599601788
+        }
+      ],
+      "commitMessage": "Merge tag '3.8.1'\n\nResolves: FARM-4270\nChange-Id: I403ae49daf151e83addf878154192864256a5b96\n",
+      "subject": "Merge tag '3.8.1'",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1599599789,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/66856",
+      "number": 66856,
+      "lastUpdated": 1599601788,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "topic": "swi",
+      "id": "I403ae49daf151e83addf878154192864256a5b96",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/56/66856/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1599599792,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1599599789,
+          "revision": "a8db2bbbd7dd2dfb486c463fcccc2c67f8beacbe",
+          "parents": [
+            "cfa8461b445f4bd9a84076099cb6b11d5f3afee5",
+            "9103fa36d82532f640336a2664c1fd77c084a014"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Vo Pham Thanh Nhan",
+        "email": "vptnhan@sierrawireless.com",
+        "username": "vptnhan"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1580889570
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1580889573
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1580889695
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1580889715
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Patch Set 2:\n\nThis change is ready for review.",
+          "timestamp": 1580889778
+        },
+        {
+          "reviewer": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1580889828
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1580889831
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 3: Verified+1 Code-Review+2",
+          "timestamp": 1581573422
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1581573425
+        }
+      ],
+      "commitMessage": "[infra] Support configuring FOSSOLOGY_DB_PORT\n\nBy default, this port is 5432 but on dev farm, it's conflicted with existing services so need to use other port for fossology db.\n\nResolves: FARM-3425\nChange-Id: I7b184808baf4933b9c75f9bdb79ea863d3d8176a\n",
+      "subject": "[infra] Support configuring FOSSOLOGY_DB_PORT",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1580889570,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/57155",
+      "number": 57155,
+      "lastUpdated": 1581573425,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Hong Nguyen",
+          "email": "hunguyen@sierrawireless.com",
+          "username": "hunguyen"
+        },
+        {
+          "name": "Vo Pham Thanh Nhan",
+          "email": "vptnhan@sierrawireless.com",
+          "username": "vptnhan"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I7b184808baf4933b9c75f9bdb79ea863d3d8176a",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/55/57155/1",
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1580889573,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1580889570,
+          "revision": "f3a69c123520271953d175626b3b644e3c80b7af",
+          "parents": [
+            "9b24ba75170b82e6e75d63d61c9bf448bdf212f5"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/55/57155/2",
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "createdOn": 1580889715,
+          "revision": "402e65ee4f032f69f667f0e302a11ec3533d0f40",
+          "parents": [
+            "9b24ba75170b82e6e75d63d61c9bf448bdf212f5"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 3,
+          "ref": "refs/changes/55/57155/3",
+          "uploader": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "author": {
+            "name": "Vo Pham Thanh Nhan",
+            "email": "vptnhan@sierrawireless.com",
+            "username": "vptnhan"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 1,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1581573422,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1581573422,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1581573425,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1580889828,
+          "revision": "cfa8461b445f4bd9a84076099cb6b11d5f3afee5",
+          "parents": [
+            "9b24ba75170b82e6e75d63d61c9bf448bdf212f5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1570138487
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit should mention at least one ticket.",
+          "timestamp": 1570138492
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1570138751
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1570138771
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1570139671
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1570139678
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Set Work In Progress",
+          "timestamp": 1570231805
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Abandoned",
+          "timestamp": 1578068927
+        }
+      ],
+      "commitMessage": "[oss] Merge remote-tracking branch 'origin/upstream/master' into HEAD\n\nResolves: FARM-3156\nChange-Id: I9ec4e3287eb8326ab66319876c50892ba4daafd9\n",
+      "subject": "[oss] Merge remote-tracking branch 'origin/upstream/master' into HEAD",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1570138487,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/51394",
+      "number": 51394,
+      "lastUpdated": 1578068927,
+      "allReviewers": [
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        }
+      ],
+      "id": "I9ec4e3287eb8326ab66319876c50892ba4daafd9",
+      "open": false,
+      "status": "ABANDONED",
+      "wip": true,
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/94/51394/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1570138492,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1570138487,
+          "revision": "8e36e8e46890d509bdf480b360db012cde77c8d7",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "bc6481cedc4e04b8fc15e52c33ddbb468897d6ff"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/94/51394/2",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1570138751,
+          "revision": "a45af6a56b6e2c3de5bdf8a49c73d569799e9159",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "bc6481cedc4e04b8fc15e52c33ddbb468897d6ff"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/94/51394/3",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1570139671,
+          "revision": "1d41c83f0ebccec43f37e4980ea9acf9dd7c5154",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "bc6481cedc4e04b8fc15e52c33ddbb468897d6ff"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Julian Buliga",
+        "email": "JBuliga@sierrawireless.com",
+        "username": "jbuliga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1577991529
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - There is a blank line after Resolves: (or Related:), please amend to fix the order.",
+          "timestamp": 1577991536
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1577992192
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 2:\n\nCommit message style: Legato\n\nPlease check that the syntax of your ticket declaration(s) follows commit guidelines:\nhttps://confluence.sierrawireless.com/display/LEGATO/Write+Commit+Messages\n\n - There is a blank line after Resolves: (or Related:), please amend to fix the order.",
+          "timestamp": 1577992198
+        },
+        {
+          "reviewer": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1577992262
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-GIT01_sa",
+            "username": "carmd-ev-git01_sa"
+          },
+          "message": "Patch Set 3: -Quality-Check",
+          "timestamp": 1577992268
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Commit message was updated.",
+          "timestamp": 1578013064
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Patch Set 4: Verified+1 Code-Review+2",
+          "timestamp": 1578013081
+        },
+        {
+          "reviewer": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "message": "Change has been successfully merged by Bertrand Roussel",
+          "timestamp": 1578013083
+        }
+      ],
+      "commitMessage": "Merge remote-tracking branch 'github/master'\n\nUpdate to v 3.7\n\nResolves: FARM-3156\nChange-Id: Ic047839caf189d7ec696cce747c7aefc3497333f\n",
+      "subject": "Merge remote-tracking branch 'github/master'",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1577991529,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/55719",
+      "number": 55719,
+      "lastUpdated": 1578013083,
+      "allReviewers": [
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "CARMD-EV-GIT01_sa",
+          "username": "carmd-ev-git01_sa"
+        },
+        {
+          "name": "Julian Buliga",
+          "email": "JBuliga@sierrawireless.com",
+          "username": "jbuliga"
+        }
+      ],
+      "topic": "FARM-3156",
+      "id": "Ic047839caf189d7ec696cce747c7aefc3497333f",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/19/55719/1",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-GIT01_sa",
+                "username": "carmd-ev-git01_sa"
+              },
+              "grantedOn": 1577991536,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1577991529,
+          "revision": "f0c37fa7029d91efac9de80ef6714eac86561f62",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "19f2d8724d1f73e6146c8096dfa9561a7a1b03e5"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/19/55719/2",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1577992192,
+          "revision": "8849774898b610ce9c555cabca419fe1698bfa02",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "19f2d8724d1f73e6146c8096dfa9561a7a1b03e5"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/19/55719/3",
+          "uploader": {
+            "name": "Julian Buliga",
+            "email": "JBuliga@sierrawireless.com",
+            "username": "jbuliga"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "createdOn": 1577992262,
+          "revision": "00fea23779196a6b3e96c271f9394a5d7063db29",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "19f2d8724d1f73e6146c8096dfa9561a7a1b03e5"
+          ]
+        },
+        {
+          "number": 4,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/19/55719/4",
+          "uploader": {
+            "name": "Bertrand Roussel",
+            "email": "broussel@sierrawireless.com",
+            "username": "broussel"
+          },
+          "author": {
+            "name": "Julian Buliga",
+            "email": "jbuliga@sierrawireless.com",
+            "username": ""
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1578013081,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1578013081,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Bertrand Roussel",
+                "email": "broussel@sierrawireless.com",
+                "username": "broussel"
+              },
+              "grantedOn": 1578013083,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1578013064,
+          "revision": "9b24ba75170b82e6e75d63d61c9bf448bdf212f5",
+          "parents": [
+            "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+            "19f2d8724d1f73e6146c8096dfa9561a7a1b03e5"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1554995434
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message should start with an upper case.",
+          "timestamp": 1554995439
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Patch Set 2: Commit message was updated.",
+          "timestamp": 1554995504
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1554995511
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Verified+1 Code-Review+2",
+          "timestamp": 1554998559
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1554998563
+        }
+      ],
+      "commitMessage": "Cp2foss now returns FolderPk as well\n\nResolves: FARM-2711\nChange-Id: I1c951d95786225cf8a140306bb953e936ffd8ce3\n",
+      "subject": "Cp2foss now returns FolderPk as well",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1554995434,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/45237",
+      "number": 45237,
+      "lastUpdated": 1554998563,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I1c951d95786225cf8a140306bb953e936ffd8ce3",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/37/45237/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1554995439,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1554995434,
+          "revision": "e045e85ccfa30e58c803a9c3d740b713d6b2906d",
+          "parents": [
+            "b0bb8a23311e1a8eb64429b8e99c0b685f13ad94"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/37/45237/2",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1554998559,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1554998559,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1554998563,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1554995504,
+          "revision": "7264b8e0f257e4b4d79a59df10734dbaec914fbf",
+          "parents": [
+            "b0bb8a23311e1a8eb64429b8e99c0b685f13ad94"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Gregory Wilga",
+        "email": "GWilga@sierrawireless.com",
+        "username": "gwilga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1551199103
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1551199327
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1551199330
+        }
+      ],
+      "commitMessage": "Merge remote-tracking branch 'gerrit/upstream/master'\n\nResolves: FARM-2498\nChange-Id: I1caa3202ca04bcbb01ef0411ed90c9db25f73fb9\n",
+      "subject": "Merge remote-tracking branch 'gerrit/upstream/master'",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1551199103,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/43191",
+      "number": 43191,
+      "lastUpdated": 1551199330,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        }
+      ],
+      "id": "I1caa3202ca04bcbb01ef0411ed90c9db25f73fb9",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/91/43191/1",
+          "uploader": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "author": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1551199327,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1551199327,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1551199330,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1551199103,
+          "revision": "b0bb8a23311e1a8eb64429b8e99c0b685f13ad94",
+          "parents": [
+            "1fff1959ad27634dec8b8efa5b35151cbf8f2e82",
+            "0a1cc18cfe6db40f3645d7337fc0bc8a4131002c"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Gregory Wilga",
+        "email": "GWilga@sierrawireless.com",
+        "username": "gwilga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1549638518
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1549638558
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1549638563
+        }
+      ],
+      "commitMessage": "Remove dependencies to ninka\n\nResolves: FARM-2381 FARM-2350\nChange-Id: I484179591ca60e9c3b7c087cef5f9cee2413ceaa\n",
+      "subject": "Remove dependencies to ninka",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1549638518,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/42432",
+      "number": 42432,
+      "lastUpdated": 1549638563,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I484179591ca60e9c3b7c087cef5f9cee2413ceaa",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 1,
+          "ref": "refs/changes/32/42432/1",
+          "uploader": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "author": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 3,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549638558,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549638558,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549638563,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1549638518,
+          "revision": "1fff1959ad27634dec8b8efa5b35151cbf8f2e82",
+          "parents": [
+            "5326fadac9b9f3a435d9725ca79d120ff04a255e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1545209058
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Code-Review+2",
+          "timestamp": 1549373392
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1",
+          "timestamp": 1549373395
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1549373402
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1549373429
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1549373432
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1549373438
+        }
+      ],
+      "commitMessage": "Add dependencies for spdx2 agent\n\nResolves: FARM-2350\nChange-Id: I39091e1c1e5297da5c36b7d4dc64204d82835e97\n",
+      "subject": "Add dependencies for spdx2 agent",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1545209058,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/40280",
+      "number": 40280,
+      "lastUpdated": 1549373438,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I39091e1c1e5297da5c36b7d4dc64204d82835e97",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 25,
+          "ref": "refs/changes/80/40280/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 9,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549373392,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549373395,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1545209058,
+          "revision": "bf4765cbab7d22d664a057421be6cbde094ad878",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 25,
+          "ref": "refs/changes/80/40280/2",
+          "uploader": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 9,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549373429,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549373432,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549373438,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1549373402,
+          "revision": "5326fadac9b9f3a435d9725ca79d120ff04a255e",
+          "parents": [
+            "df8b4494c461c78530798b9f74eaf581cc3f5d7e"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1546249469
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Patch Set 1 was rebased",
+          "timestamp": 1549275532
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Code-Review+2",
+          "timestamp": 1549275584
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 2: Verified+1",
+          "timestamp": 1549275588
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1549275591
+        }
+      ],
+      "commitMessage": "Add monk, ninka to bucket dependencies\n\nResolves: FARM-2381\nChange-Id: I3006d97e75db66b0014149d0321c6d4231a037b6\n",
+      "subject": "Add monk, ninka to bucket dependencies",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1546249469,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/40808",
+      "number": 40808,
+      "lastUpdated": 1549275591,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "id": "I3006d97e75db66b0014149d0321c6d4231a037b6",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/08/40808/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "createdOn": 1546249469,
+          "revision": "b322306743e7393564283a03f63c2f4e6a47bd33",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 2,
+          "ref": "refs/changes/08/40808/2",
+          "uploader": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "TRIVIAL_REBASE",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549275584,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549275588,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549275591,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1549275532,
+          "revision": "df8b4494c461c78530798b9f74eaf581cc3f5d7e",
+          "parents": [
+            "4c9bba044d4a2942dda8b0b4cef938f5f03ba511"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Gregory Wilga",
+        "email": "GWilga@sierrawireless.com",
+        "username": "gwilga"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1549015693
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Patch Set 1: Verified+1 Code-Review+2",
+          "timestamp": 1549015841
+        },
+        {
+          "reviewer": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "message": "Change has been successfully merged by Gregory Wilga",
+          "timestamp": 1549015850
+        }
+      ],
+      "commitMessage": "Merge remote-tracking branch 'gerrit/upstream/master'\n\nChange-Id: I635411bef0be7d69b5f626cdb16c64b507cc0ccf\nResolves: FARM-2376\n",
+      "subject": "Merge remote-tracking branch 'gerrit/upstream/master'",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1549015693,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/42188",
+      "number": 42188,
+      "lastUpdated": 1549015850,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        }
+      ],
+      "id": "I635411bef0be7d69b5f626cdb16c64b507cc0ccf",
+      "open": false,
+      "status": "MERGED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 0,
+          "ref": "refs/changes/88/42188/1",
+          "uploader": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "author": {
+            "name": "Gregory Wilga",
+            "email": "GWilga@sierrawireless.com",
+            "username": "gwilga"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 0,
+          "approvals": [
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549015841,
+              "description": "Verified",
+              "type": "Verified",
+              "value": "1"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549015841,
+              "description": "Code-Review",
+              "type": "Code-Review",
+              "value": "2"
+            },
+            {
+              "by": {
+                "name": "Gregory Wilga",
+                "email": "GWilga@sierrawireless.com",
+                "username": "gwilga"
+              },
+              "grantedOn": 1549015850,
+              "type": "SUBM",
+              "value": "1"
+            }
+          ],
+          "createdOn": 1549015693,
+          "revision": "4c9bba044d4a2942dda8b0b4cef938f5f03ba511",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051",
+            "6e1f967e74113847be9a23d65363a4b47c876568"
+          ]
+        }
+      ]
+    },
+    {
+      "owner": {
+        "name": "Phan Dinh Khai",
+        "email": "pdkhai@tma.com.vn",
+        "username": "pkhai"
+      },
+      "comments": [
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 1.",
+          "timestamp": 1545983524
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 1: Quality-Check-2\n\n- Your commit message has a module that is not declared with a proper format, use [Module] instead.\n - Your commit message should start with an upper case.",
+          "timestamp": 1545983527
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 2: Commit message was updated.",
+          "timestamp": 1545983622
+        },
+        {
+          "reviewer": {
+            "name": "CARMD-EV-LXCIM_sa",
+            "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+            "username": "carmd-ev-lxcim_sa"
+          },
+          "message": "Patch Set 2: -Quality-Check",
+          "timestamp": 1545983625
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Uploaded patch set 3: Commit message was updated.",
+          "timestamp": 1545983869
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Topic set to FARM-2324",
+          "timestamp": 1545984016
+        },
+        {
+          "reviewer": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "message": "Abandoned\n\nUse another solution to keep cp2foss behavior",
+          "timestamp": 1545998698
+        }
+      ],
+      "commitMessage": "Add support Reuser and Decider agent to cp2foss command\n\nOption '-r [reuser_upload_id]' of cp2foss will\nadditionally queue Reuser and Decider agents\n\nResolves: FARM-2324\nChange-Id: If41c3bcc5049698e08e8f70363199c8f915568b9\n",
+      "subject": "Add support Reuser and Decider agent to cp2foss command",
+      "project": "swi-infra/fossology",
+      "branch": "master",
+      "createdOn": 1545983524,
+      "url": "http://10.107.128.8:8081/c/swi-infra/fossology/+/40742",
+      "number": 40742,
+      "lastUpdated": 1545998698,
+      "allReviewers": [
+        {
+          "name": "Gregory Wilga",
+          "email": "GWilga@sierrawireless.com",
+          "username": "gwilga"
+        },
+        {
+          "name": "Bertrand Roussel",
+          "email": "broussel@sierrawireless.com",
+          "username": "broussel"
+        },
+        {
+          "name": "Huy Bui",
+          "email": "bthuy@tma.com.vn",
+          "username": "hbui"
+        },
+        {
+          "name": "Phan Dinh Khai",
+          "email": "pdkhai@tma.com.vn",
+          "username": "pkhai"
+        },
+        {
+          "name": "CARMD-EV-LXCIM_sa",
+          "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+          "username": "carmd-ev-lxcim_sa"
+        }
+      ],
+      "topic": "FARM-2324",
+      "id": "If41c3bcc5049698e08e8f70363199c8f915568b9",
+      "open": false,
+      "status": "ABANDONED",
+      "patchSets": [
+        {
+          "number": 1,
+          "sizeInsertions": 65,
+          "ref": "refs/changes/42/40742/1",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "REWORK",
+          "sizeDeletions": 13,
+          "approvals": [
+            {
+              "by": {
+                "name": "CARMD-EV-LXCIM_sa",
+                "email": "CARMD-EV-LXCIM_sa@sierrawireless.com",
+                "username": "carmd-ev-lxcim_sa"
+              },
+              "grantedOn": 1545983527,
+              "description": "Quality-Check",
+              "type": "Quality-Check",
+              "value": "-2"
+            }
+          ],
+          "createdOn": 1545983524,
+          "revision": "b842b88808d0ed0d1ca23c9c8700cb34d55a305c",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051"
+          ]
+        },
+        {
+          "number": 2,
+          "sizeInsertions": 65,
+          "ref": "refs/changes/42/40742/2",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 13,
+          "createdOn": 1545983622,
+          "revision": "43a24a74eded4ab9cb842f5cd44d7945e769720a",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051"
+          ]
+        },
+        {
+          "number": 3,
+          "sizeInsertions": 65,
+          "ref": "refs/changes/42/40742/3",
+          "uploader": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "author": {
+            "name": "Phan Dinh Khai",
+            "email": "pdkhai@tma.com.vn",
+            "username": "pkhai"
+          },
+          "kind": "NO_CODE_CHANGE",
+          "sizeDeletions": 13,
+          "createdOn": 1545983869,
+          "revision": "8707eeb41363f24a33de04f19eb5cd70507a7f0b",
+          "parents": [
+            "bd076cff2c235502055ecc020d44783ce5907051"
+          ]
+        }
+      ]
+    }
+  ],
+  "gerritVersion": "3.3.-1"
+}
