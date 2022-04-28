@@ -11,10 +11,8 @@ resList.js
 GerritStats/src/main/frontend/data
 
 # Default output dir
-out-html/
-my-json/
 json-storage/
-GerritStats/out-html/
+GerritStats/out-html/data
 
 # IntelliJ IDEA
 *.iml
