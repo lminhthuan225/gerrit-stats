@@ -8,6 +8,7 @@ project_info_dir=$script_path/GerritStats/src/main/frontend
 
 json_dir=json-storage
 project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
+hash_code="487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f"
 
 function join_by {
   local d=${1-} f=${2-}
@@ -65,25 +66,36 @@ generate_project_info() {
     done
 }
 
+desired_text=""
 rewrite_project_info() {
     rm -f $project_info_dir/projects.js
-    # touch $project_info_dir/projects.js
-
     joined_array=$(join_by , $project_names_str)
+    desired_text="exports.default = [{lineIdentifier: \"$hash_code\"},$joined_array]"
+
 cat > $project_info_dir/projects.js <<EOF 
-export default [
-    $joined_array
-]
+    $desired_text
 EOF
-    # jq '.' $project_info_dir/projects.js > $project_info_dir/temp.js
-    # mv $project_info_dir/temp.js $project_info_dir/projects.js
+}
+
+# # generate static file if have npm
+# cd  || exit 1
+# npm run webpack 
+#another way is replacing an existing projects exports.default line
+replace_project_info_in_bundlejs() {
+    bundle_js_path=$script_path/GerritStats/out-html/bundle.js
+    replace_line=$(
+        egrep -n "$hash_code" $bundle_js_path | awk '{print $1}' | cut -d ":" -f1 
+    )
+    echo "Replaced line: $replace_line"
+    file_content=$(cat $script_path/GerritStats/src/main/frontend/projects.js)
+    sed -i "${replace_line}s/.*/$hash_code/" $bundle_js_path
+
+sed -i -f - $bundle_js_path << EOF
+s/$hash_code/$file_content/
+EOF
 }
 
 generate_stats
 generate_project_info
 rewrite_project_info
-
-
-# # generate static file
-# cd "$script_path/GerritStats" || exit 1
-# npm run webpack 
+replace_project_info_in_bundlejs
