@@ -39,9 +39,11 @@ clean_old_data() {
 
 #generate data for all projects in json folder
 generate_stats() {
+    echo "Cleaning old data..."
     clean_old_data
     for project_name in $project_names
     do
+        echo "Checking null line in json file, project:  $project_name"
         remove_null_line $json_dir $project_name
         java -Xmx4096m -Xms256m \
             -jar $jar_dir/GerritStats.jar \
@@ -82,7 +84,7 @@ EOF
 replace_project_info_in_bundlejs() {
     bundle_js_path=$script_path/GerritStats/out-html/bundle.js
     replace_line=$(
-        egrep -n "$hash_code" $bundle_js_path | awk '{print $1}' | cut -d ":" -f1 
+        egrep -n "$hash_code" $bundle_js_path | cut -d " " -f1 | cut -d ":" -f1 
     )
     # replace_line=`expr "$line_before_replace_line" + 1`
     echo "Replaced line: $replace_line"
