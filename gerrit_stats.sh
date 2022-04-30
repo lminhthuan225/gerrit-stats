@@ -50,12 +50,11 @@ generate_stats() {
             -o $data_out_dir/$project_name \
             --file $json_dir/$project_name.json || exit 1
     done
+    generate_project_info
 }
 
 project_names_str=""
 generate_project_info() {
-    rewrite_project_info
-
     for project_name in $project_names
     do
         overview_path=$data_out_dir/$project_name/overview.js
@@ -66,6 +65,7 @@ generate_project_info() {
         
         project_names_str+=" {name:\"$project_name\",overviewUserdata:[$overview_data_file_content],datasetOverview:$dataset_overview_file_content}"
     done
+    rewrite_project_info
 }
 
 rewrite_project_info() {
@@ -75,6 +75,8 @@ rewrite_project_info() {
 cat > $project_info_dir/projects.js <<EOF
     exports.default = [$joined_array] // $hash_code
 EOF
+
+    replace_project_info_in_bundlejs
 }
 
 # # generate static file if have npm
@@ -101,6 +103,3 @@ EOF
 }
 
 generate_stats
-generate_project_info
-rewrite_project_info
-replace_project_info_in_bundlejs
