@@ -7,7 +7,7 @@ jar_dir=$script_path/GerritStats/build/libs
 project_info_dir=$script_path/GerritStats/src/main/frontend
 
 json_dir=json-storage
-project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
+# project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
 hash_code="487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f"
 
 function join_by {
@@ -66,14 +66,12 @@ generate_project_info() {
     done
 }
 
-desired_text=""
 rewrite_project_info() {
     rm -f $project_info_dir/projects.js
     joined_array=$(join_by , $project_names_str)
-    desired_text="exports.default = [{lineIdentifier: \"$hash_code\"},$joined_array]"
 
-cat > $project_info_dir/projects.js <<EOF 
-    $desired_text
+cat > $project_info_dir/projects.js <<EOF
+    exports.default = [$joined_array] // $hash_code
 EOF
 }
 
@@ -86,13 +84,18 @@ replace_project_info_in_bundlejs() {
     replace_line=$(
         egrep -n "$hash_code" $bundle_js_path | awk '{print $1}' | cut -d ":" -f1 
     )
+    # replace_line=`expr "$line_before_replace_line" + 1`
     echo "Replaced line: $replace_line"
-    file_content=$(cat $script_path/GerritStats/src/main/frontend/projects.js)
+    file_content=$(sed 's/\/\//\\\/\\\//' $script_path/GerritStats/src/main/frontend/projects.js)
+    # line_identifier="${hash_code}skqist225"
+    number_of_line=$(cat $script_path/GerritStats/src/main/frontend/projects.js | wc -l)
+    echo "number of line: $number_of_line"
+    if [[ $number_of_line == "1" ]]; then 
     sed -i "${replace_line}s/.*/$hash_code/" $bundle_js_path
-
 sed -i -f - $bundle_js_path << EOF
 s/$hash_code/$file_content/
 EOF
+    fi
 }
 
 generate_stats
