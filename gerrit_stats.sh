@@ -7,7 +7,7 @@ jar_dir=$script_path/GerritStats/build/libs
 project_info_dir=$script_path/GerritStats/src/main/frontend
 
 json_dir=json-storage
-# project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
+project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
 hash_code="487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f"
 
 function join_by {
