@@ -32,7 +32,7 @@
     "generateData": "rm -rf out-html/data && java -Xmx4096m -Xms256m -jar build/libs/GerritStats.jar -o out-html/data",
     "webpack": "webpack --display-error-details --colors --progress --config webpack.config.js",
     "webpack-watch": "webpack --display-error-details --colors --progress --watch",
-    "live-server":"live-server --port=3030 --entry-file=./outhtml/index.html",
+    "live-server": "live-server --port=3030 --entry-file=./outhtml/index.html",
     "prewebpack": "mkdir -p out-html && cp src/main/frontend/index.html out-html/",
     "prewebpack-watch": "mkdir -p out-html && cp src/main/frontend/index.html out-html/",
     "eslint": "node node_modules/eslint/bin/eslint.js  --ext .js --ext .jsx src/main/frontend/"
