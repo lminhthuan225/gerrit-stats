@@ -39,11 +39,9 @@ if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
 fi
 
 if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then  
-  VERSION=$(git describe --tags)
   STATIC_DIR="$WORK_DIR/GerritStats/out-html"
-  echo $STATIC_DIR
   cd $STATIC_DIR
-  echo "Removing old ui"
+  echo "Removing old ui..."
   for file in $(ls $(pwd)); do
       if [[ $file == "data" ]]; then
         continue
@@ -51,14 +49,17 @@ if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
         rm -f $file
       fi
   done
-  echo "Cloning new ui"
+  echo "Cloning new ui..."
   git fetch origin main
   git reset --hard FETCH_HEAD
+  
+  ./rewirte_project_info.sh
+  
   for file in $(ls $(pwd)); do
       if [[ $file == "data" ]]; then
         continue
       else 
-        cp $file $WORKSPACE/ui/$VERSION/$file
+        cp $file $WORKSPACE/ui/$file
       fi
   done
 fi

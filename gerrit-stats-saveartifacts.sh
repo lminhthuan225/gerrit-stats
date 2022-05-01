@@ -24,27 +24,19 @@ mkdir -p $ARTIFACT_PATH/data
 chmod go+r -R $STATIC_DIR
 
 copy_ui_file() {
-    if [[ $(ls $WORKSPACE/ui/$VERSION | wc -l) == 0 ]]; then
+    if [[ $(ls $WORKSPACE/ui | wc -l) == 0 ]]; then
         for file in $(ls $STATIC_DIR); do
-            if [[ "$file" == "data" ]]; then
-                continue
-            else 
-                if [ -e "$ARTIFACT_PATH/$file" ]; then
-                    rm -f $ARTIFACT_PATH/$file
-                fi
-                cp $STATIC_DIR/$file $ARTIFACT_PATH/$file
+            if [ -e "$ARTIFACT_PATH/$file" ]; then
+                rm -f $ARTIFACT_PATH/$file
             fi
+            cp $STATIC_DIR/$file $ARTIFACT_PATH/$file
         done
     else 
-        for file in $(ls $WORKSPACE/ui/$VERSION); do
-            if [[ "$file" == "data" ]]; then
-                continue
-            else 
-                if [ -e "$ARTIFACT_PATH/$file" ]; then
-                    rm -f $ARTIFACT_PATH/$file
-                fi
-                cp $WORKSPACE/ui/$VERSION/$file $ARTIFACT_PATH/$file
+        for file in $(ls $WORKSPACE/ui); do
+            if [ -e "$ARTIFACT_PATH/$file" ]; then
+                rm -f $ARTIFACT_PATH/$file
             fi
+            cp $WORKSPACE/ui/$file $ARTIFACT_PATH/$file
         done
     fi
 }
