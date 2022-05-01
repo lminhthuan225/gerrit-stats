@@ -19,32 +19,55 @@ VERSION=$(git describe --tags)
 ARTIFACT_PATH=$(echo $ARTIFACT_PATH | sed "s/VERSION/$VERSION/g")
 echo $ARTIFACT_PATH
 
-# message $COLOR_INFO "Artifacts to be stored in '$ARTIFACT_PATH'"
-# mkdir -p $ARTIFACT_PATH
-# chmod go+r -R $STATIC_DIR
+message $COLOR_INFO "Artifacts to be stored in '$ARTIFACT_PATH'"
+mkdir -p $ARTIFACT_PATH/data
+chmod go+r -R $STATIC_DIR
 
-# if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
-#     for obj in $(ls -1 $STATIC_DIR/data); do
-#         # Remove old content
-#         if [ -e "$ARTIFACT_PATH/data/$obj" ]; then
-#             rm -rf $ARTIFACT_PATH/data/$obj
-#         fi
-#         cp -Rf $STATIC_DIR/data/$obj $ARTIFACT_PATH/data/$obj
-#     done
-# fi
+copy_ui_file() {
+    if [[ $(ls $WORKSPACE/ui/$VERSION | wc -l) == 0 ]]; then
+        for file in $(ls $STATIC_DIR); do
+            if [[ "$file" == "data" ]]; then
+                continue
+            else 
+                if [ -e "$ARTIFACT_PATH/$file" ]; then
+                    rm -f $ARTIFACT_PATH/$file
+                fi
+                cp $STATIC_DIR/$file $ARTIFACT_PATH/$file
+            fi
+        done
+    else 
+        for file in $(ls $WORKSPACE/ui/$VERSION); do
+            if [[ "$file" == "data" ]]; then
+                continue
+            else 
+                if [ -e "$ARTIFACT_PATH/$file" ]; then
+                    rm -f $ARTIFACT_PATH/$file
+                fi
+                cp $WORKSPACE/ui/$VERSION/$file $ARTIFACT_PATH/$file
+            fi
+        done
+    fi
+}
 
-# if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
-#     for file in $(ls $WORKSPACE/ui/$VERSION); do
-#         if [[ "$file" == "data" ]]; then
-#             continue
-#         else 
-#             if [ -e "$ARTIFACT_PATH/$file" ]; then
-#                 # rm -f $ARTIFACT_PATH/$file
-#             fi
-#             cp $STATIC_DIR/$file $ARTIFACT_PATH/$file
-#         fi
-#     done
-# fi
+if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
+    for file in $(ls $STATIC_DIR/data); do
+        # Remove old content
+        if [[ -e "$ARTIFACT_PATH/data/$file" ]]; then
+            echo "Removing old data, project: $file"
+            rm -rf $ARTIFACT_PATH/data/$file
+        fi
+        echo "Copying to artifact folder, project: $file"
+        cp -Rf $STATIC_DIR/data/$file $ARTIFACT_PATH/data/$file
+    done
+
+    if [[ ! -e "$ARTIFACT_PATH/index.html" || ! -e "$ARTIFACT_PATH/bundle.js" ]]; then 
+        copy_ui_file
+    fi
+fi
+
+if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
+    copy_ui_file
+fi
 
 
 

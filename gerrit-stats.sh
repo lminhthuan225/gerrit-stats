@@ -33,26 +33,34 @@ if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
     exit 0
   fi
 
-  echo "Generating stats for all projects..."
-  ./gerrit_stats.sh
+  if [[ "$SKIP_GENERATE_STATS_STEP" == "false" ]]; then
+    ./gerrit_stats.sh
+  fi
 fi
 
-VERSION=$(git describe --tags)
-if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
-  #retrive hash commit of before ui
-  if [[ ! -d $WORKSPACE/ui/$VERSION ]]; then
-    mkdir -p $WORKSPACE/ui/$VERSION
-  fi
-
-  cd $WORKSPACE/ui/$VERSION
-  git clone \
-    --depth 3 \
-    --filter=blob:none \
-    --no-checkout \
-    https://github.com/lminhthuan225/$REPO_NAME.git
-  cd $REPO_NAME
-  git sparse-checkout set out-html
-  # $WORKSPACE/new-ui/$REPO_NAME/Gerrit-Stats/out-html
+if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then  
+  VERSION=$(git describe --tags)
+  STATIC_DIR="$WORK_DIR/GerritStats/out-html"
+  echo $STATIC_DIR
+  cd $STATIC_DIR
+  echo "Removing old ui"
+  for file in $(ls $(pwd)); do
+      if [[ $file == "data" ]]; then
+        continue
+      else 
+        rm -f $file
+      fi
+  done
+  echo "Cloning new ui"
+  git fetch origin main
+  git reset --hard FETCH_HEAD
+  for file in $(ls $(pwd)); do
+      if [[ $file == "data" ]]; then
+        continue
+      else 
+        cp $file $WORKSPACE/ui/$VERSION/$file
+      fi
+  done
 fi
 
 
