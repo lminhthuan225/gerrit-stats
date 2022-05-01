@@ -73,7 +73,7 @@ rewrite_project_info() {
     joined_array=$(join_by , $project_names_str)
 
 cat > $project_info_dir/projects.js <<EOF
-    exports.default = [$joined_array] // $hash_code
+    export default [$joined_array] // $hash_code
 EOF
 
     replace_project_info_in_bundlejs
@@ -90,7 +90,7 @@ replace_project_info_in_bundlejs() {
     )
     # replace_line=`expr "$line_before_replace_line" + 1`
     echo "Replaced line: $replace_line"
-    file_content=$(sed 's/\/\//\\\/\\\//' $script_path/GerritStats/src/main/frontend/projects.js)
+    file_content=$(sed -e 's/\/\//\\\/\\\//' -e 's/export default/exports.default =/' $script_path/GerritStats/src/main/frontend/projects.js)
     # line_identifier="${hash_code}skqist225"
     number_of_line=$(cat $script_path/GerritStats/src/main/frontend/projects.js | wc -l)
     echo "number of line: $number_of_line"
