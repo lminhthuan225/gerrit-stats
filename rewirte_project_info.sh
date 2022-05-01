@@ -9,8 +9,16 @@ json_dir=json-storage
 project_names=$(ls $json_dir | grep -e '.json$' | cut -d "." -f 1)
 hash_code="487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f"
 
+function join_by {
+  local d=${1-} f=${2-}
+  if shift 2; then
+    printf %s "$f" "${@/#/$d}"
+  fi
+}
+
 project_names_str=""
 generate_project_info() {
+    echo "Generate project info"
     for project_name in $project_names
     do
         overview_path=$data_out_dir/$project_name/overview.js
@@ -25,6 +33,7 @@ generate_project_info() {
 }
 
 rewrite_project_info() {
+    echo "rewrite_project_info"
     rm -f $project_info_dir/projects.js
     joined_array=$(join_by , $project_names_str)
 
