@@ -16,8 +16,8 @@ cd "$STATIC_DIR" || (
   exit 1
 )
 
-VERSION=$(git describe --tags)
-ARTIFACT_PATH=$(echo $ARTIFACT_PATH | sed "s/VERSION/$VERSION/g")
+# VERSION=$(git describe --tags)
+# ARTIFACT_PATH=$(echo $ARTIFACT_PATH | sed "s/VERSION/$VERSION/g")
 echo $ARTIFACT_PATH
 
 message $COLOR_INFO "Artifacts to be stored in '$ARTIFACT_PATH'"
