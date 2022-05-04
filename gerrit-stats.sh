@@ -25,12 +25,12 @@ if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
     rm -rf $WORKSPACE/json-storage
     mkdir -p $WORKSPACE/json-storage
     # now=$(date +'%d/%m/%Y')
-    cp -r json-storage $WORKSPACE/json-storage
+    cp -r json-storage $WORKSPACE
   fi
 
   if [[ ! -d "$WORK_DIR/json-storage" ]]; then
     echo "There is no json file to generate stats"
-    exit 0
+    exit 1
   fi
 
   if [[ "$SKIP_GENERATE_STATS_STEP" == "false" ]]; then
