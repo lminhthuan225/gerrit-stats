@@ -53,7 +53,7 @@ if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
   git fetch origin main
   git reset --hard FETCH_HEAD
   
-  ./rewirte_project_info.sh
+  $WORK_DIR/rewrite_project_info.sh
   
   for file in $(ls $(pwd)); do
       if [[ $file == "data" ]]; then
