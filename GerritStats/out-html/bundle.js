@@ -28468,7 +28468,7 @@
 	      if (this.props.showBackButton) {
 	        return _react2.default.createElement(
 	          _reactRouter.Link,
-	          { to: "/project/" + this.props.projectName },
+	          { to: this.props.to || "/project/" + this.props.projectName },
 	          _react2.default.createElement("img", { src: __webpack_require__(638) })
 	        );
 	      }
@@ -28483,11 +28483,6 @@
 	          datasetOverview: this.props.datasetOverview,
 	          selectedUsers: this.state.selectedUsers
 	        }),
-	        _react2.default.createElement(
-	          _reactRouter.Link,
-	          { to: "/" },
-	          "Home"
-	        ),
 	        this.renderBackButton(),
 	        _react2.default.createElement(
 	          "div",
@@ -28500,7 +28495,8 @@
 	          _react2.default.createElement(
 	            "div",
 	            { className: "subtitleH1" },
-	            this.props.subtitle
+	            "Project: ",
+	            this.props.projectName
 	          )
 	        )
 	      );
@@ -69585,7 +69581,10 @@
 	      var headerProps = {
 	        datasetOverview: this.props.route.datasetOverview,
 	        selectedUsers: this.state.currentSelection.selectedUsers,
-	        subtitle: this.getSubtitleFromDatasetName()
+	        subtitle: this.getSubtitleFromDatasetName(),
+	        showBackButton: true,
+	        to: '/',
+	        projectName: this.props.params.identifier
 	      };
 	      var overviewProps = {
 	        datasetOverview: this.props.route.datasetOverview,
@@ -90186,7 +90185,7 @@
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
 	});
-    exports.default = [{name:"farm-control",overviewUserdata:[{"identifier":"carmd-ev-git01_sa","commitCount":0},{"identifier":"akasilingam","commitCount":0},{"identifier":"byang","commitCount":45},{"identifier":"carmd-ev-lxcim_sa","commitCount":0},{"identifier":"cng","commitCount":2},{"identifier":"htakhar","commitCount":0},{"identifier":"hwewala","commitCount":1},{"identifier":"jbuliga","commitCount":0},{"identifier":"jnorthway","commitCount":7},{"identifier":"jihuang","commitCount":6},{"identifier":"lpacyk","commitCount":2},{"identifier":"pvo","commitCount":11},{"identifier":"softwarecodereviewre","commitCount":0},{"identifier":"wwang","commitCount":0},{"identifier":"willin","commitCount":25},{"identifier":"broussel","commitCount":262},{"identifier":"hunguyen","commitCount":0},{"identifier":"jchien","commitCount":1},{"identifier":"nmquan","commitCount":0},{"identifier":"kphan","commitCount":0},{"identifier":"pkhai","commitCount":2},{"identifier":"pmtien","commitCount":1},{"identifier":"vptnhan","commitCount":5},],datasetOverview:{"fromDate":1506475300000,"toDate":1650922919000},}] // 487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f
+	exports.default = [{ name: "farm-control", overviewUserdata: [{ "identifier": "carmd-ev-git01_sa", "commitCount": 0 }, { "identifier": "akasilingam", "commitCount": 0 }, { "identifier": "byang", "commitCount": 45 }, { "identifier": "carmd-ev-lxcim_sa", "commitCount": 0 }, { "identifier": "cng", "commitCount": 2 }, { "identifier": "htakhar", "commitCount": 0 }, { "identifier": "hwewala", "commitCount": 1 }, { "identifier": "jbuliga", "commitCount": 0 }, { "identifier": "jnorthway", "commitCount": 7 }, { "identifier": "jihuang", "commitCount": 6 }, { "identifier": "lpacyk", "commitCount": 2 }, { "identifier": "pvo", "commitCount": 11 }, { "identifier": "softwarecodereviewre", "commitCount": 0 }, { "identifier": "wwang", "commitCount": 0 }, { "identifier": "willin", "commitCount": 25 }, { "identifier": "broussel", "commitCount": 262 }, { "identifier": "hunguyen", "commitCount": 0 }, { "identifier": "jchien", "commitCount": 1 }, { "identifier": "nmquan", "commitCount": 0 }, { "identifier": "kphan", "commitCount": 0 }, { "identifier": "pkhai", "commitCount": 2 }, { "identifier": "pmtien", "commitCount": 1 }, { "identifier": "vptnhan", "commitCount": 5 }], datasetOverview: { "fromDate": 1506475300000, "toDate": 1650922919000 } }]; // 487fd0a6850bc56e1ec548072aaa2412f32323c7059a0d00144e013f4930c77f
 
 /***/ }),
 /* 744 */
@@ -90354,7 +90353,7 @@
 	          //   "reviewCountPlus1"
 	          // ),
 	          description: "Number of users participating into this project",
-	          header: "Active users",
+	          header: "Active Users",
 	          cell: function cell(record, index) {
 	            return _react2.default.createElement(
 	              _reactable.Td,
@@ -90689,14 +90688,14 @@
 	  }, {
 	    key: "render",
 	    value: function render() {
-	      // document.title = "GerritStats for " + window.datasetOverview["projectName"];
+	      document.title = "All Gerrit Projects";
 
 	      return _react2.default.createElement(
 	        "div",
 	        null,
 	        _react2.default.createElement(
 	          _Panel2.default,
-	          { title: "Overview", size: "flex" },
+	          { title: "All Projects", size: "flex" },
 	          _react2.default.createElement(_SimpleSortableTable2.default, {
 	            columnMetadata: this.state.columnMetadata,
 	            rowData: this.props.projectData,

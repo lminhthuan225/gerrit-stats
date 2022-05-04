@@ -91,6 +91,9 @@ export default class OverviewPage extends React.Component {
       datasetOverview: this.props.route.datasetOverview,
       selectedUsers: this.state.currentSelection.selectedUsers,
       subtitle: this.getSubtitleFromDatasetName(),
+      showBackButton: true,
+      to: '/',
+      projectName: this.props.params.identifier
     };
     const overviewProps = {
       datasetOverview: this.props.route.datasetOverview,

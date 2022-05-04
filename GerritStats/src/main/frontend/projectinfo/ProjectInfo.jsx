@@ -113,7 +113,7 @@ export default class ProjectInfo extends React.Component {
         //   "reviewCountPlus1"
         // ),
         description: "Number of users participating into this project",
-        header: "Active users",
+        header: "Active Users",
         cell: (record, index) => (
           <Td
             key={"reviewCountPlus1" + index}
@@ -438,11 +438,11 @@ export default class ProjectInfo extends React.Component {
   }
 
   render() {
-    // document.title = "GerritStats for " + window.datasetOverview["projectName"];
+    document.title = "All Gerrit Projects"
 
     return (
       <div>
-        <Panel title="Overview" size="flex">
+        <Panel title="All Projects" size="flex">
           <SimpleSortableTable
             columnMetadata={this.state.columnMetadata}
             rowData={this.props.projectData}

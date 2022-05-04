@@ -27,7 +27,7 @@ export default class PageHeader extends React.Component {
   renderBackButton() {
     if (this.props.showBackButton) {
       return (
-        <Link to={`/project/${this.props.projectName}`}>
+        <Link to={this.props.to || `/project/${this.props.projectName}`}>
           <img src={require("./img/ic_back.png")} />
         </Link>
       );
@@ -41,11 +41,10 @@ export default class PageHeader extends React.Component {
           datasetOverview={this.props.datasetOverview}
           selectedUsers={this.state.selectedUsers}
         />
-        <Link to="/">Home</Link>
         {this.renderBackButton()}
         <div style={{ display: "inline-block" }}>
           <h1 className="pageTitle">{this.renderMainTitle()}</h1>
-          <div className="subtitleH1">{this.props.subtitle}</div>
+          <div className="subtitleH1">Project: {this.props.projectName}</div>
         </div>
       </header>
     );
