@@ -25,12 +25,12 @@ if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
     rm -rf $WORKSPACE/json-storage
     mkdir -p $WORKSPACE/json-storage
     # now=$(date +'%d/%m/%Y')
-    cp -r json-storage $WORKSPACE/json-storage
+    cp -r json-storage $WORKSPACE
   fi
 
   if [[ ! -d "$WORK_DIR/json-storage" ]]; then
     echo "There is no json file to generate stats"
-    exit 0
+    exit 1
   fi
 
   if [[ "$SKIP_GENERATE_STATS_STEP" == "false" ]]; then
@@ -39,11 +39,9 @@ if [[ "$TYPE_OF_UPDATE" == "data" ]]; then
 fi
 
 if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then  
-  VERSION=$(git describe --tags)
   STATIC_DIR="$WORK_DIR/GerritStats/out-html"
-  echo $STATIC_DIR
   cd $STATIC_DIR
-  echo "Removing old ui"
+  echo "Removing old ui..."
   for file in $(ls $(pwd)); do
       if [[ $file == "data" ]]; then
         continue
@@ -51,14 +49,17 @@ if [[ "$TYPE_OF_UPDATE" == "ui" ]]; then
         rm -f $file
       fi
   done
-  echo "Cloning new ui"
+  echo "Cloning new ui..."
   git fetch origin main
   git reset --hard FETCH_HEAD
+  
+  ./rewirte_project_info.sh
+  
   for file in $(ls $(pwd)); do
       if [[ $file == "data" ]]; then
         continue
       else 
-        cp $file $WORKSPACE/ui/$VERSION/$file
+        cp $file $WORKSPACE/ui/$file
       fi
   done
 fi
