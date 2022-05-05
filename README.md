@@ -1,6 +1,6 @@
 Original Repository: https://github.com/holmari/repostats
 
-#To update UI
+#To update UI<br />
 cd gerrit-stats<br />
 ./gradlew assemble //to install library and npm package<br />
 cd GerritStats<br />
