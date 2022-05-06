@@ -20,7 +20,7 @@ public class GerritSshCommand {
         Runtime runtime = Runtime.getRuntime();
         try {
             String privateKey = gerritServer.getPrivateKey();
-            String command = String.format("ssh -p %s %s %s gerrit %s",
+            String command = String.format("ssh -o "StrictHostKeyChecking=no" -p %s %s %s gerrit %s",
                     String.valueOf(gerritServer.getPort()),
                             privateKey != null ? "-i " + privateKey : "",
                             gerritServer.getServerName(),
