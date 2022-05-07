@@ -127,11 +127,14 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
     }
 
     /**
-     * Data reader with Gerrit pre-2.9 support. The following problems are being worked around:
+     * Data reader with Gerrit pre-2.9 support. The following problems are being
+     * worked around:
      * <p>
-     * 1) if no status query is passed, only open commits are listed. So this reader manually
-     *    queries for open, merged and abandoned commits.
-     * 2) the resume/limit behavior is not implemented in pre-2.9, so resume_sortKey is used instead.
+     * 1) if no status query is passed, only open commits are listed. So this reader
+     * manually
+     * queries for open, merged and abandoned commits.
+     * 2) the resume/limit behavior is not implemented in pre-2.9, so resume_sortKey
+     * is used instead.
      */
     static class LegacyDataReader extends DataReader {
 
@@ -146,7 +149,7 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
 
             List<JSONObject> items = new ArrayList<>();
 
-            String[] statusQueries = {"status:merged", "status:open", "status:abandoned"};
+            String[] statusQueries = { "status:merged", "status:open", "status:abandoned" };
 
             for (String statusQuery : statusQueries) {
                 items.addAll(readOutputWithStatusQueryUntilLimit(statusQuery));
@@ -187,7 +190,8 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
             String gerritQuery = getGerritQuery();
             GerritSshCommand sshCommand = new GerritSshCommand(getGerritServer());
             String resumeSortkeyArg = !Strings.nullToEmpty(resumeSortkey).isEmpty()
-                    ?  "resume_sortkey:" + resumeSortkey : "";
+                    ? "resume_sortkey:" + resumeSortkey
+                    : "";
 
             String output = sshCommand.exec(String.format("query %s %s"
                     + "--format=JSON "
@@ -196,8 +200,7 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
                     + "%s ",
                     gerritQuery,
                     statusQuery,
-                    resumeSortkeyArg
-            ));
+                    resumeSortkeyArg));
 
             return new GerritOutput(Strings.nullToEmpty(output), getGerritVersion());
         }
@@ -218,13 +221,15 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
             GerritSshCommand sshCommand = new GerritSshCommand(getGerritServer());
 
             String output = sshCommand.exec(String.format("query %s "
-                            + "--format=JSON "
-                            + "--all-approvals "
-                            + "--comments "
-                            + "--all-reviewers "
-                            + createStartOffsetArg(),
-                    gerritQuery
-                    ));
+                    + "--format=JSON "
+                    + "--all-approvals "
+                    + "--comments "
+                    + "--all-reviewers "
+                    + createStartOffsetArg(),
+                    gerritQuery));
+
+            if (output.contains("cannot query database"))
+                return null;
 
             return new GerritOutput(Strings.nullToEmpty(output), getGerritVersion());
         }
@@ -239,11 +244,14 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
             while (hasMoreChanges
                     && (rowCount < getOverallCommitLimit() || getOverallCommitLimit() == NO_COMMIT_LIMIT)) {
                 GerritOutput gerritOutput = readData();
-                items.addAll(gerritOutput.getOutput());
+                if (gerritOutput != null) {
+                    items.addAll(gerritOutput.getOutput());
 
-                hasMoreChanges = gerritOutput.hasMoreChanges();
-                rowCount += gerritOutput.getRowCount();
-                setStartOffset(startOffset + gerritOutput.getRowCount());
+                    hasMoreChanges = gerritOutput.hasMoreChanges();
+                    rowCount += gerritOutput.getRowCount();
+                    setStartOffset(startOffset + gerritOutput.getRowCount());
+                } else
+                    break;
             }
 
             return items;
@@ -257,12 +265,11 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
             this.gerritQuery = String.format("project:{^%s} branch:{^master}", projectNameList);
             if (afterDate != null) {
                 this.gerritQuery += String.format(" after:{%s}", afterDate);
-                }
+            }
             if (beforeDate != null) {
                 this.gerritQuery += String.format(" before:{%s}", beforeDate);
-                }
+            }
         }
-
 
         private String createStartOffsetArg() {
             return startOffset != 0 ? "--start " + startOffset + " " : "";
