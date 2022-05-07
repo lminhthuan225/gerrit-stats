@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# set -eo pipefail
+set -eo pipefail
 
 DATA_OUTPUT_DIR="GerritStats/out-html/data"
 JAR_PATH="GerritStats/build/libs/GerritStats.jar"
@@ -40,27 +40,34 @@ generate_stats() {
     clean_old_data
     for project in $PROJECTS
     do
-        echo "Checking null line in json file:  $project.json"
-        remove_null_line "$JSON_DIR/$project"
-        java -Xmx4096m -Xms256m \
-            -jar $JAR_PATH \
-            -o $DATA_OUTPUT_DIR/$project \
-            --file $JSON_DIR/$project.json || exit 1
+        if [[ -s "$JSON_DIR/$project.json" ]]; then
+            echo "Checking null line in json file:  $project.json"
+            remove_null_line "$JSON_DIR/$project"
+            java -Xmx4096m -Xms256m \
+                -jar $JAR_PATH \
+                -o $DATA_OUTPUT_DIR/$project \
+                --file $JSON_DIR/$project.json || exit 1
+        else
+            echo "Skip empty json file: $project.json"
+        fi
     done
     generate_project_info
 }
 
 PROJECT_INFO=""
 generate_project_info() {
+    echo "Generating all projects information..."
     for project in $PROJECTS
     do
         OVERVIEW_PATH=$DATA_OUTPUT_DIR/$project/overview.js
         DATASET_OVERVIEW_PATH=$DATA_OUTPUT_DIR/$project/datasetOverview.js
 
-        OV_FILE_CONTENT=$(cat $OVERVIEW_PATH | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '.[] | {identifier: .identifier, commitCount: .commitCount}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
-        DS_FILE_CONTENT=$(cat $DATASET_OVERVIEW_PATH | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '. | {fromDate: .fromDate, toDate: .toDate}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
-        
-        PROJECT_INFO+=" {name:\"$project\",overviewUserdata:[$OV_FILE_CONTENT],datasetOverview:$DS_FILE_CONTENT}"
+        if [[ -s "$OVERVIEW_PATH" && -s "$DATASET_OVERVIEW_PATH" ]]; then
+            OV_FILE_CONTENT=$(cat $OVERVIEW_PATH | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '.[] | {identifier: .identifier, commitCount: .commitCount}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
+            DS_FILE_CONTENT=$(cat $DATASET_OVERVIEW_PATH | cut -d "=" -f2 | sed -e 's/\;//g' -e '/identity/d' | jq '. | {fromDate: .fromDate, toDate: .toDate}' | sed 's/\}/\},/g' | tr '\n' ' ' | sed 's/ //g')
+
+            PROJECT_INFO+=" {name:\"$project\",overviewUserdata:[$OV_FILE_CONTENT],datasetOverview:$DS_FILE_CONTENT}"
+        fi
     done
     rewrite_project_info
 }
@@ -79,9 +86,9 @@ EOF
 replace_project_info_in_bundlejs() {
     BUNDLEJS_PATH=GerritStats/out-html/bundle.js
     REPLACED_LINE=$(
-        egrep -n "$HASH_CODE" $BUNDLEJS_PATH | cut -d " " -f1 | cut -d ":" -f1 
+        egrep -n "$HASH_CODE" $BUNDLEJS_PATH | cut -d " " -f1 | cut -d ":" -f1
     )
-    
+
     PI_FILE_CONTENT=$(sed -e 's/\/\//\\\/\\\//' -e 's/export default/exports.default =/' $PROJECT_INFO_PATH)
     NUMBER_OF_LINE=$(cat $PROJECT_INFO_PATH | wc -l)
 
@@ -91,6 +98,7 @@ sed -i -f - $BUNDLEJS_PATH << EOF
 s/$HASH_CODE/$PI_FILE_CONTENT/
 EOF
     fi
+    echo "Generate all projects's stats successfully"
 }
 
 generate_stats

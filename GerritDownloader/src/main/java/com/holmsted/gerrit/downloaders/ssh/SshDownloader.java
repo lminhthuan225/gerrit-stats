@@ -88,6 +88,7 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
     abstract static class DataReader {
         private int overallCommitLimit;
         protected String gerritQuery;
+        protected String projectName;
 
         private GerritServer gerritServer;
         private GerritVersion gerritVersion;
@@ -115,6 +116,14 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
 
         public String getGerritQuery() {
             return gerritQuery;
+        }
+
+        public String getProjectName() {
+            return projectName;
+        }
+
+        public void setProjectName(String projectName) {
+            this.projectName = projectName;
         }
 
         public void setGerritVersion(@Nonnull GerritVersion gerritVersion) {
@@ -228,8 +237,10 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
                     + createStartOffsetArg(),
                     gerritQuery));
 
-            if (output.contains("cannot query database"))
+            if (output.contains("cannot query database")) {
+                System.out.println("Can not query project: " + getProjectName());
                 return null;
+            }
 
             return new GerritOutput(Strings.nullToEmpty(output), getGerritVersion());
         }
@@ -308,6 +319,7 @@ public class SshDownloader extends AbstractGerritStatsDownloader {
         reader.setGerritServer(getGerritServer());
         reader.setOverallCommitLimit(getOverallCommitLimit());
         reader.setGerritQuery(getProjectName(), getAfterDate(), getBeforeDate());
+        reader.setProjectName(getProjectName());
         reader.setGerritVersion(gerritVersion);
 
         return reader;
