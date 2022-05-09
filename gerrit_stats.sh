@@ -33,9 +33,10 @@ remove_null_line() {
 clean_old_data() {
     rm -rf $DATA_OUTPUT_DIR
 }
-lk
+
 #generate data for all projects in json folder
 generate_stats() {
+    lk
     echo "Cleaning old data..."
     clean_old_data
     for project in $PROJECTS
